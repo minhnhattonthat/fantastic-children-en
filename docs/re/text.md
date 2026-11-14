@@ -129,6 +129,7 @@ Dump: `rom.sha1` (8 MiB, header `FANTCHILDREN` / `BFCJ`, EEPROM_V124 save). Offs
 |---|---|---|---|
 | Dialogue, bottom box | events, battle lines | 192 / 21, 2 lines per box | `p07F28E` = "Mmm, we walked the whole w'" (192 px) ends at col 26, clear of ▼ (work/qa/p5/stress) |
 | Dialogue, top box | portrait events, talk battles | 168 / 21 | `p0974EA` 167 px stops before the portrait (work/qa/p5/top2) |
+| Choice answer | pages of the 47 choice-list messages (`docs/re/choices.tsv`) | 72 / 9 cells | 2-column grid: top box cursor col 2 / 12, text col 3 / 13 (original `work/qa/warps/ev_0160b`); bottom box the same +2 cols. A 168 px marker in column 1 ran under column 2, and column 2 past the box (`work/qa/marker2/ev_0160b`, `debug_viewer`) |
 | File menu | RECORD n / NEW GAME / area in slot / help | 15 / 30 / 15 / 26 cells (x 8 px) | `textput.lua` regions |
 | Pause info box | item, card, support descriptions | 28 cells (224 px), 3 lines | `textput.lua` regions |
 | Name fields (args) | talk-battle names | 8 cells | `textput.lua`, RAM `0x0202C934..` |

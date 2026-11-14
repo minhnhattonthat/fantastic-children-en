@@ -87,11 +87,26 @@ def flow_msgs(recs, start, first=None):
     return [m for i in flow(recs, start, first) for m in recs[i][6:8] if m != 0xFFFF]
 
 
+CHOICES_TSV = ROOT / "docs" / "re" / "choices.tsv"
+
+
+def choice_msgs(recs):
+    """Message ids used as choice lists (+0x0E): each page is one answer, drawn in a 2-column grid."""
+    return sorted({r[7] for r in recs if r[7] != 0xFFFF})
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--tsv", type=Path)
+    ap.add_argument("--choices", action="store_true", help=f"write {CHOICES_TSV.relative_to(ROOT)}")
     a = ap.parse_args()
     d = ROM.read_bytes()
+    if a.choices:
+        ids = choice_msgs(records(d))
+        CHOICES_TSV.write_text("msg\tanswers\n" + "".join(f"{m}\t{len(message(d, m))}\n" for m in ids),
+                               encoding="utf-8", newline="\n")
+        print(f"{CHOICES_TSV}: {len(ids)} choice lists")
+        return
     t = Table.load(ROOT / "tbl" / "jp.tbl")
     recs = records(d)
     entry = {}

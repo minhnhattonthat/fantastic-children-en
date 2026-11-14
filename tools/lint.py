@@ -4,6 +4,7 @@
     from lint import budget, lint_row        # budget(row) -> (px, codes, source)
 
 Budgets (ink width, vwf.ink_width, and pair codes, vwf.encode_pairs):
+  - choice answer (a page of a choice-list message, docs/re/choices.tsv): 9 cells, 72 px, 9 codes;
   - dialogue page: 21 codes; 192 px when every message showing it opens the bottom box, else 168 px (top box with
     portrait; also the default for messages docs/re/msg_boxes.tsv hasn't seen yet);
   - battle line (sys_battle.tsv): shown through the page copy in the bottom box: 21 codes, 192 px, with every
@@ -42,12 +43,16 @@ def _table(path):
 
 BOXES = _table(ROOT / "docs" / "re" / "msg_boxes.tsv")
 REGIONS = _table(ROOT / "docs" / "re" / "sys_regions.tsv")
+CHOICES = _table(ROOT / "docs" / "re" / "choices.tsv")   # choice-list message ids (tools/events.py --choices)
+CHOICE_CELLS = 9    # answers sit in a 2-column grid: cursor col 2 / 12, text col 3 / 13 (top box; bottom +2)
 
 
 def budget(r):
     """(max ink px, max codes, where the limit comes from) or None when unmeasured."""
     if r["id"][0] == "p":
         msgs = [m.split(".")[0][1:] for m in r["ref"].split(",")]
+        if any(m in CHOICES for m in msgs):
+            return CHOICE_CELLS * 8, CHOICE_CELLS, f"choice answer, {CHOICE_CELLS} cells"
         boxes = {BOXES.get(m, ["top"])[0] for m in msgs}
         return (vwf.BOTTOM_PX if boxes == {"bottom"} else vwf.TOP_PX), PAGE_CODES, "box " + "/".join(sorted(boxes))
     if r["id"] in REGIONS:

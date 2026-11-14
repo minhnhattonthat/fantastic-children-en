@@ -6,7 +6,7 @@ prologue     wait=250                       # new game: opening picture-book cut
 pause        stg=16 sub=5                   # pause menu: BATTLE EDIT (battle-item deck)
 pause_support stg=16 sub=5 keys=r          # pause: SUPPORT EDIT (L/R switch pages)
 pause_items  stg=16 sub=5 keys=r,r          # pause: ITEM INFO
-save_prompt  stg=16 sub=11 wait=400         # save point prompt (セーブしますか？)
+save_prompt  stg=16 sub=11 wait=400 msg=15,14  # save point prompt (セーブしますか？); shoot at the text, not after the fade
 gameover     mode=9                         # game over screen (stage sub-state 3 leads here after the fall)
 # Endings: record 1986 runs 0x08032B60 first, which sets flags 0x85/0x86/0x87 from play time and collectibles
 ending_a     ev=1986 full=1 play=500000 msg=976           # > 2 h, items missing (records 1988-2066)

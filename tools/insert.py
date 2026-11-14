@@ -75,7 +75,11 @@ def texts(d, mode, marker_px=MARKER_PX):
     """{row id: English text or None} for every row."""
     rows = rom_rows(d)
     if mode == "marker":
-        return {r.id: (None if not is_text(r.jp) else marker_page(r.id, marker_px) if r.id[0] == "p"
+        from lint import CHOICE_CELLS, CHOICES
+        choice = {r.id for r in rows if r.id[0] == "p"
+                  and any(m.split(".")[0][1:] in CHOICES for m in r.ref.split(","))}
+        return {r.id: (None if not is_text(r.jp) else marker_page(r.id, CHOICE_CELLS * 8) if r.id in choice
+                       else marker_page(r.id, marker_px) if r.id[0] == "p"
                        else marker_sys(r.id, r.jp))
                 for r in rows}
     tsv = load()

@@ -22,6 +22,13 @@ class Events(unittest.TestCase):
         self.assertEqual(struct.unpack_from("<H", self.d, 0x30FEC + 0)[0] & 0xFF00, 0x4800)  # ldr r0,=0xA99
         self.assertEqual(struct.unpack_from("<I", self.d, 0x30FF0)[0], 0xA99)
 
+    def test_choices_tsv_matches_rom(self):
+        # the lint's choice-answer budget reads docs/re/choices.tsv (regenerate: tools/events.py --choices)
+        from events import CHOICES_TSV, choice_msgs
+        rows = [l.split("\t")[0] for l in CHOICES_TSV.read_text(encoding="utf-8").splitlines()[1:] if l]
+        self.assertEqual(rows, [str(m) for m in choice_msgs(self.recs)])
+        self.assertIn("41", rows)
+
     def test_flow_follows_choices_and_conditions(self):
         r = self.recs
         # record 66 asks choice 41 (+0x0E); answers jump to records 67 / 68 (+0x10 / +0x12), text 42 / 43

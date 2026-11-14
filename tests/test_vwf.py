@@ -122,6 +122,14 @@ class Lint(unittest.TestCase):
         errs, _ = self.lint.lint_row(self.row(ok + "e way"), self.tbl)
         self.assertTrue(any("px" in e for e in errs))
 
+    def test_choice_answer_budget(self):
+        # m41 is a choice list: each answer has 9 cells in the 2-column grid (work/qa/marker2/ev_0160b)
+        r = self.row("Controls", jp="操作説明", rid="p07F5B4", ref="m41.0")
+        self.assertEqual(self.lint.budget(r)[:2], (72, 9))
+        self.assertEqual(self.lint.lint_row(r, self.tbl), ([], []))
+        errs, _ = self.lint.lint_row(dict(r, en="Battle controls"), self.tbl)
+        self.assertTrue(any("px" in e for e in errs))
+
     def test_format_checks(self):
         errs, _ = self.lint.lint_row(self.row("Hi {arg0}", jp="テスト"), self.tbl)
         self.assertIn("argument tokens differ from the Japanese", errs)
