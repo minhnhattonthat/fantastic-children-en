@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: batches b001-b012 of b031 translated and merged into `script/` (1788 of 4663 rows); next b013. Last build: `build.py --marker` -> build/marker.gba, sha1 7fe317e2... (= `work/qa/marker_choice.gba`).
+- **Phase:** 6. Translate in progress: batches b001-b012 of b031 translated and merged into `script/` (1776 of 4663 rows); next b013. Last build: `build.py --marker` -> build/marker.gba, sha1 7fe317e2... (= `work/qa/marker_choice.gba`).
 - **Done:**
   - Step 0: MesenCE 2.2.1 + GBA BIOS in `tools/mesen/`; smoke boots the original to the title menu (`tools/routes/boot.txt`); start/route input and Lua probe logging verified; guard hook blocks `sed -i`; pre-commit runs `tools/check.py` and rejects a failing test; rulings D1-D7 in `docs/decisions.md`.
   - Phase 1 text recon (`docs/re/text.md`), graphics survey (`docs/re/graphics.md`), free space 0x70F96C-0x7FFFFF trap-tested.
