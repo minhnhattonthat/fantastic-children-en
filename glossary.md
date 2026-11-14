@@ -113,6 +113,27 @@ controller edits this file. `tools/batches.py check` enforces the EN column for 
 | トークバトル | Talk Battle | | | |
 | リアルタイムバトル | Real-Time Battle | | | |
 | ラウンド | Round | | | |
+| 回帰の旅 | Journey of Return | | Helga's past-life journey | |
+| 伝書 | Scroll | | Battle Item tiers: 伝書 Scroll, 神技書 Divine Scroll, 秘伝書 Secret Scroll | |
+| 神技書 | Divine Scroll | | | |
+| 秘伝書 | Secret Scroll | | | |
+
+## More names and places (from batches b001-b012)
+| JP | EN | max | notes | Avoid |
+|---|---|---|---|---|
+| ケトプラック島 | Ketoprak Island | | | |
+| アカバ海 | Akaba Sea | | | |
+| ラウロしょとう | Lauro Islands | | | |
+| オーラント島 | Orant Island | | in Spain (スペイン) | |
+| ジム | Jim | | sailor who loved Seraphine | |
+| アーノン | Arnon | | Christina's pupil | |
+| ピロシカ | Piroshika | | a pale-blue flower/dye | |
+| 院長 | Director | | head of the Children's Academy | Principal |
+| 職員 | Staff | | speaker label | |
 
 ## Decisions from earlier batches
-- (none yet)
+- 施設 for the orphanage -> "the home" (児童学園 stays "Children's Academy").
+- Choice answers naming an island drop " Island" ("Natsuna", "Chikao", "Papin"): decisions.md D8.
+- Speaker labels: とうちゃん "Dad", かあちゃん "Mom", 少年/少女 "Boy"/"Girl" until the game names them.
+- ～様 after a name -> "-sama" (Tina-sama, Seth-sama, Titas-sama, Reda-sama); ～せんせい -> "-sensei".
+- Tutorial tips: "+Control Pad", "A Button"/"A"; Support Friend gains read "The Support Friend "X"" / "joined you!".
