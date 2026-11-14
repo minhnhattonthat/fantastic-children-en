@@ -1,0 +1,80 @@
+card	row	jp	en
+# Staff roll (G5), tools/staff_gfx.py. Row = tile row of the line's top (16 px lines). Max 30 characters, capitals.
+# Personal names: given name first (D1), Hepburn readings of the kanji (D2: no official romanization found),
+# except names with a known English credit (Takashi Nakamura, Ippo Yamada, Luna Umegaki, Shin Unozawa).
+# Kanji readings are best guesses; correct here and re-run `staff_gfx.py render FONT`.
+0	6	原作	ORIGINAL STORY
+0	9	なかむらたかし	TAKASHI NAKAMURA
+0	11	日本アニメーション・	NIPPON ANIMATION /
+0	13	FC製作委員会 2004	FC PRODUCTION COMMITTEE 2004
+1	9	スタッフ	STAFF
+2	6	デベロッパー	DEVELOPERS
+2	9	株式会社ベック	BEC CO., LTD.
+2	11	株式会社インティ・クリエイツ	INTI CREATES CO., LTD.
+3	6	ディレクター	DIRECTOR
+3	10	本田 東	AZUMA HONDA
+4	3	キャラクタースタッフ	CHARACTER STAFF
+4	6	鍋谷 圭一	KEIICHI NABEYA
+4	8	前田 浩克	HIROKATSU MAEDA
+4	11	鈴木 雅也	MASAYA SUZUKI
+4	13	大西 梨恵	RIE ONISHI
+4	15	彦野 早紀	SAKI HIKONO
+5	3	BGスタッフ	BACKGROUND STAFF
+5	6	田村 拓行	TAKUYUKI TAMURA
+5	9	ナツメ株式会社	NATSUME CO., LTD.
+5	11	平岡 輝幸	TERUYUKI HIRAOKA
+5	13	坂根 大輔	DAISUKE SAKANE
+5	15	高岡 雅幸	MASAYUKI TAKAOKA
+6	3	バトルキャラクタースタッフ	BATTLE CHARACTER STAFF
+6	6	合資会社スタジオA-CAT	STUDIO A-CAT
+6	8	佐々木 彰治	SHOJI SASAKI
+6	10	矢羽田 和徳	KAZUNORI YAHATA
+6	12	岩澤 知子	TOMOKO IWASAWA
+6	14	本田 裕祐	YUSUKE HONDA
+6	16	末岡 正美	MASAMI SUEOKA
+7	5	プログラム	PROGRAMMING
+7	9	川西 洋勝	HIROKATSU KAWANISHI
+7	11	井上 隆之	TAKAYUKI INOUE
+7	13	宍戸 哲広	TETSUHIRO SHISHIDO
+8	5	サウンドプロデュース／	SOUND PRODUCTION
+8	7	サウンドデザイン／音楽	SOUND DESIGN & MUSIC
+8	10	山田 一法	IPPO YAMADA
+9	3	サウンドエフェクト	SOUND EFFECTS
+9	5	有限会社プロキオン・スタジオ	PROCYON STUDIO LTD.
+9	7	金子 昌晃	MASAAKI KANEKO
+9	11	音楽	MUSIC
+9	13	有限会社クリスタ	CRISTA LTD.
+9	15	梅垣 留奈	LUNA UMEGAKI
+10	3	協力	COOPERATION
+10	6	ナツメ株式会社	NATSUME CO., LTD.
+10	8	大西 淑文	YOSHIFUMI ONISHI
+10	10	羽室 智己	TOMOKI HAMURO
+10	12	京極 慎治	SHINJI KYOGOKU
+10	14	高岡 周哉	SHUYA TAKAOKA
+11	3	協力	COOPERATION
+11	8	合資会社スタジオA-CAT	STUDIO A-CAT
+11	10	作野 賢一郎	KENICHIRO SAKUNO
+12	3	協力	COOPERATION
+12	7	INTI ALL STAFF	INTI ALL STAFF
+12	10	津田 祥寿	YOSHIHISA TSUDA
+12	12	水越 正博	MASAHIRO MIZUKOSHI
+12	14	岩永 賢明	MASAAKI IWANAGA
+13	6	デバッグ	DEBUGGING
+13	10	株式会社ベック	BEC CO., LTD.
+13	12	品質管理チーム	QUALITY CONTROL TEAM
+14	2	スペシャルサンクス	SPECIAL THANKS
+14	5	加藤 道夫	MICHIO KATO
+14	7	佐藤 賢一	KENICHI SATO
+14	10	武士俣 尚也	NAOYA BUSHIMATA
+14	12	星合 真樹	MASAKI HOSHIAI
+14	14	山崎 秀之	HIDEYUKI YAMAZAKI
+14	16	清水 明日香	ASUKA SHIMIZU
+15	5	プロデューサー	PRODUCERS
+15	9	牛村 憲彦	NORIHIKO USHIMURA
+15	11	岡本 吉弘	YOSHIHIRO OKAMOTO
+15	13	五十嵐 敦	ATSUSHI IGARASHI
+16	5	エグゼクティブプロデューサー	EXECUTIVE PRODUCERS
+16	9	鵜之澤 伸	SHIN UNOZAWA
+16	11	東海林 隆	TAKASHI SHOJI
+17	6	制作	PRODUCED BY
+17	10	株式会社バンダイ	BANDAI CO., LTD.

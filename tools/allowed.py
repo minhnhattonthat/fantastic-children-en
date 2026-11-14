@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import devlogo_gfx  # noqa: E402
 import msgs  # noqa: E402
+import staff_gfx  # noqa: E402
 import title_gfx  # noqa: E402
 import vwf  # noqa: E402
 from script_tsv import load  # noqa: E402
@@ -36,6 +37,13 @@ def ranges():
         out.append((rec, rec + 7, f"title bg {n} record (offset, size) if the block moves"))
     out.append((devlogo_gfx.tile_off(devlogo_gfx.FIRST), devlogo_gfx.tile_off(devlogo_gfx.LAST) + 31,
                 "boot developer logo tiles (G3)"))
+    for n in range(staff_gfx.CARDS):
+        m = staff_gfx.card(rom, n)[0]
+        out.append((m, m + staff_gfx.MAP_SIZE - 1, f"staff card {n} map (G5), rewritten in place"))
+    for a in staff_gfx.blocks(rom):
+        b, size = staff_gfx.block(rom, a)
+        out.append((b, b + size - 1, f"staff block {a} (G5), rewritten in place"))
+        out.append((staff_gfx.record(a), staff_gfx.record(a) + 7, f"staff block {a} record if the block moves"))
     for r in load().values():
         if r["id"][0] == "s":
             for h in r["ref"].split(","):

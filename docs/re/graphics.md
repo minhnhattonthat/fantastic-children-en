@@ -10,7 +10,7 @@ sweep of the whole ROM (2026-11-14). Pinned by `tests/test_graphics.py`.
 | G1 | Title | Logo ファンタジックチルドレン (small "FANTASTIC CHILDREN" above) | 8bpp BG | inside the 4 title backgrounds, LZ77 blocks `0x30E21C`, `0x36A414`, `0x3725F4`, `0x378E30` (38464 B each, one per title variant) | verified (sweep sheet, gba8) | **Done** (English logo in all 4, in-game shots; §Title backgrounds) |
 | G2 | Title | Copyright "© なかむらたかし／日本アニメーション・FC製作委員会 2004 / © BANDAI 2005" | 8bpp BG | same 4 blocks, bottom rows | verified (sweep sheet) | **Done**: "©T.NAKAMURA/NIPPON ANIMATION / FC PRODUCTION COMMITTEE 2004 / © BANDAI 2005" in the G6 font, all 4 |
 | G3 | Boot | Developer logo インディ・クリエイツ | 4bpp tiles, raw | `~0x30CC00-0x30D000`, next to the BANDAI logo tiles (`0x30C800-0x30E200`); stride not pinned yet | verified: BG1 of the 3rd boot screen (f600), raw tiles 3-0x30 at `0x30D3BC`, map rows 8-10 cols 6-23 | **Done**: "INTI CREATES" (`tools/devlogo_gfx.py`, `gfx/devlogo.png`; shot `work/qa/p8/g3_en`) |
-| G5 | Staff roll | Credits pages: roles and names in kana/kanji (プロデューサー, サウンド, 日本アニメーション...) mixed with "INTI ALL STAFF" | 4bpp tiles, 8×16 glyphs as tile pairs | 8 LZ77 blocks `0x709094`, `0x70A4D4`, `0x70AF18`, `0x70C5B0`, `0x70D32C`, `0x70E2EC`, `0x70EC24`, `0x70F174` (end at `0x70F96C`) | verified (sweep sheet) | English credits (D3): redraw, or replace with font-drawn text if the credits engine allows; reach via debug tool |
+| G5 | Staff roll | Credits pages: roles and names in kana/kanji (プロデューサー, サウンド, 日本アニメーション...) mixed with "INTI ALL STAFF" | 4bpp tiles, 8×16 glyphs as tile pairs | 8 LZ77 blocks `0x709094`, `0x70A4D4`, `0x70AF18`, `0x70C5B0`, `0x70D32C`, `0x70E2EC`, `0x70EC24`, `0x70F174` (end at `0x70F96C`) | verified (sweep sheet; engine 0x0803D484, §Staff roll) | **Done**: 18 English cards (`tools/staff_gfx.py`, `gfx/staff.tsv`, `gfx/staff_NN.png`; D13), shots `work/qa/p8/g5_en`, `g5_en2` |
 | G6 | Debug only? | 8×8 font: ASCII + half-width katakana (JIS X 0201 order) | 4bpp tiles, raw | `0x40000-0x40C00` | verified (sweep sheet) | Probably the debug/test menu print font; translate only if a player-visible screen uses it |
 | G4 | Intro / cutscenes | Book pages with pseudo-handwriting, stage map backgrounds with English place names | 4bpp LZ77 (`0x3279A4-0x33EE80`) | — | not Japanese; no change |
 
@@ -61,6 +61,18 @@ and indexes every skipped region). Sheets in `work/sweep/` (regenerate; gitignor
   f284, caller `0x08002F41`) and a self-relative offset scan. `tools/gbacomp.py compress` re-packs all 4 unedited
   blocks to exactly the record sizes; bigger art is moved (`tools/title_gfx.py apply(alloc=...)`, test in
   `tests/test_title_gfx.py`).
+
+## Staff roll (G5) — verified 2026-11-15
+
+Game mode 8 (warp scene `staff`), BG1 over the art. Routine 0x0803D484 shows card r0+1 of 18: table 0x0821BB70
+(8 bytes per card: u32 pointer to a full 30x20 u16 map in ROM at 0x0A0634-0x0A5B73, u8 archive index 10-17). Archive
+records 0x087060EC + 20*index: tile block (self-relative u32 offset, packed size, flags 0x00220100, BIOS LZ77 4bpp)
+then a 32-byte palette (0 transparent, 1-15 grey ramp). The whole block goes to VRAM slot by card parity (table
+0x0821BC00): even cards tile 0x201 (200 tiles before the odd slot), odd cards 0x2C9 (247 before BG0's blank 0x3C0);
+map cells are block-relative (0 = blank). 8 blocks are shared by 1-3 cards (`staff_gfx.py export` prints which).
+English: `tools/staff_gfx.py render Oswald[wght].ttf` writes `gfx/staff_NN.png` from `gfx/staff.tsv`; the build
+dedups tiles per block (39-55 tiles each), rewrites maps and blocks in place (`tests/test_staff_gfx.py`). Cards
+change about every 300 frames from the `staff` state; the epilogue ("10 years later.") follows card 17.
 
 ## Still to survey
 - Sprites (`0x560000-0x6F0000`) are only proven text-free where a stride read cleanly. Cover them by VRAM/OAM capture

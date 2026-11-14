@@ -18,6 +18,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import devlogo_gfx  # noqa: E402
+import staff_gfx  # noqa: E402
 import title_gfx  # noqa: E402
 import vwf  # noqa: E402
 from msgs import BUS, END, Script  # noqa: E402
@@ -135,6 +136,12 @@ def build_rom(d, mode="en", marker_px=MARKER_PX, qa=None, log=None, strings=None
             title_gfx.apply(out, n, png, log, alloc)
     if devlogo_gfx.PNG.exists():               # G3 boot developer logo, raw tiles in place
         devlogo_gfx.apply(out, devlogo_gfx.PNG, log)
+    if staff_gfx.png_path(0).exists():         # G5 staff roll: maps in place, blocks in place or moved
+        def alloc(size):
+            nonlocal o
+            at, o = o, (o + size + 3) & ~3
+            return at
+        staff_gfx.apply(out, log, alloc)
     if o > ROM_LIMIT:
         raise ValueError(f"text ends at {o:#x}, past {ROM_LIMIT:#x} (the trap-tested free space): "
                          "trap-test a larger ROM (docs/re/text.md §Free space) before raising ROM_LIMIT")
