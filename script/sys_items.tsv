@@ -203,7 +203,7 @@ s09ED88	21A4D0	「宝物庫のカギ」	"Treasury Key"
 s09ED9A	21A4D4	寺院2階 宝物庫のカギ。	Temple treasury key, 2nd floor.	
 s09EDB4	21A4D8	とうちゃんにウデ前を みとめてもらったショウコ。	Proof Dad approved your skills.	
 s09EDE6	21A4E0	「裏口のカギ」	"Back Door Key"	
-s09EDF6	21A4E4	チットがくすねていた 児童学園のカギ。	Chitto's Children's Academy key.	
+s09EDF6	21A4E4	チットがくすねていた 児童学園のカギ。	Chitto's stolen Academy key.	
 s09EE1E	21A4E8	もっとゲン宿な所に かくしておけばいいのに・・・。	Should've hidden it better...	
 s09EE52	21A4F0	「破られたヘルガの絵」	"Helga's Torn Picture"	
 s09EE6A	21A4F4	院長によって 破られたヘルガのパステル画。	Helga's pastel the Director tore.	
@@ -221,7 +221,7 @@ s09EFD2	21A530	「さびたカギ4」	"Rusty Key 4"
 s09EFE4	21A534	リョウヨウ施設 裏庭にある小屋のカギ。	Key to the sanatorium's back shed.	
 s09F00C	21A538	小屋には地下室の明かりをつける ハツ電機がある。	Shed generator lights the cellar.	
 s09F03E	21A540	「セラフィーヌの絵」	"Seraphine's Painting"	
-s09F054	21A544	セラフィーヌが生前 描き続けた大きな絵。	Seraphine's lifelong big painting.	
+s09F054	21A544	セラフィーヌが生前 描き続けた大きな絵。	Seraphine painted it all her life.	
 s09F07E	21A548	画商のウーデが 大切にしまっていた。	The dealer Oude kept it with care.	
 s09F0A4	21A550	「クリスティーナのハンカチ」	"Christina's Handkerchief"	
 s09F0C2	21A554	クリスティーナが生前 おり上げたハンカチ。	A handkerchief Christina wove.	
@@ -230,8 +230,8 @@ s09F11C	21A560	「リリアの花」	"Lilia Flower"
 s09F12C	21A564	あめ上がりに咲くことのある青い花。	Blue flower that blooms after rain.	
 s09F150	21A568	アーノンは この花のためにガケをおりた。	Arnon climbed down a cliff for it.	
 s09F17A	21A570	「さびたカギ5」	"Rusty Key 5"	
-s09F18C	21A574	セラフィーヌの生家 扉のカギ。	Door key to Seraphine's old home.	
-s09F1AC	21A578	裏庭の扉と 本ダナのある部屋へ行ける。	Backyard door and bookcase room.	
+s09F18C	21A574	セラフィーヌの生家 扉のカギ。	Opens Seraphine's old home, the	
+s09F1AC	21A578	裏庭の扉と 本ダナのある部屋へ行ける。	backyard door and bookcase room.	
 s09F1D4	21A580	「クリスタルキー1」	"Crystal Key 1"	
 s09F1EA	21A584	宇宙船にある がんじょうな扉のキー。	Key to a strong door in the ship.	
 s09F210	21A588	大きな扉のある つうろへ行ける。	Opens the way to a big door.	

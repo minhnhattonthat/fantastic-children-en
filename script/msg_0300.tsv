@@ -52,7 +52,7 @@ p084F4A	m318.2	相手を シャッフル。	Shuffles foe's Action Bar.
 p084F60	m318.3	とくていの相手に20ダメージ。	Hits certain foes for 20.	
 p084F80	m318.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
 p084FAA	m318.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
-p084FD6	m319.0	チット！ ヘルガの部屋は？	Chitto! Where's Helga's / room?	
+p084FD6	m319.0	チット！ ヘルガの部屋は？	Chitto! Where's / Helga's room?	
 p084FF2	m320.0	この上だよ・・・	Up here...	
 p085004	m320.1	2階のマドから 入れればなぁ・・・	If we could get in the / 2nd-floor window...	
 p085028	m321.0	だいじょうぶだ！ このキ	No problem! This tree	
@@ -85,7 +85,7 @@ p08534C	m330.0	なにをしてるッ！！ さっさと	What are you doing!! Get
 p08536A	m330.1	こうしゃにもどれ！	back in the building!	
 p08537E	m331.0	おい！ ここから出るなという めいれいだ！	Hey! Orders say no one / leaves!	
 p0853AA	m332.0	くそぉ！ そこを動くんじゃね～ぞォ！	Damn it! Don't you move!	
-p0853D0	m333.0	なんだッ！ お前 なにしに来た！！	What?! What are you here / for?!	
+p0853D0	m333.0	なんだッ！ お前 なにしに来た！！	What?! What are / you here for?!	
 p0853F4	m334.0	おとなしく 反省室に入っていろッ！	Get in the punishment / room and stay put!	
 p085418	m335.0	まったく！ 施設から出るなとは	Honestly! "Stay in"?!	
 p085438	m335.1	どういうつもりだ！	What's that about?!	
@@ -165,7 +165,7 @@ p085C8A	m360.0	トーマと ヘルガの 心のキョリも	Tohma and Helga's he
 p085CAC	m360.1	少しずつ 近づいていった・・・。	drew closer, little by / little...	
 p085CCE	m361.0	ある日 5人の子供たちが・・・	One day, five children...	
 p085CEE	m361.1			
-p085CF0	m361.2	ベフォールの子供たちが やって来た。	the Children of Befort, / came.	
+p085CF0	m361.2	ベフォールの子供たちが やって来た。	the Children of Befort, / arrived.	
 p085D16	m362.0	青い瞳と 白い髪・・・ その かれらを	Blue eyes and white hair... / As if to guard them,	
 p085D3E	m362.1	まもるように 空から ごうおんが ひびくと	a roar came from the sky,	
 p085D6A	m362.2	巨大なロボット「ワンダー」が あらわれた。	and a giant robot, / "Wanda," appeared.	
@@ -219,7 +219,7 @@ p0863DA	m373.0	少年「ボクらは 後をおうように ティナを	Boy: Fol
 p086404	m373.1	 転生させた ザヒョウめざし・・・	 aimed for the coordinates / of her rebirth...	
 p086428	m373.2	地球時間で いまから 500年いじょう前	Over 500 years ago in / Earth's time,	
 p086452	m373.3	・・・この地球に 転生した・・・	...were reborn on Earth...	
-p086474	m373.4	キミの魂を 見つけ出し・・・ 少なくとも	to find your soul... and at / least	
+p086474	m373.4	キミの魂を 見つけ出し・・・ 少なくとも	to find your soul... / and at least	
 p08649E	m373.5	ギリシアの「ゾーン」に 戻すために・・・	return it to Greecia's / "Zone"...	
 p0864C8	m374.0	トーマ「ゾーンッ！？	Tohma: Zone?!	
 p0864DE	m375.0	少年「キミや ボクたちの魂は・・・	Boy: Your soul and ours...	
@@ -245,7 +245,7 @@ p08674C	m380.1	 生まれかわった私たちは ギリシアと・・・	 Eart
 p086778	m380.2	ここ地球での タイムスケールが よそう	time scale and Earth's	
 p0867A0	m380.3	いじょうに ちがっていることに きづいたの	differed more than we / expected.	
 p0867CC	m381.0	少年「けっきょく26年・・・ いや・・・	Boy: In the end, 26 / years... no...	
-p0867F6	m381.1	 地球時間で 500年いじょう ついやし	 over 500 years in Earth / time,	
+p0867F6	m381.1	 地球時間で 500年いじょう ついやし	 over 500 years / in Earth time,	
 p086820	m381.2	いくたびも アウトゾーンを 造り・・・	building the Autozone / again and again...	
 p086848	m381.3	ボクたちは 人エ転生を くりかえした	we repeated artificial / rebirth.	
 p08686E	m381.4	もう少し はやく 見つけ出すことが出来れば	If only we had found you / a little sooner,	
@@ -285,7 +285,7 @@ p086C7A	m393.4	そのためには キミの前世を たどることを	For that
 p086CA4	m393.5	しなければ ならない・・・	must be retraced...	
 p086CC0	m393.6	かんがえて もらえないだろうか？	Will you consider it?	
 p086CE2	m394.0	ヘルガ「・・・前世・・・？	Helga: ...Past lives...?	
-p086CFE	m395.0	ヘルガは ひとり 入り江にすわり	Helga sat alone by the / cove,	
+p086CFE	m395.0	ヘルガは ひとり 入り江にすわり	Helga sat alone / by the cove,	
 p086D20	m395.1	よぞらの星を 見上げていた。	looking up at the night / stars.	
 p086D3E	m396.0	  「・・・惑星・・・ ギリシア・・・」	  "...Planet... Greecia..."	
 p086D68	m397.0	少年「・・・かんがえて もらえたかな？	Boy: ...Have you thought / about it?	

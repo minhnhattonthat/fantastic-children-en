@@ -147,6 +147,18 @@ class Lint(unittest.TestCase):
         errs, _ = self.lint.lint_row(self.row("Hi", jp="　テスト"), self.tbl)
         self.assertIn("leading/trailing blank differs from the Japanese", errs)
 
+    def test_stub_last_line(self):
+        errs, _ = self.lint.lint_row(self.row("Deals 30 damage to all / foes."), self.tbl)
+        self.assertTrue(any("stub" in e for e in errs))
+        self.assertEqual(self.lint.lint_row(self.row("Deals 30 damage / to all foes."), self.tbl), ([], []))
+        # a box group of 2 pages ending on a stub page, then a blank page; the same with an allow-listed id passes
+        pages = [self.row("Chitto, take Helga and", ref="m9999.0", rid="p000001"),
+                 self.row("run!", ref="m9999.1", rid="p000002"),
+                 self.row("", jp="", ref="m9999.2", rid="p000003")]
+        self.assertTrue(any("stub" in e for _, _, e in self.lint.box_groups(pages)))
+        pages[1] = dict(pages[1], id=next(iter(self.lint.STUB_OK)))
+        self.assertEqual(self.lint.box_groups(pages), [])
+
     def test_battle_line_counts_names(self):
         r = self.row("{arg0} hits {arg1}!", jp="{arg0}が{arg1}に", rid="s09F6C4", ref="21B4EC", file="sys_battle.tsv")
         self.assertEqual(self.lint.lint_row(r, self.tbl), ([], []))

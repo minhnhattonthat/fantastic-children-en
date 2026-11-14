@@ -13,6 +13,8 @@ Budgets (ink width, vwf.ink_width, and pair codes, vwf.encode_pairs):
     item/card descriptions (sys_items.tsv) not measured yet take the 28-cell info box; anything else unmeasured
     is a warning.
 A dialogue page (not a choice answer) may hold " / ": each part is one more line, measured on its own.
+Stub lines: a split page's last part, and the last line of a box group of 2+ lines, need >= STUB characters
+(widows like "Deals 30 damage to all / foes."); deliberate ones are listed with a reason in docs/stub_ok.tsv.
 Also: every character encodable, the same {argN} tokens as the Japanese, {endflag} kept, leading/trailing blanks
 kept.
 """
@@ -58,6 +60,8 @@ BOXES = _table(ROOT / "docs" / "re" / "msg_boxes.tsv")
 REGIONS = _table(ROOT / "docs" / "re" / "sys_regions.tsv")
 CHOICES = _table(ROOT / "docs" / "re" / "choices.tsv")   # choice-list message ids (tools/events.py --choices)
 CHOICE_CELLS = 9    # answers sit in a 2-column grid: cursor col 2 / 12, text col 3 / 13 (top box; bottom +2)
+STUB = 6            # a split page's last line, or a box group's last line, must have at least this many characters
+STUB_OK = _table(ROOT / "docs" / "stub_ok.tsv")   # deliberate one-word lines (id -> reason)
 
 
 def budget(r):
@@ -115,6 +119,8 @@ def lint_row(r, en_tbl):
             errs.append(f"{len(lines) - 1} extra lines > {MAX_EXTRA}")
         if any(not ln.strip() for ln in lines):
             errs.append("empty line")
+        if len(lines[-1].strip()) < STUB and r["id"] not in STUB_OK:
+            errs.append(f"stub last line {lines[-1].strip()!r} (< {STUB} characters): move a word down")
     for ln in lines:
         px, codes = _measure(ln, jp)
         if b is None:
@@ -138,19 +144,33 @@ def box_groups(all_rows):
         for ref in r["ref"].split(","):
             m, n = ref[1:].split(".")
             msgs.setdefault(int(m), []).append((int(n), r))
-    out = []
+    out, stubs = [], set()
+
+    def stub(group):
+        """A group of 2+ lines must not end on a stub line (choice answers and STUB_OK ids exempt)."""
+        lines = [ln for r in group for ln in r["en"].split(LINE_SEP)]
+        last = group[-1] if group else None
+        if (len(lines) > 1 and len(lines[-1].strip()) < STUB and last["id"] not in STUB_OK
+                and last["id"] not in stubs and not (budget(last) or (0, 0, ""))[2].startswith("choice")):
+            stubs.add(last["id"])
+            out.append((last["id"], f"m{m}", f"box group ends on a stub line {lines[-1].strip()!r} "
+                        f"(< {STUB} characters): rebalance the last page, or list the id in docs/stub_ok.tsv"))
+
     for m, pages in sorted(msgs.items()):
         pages.sort(key=lambda p: p[0])
-        extra, first = 0, None
+        extra, first, group = 0, None, []
         for _, r in pages:
             if not r["jp"].strip(BLANKS):
                 if first is not None and extra % 2:
                     out.append((first["id"], f"m{m}", f"box group adds {extra} lines (odd) before a blank page: "
                                 "add or remove one ' / ' so the next speaker starts a fresh box"))
-                extra, first = 0, None
+                stub([g for g in group if g["en"]])
+                extra, first, group = 0, None, []
                 continue
             first = first or r
+            group.append(r)
             extra += r["en"].count(LINE_SEP)
+        stub([g for g in group if g["en"]])
     return out
 
 

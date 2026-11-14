@@ -26,6 +26,9 @@ from tbl import Table  # noqa: E402
 TL = ROOT / "work/tl"
 GLOSSARY = ROOT / "glossary.md"
 MAX_ENTRIES = 150
+# D11: item-info rows (224 px) where the full term can't fit with the rest of the meaning take the D8/D9 short forms
+# ("Academy key" for 児童学園のカギ): every full form measured over 224 px (docs/decisions.md D11)
+SHORT_TERM_IDS = {"s09EDF6"}
 NAME = r"(?<![ァ-ヶー])(?!(?:オバ|オジ|オニイ|オネエ|ジイ|バア)(?:さん|ちゃん))[ァ-ヶー]+"   # not "lady", "mister"...
 # per glossary.md: honorifics kept, hyphenated, after a katakana name
 HONORIFICS = [("さん", "-san"), ("くん", "-kun"), ("ちゃん", "-chan"), ("様", "-sama"), ("さま", "-sama"),
@@ -107,7 +110,7 @@ def problems(r, en, terms, en_tbl):
     jp = r["jp"]
     b = lint.budget(r)
     choice = r["id"][0] == "p" and b and b[2].startswith("choice")
-    short = choice or lint.is_area_name(r)
+    short = choice or lint.is_area_name(r) or r["id"] in SHORT_TERM_IDS
     for jps, ens, avoid in terms:
         if short:   # 72 px answers / 120 px area names: "Natsuna" for Natsuna Island (decisions.md D8, D9)
             ens = ens + [e[:-len(" Island")] for e in ens if e.endswith(" Island")]

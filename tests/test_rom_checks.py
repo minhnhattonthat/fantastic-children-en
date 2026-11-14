@@ -51,8 +51,10 @@ def message_pages(d):
 class EnglishRom(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        from writelog import WriteLog
         cls.d = build.ROM.read_bytes()
-        cls.out = insert.build_rom(cls.d, "en")
+        cls.log = WriteLog(cls.d)
+        cls.out = insert.build_rom(cls.d, "en", log=cls.log)
         cls.rows = load()
 
     def test_no_change_outside_allowed_ranges(self):
@@ -60,7 +62,11 @@ class EnglishRom(unittest.TestCase):
             p = Path(t) / "en.gba"
             p.write_bytes(self.out)
             rc, out = allowed.romdiff(build.ROM, p)
-        self.assertEqual(rc, 0, out)
+            self.assertEqual(rc, 0, out)
+            # with the write log: every changed byte is a logged write inside the ranges, with the original's
+            # bytes where it expects them, not overlapped or overwritten by another write
+            rc, out = allowed.romdiff(build.ROM, p, self.log.save(Path(t) / "writes.txt"))
+            self.assertEqual(rc, 0, out)
 
     def test_patches_swallow_no_branch_target(self):
         from capstone import CS_ARCH_ARM, CS_MODE_THUMB, Cs

@@ -1,7 +1,8 @@
 """Ranges the English build may change (Phase 7 romdiff check), from the RE constants, not from what the build did.
 
     python -X utf8 tools/allowed.py [OUT]        writes the ranges file (default build/allowed.txt)
-    python -X utf8 tools/allowed.py --check      builds nothing: romdiff rom/ vs build/fantastic_children_en.gba
+    python -X utf8 tools/allowed.py --check      builds nothing: romdiff rom/ vs build/fantastic_children_en.gba,
+                                                 with build/writes.txt (build.py's write log) when it exists
 
 Allowed: free space 0x70F96C- (VWF hook/tables, relocated pages and page lists, system strings; the ROM may grow),
 the message table (repointed), each system string's pointer holder (script/sys_*.tsv `ref`), and the two code
@@ -40,9 +41,24 @@ def write(path):
     return path
 
 
-def romdiff(orig, new):
-    """romdiff.py's exit code and output for ORIG vs NEW over ranges()."""
-    args = [f"{a:X}-{b:X}" for a, b, _ in ranges()]
+def romdiff(orig, new, writes=None):
+    """romdiff.py's exit code and output for ORIG vs NEW.
+    writes=None: over ranges(). writes=PATH (the build's write log, writelog.WriteLog.save): no ranges at all, so
+    every changed byte must belong to a logged write whose original bytes match ORIG and that no later write
+    overwrote; on top, every logged write must lie inside ranges()."""
+    if writes is None:
+        args = [f"{a:X}-{b:X}" for a, b, _ in ranges()]
+    else:
+        args = ["--writes", str(writes)]
+        rs = ranges()
+        bad = []
+        for ln in Path(writes).read_text(encoding="utf-8").splitlines():
+            off, a, _, by = ln.split(" ", 3)
+            o, n = int(off, 16), len(a) // 2
+            if not any(lo <= o and o + n - 1 <= hi for lo, hi, _ in rs):
+                bad.append(f"0x{o:06X}: {by} ({n} bytes) is outside the allowed ranges")
+        if bad:
+            return 1, "\n".join(bad[:50])
     r = subprocess.run([sys.executable, "-X", "utf8", str(ROOT / "tools" / "romdiff.py"), str(orig), str(new)] + args,
                        capture_output=True, text=True, encoding="utf-8")
     return r.returncode, (r.stdout + r.stderr).strip()
@@ -50,7 +66,9 @@ def romdiff(orig, new):
 
 if __name__ == "__main__":
     if sys.argv[1:] == ["--check"]:
-        rc, out = romdiff(ROOT / "rom" / "Fantastic Children (Japan).gba", ROOT / "build" / "fantastic_children_en.gba")
+        log = ROOT / "build" / "writes.txt"
+        rc, out = romdiff(ROOT / "rom" / "Fantastic Children (Japan).gba", ROOT / "build" / "fantastic_children_en.gba",
+                          log if log.exists() else None)
         print(out)
         sys.exit(rc)
     print(write(Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "build" / "allowed.txt"))

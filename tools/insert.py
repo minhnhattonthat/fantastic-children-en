@@ -19,8 +19,11 @@ sys.path.insert(0, str(ROOT / "tools"))
 import vwf  # noqa: E402
 from msgs import BUS, END, Script  # noqa: E402
 from script_tsv import ENDFLAG, load, rom_rows  # noqa: E402
+from writelog import put  # noqa: E402
 
-TEXT_BASE = 0x730000          # after vwf.VWF_END (0x724800); free to 0x7FFFFF, the ROM may grow past 8 MiB
+TEXT_BASE = 0x730000          # after vwf.VWF_END (0x724800); free to 0x7FFFFF
+ROM_LIMIT = 0x800000          # the text must end inside 8 MiB: only 0x70F96C-0x7FFFFF is trap-tested
+assert TEXT_BASE >= vwf.VWF_END, "the relocated text would overwrite the VWF tables"
 PAGE_CODES = 21               # the page copy keeps 22 codes per line (0x0802FBCE), the box shows at most 21 (0x0802F78C)
 MARKER_PX = vwf.TOP_PX        # marker pages fit both boxes; build.py --marker-px 192 stresses the bottom box
 UI_ONLY = set("▼▶：＄ 　")    # strings made only of these (cursors, separators, blanks, empty) are UI, not text
@@ -88,29 +91,31 @@ def texts(d, mode, marker_px=MARKER_PX):
     return {r.id: (tsv.get(r.id, {}).get("en") or None) for r in rows}
 
 
-def build_rom(d, mode="en", marker_px=MARKER_PX, qa=None):
+def build_rom(d, mode="en", marker_px=MARKER_PX, qa=None, log=None):
+    """log: a writelog.WriteLog; every write is recorded for romdiff.py --writes (build.py saves build/writes.txt)."""
     en = texts(d, mode, marker_px)
     en.update(qa or {})   # --qa ID=text: single-line overrides for width and glyph stress tests
-    out = vwf.apply(bytearray(d))
+    out = vwf.apply(bytearray(d), log)
     s = Script.unpack(d)
     for off in s.pages:
         t = en.get(f"p{off:06X}")
         if t:
             parts = t.split(LINE_SEP)
             s.pages[off] = page_bytes(t) if len(parts) == 1 else [page_bytes(p) for p in parts]
-    out = bytearray(s.repack(bytes(out), base=TEXT_BASE))
+    out = bytearray(s.repack(bytes(out), base=TEXT_BASE, log=log))
     o = (s.end + 3) & ~3
     rows = [r for r in rom_rows(d) if r.id[0] == "s" and en.get(r.id)]
     for r in rows:
         b = sys_bytes(en[r.id])
-        if len(out) < o + len(b):
-            out += b"\xFF" * (o + len(b) - len(out))
-        out[o:o + len(b)] = b
+        put(out, o, b, r.id, log)
         for h in r.ref.split(","):
             h = int(h, 16)
             assert struct.unpack_from("<I", out, h)[0] == BUS + r.off, (r.id, hex(h))
-            struct.pack_into("<I", out, h, BUS + o)
+            put(out, h, struct.pack("<I", BUS + o), f"holder {r.id}", log)
         o = (o + len(b) + 3) & ~3
+    if o > ROM_LIMIT:
+        raise ValueError(f"text ends at {o:#x}, past {ROM_LIMIT:#x} (the trap-tested free space): "
+                         "trap-test a larger ROM (docs/re/text.md §Free space) before raising ROM_LIMIT")
     if len(out) % 0x10000:   # keep the size a round number
         out += b"\xFF" * (0x10000 - len(out) % 0x10000)
     return bytes(out)

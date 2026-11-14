@@ -44,6 +44,7 @@ VWF_END = PG_AT + 0x80 * 128        # 0x724800
 TYPE_LINE = 0x0802E7F8
 UPLOAD_SKIP = 0x0802F12A            # after the upload sets its flag; branch to its epilogue
 UPLOAD_EXIT = 0x0802F1B4
+UPLOAD_SKIP_ORIG = "0025"            # the original's halfword at UPLOAD_SKIP (movs r5, #0), asserted before patching
 FONT0_BASE, FONT0_PTRS = 0x0517EC, 0x210A98
 PAIR = 0x4000
 
@@ -542,21 +543,25 @@ def tables(d):
     return bytes(wid), bytes(gly), bytes(pw), bytes(pg)
 
 
-def apply(out):
-    """Write the hook, tables and the two patches into `out` (bytearray of the ROM, grown as needed)."""
+def apply(out, log=None):
+    """Write the hook, tables and the two patches into `out` (bytearray of the ROM, grown as needed).
+    log: a writelog.WriteLog recording each write."""
+    from writelog import put
     code = hook_code()
     if len(code) > WIDTHS_AT - VWF_BASE:
         raise ValueError(f"hook is {len(code)} bytes")
     wid, gly, pw, pg = tables(bytes(out))
+    for at, b, by in ((VWF_BASE, code, "vwf hook"), (WIDTHS_AT, wid, "vwf widths"), (PW_AT, pw, "vwf pair widths"),
+                      (GLYPHS_AT, gly, "vwf glyphs"), (PG_AT, pg, "vwf pair glyphs")):
+        put(out, at, b, by, log)
     if len(out) < VWF_END:
         out += b"\xFF" * (VWF_END - len(out))
-    for at, b in ((VWF_BASE, code), (WIDTHS_AT, wid), (PW_AT, pw), (GLYPHS_AT, gly), (PG_AT, pg)):
-        out[at:at + len(b)] = b
     # type_line: keep `push {r4-r7,lr}`, then ldr r4,[pc,#4]; bx r4; nop; .word hook|1
     patch = _asm("ldr r4, [pc, #4]\nbx r4\nnop", TYPE_LINE + 2) + struct.pack("<I", BUS + VWF_BASE + 1)
     o = TYPE_LINE + 2 - BUS
     assert out[o:o + 10] == bytes.fromhex("57464e464546e0b483b0"), out[o:o + 10].hex()
-    out[o:o + 10] = patch
+    put(out, o, patch, "type_line hook", log)
     o = UPLOAD_SKIP - BUS
-    out[o:o + 2] = _asm(f"b {UPLOAD_EXIT:#x}", UPLOAD_SKIP)
+    assert out[o:o + 2] == bytes.fromhex(UPLOAD_SKIP_ORIG), out[o:o + 2].hex()
+    put(out, o, _asm(f"b {UPLOAD_EXIT:#x}", UPLOAD_SKIP), "glyph upload skip", log)
     return out

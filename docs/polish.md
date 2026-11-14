@@ -18,9 +18,9 @@ Tick each `[x]` when fixed, or `[x] ... waived: reason`.
 - [ ] p0922FE-p092328 - カプセルの中で トーマは アギのことばを: "in the capsule" may attach to Agi; "Inside the capsule, Tohma recalled Agi's words" did not fit with Agi in the first row (glossary per row) (full re-review 14)
 - [ ] p095052 - 思いをこめて 見つめあい: "The two gazed deeply" reads incomplete; next row "and held each other tight" needs a verb to pair with (full re-review 16)
 - [ ] p096E6A-p096E90 - シンパクが かんぜんに テイシした: singular "pulse... has" for two people; plural runs over 168 px (full re-review 17)
-- [ ] s09EDF6 - チットがくすねていた 児童学園のカギ: "Chitto's Children's Academy key" drops the theft; "Children's Academy key Chitto stole." is 237 px in a 224 px box (full re-review 23, Important)
-- [ ] s09FCD2 - さびたクギでひっかいた: "{arg0} used Rusty Nail!" drops "scratched"; "{arg0} scratched with Rusty Nail!" is 232 px in the 192 px battle line (name = 64 px) (full re-review 22, Important; re-review 2 preferred "used")
+- [x] s09EDF6 - チットがくすねていた 児童学園のカギ: "Chitto's Children's Academy key" drops the theft; "Children's Academy key Chitto stole." is 237 px in a 224 px box (full re-review 23, Important) Fixed in r22 (D11): "Chitto's stolen Academy key."
+- [x] s09FCD2 - さびたクギでひっかいた: "{arg0} used Rusty Nail!" drops "scratched"; "{arg0} scratched with Rusty Nail!" is 232 px in the 192 px battle line (name = 64 px) (full re-review 22, Important; re-review 2 preferred "used") Fixed in r22 (D11): "{arg0}: Rusty Nail scratch!" (188 px)
 - [ ] s09E3E4 - かあちゃんの占いは当たるらしい: now 'SP "Fortune Kit" Mom's right, I hear' (no full stop, 224 px); re-review wants "Mom's fortunes come true" (275 px) (full re-review 23)
 - [ ] p0973F0 - はるか遠い ふかみから わき上がる: " springs well from deep." is terse; "well up from distant depths" needs a line, and the poem group's line count must stay even (re-review of r15)
-- [ ] s09F1AC - 裏庭の扉と 本ダナのある部屋へ行ける: now "Backyard door and bookcase room." (221 px of 224); reviewers want the "you can reach" verb back, every verb form tried runs 240+ px (re-review of r19)
-- [ ] s09F054 - 生前 描き続けた大きな絵: "Seraphine's lifelong big painting" is unnatural; "A large painting Seraphine kept working on in life" (full re-review 24)
+- [x] s09F1AC - 裏庭の扉と 本ダナのある部屋へ行ける: now "Backyard door and bookcase room." (221 px of 224); reviewers want the "you can reach" verb back, every verb form tried runs 240+ px (re-review of r19) Fixed in r22 (D11): the item's description + comment rows read "Opens Seraphine's old home, the / backyard door and bookcase room."
+- [x] s09F054 - 生前 描き続けた大きな絵: "Seraphine's lifelong big painting" is unnatural; "A large painting Seraphine kept working on in life" (full re-review 24) Fixed in r22: "Seraphine painted it all her life." (the name row above says "Seraphine's Painting")

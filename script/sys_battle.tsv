@@ -72,7 +72,7 @@ s09FC44	21B664	       キキィ～～～ッ！	       Keeeee~~~!
 s09FC64	21B66C	{arg0}は コショウを バラまいた！{endflag}	{arg0} scattered Pepper!{endflag}	
 s09FC84	21B670	・・・ハークション！ ハークション！・・・	...Achoo! Achoo!...	
 s09FCB0	21B674	       ハークションッ！！	       Aaachooo!!	
-s09FCD2	21B67C	{arg0}は さびたクギでひっかいた！	{arg0} used Rusty Nail!	
+s09FCD2	21B67C	{arg0}は さびたクギでひっかいた！	{arg0}: Rusty Nail scratch!	
 s09FCF2	21B684	{arg0}は コケむした花壇をなげつけた！	{arg0} threw Flowerbed!	
 s09FD16	21B68C	{arg0}は くちた画材をなげつけた！	{arg0} threw Old Paints!	
 s09FD36	21B694	{arg0}は せいぎょカイロをつかった！{endflag}	{arg0} used Control Chip!{endflag}	

@@ -38,7 +38,7 @@ p081096	m115.3	占いコーナーも いそがしくてねェ・・・	fortune c
 p0810BE	m116.0	・・・ガチャ ガチャ・・・	...Rattle, rattle...	
 p0810DA	m116.1	カギが かかっている。	It's locked.	
 p0810F2	m117.0	（トーマ自作の とっくんようカカシＶ1だ	(Tohma's homemade / training scarecrow V1.	
-p08111C	m117.1	 コックリ島にもある）	 One's on Kokkuri Island / too.)	
+p08111C	m117.1	 コックリ島にもある）	 One's also on / Kokkuri Island.)	
 p081134	m118.0	（カカシの中から なにかおちてきた・・・）	(Something fell out of the / scarecrow...)	
 p081160	m119.0	バトルアイテム 伝書「チョップ10」	Battle Item: Scroll / "Chop 10"	
 p081186	m119.1	を 手に入れた！	obtained!	
@@ -46,7 +46,7 @@ p081198	m120.0	バトルアイテム 伝書「チョップ10」	Battle Item: Scr
 p0811BE	m120.1	を 手に入れた！	obtained!	
 p0811D0	m120.2	『チョップ（パー）は	'Chop (paper)	
 p0811E6	m120.3	 パンチ（グー）より強い。	 beats Punch (rock).	
-p081202	m120.4	おなじアクションどうしだと 相打ちになり	The same actions trade / hits,	
+p081202	m120.4	おなじアクションどうしだと 相打ちになり	The same actions / trade hits,	
 p08122C	m120.5	おたがいに 少しダメージが 入ってしまう。	and both take a little / damage.	
 p081258	m120.6	攻撃カの高いアクションは かくじつに	Use high-power actions	
 p08127E	m120.7	かてるタイミングで つかえ。』	when you're sure to win.'	
@@ -68,7 +68,7 @@ p081456	m128.0	バトルアイテム 秘伝書「チョップ30」	Battle Item: 
 p08147E	m128.1	を 手に入れた！	obtained!	
 p081490	m128.2	『チョップ（パー）は	'Chop (paper)	
 p0814A6	m128.3	 パンチ（グー）より強い。	 beats Punch (rock).	
-p0814C2	m128.4	おなじアクションどうしだと 相打ちになり	The same actions trade / hits,	
+p0814C2	m128.4	おなじアクションどうしだと 相打ちになり	The same actions / trade hits,	
 p0814EC	m128.5	おたがいに 少しダメージが 入ってしまう。	and both take a little / damage.	
 p081518	m128.6	攻撃カの高いアクションは かくじつに	Use high-power actions	
 p08153E	m128.7	かてるタイミングで つかえ。』	when you're sure to win.'	
@@ -80,7 +80,7 @@ p08160A	m132.1	Ａボタンで ジャンプ・・・	so jump with A...
 p081626	m132.2	はなれれば おとなしくなるハズだよな	Get away and they should / calm down.	
 p08164C	m132.3			
 p08164E	m132.4	ブッ殺しバチは 十字ボタン下でしゃがんで	Killer bees? Duck with / Down on the / +Control Pad	
-p081678	m132.5	ゆっくり行けば だいじょうぶだ！	and go slow, and you're / fine!	
+p081678	m132.5	ゆっくり行けば だいじょうぶだ！	and go slow, and / you're fine!	
 p08169A	m132.6	やられても ポックリの実を たべれば	If they get you, eat a / Pokkuri Fruit	
 p0816C0	m132.7	ゲンキになるぜ！	and you'll feel great!	
 p0816D2	m133.0	海に近い 石柱ぐんのひとつに	On a pillar by the sea,	
@@ -105,7 +105,7 @@ p081876	m138.2	・・・・・・	......
 p081884	m138.3			
 p081886	m138.4	なんだよ こいつ！！	What's with her?!	
 p08189C	m139.0	かあちゃんを 乗せたボートが	The boat carrying Mom	
-p0818BA	m139.1	パパン島の さんばしに入って来た。	came into the Papin Island / pier.	
+p0818BA	m139.1	パパン島の さんばしに入って来た。	came into the / Papin Island pier.	
 p0818DE	m139.2	ハデなけしょうを おとした かあちゃんを	Dropping off Mom, her / loud makeup removed,	
 p081908	m139.3	下ろすと トーマは入り江にボートをむけた。	Tohma turned the boat to / the cove.	
 p081934	m140.0	かあちゃん「・・・トーマ？	Mom: ...Tohma?	
@@ -121,14 +121,14 @@ p0819F8	m143.2	また ナツナにぬけ出して来てるかも・・・！	May
 p081A24	m144.0	よし 行くぞ チット！	All right, let's go, / Chitto!	
 p081A3C	m145.0	うん！	Yeah!	
 p081A44	m146.0	トーマは チットを乗せると	Tohma got Chitto aboard	
-p081A60	m146.1	海へと ボートを出した。	and set the boat out to / sea.	
+p081A60	m146.1	海へと ボートを出した。	and set the boat / out to sea.	
 p081A7A	m147.0	ナツナ島	Natsuna	
 p081A84	m147.1	チカオ島	Chikao	
 p081A8E	m148.0	もう海へ出る ようじはない。	No need to go out to sea / anymore.	
 p081AAC	m149.0	・・・チ カ オ・・・か・・・	...Chi-ka-o... huh...	
 p081ACC	m149.1	まだ いるかな・・・	Is she still there...	
 p081AE2	m150.0	トーマは エンジンをかけると	Tohma started the engine	
-p081B00	m150.1	海へと ボートを出した。	and set the boat out to / sea.	
+p081B00	m150.1	海へと ボートを出した。	and set the boat / out to sea.	
 p081B1A	m151.0	ナツナ島	Natsuna	
 p081B24	m152.0	石柱へ行けば だれかがいるかもしれない。	Someone might be at the / stone pillars.	
 p081B4E	m153.0	！？	!?	
@@ -168,7 +168,7 @@ p081DF0	m163.2	しあわせになれるよ！	You'll be happy!
 p081E06	m163.3	島に来たら またよっとくれ・・・	Come again when you're / on the island...	
 p081E28	m164.0	おや トーマ・・・ 来てたのかい	Oh, Tohma... You came?	
 p081E4A	m164.1			
-p081E4C	m164.2	トーマ「よくやるね～	Tohma: You really go all / out~	
+p081E4C	m164.2	トーマ「よくやるね～	Tohma: You really / go all out~	
 p081E62	m164.3	かあちゃん「ふふん	Mom: Hmph.	
 p081E76	m164.4	占いには フンイキってもんが	Fortune-telling needs / atmosphere,	
 p081E94	m164.5	だいじなんだよ	you know.	
@@ -178,7 +178,7 @@ p081EE6	m166.0	職員「くそぉ！ こらまてッ！！	Staff: Damn it! Stop 
 p081F06	m167.0	少年「ハァ ハァ・・・	Boy: Hah... hah...	
 p081F1E	m168.0	ひっくりかえされた ショウヒンにつぶされて	Glancing at the men	
 p081F4A	m168.1	動けないオトコたちを きにしながら	pinned under the toppled / goods,	
-p081F6E	m168.2	小さな少年が みせの前を はしって行った。	a small boy ran past the / shop.	
+p081F6E	m168.2	小さな少年が みせの前を はしって行った。	a small boy ran / past the shop.	
 p081F9A	m169.0	かあちゃん「あれまァ・・・	Mom: My, my...	
 p081FB6	m170.0	トーマ「・・・・・・	Tohma: ......	
 p081FCC	m171.0	トーマは スイッチを入れた。	Tohma flipped the switch.	

@@ -4,7 +4,7 @@
     python -X utf8 build.py --marker     # -> build/marker.gba: every string replaced by `[id] marker text`
     python -X utf8 build.py --identity   # unpack + repack with no edits -> build/identity.gba, must equal the dump
 
-Checks the dump against rom.sha1 first.
+Checks the dump against rom.sha1 first. Every write is logged (build/writes.txt; romdiff.py --writes, tools/allowed.py).
 """
 import argparse
 import hashlib
@@ -37,17 +37,22 @@ def main():
     a = ap.parse_args()
     check_rom.check()
     d = ROM.read_bytes()
+    log = None
     if a.identity:
         out, name = repack(d), "identity.gba"
     else:
         from insert import build_rom
+        from writelog import WriteLog
         qa = dict(q.split("=", 1) for q in a.qa)
-        out = build_rom(d, "marker" if a.marker else "en", a.marker_px, qa)
+        log = WriteLog(d)
+        out = build_rom(d, "marker" if a.marker else "en", a.marker_px, qa, log=log)
         name = (f"marker{'' if a.marker_px == 168 else a.marker_px}.gba" if a.marker else "fantastic_children_en.gba")
         name = "qa.gba" if qa else name
     BUILD.mkdir(exist_ok=True)
     path = BUILD / name
     path.write_bytes(out)
+    if log is not None:   # romdiff.py --writes log: build/writes.txt for the English build, else <name>.writes.txt
+        log.save(BUILD / ("writes.txt" if name == "fantastic_children_en.gba" else name[:-4] + ".writes.txt"))
     print(f"{path.relative_to(ROOT)}  {len(out)} bytes  sha1 {hashlib.sha1(out).hexdigest()}")
     if a.identity:
         if out != d:

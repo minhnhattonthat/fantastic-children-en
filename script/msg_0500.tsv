@@ -5,7 +5,7 @@ p089130	m500.2	これで カイジョ出来る	Now you can unseal them.
 p089148	m500.3			
 p08914A	m500.4	ギリシアの宇宙船が	We must find where the / Greecian	
 p08915E	m500.5	かくされた場所を つきとめないと・・・！	spaceship is hidden...!	
-p089188	m501.0	上空から タルラントが ワンダーで	Tarlant came down on / Wanda	
+p089188	m501.0	上空から タルラントが ワンダーで	Tarlant came / down on Wanda	
 p0891AC	m501.1	あらわれた。	from above.	
 p0891BA	m502.0	タルラント「ハスモダイ・・・！	Tarlant: Hasmodai...!	
 p0891DA	m502.1	 アカバ海の島にある	 On an Akaba Sea island,	
@@ -40,7 +40,7 @@ p0894C4	m512.2	これで カイジョ出来る	Now you can unseal them.
 p0894DC	m512.3			
 p0894DE	m512.4	ギリシアの宇宙船が	We must find where the / Greecian	
 p0894F2	m512.5	かくされた場所を つきとめないと・・・！	spaceship is hidden...!	
-p08951C	m513.0	上空から タルラントが ワンダーで	Tarlant came down on / Wanda	
+p08951C	m513.0	上空から タルラントが ワンダーで	Tarlant came / down on Wanda	
 p089540	m513.1	あらわれた。	from above.	
 p08954E	m514.0	タルラント「ハスモダイ・・・！	Tarlant: Hasmodai...!	
 p08956E	m514.1	 アカバ海の島にある	 On an Akaba Sea island,	
@@ -88,19 +88,19 @@ p0899C4	m532.0	回帰の旅には キケンも ともなうだろう	The Journey
 p0899EC	m532.1	いつでもワンダーをよべるようにしておくんだ	Always be ready to call / Wanda.	
 p089A18	m533.0	こんなロボットを なんのために！？	A robot like this, for / what?!	
 p089A3C	m534.0	トーマッ！ ヤツが デュマだ・・・	Tohma! That's Dumas...	
-p089A60	m534.1	ヘルガを・・・ ヘルガを まもるんだッ！	Protect Helga... protect / her!	
+p089A60	m534.1	ヘルガを・・・ ヘルガを まもるんだッ！	Protect Helga... / protect her!	
 p089A8A	m535.0	サポートフレンド 「タルラント」	The Support Friend / "Tarlant"	
 p089AAC	m535.1	が なかまになった！	joined you!	
 p089AC2	m535.2	ワンダーをよんで すべての相手に	Calls Wanda: 60 damage	
 p089AE4	m535.3	60ダメージあたえる。	to all foes.	
 p089AFC	m536.0	こんなロボットを なんのために！？	A robot like this, for / what?!	
-p089B20	m537.0	チットは ヘルガを つれて にげろッ！	Chitto, take Helga and / run!	
+p089B20	m537.0	チットは ヘルガを つれて にげろッ！	Chitto, take / Helga and run!	
 p089B48	m538.0	トーマ・・・ ヘルガを まもるため	Tohma... For Helga,	
 p089B6C	m538.1	ボクも カを かすよ！！	I'll lend a hand too!!	
 p089B86	m539.0	サポートフレンド 「ハスモダイ」	The Support Friend / "Hasmodai"	
 p089BA8	m539.1	が なかまになった！	joined you!	
-p089BBE	m539.2	すべての相手に 10ダメージあたえる。	Deals 10 damage to all / foes.	
-p089BE6	m540.0	チットは ヘルガを つれて にげろッ！	Chitto, take Helga and / run!	
+p089BBE	m539.2	すべての相手に 10ダメージあたえる。	Deals 10 damage / to all foes.	
+p089BE6	m540.0	チットは ヘルガを つれて にげろッ！	Chitto, take / Helga and run!	
 p089C0E	m541.0	目覚めるヘルガを まっていたかのように	As if he had been waiting / for Helga to wake,	
 p089C36	m541.1	ゲオルカのむすこ・・・	Georca's son...	
 p089C4E	m541.2	そして ティナの異父弟でもある	and Tina's half-brother,	
@@ -131,7 +131,7 @@ p089F20	m552.1
 p089F22	m553.0	トーマ「うッ！	Tohma: Ugh!	
 p089F32	m554.0	チット「トーマッ！	Chitto: Tohma!	
 p089F46	m555.0	はげしい たたかいの中・・・	In the fierce fight...	
-p089F64	m555.1	ついに ヘルガは 連れ去られてしまった。	Helga was finally taken / away.	
+p089F64	m555.1	ついに ヘルガは 連れ去られてしまった。	Helga was finally / taken away.	
 p089F8E	m556.0	ハスモダイ「ヘルガッ！	Hasmodai: Helga!	
 p089FA6	m557.0	タルラント「ワンダーッ！！	Tarlant: Wandaaa!!	
 p089FC2	m558.0	デュマの ヒコウテイは ロボット兵とともに	Dumas's flying boat, with / its robot soldiers,	
@@ -188,11 +188,11 @@ p08A612	m568.1	ヘルガを にらみつけた。	and glared at Helga.
 p08A62C	m569.0	デュマ「・・・これほど たのんでいるのに	Dumas: ...After all my / begging...	
 p08A656	m569.1	 ・・・お前はッ・・・！	 ...you...!	
 p08A670	m569.2	いいか！！ ボクは ぜったいに	Listen!! I will make sure	
-p08A690	m569.3	お前を ティナに 戻すッ！	you go back to being / Tina!	
+p08A690	m569.3	お前を ティナに 戻すッ！	you go back / to being Tina!	
 p08A6AC	m569.4	お前が どんなに こばんでも だめだッ！	However you refuse, / it won't matter!	
 p08A6D6	m569.5	ボクの ティナにするッ！！	I'll make you MY Tina!!	
 p08A6F2	m570.0	こうだいなアカバ海上空を ワンダーが飛ぶ。	Wanda flies over the vast / Akaba Sea.	
-p08A71E	m571.0	タルラント「・・・みうしなったのか？	Tarlant: ...Did we lose / them?	
+p08A71E	m571.0	タルラント「・・・みうしなったのか？	Tarlant: ...Did / we lose them?	
 p08A744	m571.1	 ワンダー・・・	 Wanda...	
 p08A756	m572.0	トーマ「ヘルガはッ！？	Tohma: Where's Helga?!	
 p08A76E	m572.1	 ヘルガを みうしなったぞ！ くそっ！	 We lost Helga! Damn it!	
@@ -221,7 +221,7 @@ p08AA00	m582.0	ヘルガ「・・・・・・	Helga: ......
 p08AA16	m582.1	 ・・・2人とも・・・	 ...Both of them...	
 p08AA2E	m583.0	・・・自分のために 愛する人たちが	...The people she loved	
 p08AA52	m583.1	なくなっていく・・・。	kept dying because of / her...	
-p08AA6A	m583.2	それは ソランへの たち切れぬ 思いが	Her unbroken love for / Soran	
+p08AA6A	m583.2	それは ソランへの たち切れぬ 思いが	Her unbroken / love for Soran	
 p08AA92	m583.3	ティナの魂をもって生まれるものに あたえた	bound all born with Tina's / soul in karma's chain,	
 p08AABE	m583.4	ゴウの れんさが おこした ひげきだった。	and this was the tragedy.	
 p08AAEA	m584.0	空を見上げ ほおをぬらす ヘルガに	To Helga, looking up at / the sky with wet cheeks,	
@@ -270,6 +270,6 @@ p08AFB4	m598.2	王タイタス様が ゲオルカの部隊を	King Titas-sama dr
 p08AFD6	m598.3	かいめつまで おいこんだのです	to their destruction.	
 p08AFF6	m599.0	ソレト「でも 時おそく・・・	Soreto: But too late...	
 p08B014	m599.1			
-p08B016	m599.2	ゲオルカは ティナ様の体と	Georca took Tina-sama's / body	
+p08B016	m599.2	ゲオルカは ティナ様の体と	Georca took / Tina-sama's body	
 p08B032	m599.3	タナトルームから 転生データを うばい	and the rebirth data from / the Thanato Room	
 p08B05A	m599.4	・・・そして この星を しったのです	...and learned of this / planet.	

@@ -90,9 +90,11 @@ class Script:
             out.append((n, offs))
         return out
 
-    def repack(self, d, base=None):
+    def repack(self, d, base=None, log=None):
         """New ROM bytes. base=None: pages in place (each must fit its original size); else pages, then the
-        page-list area, are written from file offset `base` (free space) and the message table repointed."""
+        page-list area, are written from file offset `base` (free space) and the message table repointed.
+        log: a writelog.WriteLog that records the relocated build's writes (pages, page lists, message table)."""
+        from writelog import put
         out = bytearray(d)
         where = {}
         if base is None:
@@ -114,23 +116,18 @@ class Script:
                 for p in parts:
                     b = p if isinstance(p, bytes) else self.encode_page(p)
                     where[off].append(o)
+                    put(out, o, b, f"page {off:X}", log)
                     o += len(b)
-                    if o > len(out):
-                        out += b"\xFF" * (o - len(out))
-                    out[o - len(b):o] = b
             words, index = [], []
             for w in self.lists:
                 index.append(len(words))
                 words.extend(where[w] if w else [None])
             lists_at = (o + 3) & ~3
-            need = lists_at + 4 * len(words)
-            self.end = need   # first free byte after the relocated pages and lists
-            if need > len(out):
-                out += b"\xFF" * (need - len(out))
-            for i, a in enumerate(words):
-                struct.pack_into("<I", out, lists_at + 4 * i, BUS + a if a is not None else 0)
-            for n, w in enumerate(self.table):
-                struct.pack_into("<I", out, MSG_TABLE + 4 * n, BUS + lists_at + 4 * index[w])
+            self.end = lists_at + 4 * len(words)   # first free byte after the relocated pages and lists
+            put(out, lists_at, struct.pack(f"<{len(words)}I", *(BUS + a if a is not None else 0 for a in words)),
+                "page lists", log)
+            put(out, MSG_TABLE, struct.pack(f"<{len(self.table)}I", *(BUS + lists_at + 4 * index[w] for w in self.table)),
+                "message table", log)
             return bytes(out)
         for i, w in enumerate(self.lists):
             struct.pack_into("<I", out, lists_at + 4 * i, BUS + where[w] if w else 0)
