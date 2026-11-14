@@ -1,2 +1,1 @@
-# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too). One line per file for discs.
-<sha1>  rom/<file>
+8af0853249f6f4da90ac1044c387e067ef85972a  rom/Fantastic Children (Japan).gba

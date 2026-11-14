@@ -1,0 +1,6 @@
+# cold boot -> skip intro -> title -> start -> main menu
+1500 -
+6 start
+400 -
+6 start
+400 -
