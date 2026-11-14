@@ -1,16 +1,16 @@
 id	ref	jp	en	notes
 p080C10	m100.0	行くぞッ！	Here I come!	
-p080C1C	m101.0	ウム・・・ いまの お前には なみ立たぬ	Hm... In you now I sense / a calm	
-p080C46	m101.1	水のごとき しずけさを感じる・・・	like still water...	
+p080C1C	m101.0	ウム・・・ いまの お前には なみ立たぬ	Hm... In you now I sense	
+p080C46	m101.1	水のごとき しずけさを感じる・・・	a calm like still water...	
 p080C6A	m101.2	やるように なったな・・・	You've gotten good...	
 p080C86	m102.0	・・・カまかせは しょせんうわっつらだ	...Brute force is only / skin-deep.	
 p080CAE	m102.1	スキを つくるぞ トーマ・・・	You'll leave yourself / open, Tohma...	
 p080CCE	m103.0	ウム・・・ やるように なったな・・・	Hm... You've gotten / good...	
 p080CF6	m104.0	ウム・・・ いろいろなジジョウが	Hm... There must be all	
 p080D18	m104.1	あるのだろう・・・	sorts of reasons...	
-p080D2C	m104.2	チカオ島のあたりに だっそうはんが	Near Chikao Island, they / say an escaped convict	
-p080D50	m104.3	にげこんだという レンラクもあった・・・	is hiding out...	
-p080D7A	m104.4	あまり 出あるかんほうが いいそうだぞ	Best not to go wandering / around much.	
+p080D2C	m104.2	チカオ島のあたりに だっそうはんが	Near Chikao / Island, / they say an escaped	
+p080D50	m104.3	にげこんだという レンラクもあった・・・	convict is hiding out... / Best not to go wandering	
+p080D7A	m104.4	あまり 出あるかんほうが いいそうだぞ	around much.	
 p080DA2	m105.0	バカッ！ よけいなこと いうんじゃないよ！	You fool! Don't say more / than you need to!	
 p080DCE	m106.0	なァ かあちゃん・・・	Hey, Mom...	
 p080DE6	m106.1	施設って たのしくないのかなァ	Is the home no fun?	
@@ -22,13 +22,13 @@ p080E84	m108.0	・・・ ともだちかぁ・・・	... Friends, huh...
 p080EA0	m109.0	ワケを聞いたのか ワケを！？	Did you ask her why? / Did you?!	
 p080EBE	m110.0	そりゃあ ワケは あるだろうよ・・・	Sure, she must have her / reasons...	
 p080EE4	m110.1	けど レンラクしないワケには いかないだろ	but we can't just not / report it.	
-p080F10	m111.0	お前には とうちゃんも かあちゃんもいて	You've got your dad and / your mom,	
-p080F3A	m111.1	ここが あるだろ・・・	and you have this home...	
-p080F52	m111.2	心から 笑顔になれる場所がね	a place where you can / truly smile.	
+p080F10	m111.0	お前には とうちゃんも かあちゃんもいて	You've got your dad / and your mom, / and you have	
+p080F3A	m111.1	ここが あるだろ・・・	this home... / a place where you can	
+p080F52	m111.2	心から 笑顔になれる場所がね	truly smile.	
 p080F70	m112.0	自分の いばしょ・・・	Her own place...	
 p080F88	m112.1	あの ふうけい画の場所だ・・・	The place in that / landscape picture...	
-p080FA8	m113.0	！ ・・・トーマ お前 その髪・・・	! ...Tohma, your hair...	
-p080FCE	m113.1	いろいろ あったようだね・・・	Looks like a lot has / happened...	
+p080FA8	m113.0	！ ・・・トーマ お前 その髪・・・	! / ...Tohma, your hair... / Looks like a lot has	
+p080FCE	m113.1	いろいろ あったようだね・・・	happened...	
 p080FEE	m114.0	なにがおきても くじけちゃダメだよ・・・	Whatever happens, don't / you give up...	
 p081018	m114.1	トーマ きをつけるんだよ・・・！	Tohma, be careful...!	
 p08103A	m115.0	ハイッ！ お前のミライには	Aha! In your future	
@@ -42,12 +42,12 @@ p08111C	m117.1	 コックリ島にもある）	 One's also on / Kokkuri Island.)
 p081134	m118.0	（カカシの中から なにかおちてきた・・・）	(Something fell out of the / scarecrow...)	
 p081160	m119.0	バトルアイテム 伝書「チョップ10」	Battle Item: Scroll / "Chop 10"	
 p081186	m119.1	を 手に入れた！	obtained!	
-p081198	m120.0	バトルアイテム 伝書「チョップ10」	Battle Item: Scroll / "Chop 10"	
+p081198	m120.0	バトルアイテム 伝書「チョップ10」	Battle Item: / Scroll "Chop 10"	
 p0811BE	m120.1	を 手に入れた！	obtained!	
 p0811D0	m120.2	『チョップ（パー）は	'Chop (paper)	
-p0811E6	m120.3	 パンチ（グー）より強い。	 beats Punch (rock).	
-p081202	m120.4	おなじアクションどうしだと 相打ちになり	The same actions / trade hits,	
-p08122C	m120.5	おたがいに 少しダメージが 入ってしまう。	and both take a little / damage.	
+p0811E6	m120.3	 パンチ（グー）より強い。	 beats Punch (rock). The / same actions trade hits,	
+p081202	m120.4	おなじアクションどうしだと 相打ちになり	and both take	
+p08122C	m120.5	おたがいに 少しダメージが 入ってしまう。	a little damage.	
 p081258	m120.6	攻撃カの高いアクションは かくじつに	Use high-power actions	
 p08127E	m120.7	かてるタイミングで つかえ。』	when you're sure to win.'	
 p08129E	m121.0	（トーマ自作の とっくんようカカシＶ2だ）	(Tohma's homemade / training scarecrow V2.)	
@@ -67,9 +67,9 @@ p081444	m127.1	を 手に入れた！	obtained!
 p081456	m128.0	バトルアイテム 秘伝書「チョップ30」	Battle Item: / Secret Scroll "Chop 30"	
 p08147E	m128.1	を 手に入れた！	obtained!	
 p081490	m128.2	『チョップ（パー）は	'Chop (paper)	
-p0814A6	m128.3	 パンチ（グー）より強い。	 beats Punch (rock).	
-p0814C2	m128.4	おなじアクションどうしだと 相打ちになり	The same actions / trade hits,	
-p0814EC	m128.5	おたがいに 少しダメージが 入ってしまう。	and both take a little / damage.	
+p0814A6	m128.3	 パンチ（グー）より強い。	 beats Punch (rock). The / same actions trade hits,	
+p0814C2	m128.4	おなじアクションどうしだと 相打ちになり	and both take	
+p0814EC	m128.5	おたがいに 少しダメージが 入ってしまう。	a little damage.	
 p081518	m128.6	攻撃カの高いアクションは かくじつに	Use high-power actions	
 p08153E	m128.7	かてるタイミングで つかえ。』	when you're sure to win.'	
 p08155E	m129.0	（トーマ自作の とっくんようカカシＶ4だ）	(Tohma's homemade / training scarecrow V4.)	
@@ -79,9 +79,9 @@ p0815E2	m132.0	オット！ 近づくと おそってくるヘビは	Whoa! Snake
 p08160A	m132.1	Ａボタンで ジャンプ・・・	so jump with A...	
 p081626	m132.2	はなれれば おとなしくなるハズだよな	Get away and they should / calm down.	
 p08164C	m132.3			
-p08164E	m132.4	ブッ殺しバチは 十字ボタン下でしゃがんで	Killer bees? Duck with / Down on the / +Control Pad	
-p081678	m132.5	ゆっくり行けば だいじょうぶだ！	and go slow, and / you're fine!	
-p08169A	m132.6	やられても ポックリの実を たべれば	If they get you, eat a / Pokkuri Fruit	
+p08164E	m132.4	ブッ殺しバチは 十字ボタン下でしゃがんで	Killer bees? Duck with / Down on the +Control Pad / and go slow, and you're	
+p081678	m132.5	ゆっくり行けば だいじょうぶだ！	fine! If they get you,	
+p08169A	m132.6	やられても ポックリの実を たべれば	eat a Pokkuri Fruit	
 p0816C0	m132.7	ゲンキになるぜ！	and you'll feel great!	
 p0816D2	m133.0	海に近い 石柱ぐんのひとつに	On a pillar by the sea,	
 p0816F0	m133.1	その少女は よこたわっていた。	the girl lay.	
@@ -96,18 +96,18 @@ p0817B8	m136.3
 p0817BA	m136.4	・・・日のあるうちに かえんな	...Go home while it's light.	
 p0817DA	m137.0	その少女は へんじもせず・・・	The girl didn't answer...	
 p0817FA	m137.1			
-p0817FC	m137.2	ゆたかな大地色をした 髪と	With hair the color of / rich earth	
-p081818	m137.3	おなじ色の 大きな瞳で	and big eyes the same / color,	
-p081830	m137.4	ただ 空を見続けていた。	she just kept watching / the sky.	
+p0817FC	m137.2	ゆたかな大地色をした 髪と	With hair the color of rich / earth and big eyes	
+p081818	m137.3	おなじ色の 大きな瞳で	the same color, she just	
+p081830	m137.4	ただ 空を見続けていた。	kept watching the sky.	
 p08184A	m138.0	よー！聞こえてんだろ	Hey! You can hear me.	
 p081860	m138.1	へんじくらいしろよ！	At least answer me!	
 p081876	m138.2	・・・・・・	......	
 p081884	m138.3			
 p081886	m138.4	なんだよ こいつ！！	What's with her?!	
 p08189C	m139.0	かあちゃんを 乗せたボートが	The boat carrying Mom	
-p0818BA	m139.1	パパン島の さんばしに入って来た。	came into the / Papin Island pier.	
-p0818DE	m139.2	ハデなけしょうを おとした かあちゃんを	Dropping off Mom, her / loud makeup removed,	
-p081908	m139.3	下ろすと トーマは入り江にボートをむけた。	Tohma turned the boat to / the cove.	
+p0818BA	m139.1	パパン島の さんばしに入って来た。	came into the Papin Island / pier. Dropping off Mom,	
+p0818DE	m139.2	ハデなけしょうを おとした かあちゃんを	her loud makeup	
+p081908	m139.3	下ろすと トーマは入り江にボートをむけた。	removed, Tohma turned / the boat to the cove.	
 p081934	m140.0	かあちゃん「・・・トーマ？	Mom: ...Tohma?	
 p081950	m140.1			
 p081952	m140.2	じきに ゆうしょくだよ	Dinner's soon.	
@@ -132,11 +132,11 @@ p081B00	m150.1	海へと ボートを出した。	and set the boat / out to sea.
 p081B1A	m151.0	ナツナ島	Natsuna	
 p081B24	m152.0	石柱へ行けば だれかがいるかもしれない。	Someone might be at the / stone pillars.	
 p081B4E	m153.0	！？	!?	
-p081B54	m154.0	遠くの砂地に みかけない手こぎボートが	On the far sand, a strange / rowboat	
-p081B7C	m154.1	ポツンと おいてあった。	sat all alone.	
-p081B96	m154.2	「ＣＨＩＫＡＯ」と かかれたボートからは	From the boat marked / "CHIKAO,"	
-p081BC0	m154.3	みどりの生いしげる 奥の石柱にむかって	footprints led toward the / green, overgrown pillars	
-p081BE8	m154.4	あしあとが続いていた。	deep inside.	
+p081B54	m154.0	遠くの砂地に みかけない手こぎボートが	On the far sand, a strange / rowboat sat all alone. / From the boat	
+p081B7C	m154.1	ポツンと おいてあった。	marked "CHIKAO," / footprints led	
+p081B96	m154.2	「ＣＨＩＫＡＯ」と かかれたボートからは	toward the green,	
+p081BC0	m154.3	みどりの生いしげる 奥の石柱にむかって	overgrown pillars deep	
+p081BE8	m154.4	あしあとが続いていた。	inside.	
 p081C00	m155.0	・・・？ チカオ・・・	...? Chikao...	
 p081C18	m155.1	だれか いるのかな・・・？	Is somebody here...?	
 p081C34	m156.0	ウォン！	Woof!	
@@ -156,16 +156,16 @@ p081CA2	m161.1	チカオ島	Chikao
 p081CAC	m161.2	クレルモン	Clermont	
 p081CB8	m161.3	宇宙船ヴェガ	Vega	
 p081CC6	m162.0	かんこうきゃくで にぎわう	A large island bustling / with tourists:	
-p081CE2	m162.1	大きな島「ナツナ島」。	"Natsuna Island."	
-p081CFA	m162.2	船着場のまちには トーマの母親が商う	In its port town, Tohma's / mother ran	
+p081CE2	m162.1	大きな島「ナツナ島」。	"Natsuna Island." / In its port town,	
+p081CFA	m162.2	船着場のまちには トーマの母親が商う	Tohma's mother ran	
 p081D20	m162.3	占いのみせがあった。	a fortune-telling shop.	
-p081D36	m162.4	トーマは かよいなれた道を とおりぬけ	Tohma went down the / familiar road	
-p081D5E	m162.5	占いのみせを取りかこむ 見物人の間から	and through the crowd / around the shop	
-p081D86	m162.6	ヒョッコリと 顔を のぞかせた。	popped his head in.	
-p081DA8	m163.0	かあちゃん「はいっ！ 見えたッ！！	Mom: Aha! I see it!!	
-p081DCC	m163.1	 わかい2人に 花が見えたよ・・・	 Flowers for the young / couple...	
-p081DF0	m163.2	しあわせになれるよ！	You'll be happy!	
-p081E06	m163.3	島に来たら またよっとくれ・・・	Come again when you're / on the island...	
+p081D36	m162.4	トーマは かよいなれた道を とおりぬけ	Tohma went down the / familiar road and through	
+p081D5E	m162.5	占いのみせを取りかこむ 見物人の間から	the crowd around the	
+p081D86	m162.6	ヒョッコリと 顔を のぞかせた。	shop popped his head in.	
+p081DA8	m163.0	かあちゃん「はいっ！ 見えたッ！！	Mom: Aha! / I see it!!	
+p081DCC	m163.1	 わかい2人に 花が見えたよ・・・	 Flowers for the young / couple... You'll be happy!	
+p081DF0	m163.2	しあわせになれるよ！	Come again when you're	
+p081E06	m163.3	島に来たら またよっとくれ・・・	on the island...	
 p081E28	m164.0	おや トーマ・・・ 来てたのかい	Oh, Tohma... You came?	
 p081E4A	m164.1			
 p081E4C	m164.2	トーマ「よくやるね～	Tohma: You really / go all out~	
@@ -176,9 +176,9 @@ p081EA4	m164.6	トーマ「ふーーーん・・・	Tohma: Hmmmmm...
 p081EBE	m165.0	      ガラガラ ドシャーーーン！	      Clatter, CRAAASH!	
 p081EE6	m166.0	職員「くそぉ！ こらまてッ！！	Staff: Damn it! Stop / right there!!	
 p081F06	m167.0	少年「ハァ ハァ・・・	Boy: Hah... hah...	
-p081F1E	m168.0	ひっくりかえされた ショウヒンにつぶされて	Glancing at the men	
-p081F4A	m168.1	動けないオトコたちを きにしながら	pinned under the toppled / goods,	
-p081F6E	m168.2	小さな少年が みせの前を はしって行った。	a small boy ran / past the shop.	
+p081F1E	m168.0	ひっくりかえされた ショウヒンにつぶされて	Glancing at the men / pinned under the toppled	
+p081F4A	m168.1	動けないオトコたちを きにしながら	goods, a small boy ran	
+p081F6E	m168.2	小さな少年が みせの前を はしって行った。	past the shop.	
 p081F9A	m169.0	かあちゃん「あれまァ・・・	Mom: My, my...	
 p081FB6	m170.0	トーマ「・・・・・・	Tohma: ......	
 p081FCC	m171.0	トーマは スイッチを入れた。	Tohma flipped the switch.	
@@ -197,8 +197,8 @@ p082106	m178.0	チット「う～！うるさいなッ！	Chitto: Ugh! Shut up!
 p082124	m178.1	 くるなよッ！ くるな！	 Go away! Stay back!	
 p08213E	m179.0	トーマ「ハハハ おもしれぇ	Tohma: Ha ha! Funny kid.	
 p08215A	m179.1			
-p08215C	m179.2	・・・・・・	......	
-p08216A	m179.3	お前 なにかぬすんだんだろ？	You stole something, huh.	
+p08215C	m179.2	・・・・・・	...... You stole	
+p08216A	m179.3	お前 なにかぬすんだんだろ？	something, huh.	
 p082188	m180.0	チット「バカじゃないのかァ！！	Chitto: Are you stupid?!	
 p0821A8	m180.1	 ノーてんき バカッ！ ノーてんきッ！！	 Dimwit! Airhead!!	
 p0821D2	m181.0	院長「チット・・・ ヘルガは？	Director: Chitto... / Where's Helga?	
@@ -228,20 +228,20 @@ p082412	m193.4	白い髪を していた。	and their hair was white.
 p082428	m194.0	少年「！ ・・・そのクリスタル	Boy: ! ...That crystal...	
 p082448	m195.0	トーマ「！？	Tohma: !?	
 p082456	m195.1			
-p082458	m195.2	少年「キミが あつめているクリスタル・・・	Boy: The crystals you're / collecting,	
-p082484	m195.3	 「レコードのカケラ」は 30コあつめると	 "Record Shards"... gather / 30 of them	
+p082458	m195.2	少年「キミが あつめているクリスタル・・・	Boy: The crystals you're	
+p082484	m195.3	 「レコードのカケラ」は 30コあつめると	 collecting, / "Record Shards"... / gather 30 of them	
 p0824B0	m195.4	なかまをよびだせる青いクリスタル・・・	and they become a blue / crystal that calls friends:	
-p0824D8	m195.5	「記憶のレコード」になる	a "Memory Record."	
-p0824F2	m195.6	記憶のレコードは 5コまでストック出来るが	You can stock up to 5 / Memory Records,	
-p08251E	m195.7	なかまをよぶと ショウヒされてしまう・・・	but calling friends uses / them up...	
-p08254A	m195.8	スタートボタンで メニューを開いて	Open the menu with Start	
-p08256E	m195.9	サポートエディットを 選べば	and choose Support Edit	
-p08258C	m195.10	なかまになった サポートフレンドの	to see each / Support Friend's	
-p0825B0	m195.11	こうかと ショウヒレコードが わかる・・・	effect and Record cost...	
-p0825DC	m195.12	なかまとの記憶を つなぎとめる	They tie together your / memories of friends,	
-p0825FC	m195.13	大切な レコードだ・・・	precious Records...	
-p082616	m195.14	つねにストックしておくと いいだろう・・・	Best to always keep some / in stock...	
-p082642	m196.0	トーマ「な なんだ お前・・・	Tohma: Wh-who are you...	
+p0824D8	m195.5	「記憶のレコード」になる	a "Memory Record." / You can stock up	
+p0824F2	m195.6	記憶のレコードは 5コまでストック出来るが	to 5 Memory Records, / but calling friends uses	
+p08251E	m195.7	なかまをよぶと ショウヒされてしまう・・・	them up... Open the menu	
+p08254A	m195.8	スタートボタンで メニューを開いて	with Start and choose	
+p08256E	m195.9	サポートエディットを 選べば	Support Edit to see each	
+p08258C	m195.10	なかまになった サポートフレンドの	Support Friend's effect	
+p0825B0	m195.11	こうかと ショウヒレコードが わかる・・・	and Record cost... / They tie together / your memories of friends,	
+p0825DC	m195.12	なかまとの記憶を つなぎとめる	precious Records...	
+p0825FC	m195.13	大切な レコードだ・・・	Best to always keep some	
+p082616	m195.14	つねにストックしておくと いいだろう・・・	in stock...	
+p082642	m196.0	トーマ「な なんだ お前・・・	Tohma: Wh-who're you...	
 p082662	m196.1			
 p082664	m196.2	それより ひとことくらい	Anyway, you could at	
 p08267E	m196.3	おわびしろよなァー！ まったくゥ！！	least say sorry! Geez!!	

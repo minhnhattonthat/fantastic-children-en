@@ -7,10 +7,10 @@ p09522C	m1102.2	タルラント「ヒースマ・・・	Tarlant: Hesma...
 p095248	m1102.3			
 p09524A	m1102.4	いちばん 帰りたがって いたのに・・・	He wanted to go home / most of all...	
 p095272	m1102.5	ここの いぞくに 引き取られるんだな・・・	Yet his remains go to / family here...	
-p09529E	m1103.0	ソレト「ヘルガと トーマの	Soreto: Helga and Tohma's	
-p0952BA	m1103.1	 前世の記憶は どうなるの？	 past-life memories... / what will happen to them?	
+p09529E	m1103.0	ソレト「ヘルガと トーマの	Soreto: Helga, Tohma...	
+p0952BA	m1103.1	 前世の記憶は どうなるの？	 what happens to their / past-life memories?	
 p0952D8	m1104.0	アギ「ボクたちと おなじように12さいに	Agi: Like ours, at 12	
-p095302	m1104.1	 なると かんぜんに 消えてしまうだろう	 they'll vanish completely.	
+p095302	m1104.1	 なると かんぜんに 消えてしまうだろう	 they'll vanish for good.	
 p09532C	m1105.0	ソレト「私たちも・・・	Soreto: We, too...	
 p095344	m1105.1			
 p095346	m1105.2	もうすぐ ギリシアのことも 自分のことも	will soon forget Greecia	
@@ -38,11 +38,11 @@ p0955EA	m1109.3	ふくしゅうをはたした デュマが いた。	Dumas was 
 p095612	m1110.0	うつくしい花園に おかれた ティナ。	Tina, laid in a fair garden.	
 p095638	m1110.1			
 p09563A	m1110.2	ゆれるマントと 長くうつくしい髪・・・。	Her cloak, her long hair...	
-p095664	m1111.0	デュマ「姉さん・・・	Dumas: Sister...	
-p09567A	m1111.1	 この庭園を 姉さんに ささげます	 I give this garden / to you, Sister.	
-p09569E	m1111.2	これで 姉さんの とまった時間は	Now your stilled time	
-p0956C0	m1111.3	ながれて 行きます	will flow again.	
-p0956D4	m1111.4	ここは・・・ えいえんに 姉さんのものです	This place is / yours forever.	
+p095664	m1111.0	デュマ「姉さん・・・	Dumas: Sister... I give this	
+p09567A	m1111.1	 この庭園を 姉さんに ささげます	 garden to you, Sister.	
+p09569E	m1111.2	これで 姉さんの とまった時間は	Now your stilled time will	
+p0956C0	m1111.3	ながれて 行きます	flow again. This place	
+p0956D4	m1111.4	ここは・・・ えいえんに 姉さんのものです	is yours forever.	
 p095700	m1111.5			
 p095702	m1111.6	ボクは きょうかぎり・・・	From this day on...	
 p09571E	m1111.7	ボクの 心の時間を とめます	I stop my heart's clock...	
@@ -55,7 +55,7 @@ p0957C2	m1114.1
 p0957C4	m1114.2	チット・・・ 私たちも 施設に戻りましょう	Chitto... let's go back / to the home, too.	
 p0957F0	m1115.0	チット「えッ！ 施設へッ！？	Chitto: Huh?! Back there?!	
 p09580E	m1115.1	 また いじめられるよ！ ヘルガァ！！	 They'll bully us! Helga!!	
-p095836	m1116.0	ヘルガ「・・・もう だいじょうぶ・・・	Helga: ...It's all right now...	
+p095836	m1116.0	ヘルガ「・・・もう だいじょうぶ・・・	Helga: It's all right now...	
 p09585E	m1116.1			
 p095860	m1116.2	・・・私の このムネの中には	...Inside my heart,	
 p09587E	m1116.3	たくさんの ものが あるの・・・	there's so much now...	
@@ -166,8 +166,8 @@ p0963D6	m1155.0	青くきらめく すいへいせんの かなた・・・	Past
 p096402	m1155.1	セスは ゾーンへと 遠ざかる。	Seth drifted to the Zone.	
 p096422	m1156.0	セス「ティナ・・・ はやく 行けッ！	Seth: Tina... go, now!	
 p096448	m1156.1			
-p09644A	m1156.2	ふりむくなッ！ はしれッ・・・！	Don't look back! Run...!	
-p09646C	m1156.3	生きろ・・・ 生きるんだ ティナッ！！	Live... you must live, Tina!!	
+p09644A	m1156.2	ふりむくなッ！ はしれッ・・・！	Don't look back! / Run...! Live...	
+p09646C	m1156.3	生きろ・・・ 生きるんだ ティナッ！！	you must live, Tina!!	
 p096494	m1156.4	・・・後を ふりむくな・・・！！	...Don't look back...!!	
 p0964B6	m1157.0	ヘルガ「セス・・・ そんなに・・・	Helga: Seth... you were...	
 p0964DA	m1157.1	 そんなにあなたは キズついてしまったのね	 you're hurt so deeply...	
@@ -239,27 +239,27 @@ p096B64	m1168.0	オエセルは かがやきを ましていた。	The Orsel gre
 p096B8A	m1168.1			
 p096B8C	m1168.2	ゲドリングの かいてんは げんかいに	Gedling's spin was near	
 p096BB2	m1168.3	たっしようとしていた。	its limit.	
-p096BCA	m1169.0	アギ「タルラントッ！ ふたりは・・・	Agi: Tarlant! Those two...	
-p096BF0	m1169.1	 トーマとヘルガは まだ戻らないのかッ！？	 Still no Tohma and Helga?!	
+p096BCA	m1169.0	アギ「タルラントッ！ ふたりは・・・	Agi: Tarlant!	
+p096BF0	m1169.1	 トーマとヘルガは まだ戻らないのかッ！？	 Those two... / Still no Tohma and Helga?!	
 p096C1C	m1170.0	アギたちは カプセルを みまもっていた。	Agi's group eyed the pod.	
 p096C46	m1170.1			
 p096C48	m1170.2	コンソールの メーターが いじょうな	The console's meters	
 p096C6E	m1170.3	じたいであることを しめした。	signaled trouble.	
-p096C8E	m1171.0	タルラント「おかしいッ トーマのシンパクが	Tarlant: Tohma's pulse	
-p096CBA	m1171.1	 どんどん 弱くなっていく・・・	 keeps weakening... odd!	
-p096CDC	m1171.2	オエセルが ふくれ上がっている！	The Orsel is swelling!	
-p096CFE	m1171.3	こんなこと この装置では ありえない・・・	This device can't do that...	
+p096C8E	m1171.0	タルラント「おかしいッ トーマのシンパクが	Tarlant: Tohma's pulse / keeps weakening...	
+p096CBA	m1171.1	 どんどん 弱くなっていく・・・	 odd!	
+p096CDC	m1171.2	オエセルが ふくれ上がっている！	The Orsel is swelling! / This device can't do	
+p096CFE	m1171.3	こんなこと この装置では ありえない・・・	that...	
 p096D2A	m1172.0	ソレト「大きすぎるッ！ ・・・このままじゃ	Soreto: Too big! Like this,	
 p096D56	m1172.1	 ゾーンが ぼうちょうを はじめるッ！！	 the Zone will expand!!	
 p096D80	m1173.0	ハスモダイ「しんごうが とどかないッ！！	Hasmodai: It won't reach!!	
 p096DAA	m1173.1	 ハザマで なにか あったんだ・・・	 Trouble in the Hazama...	
 p096DD0	m1174.0	アギ「ギリギリまで まつんだッ・・・！！	Agi: Wait to the last...!!	
 p096DFA	m1174.1			
-p096DFC	m1174.2	このまま ふくらみ続けたら・・・	If it keeps swelling...	
-p096E1E	m1174.3	ふたりとも ゾーンから 戻れないッ！！	they can't leave the Zone!!	
+p096DFC	m1174.2	このまま ふくらみ続けたら・・・	If it keeps swelling... they	
+p096E1E	m1174.3	ふたりとも ゾーンから 戻れないッ！！	can't leave the Zone!!	
 p096E46	m1175.0	タルラント「・・・ ダメだ・・・	Tarlant: ... It's no use...	
 p096E68	m1175.1			
-p096E6A	m1175.2	トーマと ヘルガの シンパクが・・・	Tohma and Helga's pulse...	
+p096E6A	m1175.2	トーマと ヘルガの シンパクが・・・	Tohma and Helga's / pulse...	
 p096E90	m1175.3	かんぜんに テイシした・・・	has stopped completely...	
 p096EAE	m1176.0	チット「ヘルガは・・・	Chitto: Helga and...	
 p096EC6	m1176.1	 トーマたちは どうなるの？	 Tohma... what now?	
@@ -282,23 +282,23 @@ p0970C4	m1183.4	宇宙船ヴェガは その巨大な カンタイを	The spaces
 p0970EC	m1183.5	かたむけ 海中に ぼっして行った。	its hull and sank.	
 p097110	m1184.0	海上の フォグボートから アギたちは	From the Fog Boat, Agi	
 p097136	m1184.1	その ようすを見ていた。	and the rest watched.	
-p097150	m1185.0	アギ「あああ・・・ すべてが・・・	Agi: Ahhh... everything...	
-p097174	m1185.1	 すべてが うしなわれていく・・・	 everything is being lost...	
+p097150	m1185.0	アギ「あああ・・・ すべてが・・・	Agi: Ahhh...	
+p097174	m1185.1	 すべてが うしなわれていく・・・	 everything... / everything is being lost...	
 p097198	m1186.0	チット「ヘルガ・・・ ヘルガーーーッ！！	Chitto: Helga... Helgaaaa!!	
 p0971C2	m1186.1			
 p0971C4	m1186.2	トーーーマーーーッ！！	Tohmaaaaa!!	
-p0971DC	m1187.0	海中へと しずんでいく 宇宙船ヴェガ。	The spaceship Vega sinks.	
+p0971DC	m1187.0	海中へと しずんでいく 宇宙船ヴェガ。	The spaceship Vega sank.	
 p097204	m1187.1			
 p097206	m1187.2	母であるレダの かたきをうち ゲオルカへの	His revenge on Georca / for his mother Reda done,	
 p097232	m1187.3	ふくしゅうをはたした デュマが いた。	Dumas was aboard / as well.	
 p09725A	m1188.0	うつくしい花園に おかれた ティナ。	Tina, laid in a fair garden.	
 p097280	m1188.1			
 p097282	m1188.2	ゆれるマントと 長くうつくしい髪・・・。	Her cloak, her long hair...	
-p0972AC	m1189.0	デュマ「姉さん・・・	Dumas: Sister...	
-p0972C2	m1189.1	 この庭園を 姉さんに ささげます	 I give this garden / to you, Sister.	
-p0972E6	m1189.2	これで 姉さんの とまった時間は	Now your stilled time	
-p097308	m1189.3	ながれて 行きます	will flow again.	
-p09731C	m1189.4	ここは・・・ えいえんに 姉さんのものです	This place is / yours forever.	
+p0972AC	m1189.0	デュマ「姉さん・・・	Dumas: Sister... I give this	
+p0972C2	m1189.1	 この庭園を 姉さんに ささげます	 garden to you, Sister.	
+p0972E6	m1189.2	これで 姉さんの とまった時間は	Now your stilled time will	
+p097308	m1189.3	ながれて 行きます	flow again. This place	
+p09731C	m1189.4	ここは・・・ えいえんに 姉さんのものです	is yours forever.	
 p097348	m1189.5			
 p09734A	m1189.6	ボクは きょうかぎり・・・	From this day on...	
 p097366	m1189.7	ボクの 心の時間を とめます	I stop my heart's clock...	
@@ -307,11 +307,11 @@ p09739C	m1190.0	 『・・・ぎんの いずみが よるの・・・	 '...Silv
 p0973C6	m1190.1	  ぎんの いずみが よるの くさむらに	 in the night grass, silver	
 p0973F0	m1190.2	   はるか遠い ふかみから わき上がる。	 springs well from deep.	
 p09741C	m1190.3			
-p09741E	m1190.4	     せん年を生きた ヘビの涙は	 The thousand-year / serpent	
-p097444	m1190.5	      うつくしい カゲロウを	 longs for the fair mayfly,	
-p097468	m1190.6	    せんども よみがえらせようと	 to bring it back a / thousand times,	
-p09748E	m1190.7	       愛の涙を ながす。	 and sheds / tears of love.	
-p0974B0	m1190.8	  せんの いずみは ぎんに かがやく。』	 A thousand springs / gleam silver.'	
+p09741E	m1190.4	     せん年を生きた ヘビの涙は	 The thousand-year	
+p097444	m1190.5	      うつくしい カゲロウを	 serpent longs for the fair	
+p097468	m1190.6	    せんども よみがえらせようと	 mayfly, to bring it back / a thousand times,	
+p09748E	m1190.7	       愛の涙を ながす。	 and sheds tears / of love.	
+p0974B0	m1190.8	  せんの いずみは ぎんに かがやく。』	 A thousand springs gleam / silver.'	
 p0974DC	m1191.0	ＮＯ ＳＥＴ	NO SET	
 p0974EA	m1192.0	こ・・・ ここは・・・？	Wh... where am I...?	
 p097504	m1192.1			
@@ -340,18 +340,18 @@ p09775C	m1194.9	とうちゃん いってたな	That's what Dad said.
 p097774	m1195.0	！！	!!	
 p09777A	m1195.1	な なんだ あれッ・・・	Wh-what's that...	
 p097794	m1195.2	・・・うわぁーーーッ！！・・・	...Waaaaah!!...	
-p0977B4	m1196.0	・・・いまのは コックリ島のセキゾウ？	...A Kokkuri Island statue?	
+p0977B4	m1196.0	・・・いまのは コックリ島のセキゾウ？	...Kokkuri Island's statue?	
 p0977DC	m1196.1			
-p0977DE	m1196.2	クリスタルを あつめておけば いつか	If I gather / the crystals now,	
-p097804	m1196.3	なかまになった時に たすけてくれるのかな	will it help me once / it's on my side?	
-p09782E	m1196.4	テキがいて むずかしい場所も セキゾウが	Tough spots with foes...	
-p097858	m1196.5	なかまになれば 行けるようになる・・・！	I can reach with a statue!	
-p097882	m1196.6	    ・・・おぼえて おこう・・・	 ...Better remember that...	
+p0977DE	m1196.2	クリスタルを あつめておけば いつか	If I gather the / crystals now,	
+p097804	m1196.3	なかまになった時に たすけてくれるのかな	will it help me once it's	
+p09782E	m1196.4	テキがいて むずかしい場所も セキゾウが	on my side?	
+p097858	m1196.5	なかまになれば 行けるようになる・・・！	Tough spots with foes...	
+p097882	m1196.6	    ・・・おぼえて おこう・・・	 I can reach with a statue! / ...Better remember that...	
 p0978A8	m1196.7			
 p0978AA	m1196.8	！！	!!	
 p0978B0	m1196.9	だ だれだ？	Wh-who's there?	
-p0978BE	m1196.10	はなしかけたり しらべたりするときは	To talk or examine,	
-p0978E4	m1196.11	Ｂボタンか 十字ボタン上だったな・・・	use B or +Control Pad Up...	
+p0978BE	m1196.10	はなしかけたり しらべたりするときは	To talk or examine, use B	
+p0978E4	m1196.11	Ｂボタンか 十字ボタン上だったな・・・	or +Control Pad Up...	
 p09790C	m1197.0	         10年後。	 10 years later.	
 p09792A	m1197.1			
 p09792C	m1197.2	ひざしの強い なつの日。	A summer day of strong sun.	
@@ -371,7 +371,7 @@ p097A84	m1198.4	ヘルガ「ええ 私が 11さいの時に	Helga: Yes, I painte
 p097AA8	m1198.5	 描いた 絵なんです	 when I was 11.	
 p097ABE	m1198.6	？ ・・・どうして 私が 描いた 絵だと？	? ...How did you know?	
 p097AEA	m1198.7			
-p097AEC	m1198.8	青年「あ・・・？ うん・・・	Young Man: Huh...? Well...	
+p097AEC	m1198.8	青年「あ・・・？ うん・・・	Young Man: Huh...? / Well...	
 p097B0A	m1198.9	 なんとなく そんなきが したんです	 I just had a feeling.	
 p097B30	m1199.0	青年が 出された水を 手にしようとした時	As he reached for the / water, Helga saw	
 p097B5A	m1199.1	左手にある アザが 目に入った。	a mark on his / left hand.	
@@ -383,5 +383,5 @@ p097BFC	m1199.6	ヘルガ「ティナ・・・	Helga: Tina...
 p097C12	m1199.7			
 p097C14	m1199.8	あ ごめんなさい・・・	Oh, I'm sorry...	
 p097C2C	m1199.9	私 なにを やっているのかしら・・・	What am I doing...	
-p097C52	m1199.10	ほおを 赤らめ うつむいた ヘルガを	Helga blushed, eyes down;	
+p097C52	m1199.10	ほおを 赤らめ うつむいた ヘルガを	Helga flushed, eyes down;	
 p097C78	m1199.11	青年は やさしい笑顔で みつめていた。	he smiled at her gently.	

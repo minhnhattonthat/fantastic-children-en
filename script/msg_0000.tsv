@@ -33,24 +33,24 @@ p07EEF2	m23.0	ＦＯＵＴごはいみない	Nothing after FOUT
 p07EF08	m24.0	スイッチイベント1	Switch Event 1	
 p07EF1C	m25.0	スイッチイベント2	Switch Event 2	
 p07EF30	m26.0	スイッチイベント3	Switch Event 3	
-p07EF44	m27.0	     『・・・人生の砂漠を・・・	     'Through life's desert...	
-p07EF6A	m27.1	      私は 焼けながらさまよう	      I wander, burning,	
-p07EF90	m27.2	          そして	          and	
-p07EFAC	m27.3	     自分の宿命の 下でうめく・・・	     groan beneath my fate...	
-p07EFD6	m27.4	        だが どこかに	        Yet somewhere,	
-p07EFF6	m27.5	      ほとんどわすれられて・・・	      almost forgotten...	
-p07F01E	m27.6	  花咲くすずしい 日かげの庭のあるのを	  is a garden of cool shade / in bloom,	
-p07F048	m27.7	       私は しっている。』	       this I know.'	
-p07F06C	m28.0	15世紀より続く 子供たちの	Since the 15th century, / children	
-p07F08A	m28.1	しゅうだんシッソウじけん・・・	have vanished in groups...	
-p07F0AA	m28.2	11年ごとにくりかえす 白髪のかれらは	every 11 years. These / white-haired ones	
-p07F0D2	m28.3	「ベフォールの子供たち」と よばれていた。	were called "the / Children of Befort."	
-p07F0FE	m28.4	ベフォールの子供たちは いく世紀にもわたり	For centuries, the / Children of Befort	
+p07EF44	m27.0	     『・・・人生の砂漠を・・・	 'Through life's	
+p07EF6A	m27.1	      私は 焼けながらさまよう	 desert...	
+p07EF90	m27.2	          そして	 I wander, burning, and groan	
+p07EFAC	m27.3	     自分の宿命の 下でうめく・・・	 beneath my fate...	
+p07EFD6	m27.4	        だが どこかに	 Yet somewhere,	
+p07EFF6	m27.5	      ほとんどわすれられて・・・	 almost forgotten...	
+p07F01E	m27.6	  花咲くすずしい 日かげの庭のあるのを	 is a garden of cool shade	
+p07F048	m27.7	       私は しっている。』	 in bloom, this I know.'	
+p07F06C	m28.0	15世紀より続く 子供たちの	Since the 15th century, / children have vanished / in groups...	
+p07F08A	m28.1	しゅうだんシッソウじけん・・・	every 11 years. / These white-haired ones	
+p07F0AA	m28.2	11年ごとにくりかえす 白髪のかれらは	were called	
+p07F0D2	m28.3	「ベフォールの子供たち」と よばれていた。	"the Children of Befort." / For centuries,	
+p07F0FE	m28.4	ベフォールの子供たちは いく世紀にもわたり	the Children of Befort	
 p07F12A	m28.5	あるひとりの女性を 探し続けていた。	searched for one woman.	
-p07F150	m29.0	くちはてた石柱が さんらんする	Ruined stone pillars / are strewn across	
-p07F170	m29.1	多島海域「ストーングランド」。	the archipelago / "Stone Grand."	
-p07F190	m29.2	こどくな少女「ヘルガ」と	A lonely girl, "Helga,"	
-p07F1AA	m29.3	拳法つかいの少年「トーマ」の	and a kenpo boy, / "Tohma"...	
+p07F150	m29.0	くちはてた石柱が さんらんする	Ruined stone pillars / are strewn / across the archipelago	
+p07F170	m29.1	多島海域「ストーングランド」。	"Stone Grand."	
+p07F190	m29.2	こどくな少女「ヘルガ」と	A lonely girl, "Helga," and	
+p07F1AA	m29.3	拳法つかいの少年「トーマ」の	a kenpo boy, "Tohma"...	
 p07F1C8	m29.4	うんめいてきな出会いから・・・	from their fated meeting,	
 p07F1E8	m30.0	はるかなる時と 空間をこえた	a tale crossing distant	
 p07F206	m30.1	ものがたりが はじまろうとしていた・・・。	time and space / was about to begin...	
@@ -92,9 +92,9 @@ p07F628	m42.2	岩や枝に つかまったあと	Once you grab one,
 p07F642	m42.3	十字ボタン上で よじ登れば	climb with Up on the / +Control Pad	
 p07F65E	m42.4	かくしルートが 見つかるかもしれん・・・	and you may find a / hidden path...	
 p07F688	m42.5			
-p07F68A	m42.6	十字ボタン上を 押しながら	Hold Up on the / +Control Pad	
-p07F6A6	m42.7	ジャンプでツタを つかんだら	and jump to grab a vine,	
-p07F6C4	m42.8	上下で 上り下りも出来るぞ	then use Up and Down / to climb.	
+p07F68A	m42.6	十字ボタン上を 押しながら	Hold Up on the / +Control Pad and jump	
+p07F6A6	m42.7	ジャンプでツタを つかんだら	to grab a vine, then use	
+p07F6C4	m42.8	上下で 上り下りも出来るぞ	Up and Down to climb.	
 p07F6E0	m43.0	バトルは 「アクションバー」を	Battles are fought by / switching "Action Bars"	
 p07F700	m43.1	上下に入れかえる リアルタイムバトルだ	up and down. It's a / Real-Time Battle!	
 p07F728	m43.2	3しゅるいの きほんアクションである	The 3 basic actions,	
@@ -117,8 +117,8 @@ p07F914	m45.0	バトルする	Battle
 p07F920	m45.1	もういちど	Once more	
 p07F92C	m45.2	やめておく	Never mind	
 p07F938	m46.0	行くぞッ！	Here I come!	
-p07F944	m47.0	ど どうしたトーマ きょうはいつになく	Wh-what's got into you, / Tohma? You're putting	
-p07F96C	m47.1	カが入ってるな・・・	real power in it today...	
+p07F944	m47.0	ど どうしたトーマ きょうはいつになく	Wh-what's got into / you, Tohma? / You're putting real power	
+p07F96C	m47.1	カが入ってるな・・・	in it today...	
 p07F982	m48.0	・・・カまかせは しょせんうわっつらだ	...Brute force is only / skin-deep.	
 p07F9AA	m48.1	こころに ゆがみをうむ・・・	It warps the heart...	
 p07F9C8	m48.2	ウム・・・ お前に これをやろう	Hm... Here, take this.	
@@ -169,10 +169,10 @@ p07FF86	m59.1	 よかったですよ 院長さん	 Director.
 p07FFA2	m59.2	院長「では・・・	Director: Well then...	
 p07FFB4	m60.0	トーマ「・・・あのコは！？	Tohma: ...That girl?!	
 p07FFD0	m60.1			
-p07FFD2	m60.2	かあちゃん「・・・施設から	Mom: ...They say she	
-p07FFEE	m60.3	 ぬけ出して来たんだってさ・・・	 ran away from the home...	
-p080010	m60.4	とうちゃんが みなみの浜に1人でいたのを	Dad found her alone on / the south beach	
-p08003A	m60.5	見つけて あわててレンラクしたんだよ	and called them in a hurry.	
+p07FFD2	m60.2	かあちゃん「・・・施設から	Mom: ...They say she ran / away from the home...	
+p07FFEE	m60.3	 ぬけ出して来たんだってさ・・・	 Dad found her alone / on the south	
+p080010	m60.4	とうちゃんが みなみの浜に1人でいたのを	beach and called them	
+p08003A	m60.5	見つけて あわててレンラクしたんだよ	in a hurry.	
 p080060	m61.0	ナツナ島で出会った少年と	The boy he met on / Natsuna Island	
 p08007A	m61.1	石柱の上で出会った少女・・・	and the girl he met atop / the stone pillar...	
 p080098	m61.2	2人は たびたび児童施設からぬけ出しては	The two kept running off / from the children's home	
@@ -193,9 +193,9 @@ p0801FC	m65.2	岩や枝に つかまったあと	Once you grab one,
 p080216	m65.3	十字ボタン上で よじ登れば	climb with Up on the / +Control Pad	
 p080232	m65.4	かくしルートが 見つかるかもしれん・・・	and you may find a / hidden path...	
 p08025C	m65.5			
-p08025E	m65.6	十字ボタン上を 押しながら	Hold Up on the / +Control Pad	
-p08027A	m65.7	ジャンプでツタを つかんだら	and jump to grab a vine,	
-p080298	m65.8	上下で 上り下りも出来るぞ	then use Up and Down / to climb.	
+p08025E	m65.6	十字ボタン上を 押しながら	Hold Up on the / +Control Pad and jump	
+p08027A	m65.7	ジャンプでツタを つかんだら	to grab a vine, then use	
+p080298	m65.8	上下で 上り下りも出来るぞ	Up and Down to climb.	
 p0802B4	m66.0	バトルは 「アクションバー」を	Battles are fought by / switching "Action Bars"	
 p0802D4	m66.1	上下に入れかえる リアルタイムバトルだ	up and down. It's a / Real-Time Battle!	
 p0802FC	m66.2	3しゅるいの きほんアクションである	The 3 basic actions,	
@@ -218,8 +218,8 @@ p0804E8	m68.0	バトルする	Battle
 p0804F4	m68.1	もういちど	Once more	
 p080500	m68.2	やめておく	Never mind	
 p08050C	m69.0	行くぞッ！	Here I come!	
-p080518	m70.0	ど どうしたトーマ きょうはいつになく	Wh-what's got into you, / Tohma? You're putting	
-p080540	m70.1	カが入ってるな・・・	real power in it today...	
+p080518	m70.0	ど どうしたトーマ きょうはいつになく	Wh-what's got into / you, Tohma? / You're putting real power	
+p080540	m70.1	カが入ってるな・・・	in it today...	
 p080556	m71.0	・・・カまかせは しょせんうわっつらだ	...Brute force is only / skin-deep.	
 p08057E	m71.1	こころに ゆがみをうむ・・・	It warps the heart...	
 p08059C	m71.2	ウム・・・ お前に これをやろう	Hm... Here, take this.	
@@ -254,8 +254,8 @@ p080922	m81.0	どうした？ なにかそうだんごとか？	What is it? Got 
 p080946	m82.0	バトルする	Battle	
 p080952	m82.1	やめておく	Never mind	
 p08095E	m83.0	行くぞッ！	Here I come!	
-p08096A	m84.0	ど どうしたトーマ きょうはいつになく	Wh-what's got into you, / Tohma? You're putting	
-p080992	m84.1	カが入ってるな・・・	real power in it today...	
+p08096A	m84.0	ど どうしたトーマ きょうはいつになく	Wh-what's got into / you, Tohma? / You're putting real power	
+p080992	m84.1	カが入ってるな・・・	in it today...	
 p0809A8	m85.0	・・・カまかせは しょせんうわっつらだ	...Brute force is only / skin-deep.	
 p0809D0	m85.1	スキを つくるぞ トーマ・・・	You'll leave yourself / open, Tohma...	
 p0809F0	m86.0	ウム・・・ お前に これをやろう	Hm... Here, take this.	
@@ -269,8 +269,8 @@ p080AB4	m91.0	ウム どうした なにかそうだんごとか？	Hm, what is 
 p080ADC	m92.0	バトルする	Battle	
 p080AE8	m92.1	やめておく	Never mind	
 p080AF4	m93.0	行くぞッ！	Here I come!	
-p080B00	m94.0	ど どうしたトーマ きょうはいつになく	Wh-what's got into you, / Tohma? You're putting	
-p080B28	m94.1	カが入ってるな・・・	real power in it today...	
+p080B00	m94.0	ど どうしたトーマ きょうはいつになく	Wh-what's got into / you, Tohma? / You're putting real power	
+p080B28	m94.1	カが入ってるな・・・	in it today...	
 p080B3E	m95.0	・・・カまかせは しょせんうわっつらだ	...Brute force is only / skin-deep.	
 p080B66	m95.1	スキを つくるぞ トーマ・・・	You'll leave yourself / open, Tohma...	
 p080B86	m96.0	ウム・・・ やるように なったな・・・	Hm... You've gotten / good...	

@@ -3,14 +3,14 @@ p086DEC	m400.0	ヘルガ「私 きづいたの・・・	Helga: I realized...
 p086E0A	m400.1			
 p086E0C	m400.2	私の 探してた場所は きっと	The place I've / searched for	
 p086E2A	m400.3	・・・その前世に あるの・・・	...must be in those past / lives...	
-p086E4A	m401.0	少年「よかった・・・	Boy: Good...	
-p086E60	m401.1	 まず キミのひとつ前の前世・・・	 First, your most recent / past life...	
-p086E84	m401.2	セラフィーヌという画家が 描いた絵が	A painting by an artist / named Seraphine	
-p086EAA	m401.3	西本土クレルモンの施設に かざってあるんだ	hangs in a facility in / Clermont, on the west / mainland.	
+p086E4A	m401.0	少年「よかった・・・	Boy: Good... First, your	
+p086E60	m401.1	 まず キミのひとつ前の前世・・・	 most recent past life... / A painting by an artist	
+p086E84	m401.2	セラフィーヌという画家が 描いた絵が	named Seraphine hangs	
+p086EAA	m401.3	西本土クレルモンの施設に かざってあるんだ	in a facility in Clermont, / on the west mainland.	
 p086ED6	m401.4	・・・そこへ 行こう	...Let's go there.	
-p086EEC	m402.0	少年「ちょっと まって！	Boy: Wait a moment!	
-p086F06	m402.1	 その前に やることがある・・・	 There is something to do / first...	
-p086F28	m402.2	1人ずつ ワンダーの名前をよんでくれないか	One at a time, call / Wanda's name, please.	
+p086EEC	m402.0	少年「ちょっと まって！	Boy: Wait a moment! / There is something to do	
+p086F06	m402.1	 その前に やることがある・・・	 first... One at a time, call	
+p086F28	m402.2	1人ずつ ワンダーの名前をよんでくれないか	Wanda's name, please.	
 p086F54	m403.0	ヘルガ「・・・・・・ワンダー	Helga: ......Wanda.	
 p086F72	m404.0	少年「キミは？	Boy: And you?	
 p086F82	m405.0	チット「チット・・・	Chitto: Chitto...	
@@ -70,16 +70,16 @@ p087412	m429.0	パパン島	Papin
 p08741C	m429.1	ナツナ島	Natsuna	
 p087426	m429.2	チカオ島	Chikao	
 p087430	m429.3	宇宙船ヴェガ	Vega	
-p08743E	m430.0	      『・・・だが どこかに	      'Yet somewhere,	
-p087462	m430.1	     ほとんどわすれられて・・・	     almost forgotten...	
-p087488	m430.2	  花咲くすずしい 日かげの庭のあるのを	  is a garden of cool shade / in bloom,	
-p0874B2	m430.3	       私は しっている。	       this I know.	
-p0874D4	m430.4	      ・・・だが どこか	      ...Yet somewhere,	
-p0874F4	m430.5	     ユメのような 遠いところに	     far off, like a dream,	
-p08751A	m430.6	    いこいの場が まっているのを	    a place of rest awaits,	
-p087540	m430.7	       私は しっている。	       this I know.	
-p087562	m430.8	  魂が 再び こきょうをもち まどろみと	  where the soul again / has a home, and slumber,	
-p08758E	m430.9	   よると星が まっているところを。』	   night and stars await.'	
+p08743E	m430.0	      『・・・だが どこかに	 'Yet somewhere, almost	
+p087462	m430.1	     ほとんどわすれられて・・・	 forgotten...	
+p087488	m430.2	  花咲くすずしい 日かげの庭のあるのを	 is a garden of cool shade	
+p0874B2	m430.3	       私は しっている。	 in bloom, this I know.	
+p0874D4	m430.4	      ・・・だが どこか	 ...Yet somewhere,	
+p0874F4	m430.5	     ユメのような 遠いところに	 far off, like a dream,	
+p08751A	m430.6	    いこいの場が まっているのを	 a place of rest awaits,	
+p087540	m430.7	       私は しっている。	 this I know.	
+p087562	m430.8	  魂が 再び こきょうをもち まどろみと	 where the soul again has	
+p08758E	m430.9	   よると星が まっているところを。』	 a home, and slumber, / night and stars await.'	
 p0875B8	m431.0	ワンダーが 下りたった場所には	Where Wanda landed	
 p0875D8	m431.1	古い施設が たたずんでいた。	stood an old facility.	
 p0875F6	m432.0	アギ「ここが キミのひとつ前の	Agi: Your most recent	
@@ -119,13 +119,13 @@ p0879D6	m442.0	ボクは ここでヤツらの 宇宙船の	I'll search here for
 p0879F8	m442.1	てがかりを 探す・・・	clues to their ship...	
 p087A10	m442.2	ワンダーは まかせたぞ トーマッ！	Take care of Wanda, / Tohma!	
 p087A34	m443.0	19世紀のはじめ・・・	In the early 1800s...	
-p087A4C	m443.1	さいしょに デュマが あらわれた時	when Dumas first came,	
-p087A70	m443.2	地球までの ワームこうろを かいはつし	he said he had developed / a wormhole route to Earth	
-p087A98	m443.3	わずか2年で来たと はなしていた・・・	and arrived in just 2 / years...	
-p087AC0	m443.4	ギリシアから 船で来たというなら	If he came by ship from / Greecia,	
-p087AE2	m443.5	どこか ひろい地下か 海のそこだ・・・	somewhere vast, under- / ground or under the sea...	
-p087B0A	m443.6	トーマ・・・	Tohma...	
-p087B18	m443.7	いっしょに ヘルガを たすけ出そう！	Let's rescue Helga / together!	
+p087A4C	m443.1	さいしょに デュマが あらわれた時	when Dumas first came, / he said he had developed / a wormhole	
+p087A70	m443.2	地球までの ワームこうろを かいはつし	route to Earth and arrived / in just 2 years...	
+p087A98	m443.3	わずか2年で来たと はなしていた・・・	If he came by ship	
+p087AC0	m443.4	ギリシアから 船で来たというなら	from Greecia, / somewhere vast, under-	
+p087AE2	m443.5	どこか ひろい地下か 海のそこだ・・・	ground or under the sea...	
+p087B0A	m443.6	トーマ・・・	Tohma... Let's rescue	
+p087B18	m443.7	いっしょに ヘルガを たすけ出そう！	Helga together!	
 p087B3E	m444.0	「デコードクリスタルＧ」を 手に入れた！	Got "Decode Crystal G"!	
 p087B68	m444.1			
 p087B6A	m444.2	大きなグリーンクリスタルを	Large Green Crystals can	
@@ -136,12 +136,12 @@ p087BEA	m445.2	これで カイジョ出来る	Now you can unseal them.
 p087C02	m445.3			
 p087C04	m445.4	ギリシアの宇宙船が	Find where the Greecian	
 p087C18	m445.5	かくされた場所を つきとめるんだ！	spaceship is hidden!	
-p087C3C	m446.0	タルラント「19世紀のはじめ・・・	Tarlant: In the early / 1800s...	
-p087C60	m446.1	 さいしょに デュマが あらわれた時	 when Dumas first came,	
-p087C86	m446.2	地球までの ワームこうろを かいはつし	he said he had developed / a wormhole route to Earth	
-p087CAE	m446.3	わずか2年で来たと はなしていた・・・	and arrived in just 2 / years...	
-p087CD6	m446.4	ギリシアから 船で来たというなら	If he came by ship from / Greecia,	
-p087CF8	m446.5	どこか ひろい地下か 海のそこだ・・・	somewhere vast, under- / ground or under the sea...	
+p087C3C	m446.0	タルラント「19世紀のはじめ・・・	Tarlant: In the early	
+p087C60	m446.1	 さいしょに デュマが あらわれた時	 1800s... when Dumas / first came, he said he had / developed a wormhole	
+p087C86	m446.2	地球までの ワームこうろを かいはつし	route to Earth and arrived / in just 2 years...	
+p087CAE	m446.3	わずか2年で来たと はなしていた・・・	If he came by ship	
+p087CD6	m446.4	ギリシアから 船で来たというなら	from Greecia, / somewhere vast, under-	
+p087CF8	m446.5	どこか ひろい地下か 海のそこだ・・・	ground or under the sea...	
 p087D20	m446.6	トーマ・・・	Tohma...	
 p087D2E	m447.0	お前のような 明るさと 強さをもったヤツが	Someone with your light / and strength	
 p087D5A	m447.1	これからを生きる ヘルガには ひつようだ	is what Helga needs for / the life ahead.	
@@ -175,14 +175,14 @@ p08802E	m457.0	トーマッ！	Tohma!
 p08803A	m458.0	宇宙船ヴェガ	Vega	
 p088048	m458.1	やめておく	Never mind	
 p088054	m459.0	ワンダァーッ！！	Waaandaaa!!	
-p088066	m460.0	タルラント「19世紀のはじめ・・・	Tarlant: In the early / 1800s...	
-p08808A	m460.1	 さいしょに デュマが あらわれた時	 when Dumas first came,	
-p0880B0	m460.2	地球までの ワームこうろを かいはつし	he said he had developed / a wormhole route to Earth	
-p0880D8	m460.3	わずか2年で来たと はなしていた・・・	and arrived in just 2 / years...	
-p088100	m460.4	ギリシアから 船で来たというなら	If he came by ship from / Greecia,	
-p088122	m460.5	どこか ひろい地下か 海のそこだ・・・	somewhere vast, under- / ground or under the sea...	
+p088066	m460.0	タルラント「19世紀のはじめ・・・	Tarlant: In the early 1800s...	
+p08808A	m460.1	 さいしょに デュマが あらわれた時	 when Dumas first came, / he said he had developed	
+p0880B0	m460.2	地球までの ワームこうろを かいはつし	a wormhole route to Earth	
+p0880D8	m460.3	わずか2年で来たと はなしていた・・・	and arrived in just 2 years... If	
+p088100	m460.4	ギリシアから 船で来たというなら	he came by ship from Greecia, / somewhere vast, under-	
+p088122	m460.5	どこか ひろい地下か 海のそこだ・・・	ground or under the sea...	
 p08814A	m460.6	トーマ・・・	Tohma...	
-p088158	m460.7	いっしょに ヘルガを たすけ出そう！	Let's rescue Helga / together!	
+p088158	m460.7	いっしょに ヘルガを たすけ出そう！	Let's rescue Helga together!	
 p08817E	m461.0	「デコードクリスタルＧ」を 手に入れた！	Got "Decode Crystal G"!	
 p0881A8	m461.1			
 p0881AA	m461.2	大きなグリーンクリスタルを	Large Green Crystals can	
@@ -218,10 +218,10 @@ p088488	m473.1
 p08848A	m473.2	・・・！！	...!!	
 p088496	m474.0	2階に 病室があるんだ	There's a sickroom / upstairs.	
 p0884AE	m475.0	ヘルガは ここから森へ むかったよ	Helga headed into the / forest from here.	
-p0884D2	m476.0	裏庭にある 小屋から 地下にむかって	From the shed out back,	
-p0884F8	m476.1	電源ケーブルが しいてあるみたいだ・・・	a power cable seems to / run underground...	
-p088522	m476.2	おそらく セラフィーヌのなくなった後に	Probably after / Seraphine died,	
-p08854A	m476.3	だれかが 取りつけたんだろうね	someone installed it.	
+p0884D2	m476.0	裏庭にある 小屋から 地下にむかって	From the shed / out back, / a power cable seems	
+p0884F8	m476.1	電源ケーブルが しいてあるみたいだ・・・	to run underground...	
+p088522	m476.2	おそらく セラフィーヌのなくなった後に	Probably after Seraphine	
+p08854A	m476.3	だれかが 取りつけたんだろうね	died, someone fitted it.	
 p08856A	m477.0	愛する人たちとの きずな・・・	Bonds with loved ones...	
 p08858A	m477.1			
 p08858C	m477.2	回帰の旅は ヘルガにとって	For Helga, the / Journey of Return	
@@ -242,8 +242,8 @@ p088718	m481.1	ヘルガ「・・・・・・	Helga: ......
 p08872E	m481.2	・・・ううん・・・	...No...	
 p088742	m482.0	ヘルガは しずかに くびをふった。	Helga shook her head.	
 p088766	m482.1			
-p088768	m482.2	・・・なにかを 感じとったヘルガは	Helga sensed something...	
-p08878C	m482.3	くるしそうに ふるえだすと	and, trembling in pain,	
+p088768	m482.2	・・・なにかを 感じとったヘルガは	Helga sensed / something... / and, trembling	
+p08878C	m482.3	くるしそうに ふるえだすと	in pain,	
 p0887A8	m482.4	部屋から かけだした。	ran out of the room.	
 p0887C0	m482.5			
 p0887C2	m483.0	トーマ「ヘルガッ！	Tohma: Helga!	
@@ -253,23 +253,23 @@ p08880A	m484.2	そのベッドで・・・	in that bed...
 p08881E	m485.0	古いものらしく いまにも	It looks old, like it	
 p088838	m485.1	とまってしまいそうだ。	could stop any moment.	
 p088850	m486.0	トーマは スイッチを入れた。	Tohma flipped the switch.	
-p08886E	m487.0	あのロボットは	That robot,	
-p08887E	m487.1	どうにか たおせたんだけど・・・	we managed to beat it, / but...	
-p0888A0	m487.2	デュマの ヒコウテイが むかったさきを	where Dumas's / flying boat went,	
-p0888C8	m487.3	つきとめることは 出来なかったよ・・・	we couldn't find out...	
-p0888F0	m487.4	ただ ある島の 上空に トリのむれが	But over one island, we / saw a flock of birds	
-p088916	m487.5	あつまっているのを 見かけた	gathering.	
+p08886E	m487.0	あのロボットは	That robot, we managed	
+p08887E	m487.1	どうにか たおせたんだけど・・・	to beat it, but...	
+p0888A0	m487.2	デュマの ヒコウテイが むかったさきを	where Dumas's / flying boat went, / we couldn't find out...	
+p0888C8	m487.3	つきとめることは 出来なかったよ・・・	But over one island,	
+p0888F0	m487.4	ただ ある島の 上空に トリのむれが	we saw a flock	
+p088916	m487.5	あつまっているのを 見かけた	of birds gathering.	
 p088934	m487.6	ラウロしょとうおきで 地なりも	And off the Lauro Islands,	
-p088954	m487.7	続いているらしい・・・	the ground keeps / rumbling...	
-p08896C	m487.8	トーマ・・・	Tohma...	
-p08897A	m488.0	キミの ヘルガへの思い・・・ キミは	Your feelings for / Helga... You	
-p0889A0	m488.1	人を思うことの すばらしさを しっているね	know how wonderful it is / to care for someone.	
-p0889CC	m488.2	この星で 生きることを決めた ヘルガの	Helga chose to live on / this planet.	
-p0889F4	m488.3	思いを キミなら わかってあげられるだろう	You, of all people, can / understand her.	
-p088A20	m488.4	いっしょに・・・ ヘルガを たすけよう！	Together... let's save / Helga!	
+p088954	m487.7	続いているらしい・・・	the ground keeps	
+p08896C	m487.8	トーマ・・・	rumbling... Tohma...	
+p08897A	m488.0	キミの ヘルガへの思い・・・ キミは	Your feelings / for Helga... / You know how wonderful	
+p0889A0	m488.1	人を思うことの すばらしさを しっているね	it is to care for someone.	
+p0889CC	m488.2	この星で 生きることを決めた ヘルガの	Helga chose to live / on this planet. / You, of all people,	
+p0889F4	m488.3	思いを キミなら わかってあげられるだろう	can understand her. / Together...	
+p088A20	m488.4	いっしょに・・・ ヘルガを たすけよう！	let's save Helga!	
 p088A4A	m489.0	サポートフレンド 「ハスモダイ」	The Support Friend / "Hasmodai"	
-p088A6C	m489.1	が なかまになった！	joined you!	
-p088A82	m489.2	すべての相手に 10ダメージあたえる。	Deals 10 damage / to all foes.	
+p088A6C	m489.1	が なかまになった！	joined you! Deals	
+p088A82	m489.2	すべての相手に 10ダメージあたえる。	10 damage to all foes.	
 p088AAA	m490.0	「デコードクリスタルＹ」を 手に入れた！	Got "Decode Crystal Y"!	
 p088AD4	m490.1			
 p088AD6	m490.2	大きなイエロークリスタルを	Large Yellow Crystals can	
@@ -282,16 +282,16 @@ p088B70	m491.4	ギリシアの宇宙船が	We must find where the / Greecian
 p088B84	m491.5	かくされた場所を つきとめないと・・・！	spaceship is hidden...!	
 p088BAE	m492.0	ボクらのなかまも 宇宙船を 探している	Our friends are searching / for the ship too.	
 p088BD6	m492.1	ティナ様の ふっかつを ふせがなければ！	We must stop Tina-sama's / revival!	
-p088C00	m493.0	あのロボットは	That robot,	
-p088C10	m493.1	どうにか たおせたんだけど・・・	we managed to beat it, / but...	
-p088C32	m493.2	デュマの ヒコウテイが むかったさきを	where Dumas's / flying boat went,	
-p088C5A	m493.3	つきとめることは 出来なかったよ・・・	we couldn't find out...	
-p088C82	m493.4	ただ ある島の 上空に トリのむれが	But over one island, we / saw a flock of birds	
-p088CA8	m493.5	あつまっているのを 見かけた	gathering.	
-p088CC6	m493.6	ラウロしょとうおきで 地なりも	And off the Lauro Islands,	
-p088CE6	m493.7	続いているらしい・・・	the ground keeps / rumbling...	
-p088CFE	m493.8	トーマ・・・	Tohma...	
-p088D0C	m493.9	いっしょに・・・ ヘルガを たすけよう！	Together... let's save / Helga!	
+p088C00	m493.0	あのロボットは	That robot, we managed	
+p088C10	m493.1	どうにか たおせたんだけど・・・	to beat it, but...	
+p088C32	m493.2	デュマの ヒコウテイが むかったさきを	where Dumas's / flying boat went, / we couldn't find out...	
+p088C5A	m493.3	つきとめることは 出来なかったよ・・・	But over one island,	
+p088C82	m493.4	ただ ある島の 上空に トリのむれが	we saw a flock	
+p088CA8	m493.5	あつまっているのを 見かけた	of birds gathering.	
+p088CC6	m493.6	ラウロしょとうおきで 地なりも	And off the Lauro Islands, / the ground keeps	
+p088CE6	m493.7	続いているらしい・・・	rumbling...	
+p088CFE	m493.8	トーマ・・・	Tohma... Together...	
+p088D0C	m493.9	いっしょに・・・ ヘルガを たすけよう！	let's save Helga!	
 p088D36	m494.0	「デコードクリスタルＹ」を 手に入れた！	Got "Decode Crystal Y"!	
 p088D60	m494.1			
 p088D62	m494.2	大きなイエロークリスタルを	Large Yellow Crystals can	
@@ -311,14 +311,14 @@ p088EF0	m496.5	あつまっているのを 見かけた	gathering.
 p088F0E	m496.6	ラウロしょとうおきで 地なりも	And off the Lauro Islands,	
 p088F2E	m496.7	続いているらしい・・・	the ground keeps / rumbling...	
 p088F46	m496.8	トーマ・・・	Tohma...	
-p088F54	m497.0	キミの ヘルガへの思い・・・ キミは	Your feelings for / Helga... You	
-p088F7A	m497.1	人を思うことの すばらしさを しっているね	know how wonderful it is / to care for someone.	
-p088FA6	m497.2	この星で 生きることを決めた ヘルガの	Helga chose to live on / this planet.	
-p088FCE	m497.3	思いを キミなら わかってあげられるだろう	You, of all people, can / understand her.	
-p088FFA	m497.4	いっしょに・・・ ヘルガを たすけよう！	Together... let's save / Helga!	
+p088F54	m497.0	キミの ヘルガへの思い・・・ キミは	Your feelings / for Helga... / You know how wonderful	
+p088F7A	m497.1	人を思うことの すばらしさを しっているね	it is to care for someone.	
+p088FA6	m497.2	この星で 生きることを決めた ヘルガの	Helga chose to live / on this planet. / You, of all people,	
+p088FCE	m497.3	思いを キミなら わかってあげられるだろう	can understand her. / Together...	
+p088FFA	m497.4	いっしょに・・・ ヘルガを たすけよう！	let's save Helga!	
 p089024	m498.0	サポートフレンド 「ハスモダイ」	The Support Friend / "Hasmodai"	
-p089046	m498.1	が なかまになった！	joined you!	
-p08905C	m498.2	すべての相手に 10ダメージあたえる。	Deals 10 damage / to all foes.	
+p089046	m498.1	が なかまになった！	joined you! Deals	
+p08905C	m498.2	すべての相手に 10ダメージあたえる。	10 damage to all foes.	
 p089084	m499.0	「デコードクリスタルＹ」を 手に入れた！	Got "Decode Crystal Y"!	
 p0890AE	m499.1			
 p0890B0	m499.2	大きなイエロークリスタルを	Large Yellow Crystals can	

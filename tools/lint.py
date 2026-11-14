@@ -62,6 +62,7 @@ CHOICES = _table(ROOT / "docs" / "re" / "choices.tsv")   # choice-list message i
 CHOICE_CELLS = 9    # answers sit in a 2-column grid: cursor col 2 / 12, text col 3 / 13 (top box; bottom +2)
 STUB = 6            # a split page's last line, or a box group's last line, must have at least this many characters
 STUB_OK = _table(ROOT / "docs" / "stub_ok.tsv")   # deliberate one-word lines (id -> reason)
+CURSOR_GAP = 2      # px kept free before the ▼ cursor cell after a page's last line (sheet_1166: "Tina!!▼")
 
 
 def budget(r):
@@ -84,6 +85,12 @@ def budget(r):
     if r["file"] == "sys_items.tsv":
         return INFO_CELLS * 8, INFO_CELLS, "info box (group default)"
     return None
+
+
+def cursor_follows(r, b):
+    """The ▼ page cursor is a text_put at a fixed cell right after the box's last text cell (col 22 top / 27
+    bottom, docs/re/text.md §Dialogue box): a dialogue page's last line inked to the full budget touches it."""
+    return r["id"][0] == "p" and not b[2].startswith("choice")
 
 
 def _measure(en, jp=""):
@@ -121,13 +128,16 @@ def lint_row(r, en_tbl):
             errs.append("empty line")
         if len(lines[-1].strip()) < STUB and r["id"] not in STUB_OK:
             errs.append(f"stub last line {lines[-1].strip()!r} (< {STUB} characters): move a word down")
-    for ln in lines:
+    for k, ln in enumerate(lines):
         px, codes = _measure(ln, jp)
         if b is None:
             warns.append(f"no measured budget yet ({px} px, {codes} codes)")
         else:
             if px > b[0]:
                 errs.append(f"{px} px > {b[0]} ({b[2]}): {ln!r}")
+            elif k == len(lines) - 1 and cursor_follows(r, b) and px > b[0] - CURSOR_GAP:
+                errs.append(f"{px} px: a page's last line needs <= {b[0] - CURSOR_GAP} px to clear the ▼ cursor "
+                            f"in the next cell: {ln!r}")
             if codes > b[1]:
                 errs.append(f"{codes} codes > {b[1]} ({b[2]}): {ln!r}")
     return errs, warns

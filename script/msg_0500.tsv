@@ -5,8 +5,8 @@ p089130	m500.2	これで カイジョ出来る	Now you can unseal them.
 p089148	m500.3			
 p08914A	m500.4	ギリシアの宇宙船が	We must find where the / Greecian	
 p08915E	m500.5	かくされた場所を つきとめないと・・・！	spaceship is hidden...!	
-p089188	m501.0	上空から タルラントが ワンダーで	Tarlant came / down on Wanda	
-p0891AC	m501.1	あらわれた。	from above.	
+p089188	m501.0	上空から タルラントが ワンダーで	Tarlant came down	
+p0891AC	m501.1	あらわれた。	on Wanda from above.	
 p0891BA	m502.0	タルラント「ハスモダイ・・・！	Tarlant: Hasmodai...!	
 p0891DA	m502.1	 アカバ海の島にある	 On an Akaba Sea island,	
 p0891F0	m502.2	地下どうくつに デュマのヒコウテイの	in a cave, signs of / Dumas's flying boat!!	
@@ -21,15 +21,15 @@ p0892A8	m508.0	宇宙船ヴェガ	Vega
 p0892B6	m508.1	やめておく	Never mind	
 p0892C2	m509.0	ワンダァーッ！！	Waaandaaa!!	
 p0892D4	m510.0	ハスモダイ「あのロボットは	Hasmodai: That robot,	
-p0892F0	m510.1	 どうにか たおせたんだけど・・・	 we managed to beat it, / but...	
-p089314	m510.2	デュマの ヒコウテイが むかったさきを	where Dumas's / flying boat went,	
-p08933C	m510.3	つきとめることは 出来なかったよ・・・	we couldn't find out...	
-p089364	m510.4	ただ ある島の 上空に トリのむれが	But over one island, we / saw a flock of birds	
-p08938A	m510.5	あつまっているのを 見かけた	gathering.	
+p0892F0	m510.1	 どうにか たおせたんだけど・・・	 we managed to beat it, but...	
+p089314	m510.2	デュマの ヒコウテイが むかったさきを	where Dumas's flying boat	
+p08933C	m510.3	つきとめることは 出来なかったよ・・・	went, we couldn't find out...	
+p089364	m510.4	ただ ある島の 上空に トリのむれが	But over one island, we saw	
+p08938A	m510.5	あつまっているのを 見かけた	a flock of birds gathering.	
 p0893A8	m510.6	ラウロしょとうおきで 地なりも	And off the Lauro Islands,	
-p0893C8	m510.7	続いているらしい・・・	the ground keeps / rumbling...	
+p0893C8	m510.7	続いているらしい・・・	the ground keeps rumbling...	
 p0893E0	m510.8	トーマ・・・	Tohma...	
-p0893EE	m510.9	いっしょに・・・ ヘルガを たすけよう！	Together... let's save / Helga!	
+p0893EE	m510.9	いっしょに・・・ ヘルガを たすけよう！	Together... let's save Helga!	
 p089418	m511.0	「デコードクリスタルＹ」を 手に入れた！	Got "Decode Crystal Y"!	
 p089442	m511.1			
 p089444	m511.2	大きなイエロークリスタルを	Large Yellow Crystals can	
@@ -40,8 +40,8 @@ p0894C4	m512.2	これで カイジョ出来る	Now you can unseal them.
 p0894DC	m512.3			
 p0894DE	m512.4	ギリシアの宇宙船が	We must find where the / Greecian	
 p0894F2	m512.5	かくされた場所を つきとめないと・・・！	spaceship is hidden...!	
-p08951C	m513.0	上空から タルラントが ワンダーで	Tarlant came / down on Wanda	
-p089540	m513.1	あらわれた。	from above.	
+p08951C	m513.0	上空から タルラントが ワンダーで	Tarlant came down	
+p089540	m513.1	あらわれた。	on Wanda from above.	
 p08954E	m514.0	タルラント「ハスモダイ・・・！	Tarlant: Hasmodai...!	
 p08956E	m514.1	 アカバ海の島にある	 On an Akaba Sea island,	
 p089584	m514.2	地下どうくつに デュマのヒコウテイの	in a cave, signs of / Dumas's flying boat!!	
@@ -98,8 +98,8 @@ p089B20	m537.0	チットは ヘルガを つれて にげろッ！	Chitto, take 
 p089B48	m538.0	トーマ・・・ ヘルガを まもるため	Tohma... For Helga,	
 p089B6C	m538.1	ボクも カを かすよ！！	I'll lend a hand too!!	
 p089B86	m539.0	サポートフレンド 「ハスモダイ」	The Support Friend / "Hasmodai"	
-p089BA8	m539.1	が なかまになった！	joined you!	
-p089BBE	m539.2	すべての相手に 10ダメージあたえる。	Deals 10 damage / to all foes.	
+p089BA8	m539.1	が なかまになった！	joined you! Deals	
+p089BBE	m539.2	すべての相手に 10ダメージあたえる。	10 damage to all foes.	
 p089BE6	m540.0	チットは ヘルガを つれて にげろッ！	Chitto, take / Helga and run!	
 p089C0E	m541.0	目覚めるヘルガを まっていたかのように	As if he had been waiting / for Helga to wake,	
 p089C36	m541.1	ゲオルカのむすこ・・・	Georca's son...	
@@ -113,11 +113,11 @@ p089CF8	m545.1	 なんて みすぼらしい すがたなんだ・・・	 how sh
 p089D24	m546.0	ヘルガ「デュマ・・・	Helga: Dumas...	
 p089D3A	m546.1	 あなたが ティナの弟・・・	 You're Tina's brother...	
 p089D58	m547.0	デュマは おさないころから	Since childhood, Dumas	
-p089D74	m547.1	転生したティナの もとの体・・・	had seen, in Tina's old / body...	
-p089D96	m547.2	動かなくなった あの人エ人体を	that unmoving artificial / body...	
-p089DB6	m547.3	なき母 レダのすがたと かさねあわせ	his late mother, Reda,	
-p089DDC	m547.4	いつかは 姉の魂が 自分のもとに	and dreamed that one day / his sister's soul	
-p089DFE	m547.5	戻って来ることを ユメ見ていた。	would come back to him.	
+p089D74	m547.1	転生したティナの もとの体・・・	had seen, in Tina's / old body... that unmoving	
+p089D96	m547.2	動かなくなった あの人エ人体を	artificial body...	
+p089DB6	m547.3	なき母 レダのすがたと かさねあわせ	his late mother, Reda, / and dreamed that one day	
+p089DDC	m547.4	いつかは 姉の魂が 自分のもとに	his sister's soul would	
+p089DFE	m547.5	戻って来ることを ユメ見ていた。	come back to him.	
 p089E20	m548.0	デュマ「むかえに来たんだ 姉さん・・・	Dumas: I've come for you, / Sister...	
 p089E48	m548.1	 いっしょに 帰ろう・・・	 Let's go home together...	
 p089E64	m549.0	トーマ「ふざけたこと・・・	Tohma: Quit talking...	
@@ -147,9 +147,9 @@ p08A0DE	m559.7	ふくしゅうを はたすため・・・	and take his revenge.
 p08A0FE	m559.8	ゲオルカは ワームこうろを かいはつし	Georca developed a / wormhole route	
 p08A126	m559.9	地球へと やって来ていた。	and came to Earth.	
 p08A142	m560.0	その奥には カプセルに 入れられた	Deep inside, in a capsule,	
-p08A166	m560.1	ティナの人エ人体が しずかにおかれていた。	Tina's artificial body lay / quietly.	
-p08A192	m560.2	それは 10メートルは あろうかという	It was a good 10 meters	
-p08A1BA	m560.3	大きさだった。 ギリシア人は 巨人なのだ。	in size. Greecians are / giants.	
+p08A166	m560.1	ティナの人エ人体が しずかにおかれていた。	Tina's artificial body / lay quietly. It was a good	
+p08A192	m560.2	それは 10メートルは あろうかという	10 meters in size.	
+p08A1BA	m560.3	大きさだった。 ギリシア人は 巨人なのだ。	Greecians are giants.	
 p08A1E6	m561.0	デュマ「姉さん・・・	Dumas: Sister...	
 p08A1FC	m561.1	 これが 姉さんの ほんとうの すがたです。	 this is your true form.	
 p08A22A	m562.0	ヘルガは おどろくと どうじに・・・	Helga was shocked... yet	
@@ -174,22 +174,22 @@ p08A464	m565.0	ヘルガ「・・・デュマ・・・	Helga: ...Dumas...
 p08A480	m565.1	 かわいそうな 弟・・・	 my poor brother...	
 p08A49A	m565.2	あなたも ひとりぼっち だったのね・・・	You were all alone too...	
 p08A4C4	m565.3			
-p08A4C6	m565.4	・・・でも ティナは 死んだの・・・	...But Tina is dead...	
-p08A4EC	m565.5	私は ティナに 戻れないのよ・・・	I can't go back to being / Tina...	
-p08A510	m566.0	デュマ「姉さん あんしんして・・・	Dumas: Don't worry...	
+p08A4C6	m565.4	・・・でも ティナは 死んだの・・・	...But Tina is dead... I can't	
+p08A4EC	m565.5	私は ティナに 戻れないのよ・・・	go back to being Tina...	
+p08A510	m566.0	デュマ「姉さん あんしんして・・・	Dumas: / Don't worry...	
 p08A534	m566.1	 もう転生装置は かんせいしました	 the reincarnation device / is complete.	
 p08A558	m566.2	ティナに 戻れます・・・！	You can be Tina again...!	
-p08A574	m567.0	ヘルガ「・・・そういうことでは ないの	Helga: ...That's not what / I mean.	
-p08A59C	m567.1	 私は ヘルガ・・・	 I am Helga...	
-p08A5B2	m567.2	これからも ずっと・・・	and from now on, always...	
-p08A5CC	m567.3	ヘルガとしての 人生を 生きるの	I'll live my life as / Helga.	
+p08A574	m567.0	ヘルガ「・・・そういうことでは ないの	Helga: ...That's not	
+p08A59C	m567.1	 私は ヘルガ・・・	 what I mean. / I am Helga... and from now	
+p08A5B2	m567.2	これからも ずっと・・・	on, always...	
+p08A5CC	m567.3	ヘルガとしての 人生を 生きるの	I'll live my life as Helga.	
 p08A5EE	m568.0	デュマは ゆっくりと 立ち上がると	Dumas slowly stood	
 p08A612	m568.1	ヘルガを にらみつけた。	and glared at Helga.	
-p08A62C	m569.0	デュマ「・・・これほど たのんでいるのに	Dumas: ...After all my / begging...	
-p08A656	m569.1	 ・・・お前はッ・・・！	 ...you...!	
+p08A62C	m569.0	デュマ「・・・これほど たのんでいるのに	Dumas: ...After all	
+p08A656	m569.1	 ・・・お前はッ・・・！	 my begging... ...you...!	
 p08A670	m569.2	いいか！！ ボクは ぜったいに	Listen!! I will make sure	
-p08A690	m569.3	お前を ティナに 戻すッ！	you go back / to being Tina!	
-p08A6AC	m569.4	お前が どんなに こばんでも だめだッ！	However you refuse, / it won't matter!	
+p08A690	m569.3	お前を ティナに 戻すッ！	you go back to being Tina! / However you refuse,	
+p08A6AC	m569.4	お前が どんなに こばんでも だめだッ！	it won't matter!	
 p08A6D6	m569.5	ボクの ティナにするッ！！	I'll make you MY Tina!!	
 p08A6F2	m570.0	こうだいなアカバ海上空を ワンダーが飛ぶ。	Wanda flies over the vast / Akaba Sea.	
 p08A71E	m571.0	タルラント「・・・みうしなったのか？	Tarlant: ...Did / we lose them?	
@@ -204,14 +204,14 @@ p08A828	m573.1
 p08A82A	m574.0	ロボット兵が トーマを はじき飛ばした。	A robot soldier knocked / Tohma flying.	
 p08A854	m575.0	・・・ブゥウン！！	...Vwoom!!	
 p08A868	m576.0	・・・ブゥウン！！	...Vwoom!!	
-p08A87C	m577.0	そこに立つ ヘルガの瞳は 青く・・・	Helga stood there, her / eyes blue...	
-p08A8A2	m577.1	白い髪を していた。	and her hair was white.	
-p08A8B8	m577.2	ヘルガは いままでの どこか ふあんげな	Helga, unlike her uneasy / self until now,	
-p08A8E2	m577.3	様子とは ことなり りんとした強さと	showed a dignified / strength	
+p08A87C	m577.0	そこに立つ ヘルガの瞳は 青く・・・	Helga stood there, / her eyes blue... / and her hair	
+p08A8A2	m577.1	白い髪を していた。	was white.	
+p08A8B8	m577.2	ヘルガは いままでの どこか ふあんげな	Helga, unlike her uneasy / self until now, showed	
+p08A8E2	m577.3	様子とは ことなり りんとした強さと	a dignified strength	
 p08A908	m577.4	やさしさを 感じさせた。	and a gentleness.	
 p08A922	m578.0	トーマ「・・・だいじょうぶ？	Tohma: ...Are you okay?	
-p08A940	m579.0	ヘルガは うなずくと	Helga nodded	
-p08A956	m579.1	かくごをもって たずねた。	and asked, steeling / herself:	
+p08A940	m579.0	ヘルガは うなずくと	Helga nodded and asked,	
+p08A956	m579.1	かくごをもって たずねた。	steeling herself:	
 p08A972	m580.0	ヘルガ「・・・ソランは どうなったの？	Helga: ...What happened / to Soran?	
 p08A99A	m581.0	アギ「・・・・・・	Agi: ......	
 p08A9AE	m581.1			

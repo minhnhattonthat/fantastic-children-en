@@ -117,8 +117,10 @@ class Lint(unittest.TestCase):
         return {"id": rid, "ref": ref, "jp": jp, "en": en, "notes": "", "file": file}
 
     def test_page_budgets(self):
-        ok = "Mmm, we walked the whol"                  # 167 px ink
-        self.assertEqual(self.lint.lint_row(self.row(ok), self.tbl), ([], []))
+        ok = "Mmm, we walked the whol"                  # 167 px ink: fits as a page's first line
+        self.assertEqual(self.lint.lint_row(self.row(ok + " / the way here."), self.tbl), ([], []))
+        errs, _ = self.lint.lint_row(self.row(ok), self.tbl)   # as the last line it touches the ▼ cell
+        self.assertTrue(any("▼" in e for e in errs))
         errs, _ = self.lint.lint_row(self.row(ok + "e way"), self.tbl)
         self.assertTrue(any("px" in e for e in errs))
 

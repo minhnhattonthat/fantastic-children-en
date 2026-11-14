@@ -23,7 +23,8 @@ An `issue` is any of:
 - text overflowing a box, clipped by a frame, or running off screen;
 - text off-centre where the original centres it: an option in its selection box or cursor brackets, a label, a bubble;
 - garbage tiles, wrong or missing glyphs, a strike or stray pixels across letters;
-- broken line breaks: a word split mid-line, a page ending mid-sentence, a one-word last line;
+- broken line breaks: a word split mid-line, a one-word line (or one or two short words) that could have joined
+  its neighbour, a name or term ("Old Paints", "+Control Pad", "10 damage") split across lines;
 - an empty box where text belongs;
 - a name that differs from `glossary.md`.
 
@@ -34,6 +35,10 @@ Standing non-bugs, `ok` (the controller adds the game's own below):
 - Warp artefacts (the debug warp, not the game): battle and NPC scripts play in area 62 (a plain indoor room), not where
   the NPC stands; a battle backdrop garbled in area 16; story flags out of order, so a scene can show a line that
   doesn't follow from the one before; characters standing in odd places.
+- A sentence that runs on into the next box. The dialogue box holds 2 lines and clears; a long English sentence
+  needs 3+ lines, and the Japanese itself breaks ~190 boxes mid-sentence. Every message's box breaks were laid out
+  by `tools/reflow.py` (sentence ends at box ends wherever the page count allows), so a box ending mid-sentence is
+  `ok` unless it leaves a fragment line as above.
 - Choice answers are left-aligned after a ▶ cursor in a 2-column grid (as in the original), not centred.
 - The pause menu labels, card faces (Punch, Kick ...), GAME OVER and "SAVING... Do not turn the power OFF" are the
   original's own English graphics.

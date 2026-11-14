@@ -1,19 +1,19 @@
 id	ref	jp	en	notes
 p0914A0	m900.0	おまえが 入れる 場所じゃないッ！	You can't come in here!	
 p0914C4	m900.1	とっとと 出て行けっ！！	Get out of here, now!!	
-p0914DE	m901.0	さっきから なにをやっているッ！！ 	What've you been doing?! 	
+p0914DE	m901.0	さっきから なにをやっているッ！！ 	What've you done?! 	
 p091504	m902.0	いいかげんに しないかッ！ このッ！！ 	That's enough! You brat!! 	
 p09152E	m903.0	なんで子供が こんなところにいるんだッ！ 	Why is a kid in here?! 	
-p09155A	m904.0	動くなッ！ 手を前に出せッ！！	Freeze! Hands out front!!	
-p09157A	m904.1	あたまに手をまわして ゆかにふせろッ！！	Hands on your head, / down on the floor!!	
-p0915A4	m905.0	トーマは スイッチを入れた。	Tohma flipped the switch.	
-p0915C2	m905.1	パネルの 反転ランプが 光った。	The reversal lamp on the / panel lit up.	
-p0915E4	m906.0	トーマは スイッチを入れた。	Tohma flipped the switch.	
-p091602	m906.1	パネルの 反転ランプが 光った。	The reversal lamp on the / panel lit up.	
-p091624	m907.0	トーマは スイッチを入れた。	Tohma flipped the switch.	
-p091642	m907.1	パネルの 反転ランプが 光った。	The reversal lamp on the / panel lit up.	
-p091664	m908.0	トーマは スイッチを入れた。	Tohma flipped the switch.	
-p091682	m908.1	パネルの 反転ランプが 光った。	The reversal lamp on the / panel lit up.	
+p09155A	m904.0	動くなッ！ 手を前に出せッ！！	Freeze! / Hands out front!! / Hands on your head, down	
+p09157A	m904.1	あたまに手をまわして ゆかにふせろッ！！	on the floor!!	
+p0915A4	m905.0	トーマは スイッチを入れた。	Tohma flipped / the switch. / The reversal lamp	
+p0915C2	m905.1	パネルの 反転ランプが 光った。	on the panel lit up.	
+p0915E4	m906.0	トーマは スイッチを入れた。	Tohma flipped / the switch. / The reversal lamp	
+p091602	m906.1	パネルの 反転ランプが 光った。	on the panel lit up.	
+p091624	m907.0	トーマは スイッチを入れた。	Tohma flipped / the switch. / The reversal lamp	
+p091642	m907.1	パネルの 反転ランプが 光った。	on the panel lit up.	
+p091664	m908.0	トーマは スイッチを入れた。	Tohma flipped / the switch. / The reversal lamp	
+p091682	m908.1	パネルの 反転ランプが 光った。	on the panel lit up.	
 p0916A4	m909.0	・・・ブゥウン！！	...Vwoom!!	
 p0916B8	m910.0	・・・ブゥウン！！	...Vwoom!!	
 p0916CC	m911.0	・・・ブゥウン！！	...Vwoom!!	
@@ -22,14 +22,14 @@ p0916F4	m913.0	ヘルガッ！	Helga!
 p091700	m913.1	ヘルガ・・・ 死んじゃったのッ！？	Is Helga... dead?!	
 p091724	m914.0	ヘルガッ！ ヘルガ・・・	Helga! Helga...	
 p09173E	m914.1			
-p091740	m914.2	トーマ・・・ この つうろのさきに	Tohma... past this passage	
+p091740	m914.2	トーマ・・・ この つうろのさきに	Tohma... past this tunnel	
 p091764	m914.3	ヘルガのいる カプセルが あるんだ	is the capsule with Helga.	
 p091788	m914.4	おねがい・・・ ヘルガを たすけて・・・	Please... save Helga...	
 p0917B2	m915.0	ヘルガーーーッ！	Helgaaaaa!	
 p0917C4	m916.0	デュマが 装置を とめたのッ！	Dumas halted the device!	
-p0917E4	m917.0	デュマッ！ ヘルガは ハッキリいったわッ！	Dumas! Helga was clear!	
-p091810	m917.1	ヘルガは ヘルガの 人生を 生きるってッ！	She'll live her own / life as Helga!	
-p09183C	m917.2	そのいしを だれもおかすことはできないッ！	No one has the right / to defy her wishes!	
+p0917E4	m917.0	デュマッ！ ヘルガは ハッキリいったわッ！	Dumas! / Helga was clear! / She'll live her own	
+p091810	m917.1	ヘルガは ヘルガの 人生を 生きるってッ！	life as Helga! / No one has the right	
+p09183C	m917.2	そのいしを だれもおかすことはできないッ！	to defy her wishes!	
 p091868	m917.3	たとえ ・・・弟であってもッ！	Not even... her brother!	
 p091888	m918.0	・・・ヘルガの人生が なくなってしまうッ！	...Helga's life will be lost!	
 p0918B4	m918.1	ヘルガが 死んでしまうッ！	Helga will die!	
@@ -39,7 +39,7 @@ p091900	m918.4	ヘルガを 殺さないで・・・ デュマッ！	Don't kill 
 p091928	m919.0	ああ・・・	Ah...	
 p091934	m920.0	光が・・・	The light...	
 p091940	m921.0	・・・ゾーンが 閉じた・・・	...The Zone has closed...	
-p09195E	m922.0	くそっ！ ホウデンが やまないッ！	Damn! It won't stop arcing!	
+p09195E	m922.0	くそっ！ ホウデンが やまないッ！	Damn! / It won't stop arcing!	
 p091982	m923.0	ゾーンが・・・ ヘルガの魂が・・・	The Zone... Helga's soul...	
 p0919A6	m924.0	・・・ティナ様が・・・	...Tina-sama...	
 p0919BE	m924.1	ティナ様が ふっかつしてしまう・・・	Tina-sama will revive...	
@@ -57,7 +57,7 @@ p091B38	m930.0	プラズマが 強く ほそく はしった。	Plasma lashed ou
 p091B5E	m931.0	・・・・・・・・・	.........	
 p091B72	m931.1			
 p091B74	m931.2	トーマは チットを かばうように	Tohma lay over Chitto,	
-p091B96	m931.3	つうろへ ふせている・・・	flat on the passage floor...	
+p091B96	m931.3	つうろへ ふせている・・・	lying flat in the passage...	
 p091BB2	m932.0	トーマ「・・・・・・！	Tohma: ......!	
 p091BCA	m933.0	チット「ワンダーッ！？	Chitto: Wanda?!	
 p091BE2	m934.0	トーマたちを かばい プラズマを うけた	Taking the plasma to / shield Tohma's group,	
@@ -140,11 +140,11 @@ p0924F8	m970.2	     ・・・トーマの イシキは	 ...Tohma's mind
 p09251C	m970.3	      青い光に つつまれた・・・。	 faded into blue light...	
 p092546	m971.0	・・・ブゥウン！！	...Vwoom!!	
 p09255A	m972.0	ロボット兵が トーマを はじき飛ばした。	A robot soldier knocked / Tohma flying.	
-p092584	m973.0	ブッシツせかいと 死のせかい ゾーンを	Between the material / world and the Zone, land	
-p0925AC	m973.1	つなぐジゲン「ハザマ」。	of the dead: the "Hazama."	
-p0925C6	m973.2	あんうんが 低く たれこむ 暗い空。	A dark sky of low clouds.	
-p0925EC	m973.3	死んだように しずかな くろい海。	A black sea, still as death.	
-p092610	m973.4	くろいトリが スッと飛び・・・ 消えた。	A black bird darted past... / and vanished.	
+p092584	m973.0	ブッシツせかいと 死のせかい ゾーンを	Between the material / world and the Zone, / land of the dead:	
+p0925AC	m973.1	つなぐジゲン「ハザマ」。	the "Hazama." / A dark sky of low clouds.	
+p0925C6	m973.2	あんうんが 低く たれこむ 暗い空。	A black sea, still as death.	
+p0925EC	m973.3	死んだように しずかな くろい海。	A black bird darted past...	
+p092610	m973.4	くろいトリが スッと飛び・・・ 消えた。	and vanished.	
 p09263A	m974.0	きがつくと トーマは 色のない 砂浜で	When he came to, Tohma was	
 p092662	m974.1	ひとり ねむっていた。	alone on a colorless beach.	
 p09267A	m975.0	トーマ「・・・・・・	Tohma: ......	

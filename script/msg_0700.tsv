@@ -3,7 +3,7 @@ p08DFF0	m700.0	その時 転生装置のコントロール室にまで	Just then
 p08E018	m700.1	ゲオルカの兵が 押しよせて来た。	control room was stormed / by Georca's soldiers.	
 p08E03A	m701.0	転生装置のカプセルが ゆっくりと閉じる。	The reincarnation / device's capsule slowly / closed.	
 p08E064	m702.0	ティナ「ソラン！ ソラン！	Tina: Soran! Soran!	
-p08E080	m703.0	ソラン「ティナッ！ かならず行く！	Soran: Tina! I'll come!	
+p08E080	m703.0	ソラン「ティナッ！ かならず行く！	Soran: Tina! / I'll come!	
 p08E0A4	m703.1	 オレは かならず お前の所に行く！	 I'll come to you, / no matter what!	
 p08E0CA	m703.2	    ・・・忘れるな ティナッ！！・・・	 ...Don't forget, Tina!!...	
 p08E0F6	m704.0	ティナ「ソラン！ 私 ずっと まってるから	Tina: Soran! I'll wait / for you, always...	
@@ -15,7 +15,7 @@ p08E182	m708.0	ああ・・・ あ・・・	Ahh... ah...
 p08E198	m709.0	！？ ・・・セス・・・！？	?! ...Seth...?!	
 p08E1B4	m710.0	カプセルのそとで なにかが おきていた。	Something was / happening outside / the capsule.	
 p08E1DE	m710.1			
-p08E1E0	m710.2	ティナの さけびが こだまする中・・・	As Tina's scream echoed...	
+p08E1E0	m710.2	ティナの さけびが こだまする中・・・	As Tina's cry echoed...	
 p08E208	m710.3			
 p08E20A	m710.4	   ティナの魂は 地球へと転生した。	 Tina's soul was reborn / on Earth.	
 p08E232	m711.0	    ・・・はるかな時を こえて	 ...Across the vast / span of time,	
@@ -44,11 +44,11 @@ p08E48A	m719.3	クレルモン	Clermont
 p08E496	m720.0	ウォン！	Woof!	
 p08E4A0	m720.1			
 p08E4A2	m721.0	ゲドリング	Gedling	
-p08E4AE	m722.0	アカバ海の ある島から むすうのトリが	Countless birds took off / from an island in the / Akaba Sea,	
-p08E4D6	m722.1	飛び立ち ごうおんが とどろいていた。	and a great roar / rang out.	
-p08E4FE	m722.2	トーマたちは 地下どうくつの奥から	From deep in the cave, / Tohma and the others	
-p08E522	m722.3	かいていの ふかさまで もぐりこむ。	descended to the depth / of the seabed.	
-p08E548	m722.4	    巨大なカベが 立ちふさがった。	 A giant wall / blocked the way.	
+p08E4AE	m722.0	アカバ海の ある島から むすうのトリが	Countless birds took off / from an island / in the Akaba Sea,	
+p08E4D6	m722.1	飛び立ち ごうおんが とどろいていた。	and a great roar rang out. / From deep in the cave,	
+p08E4FE	m722.2	トーマたちは 地下どうくつの奥から	Tohma and the others / descended to the depths	
+p08E522	m722.3	かいていの ふかさまで もぐりこむ。	of the seabed.	
+p08E548	m722.4	    巨大なカベが 立ちふさがった。	 A giant wall blocked / the way.	
 p08E570	m723.0	トーマ「・・・行きどまりだッ！	Tohma: ...A dead end!	
 p08E590	m723.1	チット「これじゃ さきに すすめないよッ！	Chitto: We can't get through!	
 p08E5BC	m724.0	ハスモダイ「こ これは・・・！？	Hasmodai: Wh-what is...?!	
@@ -62,18 +62,18 @@ p08E69C	m726.2	宇宙船ヴェガが 飛び立とうとしていた。	The space
 p08E6C4	m726.3			
 p08E6C6	m726.4	        その大きさは	 Its size	
 p08E6E4	m726.5	      空間を あっとうした。	 overwhelmed the space.	
-p08E708	m727.0	       「ついに 時は来た	 "At last the time / has come.	
-p08E72A	m727.1	    ティナの ふっかつの よういを！	 Prepare for Tina's / revival!	
+p08E708	m727.0	       「ついに 時は来た	 "At last the time	
+p08E72A	m727.1	    ティナの ふっかつの よういを！	 has come. / Prepare for Tina's revival!	
 p08E754	m727.2	      そして わが ここく・・・	 And then my homeland...	
-p08E77C	m727.3	    ギリシアへの きかんを はたす！」	 I shall return / to Greecia!"	
-p08E7A8	m728.0	ひゃあ～・・・	Whoaaa...	
-p08E7B8	m728.1	こんな スゴイところ 見たことないよッ！	I've never seen a place / this amazing!	
+p08E77C	m727.3	    ギリシアへの きかんを はたす！」	 I shall return to Greecia!"	
+p08E7A8	m728.0	ひゃあ～・・・	Whoaaa... I've never seen	
+p08E7B8	m728.1	こんな スゴイところ 見たことないよッ！	a place this amazing!	
 p08E7E2	m729.0	でけぇ～ッ！	It's hugeee!	
 p08E7F0	m729.1			
 p08E7F2	m729.2	・・・こんなに ひろいんじゃ どこに	...It's so big, I've got	
 p08E818	m729.3	いるのか ぜんぜん わからないぞッ！	no idea where she is!	
-p08E83E	m730.0	トーマ！ 体カが へっても ヘルガを	Tohma! Till we save Helga,	
-p08E864	m730.1	たすけるまで ボクはあきらめないよッ！	I won't give up, even if / I get hurt!	
+p08E83E	m730.0	トーマ！ 体カが へっても ヘルガを	Tohma! Till we save / Helga, I won't give up,	
+p08E864	m730.1	たすけるまで ボクはあきらめないよッ！	even if I get hurt!	
 p08E88C	m731.0	しかけヒント	Puzzle tips	
 p08E89A	m731.1	バトルヒント	Battle tips	
 p08E8A8	m732.0	つうろや部屋を 出入りすれば	If you leave and re-enter	
@@ -112,8 +112,8 @@ p08ED00	m741.0	・・・ブゥウン！！	...Vwoom!!
 p08ED14	m742.0	・・・ブゥウン！！	...Vwoom!!	
 p08ED28	m743.0	ロボット兵の せいぎょシステムは ぶんせき	I've analyzed the robot / soldiers' control system...	
 p08ED54	m743.1	してある・・・ バトルは ボクにまかせろ！	Leave the battle to me!	
-p08ED80	m744.0	・・・お前ッ！ ヒースマッ！！	...You! Hesma!!	
-p08EDA0	m744.1	お前だな ヘルガのことを あいつに・・・	It was you who told him / about Helga...	
+p08ED80	m744.0	・・・お前ッ！ ヒースマッ！！	...You! / Hesma!! / It was you who told him	
+p08EDA0	m744.1	お前だな ヘルガのことを あいつに・・・	about Helga...	
 p08EDCA	m744.2	デュマに しゃべったのはッ！	You told Dumas, right?!	
 p08EDE8	m745.0	フッ ヘルガの選択が どうであろうと	Whatever Helga chose,	
 p08EE0E	m745.1	この・・・ ボクらの体が・・・	as long as these bodies...	
@@ -124,9 +124,9 @@ p08EEA4	m745.5	デュマに したがうつもりはない・・・	I don't inte
 p08EECA	m745.6	・・・トーマ	...Tohma.	
 p08EED8	m745.7			
 p08EEDA	m745.8	ヘルガを ともに すくい出そう・・・！	Let's rescue Helga / together...!	
-p08EF02	m746.0	サポートフレンド 「ヒースマ」	The Support Friend / "Hesma"	
-p08EF22	m746.1	が なかまになった！	joined you!	
-p08EF38	m746.2	すべての相手に 60ダメージあたえる。	Deals 60 damage / to all foes.	
+p08EF02	m746.0	サポートフレンド 「ヒースマ」	The Support Friend / "Hesma" joined you!	
+p08EF22	m746.1	が なかまになった！	Deals 60 damage	
+p08EF38	m746.2	すべての相手に 60ダメージあたえる。	to all foes.	
 p08EF60	m747.0	・・・ガンッ！ ガンッ！・・・	...Clang! Clang!...	
 p08EF80	m747.1	ロックされている。	It's locked.	
 p08EF94	m748.0	・・・ガンッ！ ガンッ！・・・	...Clang! Clang!...	
@@ -138,10 +138,10 @@ p08F004	m752.0	・・・ブゥウン！！	...Vwoom!!
 p08F018	m753.0	・・・ブゥウン！！	...Vwoom!!	
 p08F02C	m754.0	・・・ブゥウン！！	...Vwoom!!	
 p08F040	m755.0	お前ッ！！ ヘルガを かえせッ！！	You!! Give Helga back!!	
-p08F064	m756.0	ヘルガは ボクの姉さんだよ・・・	Helga is my sister...	
-p08F086	m756.1	お前が 口だすことではない	This is none of your / business.	
-p08F0A2	m756.2	見ただろう・・・ あの カガクシャたちの体	You saw those scientists' / bodies...	
-p08F0CE	m756.3	すでに あの7人のうち・・・	Of those 7, already...	
+p08F064	m756.0	ヘルガは ボクの姉さんだよ・・・	Helga is my sister... This / is none of your business. / You saw those	
+p08F086	m756.1	お前が 口だすことではない	scientists' bodies...	
+p08F0A2	m756.2	見ただろう・・・ あの カガクシャたちの体	Of those 7,	
+p08F0CE	m756.3	すでに あの7人のうち・・・	already...	
 p08F0EC	m756.4	ふたりの きょうりょくしゃが いるんだ	two are working with me.	
 p08F114	m756.5			
 p08F116	m756.6	・・・ヒースマ	...Hesma.	
@@ -157,14 +157,14 @@ p08F21C	m758.6	それがボクの ほこりだッ！	That is my pride!
 p08F238	m758.7			
 p08F23A	m758.8	ボクは ギリシア人だッ！	I am a Greecian!	
 p08F254	m758.9	デュマにきょうりょくして ギリシアに帰る！	I'll work with Dumas and / return to Greecia!	
-p08F280	m759.0	タルラント「きょうりょく！？	Tarlant: Work with him?!	
+p08F280	m759.0	タルラント「きょうりょく！？	Tarlant: / Work with him?!	
 p08F29E	m759.1	 ティナの ふっかつに手をかすのか！？	 You'd help bring back / Tina?!	
 p08F2C6	m760.0	ハスモダイ「また あの あやまちを	Hasmodai: You'd repeat / that mistake	
 p08F2EA	m760.1	 くりかえすつもりか ヒースマッ！	 all over again, Hesma?!	
-p08F30E	m761.0	デュマ「・・・あやまちを くりかえす	Dumas: ...Repeat a / mistake,	
-p08F334	m761.1	 ・・・だとぉ？	 ...you say?	
-p08F346	m761.2	マモノめッ！ ・・・お前たちが 姉さんを	Monsters! ...It was you / who made my sister	
-p08F370	m761.3	兵器に かえたんだッ！	into a weapon!	
+p08F30E	m761.0	デュマ「・・・あやまちを くりかえす	Dumas: / ...Repeat a mistake,	
+p08F334	m761.1	 ・・・だとぉ？	 ...you say? / Monsters!	
+p08F346	m761.2	マモノめッ！ ・・・お前たちが 姉さんを	...It was you who made	
+p08F370	m761.3	兵器に かえたんだッ！	my sister into a weapon!	
 p08F388	m762.0	タルラント「ふたりと いったな？	Tarlant: You said two?	
 p08F3AA	m762.1	 ・・・もうひとりは だれのことだ	 ...Who's the other one?	
 p08F3CE	m763.0	デュマ「・・・メル と いったかな	Dumas: ...Mel, was it?	
@@ -240,8 +240,8 @@ p08FC6A	m794.0	ハスモダイ「オ オエセルッ！！	Hasmodai: O-Orsel!!
 p08FC8A	m795.0	アギ「いけないッ！	Agi: Oh no!	
 p08FC9E	m795.1			
 p08FCA0	m795.2	  ・・・ゾーンが 開いたんだッ！！・・・	 ...The Zone opened!!...	
-p08FCCC	m796.0	アギ「クッ！ シールドされているッ！	Agi: Ngh! It's shielded!	
-p08FCF2	m796.1	 人エ人体を 破壊出来ない・・・！	 We can't destroy the / artificial body...!	
+p08FCCC	m796.0	アギ「クッ！ シールドされているッ！	Agi: Ngh! / It's shielded!	
+p08FCF2	m796.1	 人エ人体を 破壊出来ない・・・！	 We can't destroy / the artificial body...!	
 p08FD16	m797.0	タルラント「くそッ！ ほぞんえきを	Tarlant: Damn! If only / we could drain	
 p08FD3A	m797.1	 ぬくことが 出来たら・・・	 the preserving fluid...	
 p08FD58	m798.0	アギ「・・・転生装置だッ！！	Agi: ...The reincarnation / device!!	
