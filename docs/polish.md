@@ -11,3 +11,4 @@ Tick each `[x]` when fixed, or `[x] ... waived: reason`.
 - [ ] p08E280-p08E2CC - Helga recalled being Tina, princess of distant Greecia: "Tina" placed after "a planet far away" is confusing (review 04)
 - [ ] s09D56E - サポートバーにセットします: "Set Support Friends on the bars." drops "Support Bars" (236 px in a 224 px box); revisit once the info box width is measured (review 08)
 - [ ] p08FBB6 - 転生装置 choice answer "Device" (72 px grid, D8); reviewers asked for "Reincarnation device" (review 05)
+- [ ] s09E3E4 s09E4BE - SP item flavour lines squeezed into one 224 px line ("Mom's, said to hit" = かあちゃんの占いは当たるらしい; "Real one for Chitto!" = 本物をチットに見せたい); a freer wording if the info box can take a second line (re-review)
