@@ -118,6 +118,31 @@ class EnglishRom(unittest.TestCase):
                 n += 1
         self.assertGreater(n, 300)
 
+    # aligned words that equal a vacated address by chance (checked by eye 2026-11-15: byte data, not pointers)
+    STALE_NOISE = {0x0DAB8C, 0x0EFC64, 0x107494, 0x14880C, 0x160274, 0x165E04, 0x1879F0, 0x199FBC,  # PCM samples
+                   0x1C6DE4,                                                                      # PCM samples
+                   0x6FC9E4, 0x6FCB60}                         # byte tables before the credits blocks (G5)
+
+    def test_no_reader_left_on_vacated_text(self):
+        """No aligned word outside the message table and old page-list area still points at a page, page list or
+        system string the build moved away from (review 7, Minor 1)."""
+        s = msgs.Script.unpack(self.d)
+        now = {o for offs in message_pages(self.out).values() for o in offs}
+        vac = {BUS + o: f"page {o:#x}" for o in s.pages if o not in now}
+        for n in range(msgs.MSG_COUNT):
+            p = u32(self.d, msgs.MSG_TABLE + 4 * n)
+            if p != u32(self.out, msgs.MSG_TABLE + 4 * n):
+                vac[p] = f"page list of message {n}"
+        for r in self.rows.values():
+            if r["id"][0] == "s" and r.get("en"):
+                vac[BUS + int(r["id"][1:], 16)] = r["id"]
+        skip = ((msgs.MSG_TABLE, msgs.MSG_TABLE + 4 * msgs.MSG_COUNT), (msgs.LISTS, msgs.LISTS_END))
+        hits = [f"{o:#x} -> {vac[w]}" for o in range(0, allowed.FREE, 4)
+                if not any(a <= o < b for a, b in skip) and (w := u32(self.out, o)) in vac
+                and o not in self.STALE_NOISE]
+        self.assertGreater(len(vac), 4000)
+        self.assertEqual(hits, [])
+
     def test_no_japanese_in_english(self):
         bad = [r["id"] for r in self.rows.values() if re.search(r"[぀-ヿ一-鿿]", r.get("en") or "")]
         self.assertEqual(bad, [])

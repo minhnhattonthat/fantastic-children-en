@@ -58,7 +58,9 @@ Dump: `rom.sha1` (8 MiB, header `FANTCHILDREN` / `BFCJ`, EEPROM_V124 save). Offs
   - `0x9F6C4-0xA0632` `sys_battle`: battle and talk-battle lines, item pickups.
   - `0x669F4-0x66A04` (in `sys_menu`): cursor strings ▼, blank, ▶, blank.
 - Data inside those ranges (not text): `0x9C140-0x9C610` records (ptr `0x3112C`), `0x9CFB2` 2-byte pad,
-  `0x9D030-0x9D510` u16 lists (ptrs `0x219F90-0x21A09C`), `0x9F6B4-0x9F6C4` u16 0..7 (ptr `0x373DC`); palettes
+  `0x9D030-0x9D510` u16 lists (ptrs `0x219F90-0x21A09C`, that table itself pointed to from `0x21A7B0`: runs of
+  small counting indices 0,1,2,3 / 4,5,6,7 / ... 0x39-0x4E, i.e. frame/tile index sequences; they only look like a
+  kana chart because the tbl maps those codes to kana; triaged 2026-11-15, not text), `0x9F6B4-0x9F6C4` u16 0..7 (ptr `0x373DC`); palettes
   start at `0xA0632`.
 - **Argument codes** `0x0200-0x0203` = `{arg0}`-`{arg3}` (names, numbers inserted by the battle code), counted in
   the end code's word count like glyphs. 50 system strings use them; no page does.

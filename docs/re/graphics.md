@@ -75,6 +75,10 @@ dedups tiles per block (39-55 tiles each), rewrites maps and blocks in place (`t
 change about every 300 frames from the `staff` state; the epilogue ("10 years later.") follows card 17.
 
 ## Still to survey
+- 2026-11-15: OBJ VRAM dumped on pause / pause_support / pause_items / battle_01 / gameover (`work/qa/p8/obj/`,
+  original ROM): no Japanese. The pause action-bar card faces are English in the original (Punch, Kick, Chop, Guard;
+  raw 4bpp at `0x69BDF0`, `0x69C590`, ...); GAME OVER / "Press START to continue" are English. The remaining
+  screens are covered by the Phase 8 tour sheets.
 - Sprites (`0x560000-0x6F0000`) are only proven text-free where a stride read cleanly. Cover them by VRAM/OAM capture
   on every screen the Phase 2 debug tool reaches (pause/menu/status, talk battle, stage title cards, boss banners,
   game over, ending, staff roll) and add any Japanese found here.
