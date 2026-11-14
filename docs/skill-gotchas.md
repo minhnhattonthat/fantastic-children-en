@@ -24,3 +24,5 @@ One line per gotcha: the skill reference it belongs in, then the fact.
 - SKILL.md ground rules: the guard hook did not block `sed -i` on a .py in this repo (session 2026-11-15, Orca worker): check the canary when starting a session.
 - references/graphics.md: a title/BG palette is not always the 512 B before its LZ block; check palette RAM at the screen (ppudump.lua) and search the ROM for it before trusting an export (Fantastic Children: it was the next archive record, after the block).
 - references/graphics.md: when a logo is shared by several background variants, the old text mask = pixels whose colour agrees across all variants; inpaint the whole mask (pixels under the new letters too, or old colours seed the fill).
+tools/vqa.py: qa_gate todo chunks are id<TAB>path lines; vqa.py read whole lines as paths (fixed in tools/vqa.py; references/emulator-qa.md Visual QA)
+emulator-qa.md: Claude Code's low-memory guard reaps run_in_background shells (here a codex verdict run with 3 jobs while idle); launch long verdict/tour runs detached with Start-Process

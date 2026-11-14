@@ -82,7 +82,7 @@ def main():
     puts = [sysn[k:k + PUT_PER] for k in range(0, len(sysn), PUT_PER)]
     lines += ["", f"# {len(sysn)} system strings no scene read, drawn in the pause info rows (forceput=)"]
     lines += [f"forceput_{k + 1:02d}  stg=16 sub=5 forceput={','.join(s)}" for k, s in enumerate(puts)]
-    OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    OUT.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
     print(f"{len(never)} unshown pages -> {len(chosen)} messages in {len(scenes)} scenes; "
           f"{len(sysn)} system strings in {len(puts)} forceput scenes -> {OUT}")
     if left:

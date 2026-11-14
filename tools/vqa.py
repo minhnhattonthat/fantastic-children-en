@@ -23,7 +23,8 @@ DOCS = ("docs/visual-qa-brief.md", "glossary.md")
 
 
 def sheets(chunk):
-    return [Path(ln.strip()) for ln in chunk.read_text(encoding="utf-8").splitlines() if ln.strip()]
+    # qa_gate todo writes `id<TAB>path` lines (older chunks: bare paths)
+    return [Path(ln.strip().split("\t")[-1]) for ln in chunk.read_text(encoding="utf-8").splitlines() if ln.strip()]
 
 
 def sheet_id(p, root):
