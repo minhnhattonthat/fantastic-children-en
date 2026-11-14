@@ -7,13 +7,16 @@ Dump: `rom.sha1` (8 MiB, header `FANTCHILDREN` / `BFCJ`, EEPROM_V124 save). Offs
 - Glyph codes are `0x000-0x1FF` (the drawer masks `code & 0x1FF`). Order is the font's own charset, not JIS:
   `000` blank (also the space), `001-00A` 0-9, `00B-05C` katakana gojuon + voiced + small (`037`/`038` drawn as Ⅱ/Ⅲ in the ヰ/ヱ slots),
   `05D` ヴ, `05E-077` A-Z, `078-098` symbols, `099-0EA` hiragana (= katakana + 0x8E), `0EB-104` a-z, `105-1FF` kanji
-  (`110`/`111` = 『』). Generator: `tools/gen_jp_tbl.py` -> `tbl/jp.tbl`; kanji go in `tbl/kanji.txt` (not read yet).
+  (`110`/`111` = 『』). Generator: `tools/gen_jp_tbl.py` -> `tbl/jp.tbl`; kanji in `tbl/kanji.txt`: all 249 cells
+  read off the font (8 px wide, so many are squeezed) and each used one checked against its words in the script
+  (e.g. `10F` 宝物庫, `1ED` ティナ様, `1E5` 二億光年). `18E`/`18F` (宿命, one use) and `1DC` (霊道) are guesses;
+  19 cells no page uses are marked `# unused`. Every one of the 4133 pages now decodes with no hex left.
 - Verified by decoding page 0x7F236 = "・・・遠くから なみのおとが聞こえる・・・" exactly as shown on screen in the
   opening cutscene (`work/states/cut1_f3000.mss` + ~400 frames), and by every one of 4133 pages decoding to
   plausible Japanese (`python -X utf8 tools/dec.py --msg 0 1 ... `).
 - Symbol cells `078-098` were read off the font by eye; `085`/`086`/`087` (、。．), `089` (；), `08A`/`08B` (’”) and
   `096` (◎) are **guesses** to confirm in the marker build.
-- 230 distinct kanji are used by the script (`105-1FF`, 251 cells).
+- 230 distinct kanji cells are used by the script (`105-1FF`: 251 cells incl. 『』).
 
 ## Control codes — verified (by the copy routine at 0x0802ED8A and a whole-script check)
 - `0x8000 | n`: **end of page**, where `n` = the page's character count. Every one of the 4133 pages has
