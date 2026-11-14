@@ -31,8 +31,8 @@ Dump: `rom.sha1` (8 MiB, header `FANTCHILDREN` / `BFCJ`, EEPROM_V124 save). Offs
   `0x3102C` (literal pool). Each points into the page-list area `0x21434C-0x219BC0`.
 - **Page lists**: NULL-terminated u32 arrays of page pointers. Lists overlap (a message id may point into the
   middle of another's list), so lists must be rebuilt as a whole, not per message.
-- Pages live in `0x7ECB4-0x9C2B0` (4133 distinct pages). That range also holds non-text data (e.g. `0x7EF20`
-  has small u16 values ending in `0x8009`), so extract by pointer, never by scanning the range.
+- Pages live in `0x7ECB4-0x9C140` (4133 distinct pages, tiling the range exactly; pages of digits such as
+  `0x7EF20` look like data but are text). `0x9C140` on is data, then the system strings (§Text inventory).
 - Messages 0-26 include debug/test event names (ヌルイベント, イベントテスト0, カイワテスト0, バトルカイシ,
   トークバトルテスト...): leftover debug event hooks worth following for the Phase 2 warp tool.
 
@@ -43,6 +43,30 @@ Dump: `rom.sha1` (8 MiB, header `FANTCHILDREN` / `BFCJ`, EEPROM_V124 save). Offs
 - Relocation is safe for text: a 2-aligned scan of the ROM finds no u32 pointing at a page outside the list area
   (26 matches, all inside packed graphics/PCM, none 4-aligned in code) and only 2 matches for a list address outside
   the table (`0xF71C4`, `0x394330`: both inside sample data). Longest page: 22 glyphs (176 px at the fixed 8 px pitch).
+
+## Text inventory — verified (Phase 4, `tests/test_script.py`)
+`tools/script_tsv.py extract` writes `script/*.tsv` (columns `id ref jp en notes`; id = ROM offset). 4663 rows:
+- **4133 pages** (`pXXXXXX`, `script/msg_NNNN.tsv` by first message, 100 messages per file; `ref` = `m<msg>.<page>`).
+  They tile `0x7ECB4-0x9C140` exactly (no gaps, no overlaps); every message 0-1527 has at least one page.
+- **530 system strings** (`sXXXXXX`), same encoding, stored back to back and reached only by u32 pointers
+  (`ref` = holder offsets; every string has one, none lands mid-string). Holders: code pools (`0x3112C`, `0x373DC`,
+  `0x2E6E8-0x2E768`) and the tables at `0x219C20-0x21BB70` (right after the page lists).
+  - `0x9C610-0x9D030` `sys_menu`: file menu (ＲＥＣＯＲＤ1, ＮＥＷ ＧＡＭＥ, the help line "ゲームを 最初からはじめます。"),
+    delete/save prompts, 60-odd area names (パパン寺院 ほんでん ...), save messages.
+  - `0x9D510-0x9F6B4` `sys_items`: equip menus, battle card / support friend / item descriptions.
+  - `0x9F6C4-0xA0632` `sys_battle`: battle and talk-battle lines, item pickups.
+  - `0x669F4-0x66A04` (in `sys_menu`): cursor strings ▼, blank, ▶, blank.
+- Data inside those ranges (not text): `0x9C140-0x9C610` records (ptr `0x3112C`), `0x9CFB2` 2-byte pad,
+  `0x9D030-0x9D510` u16 lists (ptrs `0x219F90-0x21A09C`), `0x9F6B4-0x9F6C4` u16 0..7 (ptr `0x373DC`); palettes
+  start at `0xA0632`.
+- **Argument codes** `0x0200-0x0203` = `{arg0}`-`{arg3}` (names, numbers inserted by the battle code), counted in
+  the end code's word count like glyphs. 50 system strings use them; no page does.
+- **End code bit 14** (`0xC0nn`): 11 battle lines (ワンダァーーーッ！！, 相打ち！ ...). Meaning unknown (wait for input?);
+  kept as a trailing `{endflag}` token that `script_tsv.encode` turns back into the bit. Keep it in `en`.
+- Search for text elsewhere: an even-aligned scan for `n` codes + `0x8000|n` outside these areas found only noise
+  (1-2 glyph hits in graphics/PCM), and every u32 in code / `0x1F0000-0x21C000` / `0x300000-0x30E000` pointing at a
+  valid string lands in the areas above. Pointers from `0xA8000-0x1F0000` (PCM) into the system area are chance
+  matches and are ignored.
 
 ## Font — verified (draw path)
 - Glyph upload at `0x0802F172-0x0802F1B2`: font `f` (0/1) has glyph base `*(0x082122D4 + 4f)` = `0x080517EC` and a

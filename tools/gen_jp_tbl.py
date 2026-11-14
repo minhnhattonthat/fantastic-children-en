@@ -29,6 +29,8 @@ FIXED = {
 # control codes: 0x80xx ends a page (low bits = page-end mode); 0x02xx inserts argument (code & 0xFF)
 CTRL = {0x8000: "{end}"}
 CTRL.update({0x8000 + i: "{end%02X}" % i for i in range(1, 0x17)})
+# argument inserts: battle/menu strings in the system area (0x9C610-0xA0632) use args 0-3 (e.g. "{arg0}は {arg1}をつかった！")
+CTRL.update({0x0200 + i: "{arg%d}" % i for i in range(4)})
 
 
 def build():
@@ -65,5 +67,5 @@ def build():
 if __name__ == "__main__":
     out = ROOT / "tbl" / "jp.tbl"
     out.parent.mkdir(exist_ok=True)
-    out.write_text("\n".join(build()) + "\n", encoding="utf-8")
+    out.write_text("\n".join(build()) + "\n", encoding="utf-8", newline="\n")
     print(out)

@@ -19,7 +19,7 @@ from tbl import Table  # noqa: E402
 BUS = 0x08000000
 MSG_TABLE, MSG_COUNT = 0x212B6C, 1528
 LISTS, LISTS_END = 0x21434C, 0x219BC0  # page-list area: NULL-terminated u32 page pointers, lists overlap
-PAGES, PAGES_END = 0x7ECB4, 0x9C2B0    # pages are found by pointer only: the range holds other data too
+PAGES, PAGES_END = 0x7ECB4, 0x9C140    # pages tile this range exactly (tests/test_script.py); data follows
 END = 0x8000
 MAX_GLYPHS = 0xFF                      # the end code's count field (test_text: c & 0xFF == count)
 
