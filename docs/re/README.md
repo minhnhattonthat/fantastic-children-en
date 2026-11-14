@@ -13,6 +13,6 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 | File | Covers | State |
 |---|---|---|
 | `text.md` | 16-bit encoding, font charset order, page-end/length code, message table 0x212B6C, page lists, font draw path, free space | verified (kanji cells unread, a few symbols guessed) |
-| `graphics.md` | tile-drawn Japanese: title logo, copyright, developer logo; static sweep pending | partial |
+| `graphics.md` | tile-drawn Japanese (title logo + copyright in 4 LZ 8bpp BGs, developer logo, credits in 8 LZ blocks, debug 8×8 font), static sweep coverage map | verified except sprites (VRAM capture via debug tool) and G3 stride |
 
 Prior work: no earlier fan translation of this game was found (web search, 2026-11-14).

@@ -41,12 +41,18 @@ Dump: `rom.sha1` (8 MiB, header `FANTCHILDREN` / `BFCJ`, EEPROM_V124 save). Offs
 - The text box shows 8 px per character (fixed pitch). English will need a VWF or a narrower-pitch hack
   (Phase 5 spike); the per-code index indirection makes it easy to repoint codes to new glyphs.
 
-## Free space — candidates (not yet trap-tested)
-- `0x70F96C-0x7FFFFF` (~985 KiB of 0xFF at the ROM end).
-- The ROM can grow to 16 MiB (EEPROM games keep working ≤16 MiB; ship BPS). Appending past 8 MiB is the safest home
-  for the new script and font.
+## Free space — verified
+- `0x70F96C-0x7FFFFF` (~961 KiB of 0xFF at the ROM end; the last data is the credits LZ block ending at `0x70F96B`).
+  **Trap test:** `tools/lua/gba_romreads.lua` watching `0x0870F96C-0x087FFFFF` over cold boot -> new game ->
+  opening cutscene -> stage 1 (`tools/routes/newgame.txt --mash 40 --frames 6000`) logged no reads; the same run
+  watching the page range logged the page reader `0x0802ED8A` (positive control). No 4-aligned u32 in code or
+  tables points into the tail (665 hits, all inside packed/PCM data). Pinned by `tests/test_graphics.py`.
+- The ROM can grow to 16 MiB (EEPROM games keep working ≤16 MiB; ship BPS). Plan: new script and font go at
+  `0x710000` first, then past 8 MiB if needed.
+- `0x21C000-0x2FFFFF` (912 KiB of 0xFF) is a second candidate; not trap-tested.
 
 ## Other code addresses seen
 - `0x0802ED8A`: page reader (copies a page to a RAM buffer, `ldrh r1,[r7]`). `0x03000158-0x030002D0`: IWRAM
-  decompressor reading `0x189BD4-0x1F38E3` (intro/cutscene graphics stream).
+  routine reading `0x189BD4-0x1F38E3` during the intro: that range is PCM sample data (see graphics.md), so this is
+  most likely the sound mixer, not a graphics decompressor.
 - `tools/gbacomp.py scan` finds 170 BIOS-LZ77 blocks (1.7 MB unpacked); none hold text.
