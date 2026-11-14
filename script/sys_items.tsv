@@ -2,7 +2,7 @@ id	ref	jp	en	notes
 s09D510	21A0A0	バトルアイテムを アクションバーにセットします。	Set Battle Items on Action Bars.	
 s09D542	21A0A4			
 s09D544	21A0A8	Ａ：決定 スタートボタンまたはＢ：もどる	A: OK   Start or B: Back	
-s09D56E	21A0B0	サポートフレンドを サポートバーにセットします。	Set Support Friends on the bars.	
+s09D56E	21A0B0	サポートフレンドを サポートバーにセットします。	Set Support Friend on Support Bar.	
 s09D5A0	21A0B4			
 s09D5A2	21A0B8	Ａ：決定 スタートボタンまたはＢ：もどる	A: OK   Start or B: Back	
 s09D5CC	21A0C0	手に入れたアイテムを かくにんします。	Check the items you've found.	
@@ -127,7 +127,7 @@ s09E36E	21A338	Ａ：決定 Ｂ：もどる	A: OK   B: Back
 s09E384	21A340	神技書「ガード」 神技パパンの精え5	Divine Scroll "Guard" Papin Way 5	
 s09E3AA	21A344	ダメージを少なくする。ＳＰに強い。	Reduces damage. Beats SP.	
 s09E3CE	21A348	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
-s09E3E4	21A350	ＳＰ「占い道具」 かあちゃんの占いは当たるらしい	SP "Fortune Kit" Mom foresees all!	
+s09E3E4	21A350	ＳＰ「占い道具」 かあちゃんの占いは当たるらしい	SP "Fortune Kit" Mom's right, I hear	
 s09E416	21A354	おたがいのアクションバーを もとに戻す。	Resets both sides' Action Bars.	
 s09E440	21A358	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
 s09E456	21A360	ＳＰ「ブッ殺しバチのシガイ」 じいちゃんのかたき	SP "Dead Killer Bee" Grandpa's foe	
@@ -219,7 +219,7 @@ s09EF92	21A524	リョウヨウ施設 扉のカギ。	Sanatorium door key.
 s09EFAE	21A528	暗い地下室に続く ろうかへのカギ。	Opens the hall to the dark cellar.	
 s09EFD2	21A530	「さびたカギ4」	"Rusty Key 4"	
 s09EFE4	21A534	リョウヨウ施設 裏庭にある小屋のカギ。	Key to the sanatorium's back shed.	
-s09F00C	21A538	小屋には地下室の明かりをつける ハツ電機がある。	The shed has the cellar generator.	
+s09F00C	21A538	小屋には地下室の明かりをつける ハツ電機がある。	Shed generator lights the cellar.	
 s09F03E	21A540	「セラフィーヌの絵」	"Seraphine's Painting"	
 s09F054	21A544	セラフィーヌが生前 描き続けた大きな絵。	Seraphine's lifelong big painting.	
 s09F07E	21A548	画商のウーデが 大切にしまっていた。	The dealer Oude kept it with care.	
@@ -231,7 +231,7 @@ s09F12C	21A564	あめ上がりに咲くことのある青い花。	Blue flower t
 s09F150	21A568	アーノンは この花のためにガケをおりた。	Arnon climbed down a cliff for it.	
 s09F17A	21A570	「さびたカギ5」	"Rusty Key 5"	
 s09F18C	21A574	セラフィーヌの生家 扉のカギ。	Door key to Seraphine's old home.	
-s09F1AC	21A578	裏庭の扉と 本ダナのある部屋へ行ける。	Opens the back door, book room.	
+s09F1AC	21A578	裏庭の扉と 本ダナのある部屋へ行ける。	Backyard door and bookcase room.	
 s09F1D4	21A580	「クリスタルキー1」	"Crystal Key 1"	
 s09F1EA	21A584	宇宙船にある がんじょうな扉のキー。	Key to a strong door in the ship.	
 s09F210	21A588	大きな扉のある つうろへ行ける。	Opens the way to a big door.	

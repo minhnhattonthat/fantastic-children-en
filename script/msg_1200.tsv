@@ -23,8 +23,8 @@ p097EE0	m1200.20	さいきんは ますます おきゃくさんも	These days h
 p097F06	m1200.21	来ないし・・・ でも！ でもさ・・・	visitors come... But! But...	
 p097F2C	m1200.22	オレにとっては ほんとに たいせつな・・・	To me, it's precious...	
 p097F58	m1200.23			
-p097F5A	m1200.24	・・・ヘルガ ・・・キミと・・・ キミと	...Helga... with you...	
-p097F84	m1200.25	生きて行きたい たいせつな場所なんだッ！！	the place I want to live!!	
+p097F5A	m1200.24	・・・ヘルガ ・・・キミと・・・ キミと	...Helga... with you... / with you...	
+p097F84	m1200.25	生きて行きたい たいせつな場所なんだッ！！	I want to live here, / in this dear place!!	
 p097FB0	m1200.26	ヘルガ「・・・うん	Helga: ...Yes.	
 p097FC4	m1201.0	   「トーマ～ッ 上に いるのかい？」	 "Tohmaaa! You up there?"	
 p097FEE	m1201.1			
@@ -63,8 +63,8 @@ p0982B8	m1202.8	ふあんと しょうそうに こどくを せおう	bearing w
 p0982E2	m1202.9	少女が また・・・	and loneliness, a girl...	
 p0982F6	m1202.10	あの ふうけい画を 描き続けるだろう。	will paint that view again.	
 p09831E	m1202.11			
-p098320	m1202.12	ゴウの れんさが くりかえす ひげきが	A tragedy, karma's chain,	
-p098348	m1202.13	また・・・ おこるであろう。	will happen again.	
+p098320	m1202.12	ゴウの れんさが くりかえす ひげきが	The chain of karma will	
+p098348	m1202.13	また・・・ おこるであろう。	bring tragedy once more.	
 p098366	m1202.14	     まち続ける「ティナの魂」。	 "Tina's soul," waiting.	
 p09838C	m1202.15			
 p09838E	m1202.16	     まもり続ける「セスの魂」。	 "Seth's soul," guarding.	
@@ -139,8 +139,8 @@ p098814	m1246.0	ソレト	Soreto
 p09881C	m1247.0	ソレト	Soreto	
 p098824	m1248.0	ヒースマ	Hesma	
 p09882E	m1249.0	ヒースマ	Hesma	
-p098838	m1250.0	タルラント	Tarlant,	
-p098844	m1251.0	タルラント	Tarlant,	
+p098838	m1250.0	タルラント	Tarlant	
+p098844	m1251.0	タルラント	Tarlant	
 p098850	m1252.0	ハスモダイ	Hasmodai	
 p09885C	m1253.0	ハスモダイ	Hasmodai	
 p098868	m1254.0	ワンダー	Wanda	

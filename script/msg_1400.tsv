@@ -260,11 +260,11 @@ p09B152	m1455.4	『バトルアイテムＳＰは パンチ チョップ	'Battle
 p09B17C	m1455.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
 p09B1A8	m1456.0	バトルアイテムＳＰ「せいぎょカイロ」	Battle Item SP / "Control Chip"	
 p09B1CE	m1456.1	を 手に入れた！	obtained!	
-p09B1E0	m1456.2	相手を シャッフル。	Shuffles the foe's bars.	
+p09B1E0	m1456.2	相手を シャッフル。	Shuffles foe's Action Bar.	
 p09B1F6	m1456.3	とくていの相手に30ダメージ。	Hits certain foes for 30.	
 p09B216	m1457.0	バトルアイテムＳＰ「せいぎょカイロ」	Battle Item SP / "Control Chip"	
 p09B23C	m1457.1	を 手に入れた！	obtained!	
-p09B24E	m1457.2	相手を シャッフル。	Shuffles the foe's bars.	
+p09B24E	m1457.2	相手を シャッフル。	Shuffles foe's Action Bar.	
 p09B264	m1457.3	とくていの相手に30ダメージ。	Hits certain foes for 30.	
 p09B284	m1457.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
 p09B2AE	m1457.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	

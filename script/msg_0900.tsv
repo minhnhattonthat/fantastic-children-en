@@ -29,7 +29,7 @@ p0917B2	m915.0	ヘルガーーーッ！	Helgaaaaa!
 p0917C4	m916.0	デュマが 装置を とめたのッ！	Dumas halted the device!	
 p0917E4	m917.0	デュマッ！ ヘルガは ハッキリいったわッ！	Dumas! Helga was clear!	
 p091810	m917.1	ヘルガは ヘルガの 人生を 生きるってッ！	She'll live her own / life as Helga!	
-p09183C	m917.2	そのいしを だれもおかすことはできないッ！	No one may violate / that will!	
+p09183C	m917.2	そのいしを だれもおかすことはできないッ！	No one has the right / to defy her wishes!	
 p091868	m917.3	たとえ ・・・弟であってもッ！	Not even... her brother!	
 p091888	m918.0	・・・ヘルガの人生が なくなってしまうッ！	...Helga's life will be lost!	
 p0918B4	m918.1	ヘルガが 死んでしまうッ！	Helga will die!	
@@ -69,8 +69,8 @@ p091C8C	m937.0	タルラント「ワンダー・・・ お前・・・	Tarlant: 
 p091CB4	m938.0	トーマ「ワンダー・・・	Tohma: Wanda...	
 p091CCC	m939.0	はしる プラズマの奥に ヘルガが 見えた。	Past the plasma: Helga.	
 p091CF8	m939.1			
-p091CFA	m939.2	カプセルの中に よこたわる	Lying in the capsule,	
-p091D16	m939.3	ヘルガの 髪は しずかに ゆれていた。	Helga's hair stirred.	
+p091CFA	m939.2	カプセルの中に よこたわる	There in the capsule,	
+p091D16	m939.3	ヘルガの 髪は しずかに ゆれていた。	Helga lay, hair swaying.	
 p091D3E	m940.0	トーマ「行くぞ チットッ！	Tohma: Let's go, Chitto!	
 p091D5A	m941.0	チット「うんッ！	Chitto: Right!	
 p091D6C	m942.0	トーマ「はしれッ！！	Tohma: Run!!	
@@ -88,7 +88,7 @@ p091EDA	m948.1
 p091EDC	m948.2	     「ワンダァーーーッ！！！」	 "Wandaaaaa!!!"	
 p091F02	m948.3			
 p091F04	m949.0	チットは ワンダーの体に しがみつき	Clinging to Wanda, Chitto	
-p091F2A	m949.1	なき声で ワンダーを よび続けた。	crying Wanda's name.	
+p091F2A	m949.1	なき声で ワンダーを よび続けた。	kept crying for Wanda.	
 p091F4E	m950.0	タルラント「・・・ワンダー・・・	Tarlant: ...Wanda...	
 p091F70	m951.0	・・・ブゥウン！！	...Vwoom!!	
 p091F84	m952.0	ロボット兵が トーマを はじき飛ばした。	A robot soldier knocked / Tohma flying.	
@@ -96,7 +96,7 @@ p091FAE	m953.0	・・・ブゥウン！！	...Vwoom!!
 p091FC2	m954.0	・・・青い光は 消えていた。	...The blue light was gone.	
 p091FE0	m955.0	アギ「ああ・・・	Agi: Ah...	
 p091FF2	m956.0	ハスモダイ「光が・・・	Hasmodai: The light...	
-p09200A	m957.0	タルラント「・・・ゾーンが 閉じた・・・	Tarlant: Zone closed...	
+p09200A	m957.0	タルラント「・・・ゾーンが 閉じた・・・	Tarlant: ...The Zone / has closed...	
 p092034	m958.0	デュマが ゲドリングを ていし させた。	Dumas halted Gedling.	
 p09205E	m958.1			
 p092060	m958.2	デュマが ヘルガを すくったのだ。	Dumas had saved Helga.	
@@ -170,7 +170,7 @@ p092806	m982.0	ヘルガ「！？	Helga: ?!
 p092814	m983.0	トーマは くるしそうに ふるえ・・・	Tohma trembled in pain...	
 p09283A	m983.1	りょう手で ムネを おさえている。	clutching his chest.	
 p09285E	m983.2	ふるえる りょう手を ゆっくりと のばし	Reaching out shakily,	
-p092888	m983.3	その青年は ヘルガを 強く だきしめた。	the youth hugged Helga.	
+p092888	m983.3	その青年は ヘルガを 強く だきしめた。	the youth held Helga fast.	
 p0928B2	m984.0	ヘルガ「ト トーマ・・・？	Helga: T-Tohma...?	
 p0928CE	m984.1			
 p0928D0	m984.2	あ ああぁッ・・・！！	Ah, aaah...!!	
@@ -180,7 +180,7 @@ p0928F8	m984.5
 p0928FA	m984.6	セ・・・ス・・・	Se...th...	
 p09290C	m985.0	砂浜に ゆらりと くろいトリが飛んでいる。	A black bird drifts by.	
 p092938	m985.1			
-p09293A	m985.2	そこには ヘルガを 強く だきしめる	There, holding Helga,	
+p09293A	m985.2	そこには ヘルガを 強く だきしめる	There, clasping Helga,	
 p092960	m985.3	・・・セスが いた。	...was Seth.	
 p092976	m986.0	セス「ティナ・・・ 許してくれ・・・	Seth: Tina... forgive me...	
 p09299C	m986.1			
@@ -190,7 +190,7 @@ p0929EE	m986.4	ヘルガ「ああ・・・ セス・・・	Helga: Ah... Seth...
 p092A0E	m986.5	 そんなの 信じられない・・・	 I can't believe it...	
 p092A2E	m986.6	セス「ボクは・・・ ずっと トーマの中で	Seth: Inside Tohma...	
 p092A58	m986.7	 ・・・くるしかった・・・	 ...I suffered all along...	
-p092A74	m986.8	・・・トーマに なりきれなかった・・・	...I couldn't be Tohma...	
+p092A74	m986.8	・・・トーマに なりきれなかった・・・	...never fully Tohma...	
 p092A9C	m986.9			
 p092A9E	m986.10	ティナ・・・	Tina...	
 p092AAC	m986.11	キミに あやまりたかった・・・	I wanted to apologize...	
@@ -198,9 +198,9 @@ p092ACC	m987.0	くろい海の すいへいせんには	At the black sea's edge,
 p092AEA	m987.1	オエセルの 青い光が きらめいていた。	Orsel's blue light shone.	
 p092B12	m987.2	その・・・オエセルの 青い切れ目から	From Orsel's... blue rift,	
 p092B38	m987.3	きみょうな くろいモノが・・・	a strange black thing...	
-p092B58	m987.4	すいへいせんを うめつくす「エンマ」の	over the horizon: "Enma,"	
-p092B80	m987.5	巨大な やみのカタマリが せまっていた。	a huge darkness, nearing.	
-p092BAA	m987.6	    それは「宇宙 自らの こうい」。	 "The universe's own act."	
+p092B58	m987.4	すいへいせんを うめつくす「エンマ」の	"Enma," a vast mass of	
+p092B80	m987.5	巨大な やみのカタマリが せまっていた。	darkness filling the / horizon, drew near.	
+p092BAA	m987.6	    それは「宇宙 自らの こうい」。	 It was "the universe's / own act."	
 p092BD4	m987.7			
 p092BD6	m987.8	      セツリに さからう魂を	 A force correcting souls	
 p092BFA	m987.9	   しゅうせいしようとする ゲンショウ。	 that defy providence.	
@@ -228,7 +228,7 @@ p092E90	m997.1
 p092E92	m997.2	あなたはトーマなのッ！ あなたが 死んだら	You are Tohma! If you die,	
 p092EBE	m997.3	トーマが 死んでしまうッ！！	Tohma will die too!!	
 p092EDC	m997.4	いま 生きてるのは トーマなのよッ！	It's Tohma who lives now!	
-p092F02	m997.5	おねがい セスッ！ トーマになって生きてッ！	Seth! Live on as Tohma!	
+p092F02	m997.5	おねがい セスッ！ トーマになって生きてッ！	Please, Seth! / Live on as Tohma!	
 p092F30	m998.0	セス「トーマは ボクだ・・・	Seth: Tohma is me...	
 p092F4E	m998.1	 ボクの つみは トーマの つみだ・・・	 My sin is Tohma's sin...	
 p092F78	m998.2	だから ソランと キミに 死んで つぐなう	So I'll atone to you and / Soran with my death.	
