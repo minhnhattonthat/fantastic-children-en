@@ -1,281 +1,281 @@
 id	ref	jp	en	notes
-p07ECB4	m0.0	ヌルイベント		
-p07ECC2	m1.0	イベントテスト0		
-p07ECD4	m2.0	イベントテスト1		
-p07ECE6	m3.0	イベントテスト2		
-p07ECF8	m4.0	カイワテスト0		
-p07ED08	m5.0	カイワテスト1		
-p07ED18	m6.0	カイワテスト2		
-p07ED28	m7.0	イベントテスト0		
-p07ED3A	m8.0	イベントテスト1		
-p07ED4C	m9.0	バトルカイシ		
-p07ED5A	m10.0	バトルシュウリョウ		
-p07ED6E	m11.0	トークバトルテスト		
-p07ED82	m12.0	トークバトルテストシュウリョウ		
-p07EDA2	m13.0	セーブきどうイベント		
-p07EDB8	m14.0	セーブしますか？		
-p07EDCA	m15.0	はい		
-p07EDD0	m15.1	いいえ		
-p07EDD8	m16.0	データセーブ中です。		
-p07EDEE	m16.1	電源を 切らないで下さい。		
-p07EE0A	m17.0	セーブに しっぱいしました。		
-p07EE28	m17.1	リトライしますか？		
-p07EE3C	m18.0	たとうかいに うかぶしま パパンとう。		
-p07EE64	m18.1	たとうかいに うかぶしま パパンとう。		
-p07EE8C	m18.2	ぎょうがえ		
+p07ECB4	m0.0	ヌルイベント	Null Event	
+p07ECC2	m1.0	イベントテスト0	Event Test 0	
+p07ECD4	m2.0	イベントテスト1	Event Test 1	
+p07ECE6	m3.0	イベントテスト2	Event Test 2	
+p07ECF8	m4.0	カイワテスト0	Dialogue Test 0	
+p07ED08	m5.0	カイワテスト1	Dialogue Test 1	
+p07ED18	m6.0	カイワテスト2	Dialogue Test 2	
+p07ED28	m7.0	イベントテスト0	Event Test 0	
+p07ED3A	m8.0	イベントテスト1	Event Test 1	
+p07ED4C	m9.0	バトルカイシ	Battle Start	
+p07ED5A	m10.0	バトルシュウリョウ	Battle End	
+p07ED6E	m11.0	トークバトルテスト	Talk Battle Test	
+p07ED82	m12.0	トークバトルテストシュウリョウ	Talk Battle Test End	
+p07EDA2	m13.0	セーブきどうイベント	Save Launch Event	
+p07EDB8	m14.0	セーブしますか？	Do you want to save?	
+p07EDCA	m15.0	はい	Yes	
+p07EDD0	m15.1	いいえ	No	
+p07EDD8	m16.0	データセーブ中です。	Saving data.	
+p07EDEE	m16.1	電源を 切らないで下さい。	Don't turn off the power.	
+p07EE0A	m17.0	セーブに しっぱいしました。	The save failed.	
+p07EE28	m17.1	リトライしますか？	Do you want to retry?	
+p07EE3C	m18.0	たとうかいに うかぶしま パパンとう。	Papin, an island in the / archipelago.	
+p07EE64	m18.1	たとうかいに うかぶしま パパンとう。	Papin, an island in the / archipelago.	
+p07EE8C	m18.2	ぎょうがえ	Line break	
 p07EE98	m18.3			
-p07EE9A	m18.4	ぎょうがえ		
-p07EEA6	m19.0	イベントテスト2		
-p07EEB8	m20.0	カイワテスト0		
-p07EEC8	m21.0	であいごイベントになるよ		
-p07EEE2	m22.0	カイワテスト1		
-p07EEF2	m23.0	ＦＯＵＴごはいみない		
-p07EF08	m24.0	スイッチイベント1		
-p07EF1C	m25.0	スイッチイベント2		
-p07EF30	m26.0	スイッチイベント3		
-p07EF44	m27.0	     『・・・人生の砂漠を・・・		
-p07EF6A	m27.1	      私は 焼けながらさまよう		
-p07EF90	m27.2	          そして		
-p07EFAC	m27.3	     自分の宿命の 下でうめく・・・		
-p07EFD6	m27.4	        だが どこかに		
-p07EFF6	m27.5	      ほとんどわすれられて・・・		
-p07F01E	m27.6	  花咲くすずしい 日かげの庭のあるのを		
-p07F048	m27.7	       私は しっている。』		
-p07F06C	m28.0	15世紀より続く 子供たちの		
-p07F08A	m28.1	しゅうだんシッソウじけん・・・		
-p07F0AA	m28.2	11年ごとにくりかえす 白髪のかれらは		
-p07F0D2	m28.3	「ベフォールの子供たち」と よばれていた。		
-p07F0FE	m28.4	ベフォールの子供たちは いく世紀にもわたり		
-p07F12A	m28.5	あるひとりの女性を 探し続けていた。		
-p07F150	m29.0	くちはてた石柱が さんらんする		
-p07F170	m29.1	多島海域「ストーングランド」。		
-p07F190	m29.2	こどくな少女「ヘルガ」と		
-p07F1AA	m29.3	拳法つかいの少年「トーマ」の		
-p07F1C8	m29.4	うんめいてきな出会いから・・・		
-p07F1E8	m30.0	はるかなる時と 空間をこえた		
-p07F206	m30.1	ものがたりが はじまろうとしていた・・・。		
-p07F232	m31.0	・・・遠くから なみのおとが聞こえる・・・		
+p07EE9A	m18.4	ぎょうがえ	Line break	
+p07EEA6	m19.0	イベントテスト2	Event Test 2	
+p07EEB8	m20.0	カイワテスト0	Dialogue Test 0	
+p07EEC8	m21.0	であいごイベントになるよ	Becomes the event after / meeting	
+p07EEE2	m22.0	カイワテスト1	Dialogue Test 1	
+p07EEF2	m23.0	ＦＯＵＴごはいみない	Nothing after FOUT	
+p07EF08	m24.0	スイッチイベント1	Switch Event 1	
+p07EF1C	m25.0	スイッチイベント2	Switch Event 2	
+p07EF30	m26.0	スイッチイベント3	Switch Event 3	
+p07EF44	m27.0	     『・・・人生の砂漠を・・・	     'Through life's desert...	
+p07EF6A	m27.1	      私は 焼けながらさまよう	      I wander, burning,	
+p07EF90	m27.2	          そして	          and	
+p07EFAC	m27.3	     自分の宿命の 下でうめく・・・	     groan beneath my fate...	
+p07EFD6	m27.4	        だが どこかに	        Yet somewhere,	
+p07EFF6	m27.5	      ほとんどわすれられて・・・	      almost forgotten...	
+p07F01E	m27.6	  花咲くすずしい 日かげの庭のあるのを	  is a garden of cool shade / in bloom,	
+p07F048	m27.7	       私は しっている。』	       this I know.'	
+p07F06C	m28.0	15世紀より続く 子供たちの	Since the 15th century, / children	
+p07F08A	m28.1	しゅうだんシッソウじけん・・・	have vanished in groups...	
+p07F0AA	m28.2	11年ごとにくりかえす 白髪のかれらは	Every 11 years they came / back, white-haired.	
+p07F0D2	m28.3	「ベフォールの子供たち」と よばれていた。	People called them / "the Children of Befort."	
+p07F0FE	m28.4	ベフォールの子供たちは いく世紀にもわたり	For centuries, the / Children of Befort	
+p07F12A	m28.5	あるひとりの女性を 探し続けていた。	searched for one woman.	
+p07F150	m29.0	くちはてた石柱が さんらんする	Among scattered, ruined / stone pillars	
+p07F170	m29.1	多島海域「ストーングランド」。	lies the archipelago / "Stone Grand."	
+p07F190	m29.2	こどくな少女「ヘルガ」と	A lonely girl, "Helga,"	
+p07F1AA	m29.3	拳法つかいの少年「トーマ」の	and a kenpo boy, / "Tohma"...	
+p07F1C8	m29.4	うんめいてきな出会いから・・・	from their fated meeting,	
+p07F1E8	m30.0	はるかなる時と 空間をこえた	a tale crossing distant	
+p07F206	m30.1	ものがたりが はじまろうとしていた・・・。	time and space / was about to begin...	
+p07F232	m31.0	・・・遠くから なみのおとが聞こえる・・・	...Distant waves...	
 p07F25E	m31.1			
-p07F260	m31.2	少年「・・・うう・・・		
+p07F260	m31.2	少年「・・・うう・・・	Boy: ...Ugh...	
 p07F278	m31.3			
-p07F27A	m31.4	うわぁーーーッ！！		
-p07F28E	m32.0	ふしぎな ユメのふうけい・・・		
+p07F27A	m31.4	うわぁーーーッ！！	Waaaaaaah!!	
+p07F28E	m32.0	ふしぎな ユメのふうけい・・・	A strange dream landscape...	
 p07F2AE	m32.1			
-p07F2B0	m32.2	それは 少年をどこへ みちびこうと		
-p07F2D4	m32.3	しているのだろうか。		
-p07F2EA	m33.0	小さな島「パパン島」に りょうしんとくらす		
-p07F316	m33.1	ぼうけんしん あふれる11さいの少年・・・		
-p07F342	m33.2	少年の名は「トーマ」といった。		
-p07F362	m34.0	    ハッ！ ハッ！ ハイーーーッ！		
-p07F38A	m35.0	みつりんの奥地に 古い寺院の中から		
-p07F3AE	m35.1	いせいのいいかけ声が ひびいていた。		
-p07F3D4	m36.0	トーマ「へへへ・・・ ホイ ホイッ！		
-p07F3FA	m36.1	とうちゃん「ムゥッ・・・		
-p07F414	m36.2	とうちゃん「ケイコといえど しんけんさを		
-p07F43E	m36.3	 うしなえば 死をまねくぞ・・・！		
-p07F462	m37.0	とうちゃん「どうした これまでか トーマ		
-p07F48C	m37.1	トーマ「へへ・・・		
-p07F4A0	m38.0	ボーン・・・ ボーン・・・		
-p07F4BC	m38.1	はしらどけいが 4時をうった。		
-p07F4DC	m38.2	トーマ「あッ！？時間 時間！		
-p07F4FA	m38.3	 かあちゃんを むかえに行く 時間だよ！		
-p07F524	m39.0	とうちゃん「こらッ トーマ！		
-p07F542	m39.1	 まだ ケイコはおわっとらんぞッ！！		
-p07F568	m40.0	・・・ウム 島を出ると バトルもあるからな		
-p07F594	m40.1	聞いておきたいことは あるか？		
-p07F5B4	m41.0	操作説明		
-p07F5BE	m41.1	バトル説明		
-p07F5CA	m41.2	やめておく		
-p07F5D6	m42.0	Ａボタンでジャンプして 押したままにすれば		
-p07F602	m42.1	岩や枝に つかまることが出来るからな		
-p07F628	m42.2	岩や枝に つかまったあと		
-p07F642	m42.3	十字ボタン上で よじ登れば		
-p07F65E	m42.4	かくしルートが 見つかるかもしれん・・・		
+p07F2B0	m32.2	それは 少年をどこへ みちびこうと	Where is it trying to	
+p07F2D4	m32.3	しているのだろうか。	lead the boy?	
+p07F2EA	m33.0	小さな島「パパン島」に りょうしんとくらす	On tiny "Papin Island" / lived, with his parents,	
+p07F316	m33.1	ぼうけんしん あふれる11さいの少年・・・	an adventurous / 11-year-old boy...	
+p07F342	m33.2	少年の名は「トーマ」といった。	His name was "Tohma."	
+p07F362	m34.0	    ハッ！ ハッ！ ハイーーーッ！	    Hah! Hah! Hyaaaaah!	
+p07F38A	m35.0	みつりんの奥地に 古い寺院の中から	Deep in the jungle, from / an old temple,	
+p07F3AE	m35.1	いせいのいいかけ声が ひびいていた。	a lively shout rang out.	
+p07F3D4	m36.0	トーマ「へへへ・・・ ホイ ホイッ！	Tohma: Heh... Hup, hup!	
+p07F3FA	m36.1	とうちゃん「ムゥッ・・・	Dad: Hmph...	
+p07F414	m36.2	とうちゃん「ケイコといえど しんけんさを	Dad: Training or not, lose	
+p07F43E	m36.3	 うしなえば 死をまねくぞ・・・！	 focus and you're dead!	
+p07F462	m37.0	とうちゃん「どうした これまでか トーマ	Dad: What's the matter? / That all you got, Tohma?	
+p07F48C	m37.1	トーマ「へへ・・・	Tohma: Heh heh...	
+p07F4A0	m38.0	ボーン・・・ ボーン・・・	Bong... Bong...	
+p07F4BC	m38.1	はしらどけいが 4時をうった。	The clock struck four.	
+p07F4DC	m38.2	トーマ「あッ！？時間 時間！	Tohma: Ah?! The time!	
+p07F4FA	m38.3	 かあちゃんを むかえに行く 時間だよ！	 I gotta go pick up Mom!	
+p07F524	m39.0	とうちゃん「こらッ トーマ！	Dad: Hey, Tohma!	
+p07F542	m39.1	 まだ ケイコはおわっとらんぞッ！！	 Training's not over yet!!	
+p07F568	m40.0	・・・ウム 島を出ると バトルもあるからな	...Hm. Off the island / there are battles too.	
+p07F594	m40.1	聞いておきたいことは あるか？	Anything to ask me?	
+p07F5B4	m41.0	操作説明	Controls	
+p07F5BE	m41.1	バトル説明	Battles	
+p07F5CA	m41.2	やめておく	Never mind	
+p07F5D6	m42.0	Ａボタンでジャンプして 押したままにすれば	Jump with the A Button. / Hold it down	
+p07F602	m42.1	岩や枝に つかまることが出来るからな	and you can grab rocks / and branches.	
+p07F628	m42.2	岩や枝に つかまったあと	Once you grab one,	
+p07F642	m42.3	十字ボタン上で よじ登れば	climb with Up on the / +Control Pad	
+p07F65E	m42.4	かくしルートが 見つかるかもしれん・・・	and you may find a / hidden path...	
 p07F688	m42.5			
-p07F68A	m42.6	十字ボタン上を 押しながら		
-p07F6A6	m42.7	ジャンプでツタを つかんだら		
-p07F6C4	m42.8	上下で 上り下りも出来るぞ		
-p07F6E0	m43.0	バトルは 「アクションバー」を		
-p07F700	m43.1	上下に入れかえる リアルタイムバトルだ		
-p07F728	m43.2	3しゅるいの きほんアクションである		
-p07F74E	m43.3	「パンチ」「チョップ」「キック」には・・・		
-p07F77A	m44.0	     強弱の 「相性」がある！！		
+p07F68A	m42.6	十字ボタン上を 押しながら	Hold Up on the / +Control Pad	
+p07F6A6	m42.7	ジャンプでツタを つかんだら	and jump to grab a vine,	
+p07F6C4	m42.8	上下で 上り下りも出来るぞ	then use Up and Down / to climb.	
+p07F6E0	m43.0	バトルは 「アクションバー」を	Battles are fought by / switching "Action Bars"	
+p07F700	m43.1	上下に入れかえる リアルタイムバトルだ	up and down. It's a / Real-Time Battle!	
+p07F728	m43.2	3しゅるいの きほんアクションである	The 3 basic actions,	
+p07F74E	m43.3	「パンチ」「チョップ」「キック」には・・・	Punch, Chop and Kick...	
+p07F77A	m44.0	     強弱の 「相性」がある！！	     have matchups!!	
 p07F7A0	m44.1			
-p07F7A2	m44.2	パンチ（グー）は		
-p07F7B4	m44.3	キック（チョキ）より強い・・・		
-p07F7D4	m44.4	キック（チョキ）は		
-p07F7E8	m44.5	チョップ（パー）より強い・・・		
-p07F808	m44.6	チョップ（パー）は		
-p07F81C	m44.7	パンチ（グー）より強い・・・		
-p07F83A	m44.8	のびるアクションバーが ぶつかる前に		
-p07F860	m44.9	相手のアクションを みきわめたら・・・		
-p07F888	m44.10	十字ボタン上下で アクションを		
-p07F8A8	m44.11	選択して Ａボタンで決定だ！		
-p07F8C6	m44.12	まずは 色分けされたアクションバーを		
-p07F8EC	m44.13	よく見て 相性をおぼえることだな・・・		
-p07F914	m45.0	バトルする		
-p07F920	m45.1	もういちど		
-p07F92C	m45.2	やめておく		
-p07F938	m46.0	行くぞッ！		
-p07F944	m47.0	ど どうしたトーマ きょうはいつになく		
-p07F96C	m47.1	カが入ってるな・・・		
-p07F982	m48.0	・・・カまかせは しょせんうわっつらだ		
-p07F9AA	m48.1	こころに ゆがみをうむ・・・		
-p07F9C8	m48.2	ウム・・・ お前に これをやろう		
-p07F9EA	m49.0	サポートフレンド 「ボラボラ様」		
-p07FA0C	m49.1	が なかまになった！		
-p07FA22	m49.2	「にげる」ことが 出来るようになる。		
-p07FA48	m49.3	トーマの おまもりだ。		
-p07FA60	m49.4	なかまは すべてのバトルアイテムに 強いが		
-p07FA8C	m49.5	記憶のレコードを ショウヒする。		
-p07FAAE	m50.0	スタートボタンを押せば アクションバーに		
-p07FAD8	m50.1	セットしてある「バトルアイテム」がわかる		
-p07FB02	m50.2	「バトルエディット」では		
-p07FB1C	m50.3	5本のアクションバーへのセット そして		
-p07FB44	m50.4	「サポートエディット」では ＬＲボタンで		
-p07FB6E	m50.5	よび出せる なかまのセットが出来る		
-p07FB92	m50.6	あとで かくにんしてみるんだな・・・		
-p07FBB8	m51.0	・・・カまかせは しょせんうわっつらだ		
-p07FBE0	m51.1	こころに ゆがみをうむ・・・		
-p07FBFE	m51.2	ウム・・・ お前に これをやろう		
-p07FC20	m52.0	サポートフレンド 「ボラボラ様」		
-p07FC42	m52.1	が なかまになった！		
-p07FC58	m52.2	「にげる」ことが 出来るようになる。		
-p07FC7E	m52.3	トーマの おまもりだ。		
-p07FC96	m52.4	なかまは すべてのバトルアイテムに 強いが		
-p07FCC2	m52.5	記憶のレコードを ショウヒする。		
-p07FCE4	m53.0	スタートボタンを押せば アクションバーに		
-p07FD0E	m53.1	セットしてある「バトルアイテム」がわかる		
-p07FD38	m53.2	「バトルエディット」では		
-p07FD52	m53.3	5本のアクションバーへのセット そして		
-p07FD7A	m53.4	「サポートエディット」では ＬＲボタンで		
-p07FDA4	m53.5	よび出せる なかまのセットが出来る		
-p07FDC8	m53.6	あとで かくにんしてみるんだな・・・		
-p07FDEE	m54.0	森から石柱をぬけると ボートがあるからな		
+p07F7A2	m44.2	パンチ（グー）は	Punch (rock)	
+p07F7B4	m44.3	キック（チョキ）より強い・・・	beats Kick (scissors)...	
+p07F7D4	m44.4	キック（チョキ）は	Kick (scissors)	
+p07F7E8	m44.5	チョップ（パー）より強い・・・	beats Chop (paper)...	
+p07F808	m44.6	チョップ（パー）は	Chop (paper)	
+p07F81C	m44.7	パンチ（グー）より強い・・・	beats Punch (rock)...	
+p07F83A	m44.8	のびるアクションバーが ぶつかる前に	Before the growing / Action Bars collide,	
+p07F860	m44.9	相手のアクションを みきわめたら・・・	read your opponent's / action...	
+p07F888	m44.10	十字ボタン上下で アクションを	use Up and Down on the / +Control Pad to pick	
+p07F8A8	m44.11	選択して Ａボタンで決定だ！	an action, and A to / confirm!	
+p07F8C6	m44.12	まずは 色分けされたアクションバーを	First, watch the / color-coded Action Bars	
+p07F8EC	m44.13	よく見て 相性をおぼえることだな・・・	and learn the matchups...	
+p07F914	m45.0	バトルする	Battle	
+p07F920	m45.1	もういちど	Once more	
+p07F92C	m45.2	やめておく	Never mind	
+p07F938	m46.0	行くぞッ！	Here I come!	
+p07F944	m47.0	ど どうしたトーマ きょうはいつになく	Wh-what's got into you, / Tohma? You're putting	
+p07F96C	m47.1	カが入ってるな・・・	real power in it today...	
+p07F982	m48.0	・・・カまかせは しょせんうわっつらだ	...Brute force is only / skin-deep.	
+p07F9AA	m48.1	こころに ゆがみをうむ・・・	It warps the heart...	
+p07F9C8	m48.2	ウム・・・ お前に これをやろう	Hm... Here, take this.	
+p07F9EA	m49.0	サポートフレンド 「ボラボラ様」	The Support Friend / "Borabora-sama"	
+p07FA0C	m49.1	が なかまになった！	joined you!	
+p07FA22	m49.2	「にげる」ことが 出来るようになる。	Now you can "Run Away."	
+p07FA48	m49.3	トーマの おまもりだ。	Tohma's lucky charm.	
+p07FA60	m49.4	なかまは すべてのバトルアイテムに 強いが	Friends beat every / Battle Item,	
+p07FA8C	m49.5	記憶のレコードを ショウヒする。	but use Memory Records.	
+p07FAAE	m50.0	スタートボタンを押せば アクションバーに	Press Start, and on the / Action Bars	
+p07FAD8	m50.1	セットしてある「バトルアイテム」がわかる	you can see the set / "Battle Items."	
+p07FB02	m50.2	「バトルエディット」では	In "Battle Edit" you set	
+p07FB1C	m50.3	5本のアクションバーへのセット そして	the 5 Action Bars, and	
+p07FB44	m50.4	「サポートエディット」では ＬＲボタンで	in "Support Edit" you set / the friends	
+p07FB6E	m50.5	よび出せる なかまのセットが出来る	you call with the L and R / Buttons.	
+p07FB92	m50.6	あとで かくにんしてみるんだな・・・	Go check them later...	
+p07FBB8	m51.0	・・・カまかせは しょせんうわっつらだ	...Brute force is only / skin-deep.	
+p07FBE0	m51.1	こころに ゆがみをうむ・・・	It warps the heart...	
+p07FBFE	m51.2	ウム・・・ お前に これをやろう	Hm... Here, take this.	
+p07FC20	m52.0	サポートフレンド 「ボラボラ様」	The Support Friend / "Borabora-sama"	
+p07FC42	m52.1	が なかまになった！	joined you!	
+p07FC58	m52.2	「にげる」ことが 出来るようになる。	Now you can "Run Away."	
+p07FC7E	m52.3	トーマの おまもりだ。	Tohma's lucky charm.	
+p07FC96	m52.4	なかまは すべてのバトルアイテムに 強いが	Friends beat every / Battle Item,	
+p07FCC2	m52.5	記憶のレコードを ショウヒする。	but use Memory Records.	
+p07FCE4	m53.0	スタートボタンを押せば アクションバーに	Press Start, and on the / Action Bars	
+p07FD0E	m53.1	セットしてある「バトルアイテム」がわかる	you can see the set / "Battle Items."	
+p07FD38	m53.2	「バトルエディット」では	In "Battle Edit" you set	
+p07FD52	m53.3	5本のアクションバーへのセット そして	the 5 Action Bars, and	
+p07FD7A	m53.4	「サポートエディット」では ＬＲボタンで	in "Support Edit" you set / the friends	
+p07FDA4	m53.5	よび出せる なかまのセットが出来る	you call with the L and R / Buttons.	
+p07FDC8	m53.6	あとで かくにんしてみるんだな・・・	Go check them later...	
+p07FDEE	m54.0	森から石柱をぬけると ボートがあるからな	Go through the forest / and past the pillars, / and you'll find a boat.	
 p07FE18	m54.1			
-p07FE1A	m54.2	ボートに乗って アタマの上にアイコンが		
-p07FE42	m54.3	出たら Ｂボタンで しらべてみろ		
-p07FE64	m54.4	行きさきを選んだら Ａボタンで決定		
-p07FE88	m54.5	Ｂボタンでキャンセルだぞ		
-p07FEA2	m54.6	かあちゃんが まってるぞ		
-p07FEBC	m54.7	はやく 行ってやれ		
-p07FED0	m55.0	アイコンが出たら Ｂボタン・・・		
-p07FEF2	m55.1	わかってるって とうちゃんッ！		
-p07FF12	m56.0	トーマ「・・・・・・！		
-p07FF2A	m57.0	あっ！		
-p07FF32	m58.0	院長「いや ごめいわくを かけましたな		
-p07FF5A	m59.0	かあちゃん「むすめさんに なにごともなくて		
-p07FF86	m59.1	 よかったですよ 院長さん		
-p07FFA2	m59.2	院長「では・・・		
-p07FFB4	m60.0	トーマ「・・・あのコは！？		
+p07FE1A	m54.2	ボートに乗って アタマの上にアイコンが	Get in the boat. When an / icon appears	
+p07FE42	m54.3	出たら Ｂボタンで しらべてみろ	over your head, check it / with the B Button.	
+p07FE64	m54.4	行きさきを選んだら Ａボタンで決定	Pick where to go and / confirm with A,	
+p07FE88	m54.5	Ｂボタンでキャンセルだぞ	or cancel with B.	
+p07FEA2	m54.6	かあちゃんが まってるぞ	Your mom's waiting.	
+p07FEBC	m54.7	はやく 行ってやれ	Get going, quick.	
+p07FED0	m55.0	アイコンが出たら Ｂボタン・・・	When the icon shows up, / B Button...	
+p07FEF2	m55.1	わかってるって とうちゃんッ！	I know, I know, Dad!	
+p07FF12	m56.0	トーマ「・・・・・・！	Tohma: ......!	
+p07FF2A	m57.0	あっ！	Ah!	
+p07FF32	m58.0	院長「いや ごめいわくを かけましたな	Director: My, I'm sorry / for the trouble.	
+p07FF5A	m59.0	かあちゃん「むすめさんに なにごともなくて	Mom: I'm just glad nothing / happened to the girl,	
+p07FF86	m59.1	 よかったですよ 院長さん	 Director.	
+p07FFA2	m59.2	院長「では・・・	Director: Well then...	
+p07FFB4	m60.0	トーマ「・・・あのコは！？	Tohma: ...That girl?!	
 p07FFD0	m60.1			
-p07FFD2	m60.2	かあちゃん「・・・施設から		
-p07FFEE	m60.3	 ぬけ出して来たんだってさ・・・		
-p080010	m60.4	とうちゃんが みなみの浜に1人でいたのを		
-p08003A	m60.5	見つけて あわててレンラクしたんだよ		
-p080060	m61.0	ナツナ島で出会った少年と		
-p08007A	m61.1	石柱の上で出会った少女・・・		
-p080098	m61.2	2人は たびたび児童施設からぬけ出しては		
-p0800C2	m61.3	つれもどされていた。		
-p0800D8	m61.4	くるしく かなしそうな瞳をうかべた		
-p0800FC	m61.5	その少女は 大人たちにかこまれて		
-p08011E	m61.6	暗い森の中へ消えて行った。		
-p08013A	m62.0	！ ・・・トーマ お前・・・		
+p07FFD2	m60.2	かあちゃん「・・・施設から	Mom: ...They say she	
+p07FFEE	m60.3	 ぬけ出して来たんだってさ・・・	 ran away from the home...	
+p080010	m60.4	とうちゃんが みなみの浜に1人でいたのを	Dad found her alone on / the south beach	
+p08003A	m60.5	見つけて あわててレンラクしたんだよ	and called them in a hurry.	
+p080060	m61.0	ナツナ島で出会った少年と	The boy he met on / Natsuna Island	
+p08007A	m61.1	石柱の上で出会った少女・・・	and the girl he met atop / the stone pillar...	
+p080098	m61.2	2人は たびたび児童施設からぬけ出しては	The two kept running off / from the children's home	
+p0800C2	m61.3	つれもどされていた。	and kept being brought / back.	
+p0800D8	m61.4	くるしく かなしそうな瞳をうかべた	With pained, sad eyes,	
+p0800FC	m61.5	その少女は 大人たちにかこまれて	the girl, surrounded by / adults,	
+p08011E	m61.6	暗い森の中へ消えて行った。	vanished into the dark / forest.	
+p08013A	m62.0	！ ・・・トーマ お前・・・	! ...Tohma, you...	
 p080158	m62.1			
-p08015A	m63.0	どうした なにかそうだんごとか？		
-p08017C	m64.0	操作説明		
-p080186	m64.1	バトル説明		
-p080192	m64.2	バトルする		
-p08019E	m64.3	やめておく		
-p0801AA	m65.0	Ａボタンでジャンプして 押したままにすれば		
-p0801D6	m65.1	岩や枝に つかまることが出来るからな		
-p0801FC	m65.2	岩や枝に つかまったあと		
-p080216	m65.3	十字ボタン上で よじ登れば		
-p080232	m65.4	かくしルートが 見つかるかもしれん・・・		
+p08015A	m63.0	どうした なにかそうだんごとか？	What's up? Something on / your mind?	
+p08017C	m64.0	操作説明	Controls	
+p080186	m64.1	バトル説明	Battles	
+p080192	m64.2	バトルする	Battle	
+p08019E	m64.3	やめておく	Never mind	
+p0801AA	m65.0	Ａボタンでジャンプして 押したままにすれば	Jump with the A Button. / Hold it down	
+p0801D6	m65.1	岩や枝に つかまることが出来るからな	and you can grab rocks / and branches.	
+p0801FC	m65.2	岩や枝に つかまったあと	Once you grab one,	
+p080216	m65.3	十字ボタン上で よじ登れば	climb with Up on the / +Control Pad	
+p080232	m65.4	かくしルートが 見つかるかもしれん・・・	and you may find a / hidden path...	
 p08025C	m65.5			
-p08025E	m65.6	十字ボタン上を 押しながら		
-p08027A	m65.7	ジャンプでツタを つかんだら		
-p080298	m65.8	上下で 上り下りも出来るぞ		
-p0802B4	m66.0	バトルは 「アクションバー」を		
-p0802D4	m66.1	上下に入れかえる リアルタイムバトルだ		
-p0802FC	m66.2	3しゅるいの きほんアクションである		
-p080322	m66.3	「パンチ」「チョップ」「キック」には・・・		
-p08034E	m67.0	     強弱の 「相性」がある！！		
+p08025E	m65.6	十字ボタン上を 押しながら	Hold Up on the / +Control Pad	
+p08027A	m65.7	ジャンプでツタを つかんだら	and jump to grab a vine,	
+p080298	m65.8	上下で 上り下りも出来るぞ	then use Up and Down / to climb.	
+p0802B4	m66.0	バトルは 「アクションバー」を	Battles are fought by / switching "Action Bars"	
+p0802D4	m66.1	上下に入れかえる リアルタイムバトルだ	up and down. It's a / Real-Time Battle!	
+p0802FC	m66.2	3しゅるいの きほんアクションである	The 3 basic actions,	
+p080322	m66.3	「パンチ」「チョップ」「キック」には・・・	Punch, Chop and Kick...	
+p08034E	m67.0	     強弱の 「相性」がある！！	     have matchups!!	
 p080374	m67.1			
-p080376	m67.2	パンチ（グー）は		
-p080388	m67.3	キック（チョキ）より強い・・・		
-p0803A8	m67.4	キック（チョキ）は		
-p0803BC	m67.5	チョップ（パー）より強い・・・		
-p0803DC	m67.6	チョップ（パー）は		
-p0803F0	m67.7	パンチ（グー）より強い・・・		
-p08040E	m67.8	のびるアクションバーが ぶつかる前に		
-p080434	m67.9	相手のアクションを みきわめたら・・・		
-p08045C	m67.10	十字ボタン上下で アクションを		
-p08047C	m67.11	選択して Ａボタンで決定だ！		
-p08049A	m67.12	まずは 色分けされたアクションバーを		
-p0804C0	m67.13	よく見て 相性をおぼえることだな・・・		
-p0804E8	m68.0	バトルする		
-p0804F4	m68.1	もういちど		
-p080500	m68.2	やめておく		
-p08050C	m69.0	行くぞッ！		
-p080518	m70.0	ど どうしたトーマ きょうはいつになく		
-p080540	m70.1	カが入ってるな・・・		
-p080556	m71.0	・・・カまかせは しょせんうわっつらだ		
-p08057E	m71.1	こころに ゆがみをうむ・・・		
-p08059C	m71.2	ウム・・・ お前に これをやろう		
-p0805BE	m72.0	サポートフレンド 「ボラボラ様」		
-p0805E0	m72.1	が なかまになった！		
-p0805F6	m72.2	「にげる」ことが 出来るようになる。		
-p08061C	m72.3	トーマの おまもりだ。		
-p080634	m73.0	サポートフレンド 「ボラボラ様」		
-p080656	m73.1	が なかまになった！		
-p08066C	m73.2	「にげる」ことが 出来るようになる。		
-p080692	m73.3	トーマの おまもりだ。		
-p0806AA	m73.4	なかまは すべてのバトルアイテムに 強いが		
-p0806D6	m73.5	記憶のレコードを ショウヒする。		
-p0806F8	m74.0	スタートボタンを押せば アクションバーに		
-p080722	m74.1	セットしてある「バトルアイテム」がわかる		
-p08074C	m74.2	「バトルエディット」では		
-p080766	m74.3	5本のアクションバーへのセット そして		
-p08078E	m74.4	「サポートエディット」では ＬＲボタンで		
-p0807B8	m74.5	よび出せる なかまのセットが出来る		
-p0807DC	m74.6	あとで かくにんしてみるんだな・・・		
-p080802	m75.0	かあちゃんが まってるぞ		
-p08081C	m75.1	はやく 行ってやれ		
-p080830	m76.0	ウム・・・ そろそろ メシにするか		
-p080854	m77.0	ヘヘヘ・・・ とうちゃんにも ナツナ島で		
-p08087E	m77.1	占いしてる時の かあちゃんのオドリ		
-p0808A2	m77.2	みせたかったなぁ～		
-p0808B6	m78.0	オドリ？ ・・・なんのことだ・・・		
-p0808DA	m79.0	ウム・・・ やるように なったな・・・		
-p080902	m80.0	！ ・・・トーマ お前・・・		
+p080376	m67.2	パンチ（グー）は	Punch (rock)	
+p080388	m67.3	キック（チョキ）より強い・・・	beats Kick (scissors)...	
+p0803A8	m67.4	キック（チョキ）は	Kick (scissors)	
+p0803BC	m67.5	チョップ（パー）より強い・・・	beats Chop (paper)...	
+p0803DC	m67.6	チョップ（パー）は	Chop (paper)	
+p0803F0	m67.7	パンチ（グー）より強い・・・	beats Punch (rock)...	
+p08040E	m67.8	のびるアクションバーが ぶつかる前に	Before the growing / Action Bars collide,	
+p080434	m67.9	相手のアクションを みきわめたら・・・	read your opponent's / action...	
+p08045C	m67.10	十字ボタン上下で アクションを	use Up and Down on the / +Control Pad to pick	
+p08047C	m67.11	選択して Ａボタンで決定だ！	an action, and A to / confirm!	
+p08049A	m67.12	まずは 色分けされたアクションバーを	First, watch the / color-coded Action Bars	
+p0804C0	m67.13	よく見て 相性をおぼえることだな・・・	and learn the matchups...	
+p0804E8	m68.0	バトルする	Battle	
+p0804F4	m68.1	もういちど	Once more	
+p080500	m68.2	やめておく	Never mind	
+p08050C	m69.0	行くぞッ！	Here I come!	
+p080518	m70.0	ど どうしたトーマ きょうはいつになく	Wh-what's got into you, / Tohma? You're putting	
+p080540	m70.1	カが入ってるな・・・	real power in it today...	
+p080556	m71.0	・・・カまかせは しょせんうわっつらだ	...Brute force is only / skin-deep.	
+p08057E	m71.1	こころに ゆがみをうむ・・・	It warps the heart...	
+p08059C	m71.2	ウム・・・ お前に これをやろう	Hm... Here, take this.	
+p0805BE	m72.0	サポートフレンド 「ボラボラ様」	The Support Friend / "Borabora-sama"	
+p0805E0	m72.1	が なかまになった！	joined you!	
+p0805F6	m72.2	「にげる」ことが 出来るようになる。	Now you can "Run Away."	
+p08061C	m72.3	トーマの おまもりだ。	Tohma's lucky charm.	
+p080634	m73.0	サポートフレンド 「ボラボラ様」	The Support Friend / "Borabora-sama"	
+p080656	m73.1	が なかまになった！	joined you!	
+p08066C	m73.2	「にげる」ことが 出来るようになる。	Now you can "Run Away."	
+p080692	m73.3	トーマの おまもりだ。	Tohma's lucky charm.	
+p0806AA	m73.4	なかまは すべてのバトルアイテムに 強いが	Friends beat every / Battle Item,	
+p0806D6	m73.5	記憶のレコードを ショウヒする。	but use Memory Records.	
+p0806F8	m74.0	スタートボタンを押せば アクションバーに	Press Start, and on the / Action Bars	
+p080722	m74.1	セットしてある「バトルアイテム」がわかる	you can see the set / "Battle Items."	
+p08074C	m74.2	「バトルエディット」では	In "Battle Edit" you set	
+p080766	m74.3	5本のアクションバーへのセット そして	the 5 Action Bars, and	
+p08078E	m74.4	「サポートエディット」では ＬＲボタンで	in "Support Edit" you set / the friends	
+p0807B8	m74.5	よび出せる なかまのセットが出来る	you call with the L and R / Buttons.	
+p0807DC	m74.6	あとで かくにんしてみるんだな・・・	Go check them later...	
+p080802	m75.0	かあちゃんが まってるぞ	Your mom's waiting.	
+p08081C	m75.1	はやく 行ってやれ	Get going, quick.	
+p080830	m76.0	ウム・・・ そろそろ メシにするか	Hm... Time to eat, I think.	
+p080854	m77.0	ヘヘヘ・・・ とうちゃんにも ナツナ島で	Heh heh... Dad, on / Natsuna Island	
+p08087E	m77.1	占いしてる時の かあちゃんのオドリ	you should've seen Mom's / fortune-telling dance.	
+p0808A2	m77.2	みせたかったなぁ～	Wish you'd been there~	
+p0808B6	m78.0	オドリ？ ・・・なんのことだ・・・	Dance? ...What are you / talking about...	
+p0808DA	m79.0	ウム・・・ やるように なったな・・・	Hm... You've gotten / good...	
+p080902	m80.0	！ ・・・トーマ お前・・・	! ...Tohma, you...	
 p080920	m80.1			
-p080922	m81.0	どうした？ なにかそうだんごとか？		
-p080946	m82.0	バトルする		
-p080952	m82.1	やめておく		
-p08095E	m83.0	行くぞッ！		
-p08096A	m84.0	ど どうしたトーマ きょうはいつになく		
-p080992	m84.1	カが入ってるな・・・		
-p0809A8	m85.0	・・・カまかせは しょせんうわっつらだ		
-p0809D0	m85.1	スキを つくるぞ トーマ・・・		
-p0809F0	m86.0	ウム・・・ お前に これをやろう		
-p080A12	m87.0	とうちゃんは さいだんの裏から		
-p080A32	m87.1	なにかを 取り出した。		
-p080A4A	m88.0	「宝物庫のカギ」を 手に入れた！		
-p080A6C	m89.0	ウム・・・ やるように なったな・・・		
-p080A94	m90.0	！ ・・・トーマ お前・・・		
+p080922	m81.0	どうした？ なにかそうだんごとか？	What is it? Got something / on your mind?	
+p080946	m82.0	バトルする	Battle	
+p080952	m82.1	やめておく	Never mind	
+p08095E	m83.0	行くぞッ！	Here I come!	
+p08096A	m84.0	ど どうしたトーマ きょうはいつになく	Wh-what's got into you, / Tohma? You're putting	
+p080992	m84.1	カが入ってるな・・・	real power in it today...	
+p0809A8	m85.0	・・・カまかせは しょせんうわっつらだ	...Brute force is only / skin-deep.	
+p0809D0	m85.1	スキを つくるぞ トーマ・・・	You'll leave yourself / open, Tohma...	
+p0809F0	m86.0	ウム・・・ お前に これをやろう	Hm... Here, take this.	
+p080A12	m87.0	とうちゃんは さいだんの裏から	From behind the altar,	
+p080A32	m87.1	なにかを 取り出した。	Dad took something out.	
+p080A4A	m88.0	「宝物庫のカギ」を 手に入れた！	Got the "Treasury Key"!	
+p080A6C	m89.0	ウム・・・ やるように なったな・・・	Hm... You've gotten / good...	
+p080A94	m90.0	！ ・・・トーマ お前・・・	! ...Tohma, you...	
 p080AB2	m90.1			
-p080AB4	m91.0	ウム どうした なにかそうだんごとか？		
-p080ADC	m92.0	バトルする		
-p080AE8	m92.1	やめておく		
-p080AF4	m93.0	行くぞッ！		
-p080B00	m94.0	ど どうしたトーマ きょうはいつになく		
-p080B28	m94.1	カが入ってるな・・・		
-p080B3E	m95.0	・・・カまかせは しょせんうわっつらだ		
-p080B66	m95.1	スキを つくるぞ トーマ・・・		
-p080B86	m96.0	ウム・・・ やるように なったな・・・		
-p080BAE	m97.0	！ ・・・トーマ お前・・・		
+p080AB4	m91.0	ウム どうした なにかそうだんごとか？	Hm, what is it? Something / on your mind?	
+p080ADC	m92.0	バトルする	Battle	
+p080AE8	m92.1	やめておく	Never mind	
+p080AF4	m93.0	行くぞッ！	Here I come!	
+p080B00	m94.0	ど どうしたトーマ きょうはいつになく	Wh-what's got into you, / Tohma? You're putting	
+p080B28	m94.1	カが入ってるな・・・	real power in it today...	
+p080B3E	m95.0	・・・カまかせは しょせんうわっつらだ	...Brute force is only / skin-deep.	
+p080B66	m95.1	スキを つくるぞ トーマ・・・	You'll leave yourself / open, Tohma...	
+p080B86	m96.0	ウム・・・ やるように なったな・・・	Hm... You've gotten / good...	
+p080BAE	m97.0	！ ・・・トーマ お前・・・	! ...Tohma, you...	
 p080BCC	m97.1			
-p080BCE	m98.0	ウム どうした？ なにかそうだんごとか？		
-p080BF8	m99.0	バトルする		
-p080C04	m99.1	やめておく		
+p080BCE	m98.0	ウム どうした？ なにかそうだんごとか？	Hm, what's up? Something / on your mind?	
+p080BF8	m99.0	バトルする	Battle	
+p080C04	m99.1	やめておく	Never mind	

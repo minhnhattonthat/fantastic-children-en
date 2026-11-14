@@ -1,294 +1,294 @@
 id	ref	jp	en	notes
-p084A52	m300.0	なでる		
-p084A5A	m300.1	パンくず		
-p084A64	m300.2	ゆびぶえ		
-p084A6E	m301.0	・・・キキッ♪		
-p084A7E	m301.1	アメデオが ピョンと かたまで登って来た！		
-p084AAA	m302.0	バトルアイテムＳＰ 「アメデオ」		
-p084ACC	m302.1	を 手に入れた！		
-p084ADE	m302.2	相手を シャッフル。		
-p084AF4	m302.3	とくていの相手に20ダメージ。		
-p084B14	m303.0	・・・キキッ♪		
-p084B24	m303.1	アメデオが ピョンと かたまで登って来た！		
-p084B50	m304.0	バトルアイテムＳＰ 「アメデオ」		
-p084B72	m304.1	を 手に入れた！		
-p084B84	m304.2	相手を シャッフル。		
-p084B9A	m304.3	とくていの相手に20ダメージ。		
-p084BBA	m304.4	『バトルアイテムＳＰは パンチ チョップ		
-p084BE4	m304.5	キックすべてに強い。 ガードだけに弱い。』		
-p084C10	m305.0	・・・キキッ		
-p084C1E	m305.1	アメデオが 近づいてきた・・・！		
-p084C40	m305.2	サッと パンくずをとって		
-p084C5A	m305.3	しげみに かくれてしまった。		
-p084C78	m306.0	な なんで？ オレたちの1年は！？		
-p084C9C	m307.0	・・・キキッ		
-p084CAA	m307.1	アメデオが 近づいてきた・・・！		
-p084CCC	m308.0	なでる		
-p084CD4	m308.1	パンくず		
-p084CDE	m309.0	・・・キキッ		
-p084CEC	m309.1	アメデオが 近づいてきた・・・！		
-p084D0E	m309.2	ジッと トーマを みつめると・・・		
+p084A52	m300.0	なでる	Pet	
+p084A5A	m300.1	パンくず	Crumbs	
+p084A64	m300.2	ゆびぶえ	Whistle	
+p084A6E	m301.0	・・・キキッ♪	...Kee kee♪	
+p084A7E	m301.1	アメデオが ピョンと かたまで登って来た！	Amedeo hopped up onto / Tohma's shoulder!	
+p084AAA	m302.0	バトルアイテムＳＰ 「アメデオ」	Battle Item SP "Amedeo"	
+p084ACC	m302.1	を 手に入れた！	obtained!	
+p084ADE	m302.2	相手を シャッフル。	Shuffles the foe.	
+p084AF4	m302.3	とくていの相手に20ダメージ。	20 damage to one foe.	
+p084B14	m303.0	・・・キキッ♪	...Kee kee♪	
+p084B24	m303.1	アメデオが ピョンと かたまで登って来た！	Amedeo hopped up onto / Tohma's shoulder!	
+p084B50	m304.0	バトルアイテムＳＰ 「アメデオ」	Battle Item SP "Amedeo"	
+p084B72	m304.1	を 手に入れた！	obtained!	
+p084B84	m304.2	相手を シャッフル。	Shuffles the foe.	
+p084B9A	m304.3	とくていの相手に20ダメージ。	20 damage to one foe.	
+p084BBA	m304.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
+p084BE4	m304.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p084C10	m305.0	・・・キキッ	...Kee kee	
+p084C1E	m305.1	アメデオが 近づいてきた・・・！	Amedeo came closer...!	
+p084C40	m305.2	サッと パンくずをとって	He snatched the crumbs	
+p084C5A	m305.3	しげみに かくれてしまった。	and hid in the bushes.	
+p084C78	m306.0	な なんで？ オレたちの1年は！？	Wh-why? What about our / year together?!	
+p084C9C	m307.0	・・・キキッ	...Kee kee	
+p084CAA	m307.1	アメデオが 近づいてきた・・・！	Amedeo came closer...!	
+p084CCC	m308.0	なでる	Pet	
+p084CD4	m308.1	パンくず	Crumbs	
+p084CDE	m309.0	・・・キキッ	...Kee kee	
+p084CEC	m309.1	アメデオが 近づいてきた・・・！	Amedeo came closer...!	
+p084D0E	m309.2	ジッと トーマを みつめると・・・	He stared at Tohma...	
 p084D32	m309.3			
-p084D34	m310.0	       キキィ～～～ッ！		
-p084D54	m310.1	アッカンベーをして かくれてしまった。		
-p084D7C	m311.0	！！！！		
-p084D86	m311.1	てんめぇっ！！ この！		
-p084D9E	m312.0	ジッと トーマを みつめると・・・		
+p084D34	m310.0	       キキィ～～～ッ！	       Keeeee~~~!	
+p084D54	m310.1	アッカンベーをして かくれてしまった。	He made a face and hid.	
+p084D7C	m311.0	！！！！	!!!!	
+p084D86	m311.1	てんめぇっ！！ この！	Why, you!! You little...!	
+p084D9E	m312.0	ジッと トーマを みつめると・・・	He stared at Tohma...	
 p084DC2	m312.1			
-p084DC4	m313.0	       キキィ～～～ッ！		
-p084DE4	m313.1	アッカンベーをして かくれてしまった。		
-p084E0C	m314.0	このヤロウ！ 下りてこい アメデオ！！		
-p084E34	m315.0	・・・キキッ♪		
-p084E44	m315.1	アメデオが ピョンと かたまで登って来た！		
-p084E70	m316.0	バトルアイテムＳＰ 「アメデオ」		
-p084E92	m316.1	を 手に入れた！		
-p084EA4	m316.2	相手を シャッフル。		
-p084EBA	m316.3	とくていの相手に20ダメージ。		
-p084EDA	m317.0	・・・キキッ♪		
-p084EEA	m317.1	アメデオが ピョンと かたまで登って来た！		
-p084F16	m318.0	バトルアイテムＳＰ 「アメデオ」		
-p084F38	m318.1	を 手に入れた！		
-p084F4A	m318.2	相手を シャッフル。		
-p084F60	m318.3	とくていの相手に20ダメージ。		
-p084F80	m318.4	『バトルアイテムＳＰは パンチ チョップ		
-p084FAA	m318.5	キックすべてに強い。 ガードだけに弱い。』		
-p084FD6	m319.0	チット！ ヘルガの部屋は？		
-p084FF2	m320.0	この上だよ・・・		
-p085004	m320.1	2階のマドから 入れればなぁ・・・		
-p085028	m321.0	だいじょうぶだ！ このキ		
-p085042	m321.1	あし場があって 登りやすいぞ		
-p085060	m322.0	そんなこと いっても・・・		
-p08507C	m323.0	ボクに 出来ることなら たすけになるよ！		
-p0850A6	m324.0	しかけヒント		
-p0850B4	m324.1	バトルヒント		
-p0850C2	m325.0	とくべつなアクション「バトルアイテムＳＰ」		
-p0850EE	m325.1	は いろんな場所に かくされてるみたいだよ		
-p08511A	m325.2	ＳＰは パンチ チョップ キックすべてに		
-p085144	m325.3	強いんだけど・・・		
-p085158	m325.4	ＳＰどうしだと ノーダメージになるんだ		
+p084DC4	m313.0	       キキィ～～～ッ！	       Keeeee~~~!	
+p084DE4	m313.1	アッカンベーをして かくれてしまった。	He made a face and hid.	
+p084E0C	m314.0	このヤロウ！ 下りてこい アメデオ！！	You little punk! Come / down here, Amedeo!!	
+p084E34	m315.0	・・・キキッ♪	...Kee kee♪	
+p084E44	m315.1	アメデオが ピョンと かたまで登って来た！	Amedeo hopped up onto / Tohma's shoulder!	
+p084E70	m316.0	バトルアイテムＳＰ 「アメデオ」	Battle Item SP "Amedeo"	
+p084E92	m316.1	を 手に入れた！	obtained!	
+p084EA4	m316.2	相手を シャッフル。	Shuffles the foe.	
+p084EBA	m316.3	とくていの相手に20ダメージ。	20 damage to one foe.	
+p084EDA	m317.0	・・・キキッ♪	...Kee kee♪	
+p084EEA	m317.1	アメデオが ピョンと かたまで登って来た！	Amedeo hopped up onto / Tohma's shoulder!	
+p084F16	m318.0	バトルアイテムＳＰ 「アメデオ」	Battle Item SP "Amedeo"	
+p084F38	m318.1	を 手に入れた！	obtained!	
+p084F4A	m318.2	相手を シャッフル。	Shuffles the foe.	
+p084F60	m318.3	とくていの相手に20ダメージ。	20 damage to one foe.	
+p084F80	m318.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
+p084FAA	m318.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p084FD6	m319.0	チット！ ヘルガの部屋は？	Chitto! Where's Helga's / room?	
+p084FF2	m320.0	この上だよ・・・	Up here...	
+p085004	m320.1	2階のマドから 入れればなぁ・・・	If we could get in the / 2nd-floor window...	
+p085028	m321.0	だいじょうぶだ！ このキ	No problem! This tree	
+p085042	m321.1	あし場があって 登りやすいぞ	has footholds. Easy climb.	
+p085060	m322.0	そんなこと いっても・・・	Easy for you to say...	
+p08507C	m323.0	ボクに 出来ることなら たすけになるよ！	If there's anything I can / do, I'll help!	
+p0850A6	m324.0	しかけヒント	Puzzle tips	
+p0850B4	m324.1	バトルヒント	Battle tips	
+p0850C2	m325.0	とくべつなアクション「バトルアイテムＳＰ」	Special actions, / "Battle Item SP,"	
+p0850EE	m325.1	は いろんな場所に かくされてるみたいだよ	are hidden all over.	
+p08511A	m325.2	ＳＰは パンチ チョップ キックすべてに	SP beats Punch, Chop, / and Kick,	
+p085144	m325.3	強いんだけど・・・	but...	
+p085158	m325.4	ＳＰどうしだと ノーダメージになるんだ	SP vs. SP does no damage.	
 p085180	m325.5			
-p085182	m325.6	ガードがあれば カウンターで ダメージを		
-p0851AC	m325.7	あたえることが 出来るんだけどね		
-p0851CE	m325.8	ＳＰには とくていの相手に 大ダメージを		
-p0851F8	m325.9	あたえる しゅるいも あるみたいだよ！		
-p085220	m326.0	閉じたドアには かならずカギがあるはずだよ		
+p085182	m325.6	ガードがあれば カウンターで ダメージを	With Guard, you can / counter and	
+p0851AC	m325.7	あたえることが 出来るんだけどね	deal damage, though.	
+p0851CE	m325.8	ＳＰには とくていの相手に 大ダメージを	Some SP deal big damage	
+p0851F8	m325.9	あたえる しゅるいも あるみたいだよ！	to certain foes!	
+p085220	m326.0	閉じたドアには かならずカギがあるはずだよ	Locked doors have keys.	
 p08524C	m326.1			
-p08524E	m326.2	ボクも ヘルガと ぬけ出すときは つくえの		
-p08527A	m326.3	下とかに かくされてるのを くすねてたんだ		
-p0852A6	m327.0	ヘルガは きっと まだ 反省室に		
-p0852C8	m327.1	入れられてるんだ・・・		
-p0852E0	m327.2	行こう トーマ！		
-p0852F2	m328.0	お前 チットのなかま らしいな・・・！		
-p08531A	m329.0	なにやってる！！		
-p08532C	m329.1	とっとと こうしゃへ入れッ！！		
-p08534C	m330.0	なにをしてるッ！！ さっさと		
-p08536A	m330.1	こうしゃにもどれ！		
-p08537E	m331.0	おい！ ここから出るなという めいれいだ！		
-p0853AA	m332.0	くそぉ！ そこを動くんじゃね～ぞォ！		
-p0853D0	m333.0	なんだッ！ お前 なにしに来た！！		
-p0853F4	m334.0	おとなしく 反省室に入っていろッ！		
-p085418	m335.0	まったく！ 施設から出るなとは		
-p085438	m335.1	どういうつもりだ！		
-p08544C	m335.2	・・・！		
+p08524E	m326.2	ボクも ヘルガと ぬけ出すときは つくえの	When Helga and I snuck / out, I swiped them	
+p08527A	m326.3	下とかに かくされてるのを くすねてたんだ	from under desks.	
+p0852A6	m327.0	ヘルガは きっと まだ 反省室に	Helga must still be locked	
+p0852C8	m327.1	入れられてるんだ・・・	in the punishment room...	
+p0852E0	m327.2	行こう トーマ！	Let's go, Tohma!	
+p0852F2	m328.0	お前 チットのなかま らしいな・・・！	You're one of Chitto's / pals, huh...!	
+p08531A	m329.0	なにやってる！！	What are you doing!!	
+p08532C	m329.1	とっとと こうしゃへ入れッ！！	Get in the building, now!!	
+p08534C	m330.0	なにをしてるッ！！ さっさと	What are you doing!! Get	
+p08536A	m330.1	こうしゃにもどれ！	back in the building!	
+p08537E	m331.0	おい！ ここから出るなという めいれいだ！	Hey! Orders say no one / leaves!	
+p0853AA	m332.0	くそぉ！ そこを動くんじゃね～ぞォ！	Damn it! Don't you move!	
+p0853D0	m333.0	なんだッ！ お前 なにしに来た！！	What?! What are you here / for?!	
+p0853F4	m334.0	おとなしく 反省室に入っていろッ！	Get in the punishment / room and stay put!	
+p085418	m335.0	まったく！ 施設から出るなとは	Honestly! Running off,	
+p085438	m335.1	どういうつもりだ！	what were you thinking?!	
+p08544C	m335.2	・・・！	...!	
 p085456	m335.3			
-p085458	m335.4	また お前か・・・		
-p08546C	m336.0	こらまてッ！！ ここでなにをしてる！		
-p085492	m337.0	こいつゥ～ッ！ いいかげんにしろォ！		
-p0854B8	m338.0	・・・ここで 生きて行くには もう少し		
-p0854E0	m338.1	すなおに ならなくてはいけない・・・		
-p085506	m338.2	子供を きちんとカンリするのが		
-p085526	m338.3	院長のシゴトだからな・・・！！		
-p085546	m339.0	こんど にがしてみろ！		
-p08555E	m339.1	フクシキョクに いいわけ出来ねーだろ！！		
-p085588	m340.0	ヘルガッ！		
-p085594	m341.0	暗い反省室で ヘルガはつくえにふせて		
-p0855BA	m341.1	ふるえていた・・・		
-p0855CE	m342.0	チット「ヘルガッ！		
-p0855E2	m343.0	ヘルガ「チット？ チットッ！！		
-p085602	m343.1	 ブジだったのね・・・ よかった・・・		
-p08562A	m344.0	トーマ「ヘへ・・・		
-p08563E	m344.1	 きのう 島で会ったよなっ！		
-p08565C	m344.2	・・・おぼえてる？ ・・・ホラッ！		
-p085680	m344.3	オレんちの 石柱の所に ねてたろ？		
-p0856A4	m345.0	！？		
-p0856AA	m346.0	石柱で出会った少女・・・		
+p085458	m335.4	また お前か・・・	You again...	
+p08546C	m336.0	こらまてッ！！ ここでなにをしてる！	Hey, stop!! What are you / doing here?!	
+p085492	m337.0	こいつゥ～ッ！ いいかげんにしろォ！	Why you~! That's enough!	
+p0854B8	m338.0	・・・ここで 生きて行くには もう少し	...To live here,	
+p0854E0	m338.1	すなおに ならなくてはいけない・・・	you must learn to obey...	
+p085506	m338.2	子供を きちんとカンリするのが	Keeping children in line / is the job	
+p085526	m338.3	院長のシゴトだからな・・・！！	of the Director...!!	
+p085546	m339.0	こんど にがしてみろ！	Let one escape again, and	
+p08555E	m339.1	フクシキョクに いいわけ出来ねーだろ！！	we've got no excuse for / the Welfare Office!!	
+p085588	m340.0	ヘルガッ！	Helga!	
+p085594	m341.0	暗い反省室で ヘルガはつくえにふせて	In the dark punishment / room, Helga lay on a desk,	
+p0855BA	m341.1	ふるえていた・・・	trembling...	
+p0855CE	m342.0	チット「ヘルガッ！	Chitto: Helga!	
+p0855E2	m343.0	ヘルガ「チット？ チットッ！！	Helga: Chitto? Chitto!!	
+p085602	m343.1	 ブジだったのね・・・ よかった・・・	 You're safe... Thank / goodness...	
+p08562A	m344.0	トーマ「ヘへ・・・	Tohma: Heh heh...	
+p08563E	m344.1	 きのう 島で会ったよなっ！	 We met on the island / yesterday!	
+p08565C	m344.2	・・・おぼえてる？ ・・・ホラッ！	...Remember? ...Come on!	
+p085680	m344.3	オレんちの 石柱の所に ねてたろ？	You were lying by my / stone pillars, right?	
+p0856A4	m345.0	！？	!?	
+p0856AA	m346.0	石柱で出会った少女・・・	The girl on the pillar...	
 p0856C4	m346.1			
-p0856C6	m346.2	ヘルガとの出会いに トーマは		
-p0856E4	m346.3	ためらいを おぼえた。		
-p0856FC	m346.4	ヘルガも また トーマとの出会いに		
-p085720	m346.5	こんわくしていた。		
-p085734	m347.0	トーマ「これ・・・		
-p085748	m347.1	 お前 描いたのか？		
-p08575E	m348.0	チット「ヘルガの行きたい場所・・・		
-p085782	m348.1	 ボク 連れて行くって 決めたんだ		
-p0857A6	m349.0	トーマの手が 2つに破られたヘルガの絵を		
-p0857D0	m349.1	そっと あわせた・・・。		
-p0857EA	m349.2	    見覚えが・・・ ある・・・。		
-p085810	m350.0	チット「トーマ はやく行こう！		
-p085830	m351.0	トーマ「・・・うん		
-p085844	m352.0	     「・・・たすけて・・・」		
+p0856C6	m346.2	ヘルガとの出会いに トーマは	Meeting Helga, Tohma	
+p0856E4	m346.3	ためらいを おぼえた。	felt hesitant.	
+p0856FC	m346.4	ヘルガも また トーマとの出会いに	Helga, too, on meeting / Tohma,	
+p085720	m346.5	こんわくしていた。	was confused.	
+p085734	m347.0	トーマ「これ・・・	Tohma: This...	
+p085748	m347.1	 お前 描いたのか？	 Did you draw it?	
+p08575E	m348.0	チット「ヘルガの行きたい場所・・・	Chitto: The place Helga / wants to go...	
+p085782	m348.1	 ボク 連れて行くって 決めたんだ	 I decided I'd take her / there.	
+p0857A6	m349.0	トーマの手が 2つに破られたヘルガの絵を	Tohma's hands gently put / Helga's picture,	
+p0857D0	m349.1	そっと あわせた・・・。	torn in two, together.	
+p0857EA	m349.2	    見覚えが・・・ ある・・・。	    I know... this place...	
+p085810	m350.0	チット「トーマ はやく行こう！	Chitto: Tohma, let's go, / quick!	
+p085830	m351.0	トーマ「・・・うん	Tohma: ...Yeah.	
+p085844	m352.0	     「・・・たすけて・・・」	     "...Help me..."	
 p085868	m352.1			
-p08586A	m352.2	そうどうに まぎれ ボートに戻る とちゅう		
-p085896	m352.3	トーマたちは だっそうはん・・・		
-p0858B8	m352.4	しげみの奥でおびえる おいた女性に出会う。		
+p08586A	m352.2	そうどうに まぎれ ボートに戻る とちゅう	Slipping back to the boat / in the chaos,	
+p085896	m352.3	トーマたちは だっそうはん・・・	Tohma and the others met	
+p0858B8	m352.4	しげみの奥でおびえる おいた女性に出会う。	the convict, an old woman / hiding in the bushes.	
 p0858E4	m352.5			
-p0858E6	m352.6	    「かあさん・・・ もういちど		
-p08590C	m352.7	  もういちど・・・ 会いたかった・・・」		
-p085938	m352.8	それが さいごのコトバだった。		
+p0858E6	m352.6	    「かあさん・・・ もういちど	    "Mother... once more,	
+p08590C	m352.7	  もういちど・・・ 会いたかった・・・」	  just once more... I / wanted to see you..."	
+p085938	m352.8	それが さいごのコトバだった。	Those were / her last words.	
 p085958	m352.9			
-p08595A	m352.10	トーマたちは いつの間にか 兵隊たちに		
-p085982	m352.11	取りかこまれていた。		
-p085998	m352.12	そこへ くろいコートをきた		
-p0859B4	m352.13	女の カガクシャが あらわれた。		
-p0859D6	m352.14	    「・・・かわいそうに・・・」		
+p08595A	m352.10	トーマたちは いつの間にか 兵隊たちに	Suddenly, Tohma and the	
+p085982	m352.11	取りかこまれていた。	others were surrounded / by soldiers.	
+p085998	m352.12	そこへ くろいコートをきた	Then a woman scientist / in a black coat	
+p0859B4	m352.13	女の カガクシャが あらわれた。	appeared.	
+p0859D6	m352.14	    「・・・かわいそうに・・・」	    "...Poor thing..."	
 p0859FC	m352.15			
-p0859FE	m352.16	   「あわれに思うなら このことは		
-p085A24	m352.17	  だれにも しゃべるな・・・ いいな」		
-p085A4E	m353.0	トーマ「なんだァ・・・ あのオバさん・・・		
-p085A7A	m354.0	年おいた だっそうはんの死と		
-p085A98	m354.1	ブソウそしきの あんやく・・・		
-p085AB8	m354.2	トーマたちの しらない場所で		
-p085AD6	m354.3	「フラグメント」とよばれるナゾのくろい石と		
-p085B02	m354.4	「死のせかい」をめぐる いんぼうが		
-p085B26	m354.5	少しずつ 明らかに なろうとしていた。		
-p085B4E	m355.0	パパン島近海・・・ みつりんに おおわれた		
-p085B7A	m355.1	石柱が ちらばる 小さな島「コックリ島」。		
-p085BA6	m356.0	トーマ「ようこそ オレのヒミツの島		
-p085BCA	m356.1	 コックリ島へ！		
-p085BDC	m357.0	チット「ポックリ島？		
-p085BF2	m358.0	トーマ「コックリ島！！！		
-p085C0C	m358.1	 ここなら施設の連中にも 見つからないぜ！		
-p085C38	m359.0	3人だけの せいかつが はじまった。		
+p0859FE	m352.16	   「あわれに思うなら このことは	   "If you pity her, then	
+p085A24	m352.17	  だれにも しゃべるな・・・ いいな」	  tell no one of this... / Understood?"	
+p085A4E	m353.0	トーマ「なんだァ・・・ あのオバさん・・・	Tohma: What the...? Who / was that lady...	
+p085A7A	m354.0	年おいた だっそうはんの死と	An old convict's death	
+p085A98	m354.1	ブソウそしきの あんやく・・・	and an armed group at / work...	
+p085AB8	m354.2	トーマたちの しらない場所で	Out of Tohma and the / others' sight,	
+p085AD6	m354.3	「フラグメント」とよばれるナゾのくろい石と	a plot about black stones, / the "Fragments,"	
+p085B02	m354.4	「死のせかい」をめぐる いんぼうが	and the "world of death"	
+p085B26	m354.5	少しずつ 明らかに なろうとしていた。	was slowly coming to / light.	
+p085B4E	m355.0	パパン島近海・・・ みつりんに おおわれた	Off Papin Island... covered / in jungle,	
+p085B7A	m355.1	石柱が ちらばる 小さな島「コックリ島」。	dotted with stone pillars: / little "Kokkuri Island."	
+p085BA6	m356.0	トーマ「ようこそ オレのヒミツの島	Tohma: Welcome to my / secret island,	
+p085BCA	m356.1	 コックリ島へ！	 Kokkuri Island!	
+p085BDC	m357.0	チット「ポックリ島？	Chitto: Pokkuri Island?	
+p085BF2	m358.0	トーマ「コックリ島！！！	Tohma: KOKKURI Island!!!	
+p085C0C	m358.1	 ここなら施設の連中にも 見つからないぜ！	 The home's people won't / find us here!	
+p085C38	m359.0	3人だけの せいかつが はじまった。	Their life as three began.	
 p085C5E	m359.1			
-p085C60	m359.2	・・・おだやかな 時が ながれる・・・。		
-p085C8A	m360.0	トーマと ヘルガの 心のキョリも		
-p085CAC	m360.1	少しずつ 近づいていった・・・。		
-p085CCE	m361.0	ある日 5人の子供たちが・・・		
+p085C60	m359.2	・・・おだやかな 時が ながれる・・・。	...Peaceful time passed...	
+p085C8A	m360.0	トーマと ヘルガの 心のキョリも	Tohma and Helga's hearts	
+p085CAC	m360.1	少しずつ 近づいていった・・・。	drew closer, little by / little...	
+p085CCE	m361.0	ある日 5人の子供たちが・・・	One day, five children...	
 p085CEE	m361.1			
-p085CF0	m361.2	ベフォールの子供たちが やって来た。		
-p085D16	m362.0	青い瞳と 白い髪・・・ その かれらを		
-p085D3E	m362.1	まもるように 空から ごうおんが ひびくと		
-p085D6A	m362.2	巨大なロボット「ワンダー」が あらわれた。		
-p085D96	m363.0	トーマ「うわあぁッ！ な・・・		
-p085DB6	m363.1	 なんでセキゾウが 動いてるんだぁッ！？		
-p085DE0	m364.0	ワンダーは ベフォールの子供たちによって		
-p085E0A	m364.1	なかまとして 造られ・・・		
-p085E26	m364.2	100年いじょうも コックリ島の ふかい		
-p085E50	m364.3	森の中に セキゾウとして かくされていた。		
-p085E7C	m364.4	かれらが 探し続けていた 女性・・・		
+p085CF0	m361.2	ベフォールの子供たちが やって来た。	the Children of Befort, / came.	
+p085D16	m362.0	青い瞳と 白い髪・・・ その かれらを	Blue eyes and white hair... / As if to guard them,	
+p085D3E	m362.1	まもるように 空から ごうおんが ひびくと	a roar came from the sky,	
+p085D6A	m362.2	巨大なロボット「ワンダー」が あらわれた。	and a giant robot, / "Wanda," appeared.	
+p085D96	m363.0	トーマ「うわあぁッ！ な・・・	Tohma: Whoaaa! Wh-	
+p085DB6	m363.1	 なんでセキゾウが 動いてるんだぁッ！？	 Why's the stone statue / moving?!	
+p085DE0	m364.0	ワンダーは ベフォールの子供たちによって	Wanda was built by the / Children of Befort	
+p085E0A	m364.1	なかまとして 造られ・・・	as their friend...	
+p085E26	m364.2	100年いじょうも コックリ島の ふかい	for over 100 years, on / Kokkuri Island,	
+p085E50	m364.3	森の中に セキゾウとして かくされていた。	hidden as a statue deep / in the forest.	
+p085E7C	m364.4	かれらが 探し続けていた 女性・・・	The woman they had kept / searching for...	
 p085EA2	m364.5			
-p085EA4	m364.6	ヘルガの あしどりを つかんだことで		
-p085ECA	m364.7	その ねむりから 目覚めたのだ。		
-p085EEC	m365.0	かれらは ヘルガの描く・・・		
-p085F0A	m365.1	あの ふうけい画の 場所を しっていた。		
-p085F34	m366.0	少年「惑星ギリシアの つきと たいよう		
-p085F5C	m366.1	 海のせいじょうをたもつ じょうかとう		
-p085F84	m366.2	この絵は ボクらの ふるさとの ふうけい		
-p085FAE	m366.3	・・・そして ヘルガ・・・		
-p085FCA	m366.4	キミの ふるさとでも あるんだ・・・		
-p085FF0	m367.0	チット「・・・惑星ギリシア・・・？		
-p086014	m367.1	 じゃあ ヘルガは 宇宙人！？		
-p086034	m368.0	トーマ「ふざけるなッ・・・！ オレは		
-p08605A	m368.1	 この ふうけいを 見たことがあるんだッ！		
-p086086	m368.2	これは 地球の ふうけいだッ！		
+p085EA4	m364.6	ヘルガの あしどりを つかんだことで	Picking up Helga's trail,	
+p085ECA	m364.7	その ねむりから 目覚めたのだ。	it woke from its sleep.	
+p085EEC	m365.0	かれらは ヘルガの描く・・・	They knew the place / Helga drew...	
+p085F0A	m365.1	あの ふうけい画の 場所を しっていた。	the place in that / landscape.	
+p085F34	m366.0	少年「惑星ギリシアの つきと たいよう	Boy: The moon and sun of / planet Greecia,	
+p085F5C	m366.1	 海のせいじょうをたもつ じょうかとう	 the tower that keeps its / seas pure...	
+p085F84	m366.2	この絵は ボクらの ふるさとの ふうけい	This picture shows our / homeland...	
+p085FAE	m366.3	・・・そして ヘルガ・・・	...and, Helga...	
+p085FCA	m366.4	キミの ふるさとでも あるんだ・・・	it's your homeland too...	
+p085FF0	m367.0	チット「・・・惑星ギリシア・・・？	Chitto: Planet Greecia...?	
+p086014	m367.1	 じゃあ ヘルガは 宇宙人！？	 Then Helga's an alien?!	
+p086034	m368.0	トーマ「ふざけるなッ・・・！ オレは	Tohma: Cut it out...!	
+p08605A	m368.1	 この ふうけいを 見たことがあるんだッ！	 I've seen this place / before!	
+p086086	m368.2	これは 地球の ふうけいだッ！	This is a place / on Earth!	
 p0860A6	m368.3			
-p0860A8	m368.4	少年「・・・キミが 見たのは たぶん・・・		
-p0860D4	m368.5	 クレルモンの施設に かざってある絵だろう		
-p086100	m368.6	ボクらは・・・ ずっと・・・		
-p08611E	m368.7	ずっと 探し続けて来たんだ・・・		
-p086140	m368.8	ヘルガ・・・		
-p08614E	m369.0	少年「キミの ほんとうの名は ギリシアの王		
-p08617A	m369.1	 タイタスのむすめ ティナ・・・		
-p08619C	m369.2	そして ボクたちは 王きゅうギリシアの		
-p0861C4	m369.3	タナトルームの カガクシャだった・・・		
-p0861EC	m370.0	・・・あの日・・・ 惑星ギリシアで		
-p086210	m370.1	ある さんげきが おきた・・・		
-p086230	m371.0	王きゅうが 破壊され・・・		
-p08624C	m371.1	大地が さける ほどに・・・		
-p08626A	m371.2	ボクらは ティナ・・・ キミの魂を		
-p08628E	m371.3	すくうために ボクらが 造り出した		
-p0862B2	m371.4	転生装置「アウトゾーン」によってキミの魂を		
-p0862DE	m371.5	この星へ おくったんだ・・・		
-p0862FC	m371.6	・・・あの時 ああするより ほうほうが		
-p086324	m371.7	なかった・・・ それしか 出来なかった		
-p08634C	m372.0	少女「でも そのことをしった 父上である		
-p086376	m372.1	 王は はげしく おいかりになり・・・		
-p08639E	m372.2	むすめを すぐに 連れ戻せと		
-p0863BC	m372.3	おめいじに なられたの・・・		
-p0863DA	m373.0	少年「ボクらは 後をおうように ティナを		
-p086404	m373.1	 転生させた ザヒョウめざし・・・		
-p086428	m373.2	地球時間で いまから 500年いじょう前		
-p086452	m373.3	・・・この地球に 転生した・・・		
-p086474	m373.4	キミの魂を 見つけ出し・・・ 少なくとも		
-p08649E	m373.5	ギリシアの「ゾーン」に 戻すために・・・		
-p0864C8	m374.0	トーマ「ゾーンッ！？		
-p0864DE	m375.0	少年「キミや ボクたちの魂は・・・		
+p0860A8	m368.4	少年「・・・キミが 見たのは たぶん・・・	Boy: ...What you saw was / probably	
+p0860D4	m368.5	 クレルモンの施設に かざってある絵だろう	 the painting hung in the / Clermont facility.	
+p086100	m368.6	ボクらは・・・ ずっと・・・	We have... for so long...	
+p08611E	m368.7	ずっと 探し続けて来たんだ・・・	searched for so long...	
+p086140	m368.8	ヘルガ・・・	Helga...	
+p08614E	m369.0	少年「キミの ほんとうの名は ギリシアの王	Boy: You are the daughter / of Greecia's king,	
+p08617A	m369.1	 タイタスのむすめ ティナ・・・	 Titas... Your true name / is Tina...	
+p08619C	m369.2	そして ボクたちは 王きゅうギリシアの	And we were, in Greecia's / royal palace,	
+p0861C4	m369.3	タナトルームの カガクシャだった・・・	scientists of the / Thanato Room...	
+p0861EC	m370.0	・・・あの日・・・ 惑星ギリシアで	...That day... on planet / Greecia	
+p086210	m370.1	ある さんげきが おきた・・・	a tragedy took place...	
+p086230	m371.0	王きゅうが 破壊され・・・	The palace was ruined...	
+p08624C	m371.1	大地が さける ほどに・・・	the earth itself split...	
+p08626A	m371.2	ボクらは ティナ・・・ キミの魂を	Tina... to save your soul,	
+p08628E	m371.3	すくうために ボクらが 造り出した	we used our own machine,	
+p0862B2	m371.4	転生装置「アウトゾーン」によってキミの魂を	the reincarnation device / "Autozone,"	
+p0862DE	m371.5	この星へ おくったんだ・・・	and sent your soul to / this planet...	
+p0862FC	m371.6	・・・あの時 ああするより ほうほうが	...Back then, there was no	
+p086324	m371.7	なかった・・・ それしか 出来なかった	other way... It was all we / could do.	
+p08634C	m372.0	少女「でも そのことをしった 父上である	Girl: But your father, the	
+p086376	m372.1	 王は はげしく おいかりになり・・・	 king, learned of it and, / furious,	
+p08639E	m372.2	むすめを すぐに 連れ戻せと	ordered us to bring his	
+p0863BC	m372.3	おめいじに なられたの・・・	daughter back at once...	
+p0863DA	m373.0	少年「ボクらは 後をおうように ティナを	Boy: Following Tina, we	
+p086404	m373.1	 転生させた ザヒョウめざし・・・	 aimed for the coordinates / of her rebirth...	
+p086428	m373.2	地球時間で いまから 500年いじょう前	Over 500 years ago in / Earth's time,	
+p086452	m373.3	・・・この地球に 転生した・・・	...were reborn on Earth...	
+p086474	m373.4	キミの魂を 見つけ出し・・・ 少なくとも	to find your soul... and at / least	
+p08649E	m373.5	ギリシアの「ゾーン」に 戻すために・・・	return it to Greecia's / "Zone"...	
+p0864C8	m374.0	トーマ「ゾーンッ！？	Tohma: Zone?!	
+p0864DE	m375.0	少年「キミや ボクたちの魂は・・・	Boy: Your soul and ours...	
 p086502	m375.1			
-p086504	m375.2	「オエセル」という エネルギーで		
-p086526	m375.3	出来ているんだ・・・		
-p08653C	m376.0	トーマ「魂が オエセルッ？		
-p086558	m376.1	 なんだ それ・・・		
-p08656E	m376.2	人は 死んだら 柱になるって		
-p08658C	m376.3	とうちゃんが いってたぞッ！		
-p0865AA	m377.0	少女「私たちの ギリシアでも むかし・・・		
-p0865D6	m377.1	 そんなふうに かんがえられていたわ		
-p0865FC	m378.0	少年「死のゾーンは ボクたちが		
-p08661C	m378.1	 カガクてきに はっけんしたんだ・・・		
-p086644	m378.2	それぞれのギンガに こべつに そんざいし		
-p08666E	m378.3	どうじに 巨大な ひとつのジゲンでもある		
-p086698	m379.0	少年「・・・地球のゾーンは		
-p0866B4	m379.1	 みちの リョウイキだった		
-p0866D0	m379.2	リスクは あっても せいかくな ザヒョウで		
-p0866FC	m379.3	ティナを 見つけ出せる 自信があったんだ		
-p086726	m380.0	少女「1478年・・・ 地球人として		
-p08674C	m380.1	 生まれかわった私たちは ギリシアと・・・		
-p086778	m380.2	ここ地球での タイムスケールが よそう		
-p0867A0	m380.3	いじょうに ちがっていることに きづいたの		
-p0867CC	m381.0	少年「けっきょく26年・・・ いや・・・		
-p0867F6	m381.1	 地球時間で 500年いじょう ついやし		
-p086820	m381.2	いくたびも アウトゾーンを 造り・・・		
-p086848	m381.3	ボクたちは 人エ転生を くりかえした		
-p08686E	m381.4	もう少し はやく 見つけ出すことが出来れば		
-p08689A	m381.5	キミを・・・		
-p0868A8	m382.0	少年「キミを くるしめずにすんだのに・・・		
+p086504	m375.2	「オエセル」という エネルギーで	are made of "Orsel,"	
+p086526	m375.3	出来ているんだ・・・	a kind of energy...	
+p08653C	m376.0	トーマ「魂が オエセルッ？	Tohma: Souls are Orsel?	
+p086558	m376.1	 なんだ それ・・・	 What's that...	
+p08656E	m376.2	人は 死んだら 柱になるって	Dad said when people die,	
+p08658C	m376.3	とうちゃんが いってたぞッ！	they become pillars!	
+p0865AA	m377.0	少女「私たちの ギリシアでも むかし・・・	Girl: Long ago, on our / Greecia too,	
+p0865D6	m377.1	 そんなふうに かんがえられていたわ	 people thought that way.	
+p0865FC	m378.0	少年「死のゾーンは ボクたちが	Boy: The Zone of death,	
+p08661C	m378.1	 カガクてきに はっけんしたんだ・・・	 we found it through / science...	
+p086644	m378.2	それぞれのギンガに こべつに そんざいし	It exists in each galaxy / separately,	
+p08666E	m378.3	どうじに 巨大な ひとつのジゲンでもある	yet is also one vast / dimension.	
+p086698	m379.0	少年「・・・地球のゾーンは	Boy: ...Earth's Zone	
+p0866B4	m379.1	 みちの リョウイキだった	 was unknown territory.	
+p0866D0	m379.2	リスクは あっても せいかくな ザヒョウで	There was risk, but with / exact coordinates	
+p0866FC	m379.3	ティナを 見つけ出せる 自信があったんだ	we were sure we could / find Tina.	
+p086726	m380.0	少女「1478年・・・ 地球人として	Girl: 1478... Reborn as	
+p08674C	m380.1	 生まれかわった私たちは ギリシアと・・・	 Earthlings, we found / Greecia's	
+p086778	m380.2	ここ地球での タイムスケールが よそう	time scale and Earth's	
+p0867A0	m380.3	いじょうに ちがっていることに きづいたの	differed more than we / expected.	
+p0867CC	m381.0	少年「けっきょく26年・・・ いや・・・	Boy: In the end, 26 / years... no...	
+p0867F6	m381.1	 地球時間で 500年いじょう ついやし	 over 500 years in Earth / time,	
+p086820	m381.2	いくたびも アウトゾーンを 造り・・・	building the Autozone / again and again...	
+p086848	m381.3	ボクたちは 人エ転生を くりかえした	we repeated artificial / rebirth.	
+p08686E	m381.4	もう少し はやく 見つけ出すことが出来れば	If only we had found you / a little sooner,	
+p08689A	m381.5	キミを・・・	you...	
+p0868A8	m382.0	少年「キミを くるしめずにすんだのに・・・	Boy: You needn't have / suffered / so much...	
 p0868D4	m382.1			
-p0868D6	m382.2	ボクらと ちがい キミは しぜん転生を		
-p0868FE	m382.3	くりかえし ギリシアの記憶は なくしている		
-p08692A	m382.4	でも かくじつに キミの中に・・・		
-p08694E	m382.5	ティナの魂が あるんだ		
-p086966	m382.6	・・・それに その ふうけい画は・・・		
-p08698E	m383.0	少年「キミの奥に ねむっている		
-p0869AE	m383.1	 ギリシアの記憶・・・		
-p0869C6	m384.0	ヘルガの表情は おどろきに そまっていた。		
-p0869F2	m384.1	・・・顔を しずめたまま つぶやく・・・。		
-p086A1E	m385.0	ヘルガ「・・・・・・ ギリシアの記憶・・・		
-p086A4A	m386.0	少年「キミは ティナ・・・		
-p086A66	m386.1	 惑星ギリシアの王女なんだ・・・！		
-p086A8A	m387.0	トーマ「それが・・・ それが もし		
-p086AAE	m387.1	 ほんとうなら・・・		
-p086AC4	m387.2	さっき ヘルガを ゾーンに戻すって・・・		
-p086AEE	m387.3	いってたよな・・・		
-p086B02	m387.4	・・・それって ヘルガを 殺す・・・		
-p086B28	m387.5	って ことだろ・・・		
-p086B3E	m388.0	少年「・・・・・・！！		
-p086B56	m389.0	チット「えぇッ！？		
-p086B6A	m390.0	少年「・・・それは・・・		
-p086B84	m390.1	 ヘルガしだい なんだ		
-p086B9C	m391.0	少女「ヘルガの いしを・・・		
-p086BBA	m392.0	少女「ヘルガの いしを		
-p086BD2	m392.1	 私たちは たしかめに来たの・・・		
-p086BF6	m393.0	少年「・・・ボクたちは キミが		
-p086C16	m393.1	 ティナとして かくせいし・・・		
-p086C38	m393.2	・・・ティナの ことばによる		
-p086C56	m393.3	いしの かくにんが ひつようなんだ		
-p086C7A	m393.4	そのためには キミの前世を たどることを		
-p086CA4	m393.5	しなければ ならない・・・		
-p086CC0	m393.6	かんがえて もらえないだろうか？		
-p086CE2	m394.0	ヘルガ「・・・前世・・・？		
-p086CFE	m395.0	ヘルガは ひとり 入り江にすわり		
-p086D20	m395.1	よぞらの星を 見上げていた。		
-p086D3E	m396.0	  「・・・惑星・・・ ギリシア・・・」		
-p086D68	m397.0	少年「・・・かんがえて もらえたかな？		
-p086D90	m398.0	少女「・・・前世を たどること		
-p086DB0	m398.1	 しょうちしてくれたの？		
-p086DCA	m399.0	ヘルガは ハッキリとうなずいた。		
+p0868D6	m382.2	ボクらと ちがい キミは しぜん転生を	Unlike us, you were	
+p0868FE	m382.3	くりかえし ギリシアの記憶は なくしている	reborn naturally and lost / your Greecia memories.	
+p08692A	m382.4	でも かくじつに キミの中に・・・	But inside you, for sure...	
+p08694E	m382.5	ティナの魂が あるんだ	is Tina's soul.	
+p086966	m382.6	・・・それに その ふうけい画は・・・	...And that landscape / picture...	
+p08698E	m383.0	少年「キミの奥に ねむっている	Boy: Deep in you sleep	
+p0869AE	m383.1	 ギリシアの記憶・・・	 memories of Greecia...	
+p0869C6	m384.0	ヘルガの表情は おどろきに そまっていた。	Helga's face was colored / with shock.	
+p0869F2	m384.1	・・・顔を しずめたまま つぶやく・・・。	...Head bowed, she / murmured...	
+p086A1E	m385.0	ヘルガ「・・・・・・ ギリシアの記憶・・・	Helga: ...... Memories of / Greecia...	
+p086A4A	m386.0	少年「キミは ティナ・・・	Boy: You are Tina...	
+p086A66	m386.1	 惑星ギリシアの王女なんだ・・・！	 the princess of planet / Greecia...!	
+p086A8A	m387.0	トーマ「それが・・・ それが もし	Tohma: If... if that	
+p086AAE	m387.1	 ほんとうなら・・・	 is true...	
+p086AC4	m387.2	さっき ヘルガを ゾーンに戻すって・・・	you said you'd return / Helga to the Zone...	
+p086AEE	m387.3	いってたよな・・・	right...	
+p086B02	m387.4	・・・それって ヘルガを 殺す・・・	...That means killing / Helga...	
+p086B28	m387.5	って ことだろ・・・	doesn't it...	
+p086B3E	m388.0	少年「・・・・・・！！	Boy: ......!!	
+p086B56	m389.0	チット「えぇッ！？	Chitto: What?!	
+p086B6A	m390.0	少年「・・・それは・・・	Boy: ...That...	
+p086B84	m390.1	 ヘルガしだい なんだ	 is up to Helga.	
+p086B9C	m391.0	少女「ヘルガの いしを・・・	Girl: Helga's wishes...	
+p086BBA	m392.0	少女「ヘルガの いしを	Girl: Helga's wishes,	
+p086BD2	m392.1	 私たちは たしかめに来たの・・・	 we came to ask them...	
+p086BF6	m393.0	少年「・・・ボクたちは キミが	Boy: ...We need you to	
+p086C16	m393.1	 ティナとして かくせいし・・・	 awaken as Tina...	
+p086C38	m393.2	・・・ティナの ことばによる	...and to confirm, in / Tina's	
+p086C56	m393.3	いしの かくにんが ひつようなんだ	own words, her wishes.	
+p086C7A	m393.4	そのためには キミの前世を たどることを	For that, we must retrace	
+p086CA4	m393.5	しなければ ならない・・・	your past lives...	
+p086CC0	m393.6	かんがえて もらえないだろうか？	Will you consider it?	
+p086CE2	m394.0	ヘルガ「・・・前世・・・？	Helga: ...Past lives...?	
+p086CFE	m395.0	ヘルガは ひとり 入り江にすわり	Helga sat alone by the / cove,	
+p086D20	m395.1	よぞらの星を 見上げていた。	looking up at the night / stars.	
+p086D3E	m396.0	  「・・・惑星・・・ ギリシア・・・」	  "...Planet... Greecia..."	
+p086D68	m397.0	少年「・・・かんがえて もらえたかな？	Boy: ...Have you thought / about it?	
+p086D90	m398.0	少女「・・・前世を たどること	Girl: ...Retracing your / past lives,	
+p086DB0	m398.1	 しょうちしてくれたの？	 will you agree to it?	
+p086DCA	m399.0	ヘルガは ハッキリとうなずいた。	Helga nodded firmly.	

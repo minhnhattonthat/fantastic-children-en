@@ -26,7 +26,7 @@ from tbl import Table  # noqa: E402
 TL = ROOT / "work/tl"
 GLOSSARY = ROOT / "glossary.md"
 MAX_ENTRIES = 150
-NAME = r"[ァ-ヶー]+"
+NAME = r"(?<![ァ-ヶー])(?!(?:オバ|オジ|オニイ|オネエ|ジイ|バア)(?:さん|ちゃん))[ァ-ヶー]+"   # not "lady", "mister"...
 # per glossary.md: honorifics kept, hyphenated, after a katakana name
 HONORIFICS = [("さん", "-san"), ("くん", "-kun"), ("ちゃん", "-chan"), ("様", "-sama"), ("さま", "-sama"),
               ("先生", "-sensei"), ("せんせい", "-sensei")]
@@ -105,7 +105,11 @@ def problems(r, en, terms, en_tbl):
     if re.search(r"\b(a|an|A|An)\s+\{arg\d\}", en):
         out.append("a/an right before an argument")
     jp = r["jp"]
+    b = lint.budget(r)
+    choice = r["id"][0] == "p" and b and b[2].startswith("choice")
     for jps, ens, avoid in terms:
+        if choice:   # 72 px destination answers: "Natsuna" for Natsuna Island (decisions.md D8)
+            ens = ens + [e[:-len(" Island")] for e in ens if e.endswith(" Island")]
         if any(has_term(jp, j) for j in jps) and not any(e.lower() in en.lower() for e in ens):
             out.append(f"glossary: {jps[0]} -> {ens[0]}")
         out += [f"glossary Avoid: {a}" for a in avoid if re.search(rf"\b{re.escape(a)}\b", en)]
