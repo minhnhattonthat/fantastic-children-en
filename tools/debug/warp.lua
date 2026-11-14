@@ -3,7 +3,8 @@
 --   emu.py ROM --out D --script tools/debug/warp.lua --var "SCENE='area_16'" --frames 2600 --mash 40 --sheet
 --   optional: --var "SCENES=[[C:/abs/scenes.gba.txt]]" (default: tools/debug/scenes.gba.txt, found relative to
 --             Mesen's working folder tools/mesen), --var "STATE_OUT=[[C:/abs/x.mss]]" (save a state on arrival),
---             --var TRACE=20 (log the game-mode word every N frames), --var STOP_AFTER_SHOT=1
+--             --var TRACE=20 (log the game-mode word every N frames), --var STOP_AFTER_SHOT=1,
+--             --var PAGES=N [--var PAGE_EVERY=40] (N more shots page_NN.png after warp.png, for QA sheets)
 --   emu.py --mash 40 clicks through text (it also presses A during the boot, which is harmless).
 --   All scenes, checked: python -X utf8 tools/debug/warp_all.py
 --
@@ -59,6 +60,7 @@ local hold = tonumber(sc.wait or "360")
 local textwait = tonumber(sc.textwait or "60")
 
 local phase = "boot"           -- boot -> load -> play -> arrived
+local shotAt                   -- frame of warp.png (PAGES shots follow it)
 local t0, arrivedAt = 0, nil
 local entryHooked = false
 
@@ -180,9 +182,19 @@ L.on_frame(function(n)
   if phase == "arrived" and (n >= arrivedAt + hold or early) and n % 10 == 0 then
     local textUp = gotMsg == true or (gotMsg and n >= gotMsg + textwait)
     if (textUp and not flat()) or n >= arrivedAt + hold + 600 then
-      L.shot("warp.png"); log("shot warp.png"); phase = "done"
-      if STOP_AFTER_SHOT then L.finish(0) end
+      L.shot("warp.png"); log("shot warp.png"); phase = "done"; shotAt = n
+      if STOP_AFTER_SHOT and not PAGES then L.finish(0) end
     end
+  end
+  -- --var PAGES=N: N more shots, one every PAGE_EVERY (40) frames, as the mash pages through the dialogue (QA sheets)
+  -- (the frame just before each mash press; emu.py --mash N presses when n % N < 6. A press on a page still typing
+  -- completes it, the next one turns the page, so every page is shot complete at least once; tools/qa_sheets.py
+  -- drops the partly typed shots. Typing a 2-line page takes longer than 90 frames, so a slower mash doesn't help.)
+  local every = PAGE_EVERY or MASH or 40
+  if phase == "done" and PAGES and shotAt and n > shotAt + 3 and n % every == every - 3 then
+    pagesShot = (pagesShot or 0) + 1
+    L.shot(string.format("page_%02d.png", pagesShot)); log(string.format("shot page_%02d.png", pagesShot))
+    if pagesShot >= PAGES and STOP_AFTER_SHOT then L.finish(0) end
   end
 end)
 

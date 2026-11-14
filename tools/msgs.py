@@ -124,6 +124,7 @@ class Script:
                 words.extend(where[w] if w else [None])
             lists_at = (o + 3) & ~3
             self.end = lists_at + 4 * len(words)   # first free byte after the relocated pages and lists
+            self.where = where                     # page offset -> [file offsets of its relocated page(s)]
             put(out, lists_at, struct.pack(f"<{len(words)}I", *(BUS + a if a is not None else 0 for a in words)),
                 "page lists", log)
             put(out, MSG_TABLE, struct.pack(f"<{len(self.table)}I", *(BUS + lists_at + 4 * index[w] for w in self.table)),

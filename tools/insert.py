@@ -91,8 +91,10 @@ def texts(d, mode, marker_px=MARKER_PX):
     return {r.id: (tsv.get(r.id, {}).get("en") or None) for r in rows}
 
 
-def build_rom(d, mode="en", marker_px=MARKER_PX, qa=None, log=None):
-    """log: a writelog.WriteLog; every write is recorded for romdiff.py --writes (build.py saves build/writes.txt)."""
+def build_rom(d, mode="en", marker_px=MARKER_PX, qa=None, log=None, strings=None):
+    """log: a writelog.WriteLog; every write is recorded for romdiff.py --writes (build.py saves build/writes.txt).
+    strings: a dict filled with {row id: bus address the game reads the row's first byte from} for every row
+    whose Japanese is text (build/strings.tsv, for textcover.py)."""
     en = texts(d, mode, marker_px)
     en.update(qa or {})   # --qa ID=text: single-line overrides for width and glyph stress tests
     out = vwf.apply(bytearray(d), log)
@@ -104,9 +106,15 @@ def build_rom(d, mode="en", marker_px=MARKER_PX, qa=None, log=None):
             s.pages[off] = page_bytes(t) if len(parts) == 1 else [page_bytes(p) for p in parts]
     out = bytearray(s.repack(bytes(out), base=TEXT_BASE, log=log))
     o = (s.end + 3) & ~3
+    if strings is not None:
+        for r in rom_rows(d):
+            if is_text(r.jp):
+                strings[r.id] = BUS + (s.where[int(r.id[1:], 16)][0] if r.id[0] == "p" else r.off)
     rows = [r for r in rom_rows(d) if r.id[0] == "s" and en.get(r.id)]
     for r in rows:
         b = sys_bytes(en[r.id])
+        if strings is not None and r.id in strings:
+            strings[r.id] = BUS + o
         put(out, o, b, r.id, log)
         for h in r.ref.split(","):
             h = int(h, 16)

@@ -44,8 +44,8 @@ def main():
         from insert import build_rom
         from writelog import WriteLog
         qa = dict(q.split("=", 1) for q in a.qa)
-        log = WriteLog(d)
-        out = build_rom(d, "marker" if a.marker else "en", a.marker_px, qa, log=log)
+        log, strings = WriteLog(d), {}
+        out = build_rom(d, "marker" if a.marker else "en", a.marker_px, qa, log=log, strings=strings)
         name = (f"marker{'' if a.marker_px == 168 else a.marker_px}.gba" if a.marker else "fantastic_children_en.gba")
         name = "qa.gba" if qa else name
     BUILD.mkdir(exist_ok=True)
@@ -53,6 +53,9 @@ def main():
     path.write_bytes(out)
     if log is not None:   # romdiff.py --writes log: build/writes.txt for the English build, else <name>.writes.txt
         log.save(BUILD / ("writes.txt" if name == "fantastic_children_en.gba" else name[:-4] + ".writes.txt"))
+        # textcover.py input: id -> the bus address the game reads the string's first byte from
+        (BUILD / ("strings.tsv" if name == "fantastic_children_en.gba" else name[:-4] + ".strings.tsv")).write_text(
+            "".join(f"{i}\t{a:X}\n" for i, a in sorted(strings.items())), encoding="utf-8", newline="\n")
     print(f"{path.relative_to(ROOT)}  {len(out)} bytes  sha1 {hashlib.sha1(out).hexdigest()}")
     if a.identity:
         if out != d:

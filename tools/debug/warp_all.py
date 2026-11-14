@@ -4,6 +4,8 @@
                                            [--states]   # also save work/states/<scene>.mss on arrival
                                            [--resume]   # skip scenes already ok in OUT (resume a killed run)
                                            [--check-only]  # grade OUT as it stands, run nothing
+                                           [--pages N]     # N more shots per scene (page_NN.png), for QA sheets
+                                           [--cover build/strings.tsv]  # log text reads (textcover.py)
 
 A scene passes when its log has `WARP <scene>`, its shot warp.png is not one flat colour, and, for event scenes
 with `msg=N`, the game fetched message N after arrival. Writes OUT/report.tsv and OUT/sheet*.png (all shots,
@@ -76,7 +78,22 @@ def emu_cmd(rom, d, name, kv, frames, out, states):
         cmd += ["--var", f"STATE_OUT=[[{st}]]"]
     for p in filter(None, os.environ.get("WARP_PROBES", "").split(",")):   # extra Lua probes, e.g. tools/lua/boxlog.lua
         cmd += ["--script", str(ROOT / p)]
+    if PAGES:   # page_NN.png shots after warp.png (tools/qa_sheets.py)
+        cmd += ["--var", f"PAGES={PAGES}"]
+        cmd[cmd.index("--frames") + 1] = str(frames + PAGES * 40)
+    if COVER:   # TEXT lines for textcover.py over the build's string area (build/strings.tsv)
+        cmd += ["--script", str(Path(SCRIPTS) / "lua" / "probes" / "textcover.lua"), "--var", f"RANGES='{COVER}'"]
     return cmd
+
+
+PAGES = 0
+COVER = ""
+
+
+def cover_ranges(strings):
+    """'LO-HI' over every address in a strings.tsv (+0x200 for the last string's bytes)."""
+    addrs = [int(ln.split("\t")[1], 16) for ln in strings.read_text(encoding="utf-8").splitlines() if ln]
+    return f"{min(addrs):X}-{max(addrs) + 0x200:X}"
 
 
 def check(d, name, kv, p):
@@ -109,7 +126,12 @@ def main():
     # keep scenes whose earlier run in OUT already passes (a killed run resumes where it stopped)
     ap.add_argument("--resume", action="store_true")
     ap.add_argument("--check-only", action="store_true", help="grade existing OUT dirs, run nothing")
+    ap.add_argument("--pages", type=int, default=0, help="N more shots per scene, before each mash press (QA sheets)")
+    ap.add_argument("--cover", type=Path, help="build/strings.tsv: log text reads for textcover.py")
     a = ap.parse_args()
+    global PAGES, COVER
+    PAGES = a.pages
+    COVER = cover_ranges(a.cover) if a.cover else ""
     scenes = [(n, kv) for n, kv in load_scenes() if not a.only or re.search(a.only, n)]
     a.out.mkdir(parents=True, exist_ok=True)
     (a.out / "_blank.sav").write_bytes(b"\xff" * 8192)
