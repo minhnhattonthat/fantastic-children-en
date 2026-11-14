@@ -15,7 +15,8 @@ Dump: `rom.sha1` (8 MiB, header `FANTCHILDREN` / `BFCJ`, EEPROM_V124 save). Offs
   opening cutscene (`work/states/cut1_f3000.mss` + ~400 frames), and by every one of 4133 pages decoding to
   plausible Japanese (`python -X utf8 tools/dec.py --msg 0 1 ... `).
 - Symbol cells `078-098` were read off the font by eye; `085`/`086`/`087` (、。．), `089` (；), `08A`/`08B` (’”) and
-  `096` (◎) are **guesses** to confirm in the marker build.
+  `096` (◎) were guesses; re-read at 4x zoom in Phase 5 (`tools/font_sheet.py --first 0x84 --count 20 --zoom 4`): the
+  shapes match, and `089`/`096` are used by no string, so nothing depends on them.
 - 230 distinct kanji cells are used by the script (`105-1FF`: 251 cells incl. 『』).
 
 ## Control codes — verified (by the copy routine at 0x0802ED8A and a whole-script check)
@@ -73,8 +74,7 @@ Dump: `rom.sha1` (8 MiB, header `FANTCHILDREN` / `BFCJ`, EEPROM_V124 save). Offs
   per-code pointer table `*(0x082122DC + 4f)` (`0x08210A98` font 0, `0x08211298` font 1). For a code:
   `idx = u16 at ptrtab[code & 0x1FF]`, glyph = 64 bytes at `glyphbase + idx*64`, DMA'd to VRAM as two 4bpp 8×8
   tiles = **one 8×16 cell per character**. Render: `python -X utf8 tools/font_sheet.py ROM out.png --first 0x100`.
-- The text box shows 8 px per character (fixed pitch). English will need a VWF or a narrower-pitch hack
-  (Phase 5 spike); the per-code index indirection makes it easy to repoint codes to new glyphs.
+- The text box shows 8 px per character (fixed pitch); English uses the VWF hook (§VWF and pair encoding).
 
 ## Free space — verified
 - `0x70F96C-0x7FFFFF` (~961 KiB of 0xFF at the ROM end; the last data is the credits LZ block ending at `0x70F96B`).
@@ -91,3 +91,47 @@ Dump: `rom.sha1` (8 MiB, header `FANTCHILDREN` / `BFCJ`, EEPROM_V124 save). Offs
   routine reading `0x189BD4-0x1F38E3` during the intro: that range is PCM sample data (see graphics.md), so this is
   most likely the sound mixer, not a graphics decompressor.
 - `tools/gbacomp.py scan` finds 170 BIOS-LZ77 blocks (1.7 MB unpacked); none hold text.
+
+## Box drawing — verified (Phase 5, probes `tools/lua/textobj.lua`, `typecall.lua`, `textput.lua`)
+- One text object at `0x0202C790` (0x18 bytes): `+2` n = cells used this frame, `+4` glyph buffer (66 codes,
+  `0x0202C7A8`), `+8` VRAM base `0x06008000`, `+0xC` tilemap shadow (`0x0202D44C`, BG0, 32 entries per row),
+  `+0x10` h = `0x37F`, `+0x12` bit 0 "uploaded", `+0x14/+0x15` s8 x/y offsets. Byte `0x0202C790+0x138` == 2 selects
+  font 1 (glyph background value 1 = opaque black: the top box); else font 0 (background 0, transparent).
+- `text_put(src, x, y, cells, flags)` `0x0802E79C` -> `type_line(obj, src, x, y, [sp] cells, [sp+4] flags)`
+  `0x0802E7F8`: one 8x16 cell per code; cell j -> tiles `h-1-2n` / `h-2n` (n counts glyphs, spaces get the blank
+  tile `0x201`); when the string ends before `cells`, the rest is blank-mapped; `src = 0` blank-maps `cells`.
+  The glyph upload `0x0802F108` (called per frame by `0x0802DE00`) DMAs each buffered glyph to its tiles.
+- Dialogue box (state `0x0202C8D0`): two line buffers at `+0xA4` / `+0xD0` (0x2C bytes); the page copy
+  `0x0802ED3C` (called at `0x0802FBD4`) keeps **22 codes** per line and expands argument codes; the reveal
+  (`[+6]` line, `[+7]` codes shown) caps a line at 21 codes. Each frame `0x0802F740-0x0802F804` re-types the shown
+  lines: completed line `text_put(buf, x, y, 21)`, current line `text_put(buf, x, y, k)` then blank fill from
+  `x+k`, 21-k cells; empty line blank 21 cells. Line 2 is at y+2. Cursor ▼ via `text_put` at col 27 (bottom) /
+  col 22 (top).
+- Box choice: `0x0802F580(r0)`: r0 = 0 **top box** (x=1, y=3/5, portrait on the right, font 1), else **bottom box**
+  (x=3, y=15/17). Events pass the runner byte `0x0203B3F0+0x12` (`0x08039394`); talk battles open the top box
+  (`0x080379E8`); battle lines show in the bottom box (`0x08039B3B`). `tools/lua/boxlog.lua` logs each open.
+
+## VWF and pair encoding — verified (Phase 5, `tools/vwf.py`, `tests/test_vwf.py`, shots in work/qa/p5)
+- Hook at `type_line` (`push {r4-r7,lr}` kept, then a jump to `0x08710000`). For a string it draws every code at
+  its own width straight into the cells (OR of 4bpp rows, glyphs up to 16 px wide), clears the cells first (to
+  `0x11111111` under font 1), maps max(cells, region) tilemap cells (past the ink: `0x201`), adds the cells to n and
+  records (y, x, end) for the row at `[obj+4] + 4*(y&3)`; the blank fill that follows starts after the recorded
+  end. Bottom-box rows (y 15/17, region ending at col 24) are widened to col 27: **24 cells**. The upload routine
+  now only sets its flag (`0x0802F12A: b 0x0802F1B4`). Cells = (advance + 6) / 8 (the last pixel is the gap).
+- **Pair codes**: `0x4000 | i1 << 7 | i2`, two characters by index into the English glyph set (index 0 = none;
+  indices with `(i & 0x1C) == 4` unused, so no code has bits 9-11 = 001, the copy's argument test). A 22-code line
+  holds 44 characters. Every English string (pages and system strings) is pair-encoded; game codes still work
+  (Japanese keeps its own glyphs at 8 px, so untranslated rows show as before).
+- Font: `fonts/vwf_en.png` + `.tsv` (Lato Bold 13 px rendered to 16 levels, `tools/vwf_font.py`), 89 glyphs.
+
+## Box widths — the width gate (measured, Phase 5)
+| Variant | Where | Budget (ink px / codes) | Measured |
+|---|---|---|---|
+| Dialogue, bottom box | events, battle lines | 192 / 21, 2 lines per box | `p07F28E` = "Mmm, we walked the whole w'" (192 px) ends at col 26, clear of ▼ (work/qa/p5/stress) |
+| Dialogue, top box | portrait events, talk battles | 168 / 21 | `p0974EA` 167 px stops before the portrait (work/qa/p5/top2) |
+| File menu | RECORD n / NEW GAME / area in slot / help | 15 / 30 / 15 / 26 cells (x 8 px) | `textput.lua` regions |
+| Pause info box | item, card, support descriptions | 28 cells (224 px), 3 lines | `textput.lua` regions |
+| Name fields (args) | talk-battle names | 8 cells | `textput.lua`, RAM `0x0202C934..` |
+Per-message box: `docs/re/msg_boxes.tsv` (from boxlog runs; unseen messages take the top box, 168 px). Per-string
+regions: `docs/re/sys_regions.tsv`. Both written by `tools/boxmap.py`; `tools/lint.py` applies them.
+Glyph torture line (all ASCII, … — ‘ ’ “ ” é, double spaces, × ♪ ▼) renders correctly (work/qa/p5/stress).
