@@ -6,7 +6,8 @@
 
 Allowed: free space 0x70F96C- (VWF hook/tables, relocated pages and page lists, system strings; the ROM may grow),
 the message table (repointed), each system string's pointer holder (script/sys_*.tsv `ref`), and the two code
-patches in vwf.apply (type_line hook, glyph upload skip). Everything else must equal the original.
+patches in vwf.apply (type_line hook, glyph upload skip), the 4 title backgrounds (G1/G2: block slot + record).
+Everything else must equal the original.
 """
 import subprocess
 import sys
@@ -15,6 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import msgs  # noqa: E402
+import title_gfx  # noqa: E402
 import vwf  # noqa: E402
 from script_tsv import load  # noqa: E402
 
@@ -27,6 +29,10 @@ def ranges():
            (msgs.MSG_TABLE, msgs.MSG_TABLE + 4 * msgs.MSG_COUNT - 1, "message table, repointed"),
            (vwf.TYPE_LINE + 2 - vwf.BUS, vwf.TYPE_LINE + 2 - vwf.BUS + 9, "type_line hook"),
            (vwf.UPLOAD_SKIP - vwf.BUS, vwf.UPLOAD_SKIP - vwf.BUS + 1, "glyph upload skip")]
+    rom = (ROOT / "rom" / "Fantastic Children (Japan).gba").read_bytes()
+    for n, (b, rec) in enumerate(zip(title_gfx.BLOCKS, title_gfx.RECORDS)):
+        out.append((b, b + title_gfx.slot(rom, n) - 1, f"title bg {n} (G1/G2), rewritten in place"))
+        out.append((rec, rec + 7, f"title bg {n} record (offset, size) if the block moves"))
     for r in load().values():
         if r["id"][0] == "s":
             for h in r["ref"].split(","):

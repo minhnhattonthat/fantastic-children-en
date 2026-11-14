@@ -4,7 +4,8 @@
     python -X utf8 tools/title_gfx.py check PNG..            # each PNG re-packs into its ROM slot?
 
 Each variant is one BIOS-LZ77 block of 601 8bpp tiles: tile 0 blank, tiles 1-600 the 30x20 screen in reading order
-(so no map to touch), its 256-colour palette in the 512 bytes just before the block. Import re-tiles the PNG in the
+(so no map to touch), its 256-colour palette in the next archive record (512 bytes just after the block; checked
+against palette RAM at the title, `work/qa/p8/title_ppu`). Import re-tiles the PNG in the
 same order (palette indices kept, so draw only with the palette's own colours) and re-compresses. Each block has an
 archive record (RECORDS): u32 offset relative to the record itself, u32 packed size (rounded up to 4), u32 flags
 0x00420100. Up to that size the block is rewritten in place (padded with 0); bigger, it goes to `alloc(size)` (a free
@@ -24,7 +25,11 @@ TILES, W, H = 601, 30, 20
 
 
 def palette(rom, b):
-    pal = struct.unpack_from("<256H", rom, b - 0x200)
+    """The variant's 256 colours: the archive record right after the tile record (size 0x200), just past the block."""
+    r = RECORDS[BLOCKS.index(b)] + 12
+    off, size = struct.unpack_from("<II", rom, r)
+    assert size == 0x200, (hex(r), size)
+    pal = struct.unpack_from("<256H", rom, r + off)
     out = []
     for c in pal:
         out += [(c & 31) << 3, (c >> 5 & 31) << 3, (c >> 10 & 31) << 3]

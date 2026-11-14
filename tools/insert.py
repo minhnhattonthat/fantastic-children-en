@@ -8,7 +8,8 @@ A page's English may hold LINE_SEP (" / "): each part becomes its own page, the 
 list (msgs.Script.repack). Pages (dialogue) are pair-encoded (vwf.encode_pairs: two characters per code, at most PAGE_CODES codes, the page
 copy's limit) and, with the page lists, relocated to TEXT_BASE. System strings with English are pair-encoded too
 (sys_bytes), written after the pages, and every holder in their `ref` is repointed.
-The VWF hook and its tables go to vwf.VWF_BASE.
+The VWF hook and its tables go to vwf.VWF_BASE. Redrawn title backgrounds in gfx/ go in place (title_gfx.apply),
+or after the system strings if one packs bigger than its slot.
 """
 import struct
 import sys
@@ -16,12 +17,14 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
+import title_gfx  # noqa: E402
 import vwf  # noqa: E402
 from msgs import BUS, END, Script  # noqa: E402
 from script_tsv import ENDFLAG, load, rom_rows  # noqa: E402
 from writelog import put  # noqa: E402
 
-TEXT_BASE = 0x730000          # after vwf.VWF_END (0x724800); free to 0x7FFFFF
+GFX = ROOT / "gfx"            # redrawn graphics (title_<n>.png: G1/G2), applied after the text
+TEXT_BASE = 0x730000         # after vwf.VWF_END (0x724800); free to 0x7FFFFF
 ROM_LIMIT = 0x800000          # the text must end inside 8 MiB: only 0x70F96C-0x7FFFFF is trap-tested
 assert TEXT_BASE >= vwf.VWF_END, "the relocated text would overwrite the VWF tables"
 PAGE_CODES = 21               # the page copy keeps 22 codes per line (0x0802FBCE), the box shows at most 21 (0x0802F78C)
@@ -121,6 +124,14 @@ def build_rom(d, mode="en", marker_px=MARKER_PX, qa=None, log=None, strings=None
             assert struct.unpack_from("<I", out, h)[0] == BUS + r.off, (r.id, hex(h))
             put(out, h, struct.pack("<I", BUS + o), f"holder {r.id}", log)
         o = (o + len(b) + 3) & ~3
+    for n in range(len(title_gfx.BLOCKS)):   # G1/G2 English title logo + copyright (gfx/, tools/title_logo.py)
+        png = GFX / f"title_{n}.png"
+        if png.exists():
+            def alloc(size):
+                nonlocal o
+                at, o = o, (o + size + 3) & ~3
+                return at
+            title_gfx.apply(out, n, png, log, alloc)
     if o > ROM_LIMIT:
         raise ValueError(f"text ends at {o:#x}, past {ROM_LIMIT:#x} (the trap-tested free space): "
                          "trap-test a larger ROM (docs/re/text.md §Free space) before raising ROM_LIMIT")

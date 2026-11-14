@@ -7,8 +7,8 @@ sweep of the whole ROM (2026-11-14). Pinned by `tests/test_graphics.py`.
 
 | # | Screen | Element | Kind | Source | State | Plan |
 |---|---|---|---|---|---|---|
-| G1 | Title | Logo ファンタジックチルドレン (small "FANTASTIC CHILDREN" above) | 8bpp BG | inside the 4 title backgrounds, LZ77 blocks `0x30E21C`, `0x36A414`, `0x3725F4`, `0x378E30` (38464 B each, one per title variant) | verified (sweep sheet, gba8) | Redraw as an English logo in all 4 (D5) |
-| G2 | Title | Copyright "© なかむらたかし／日本アニメーション・FC製作委員会 2004 / © BANDAI 2005" | 8bpp BG | same 4 blocks, bottom rows | verified (sweep sheet) | Redraw in English: "© Takashi Nakamura / Nippon Animation, FC Production Committee 2004" |
+| G1 | Title | Logo ファンタジックチルドレン (small "FANTASTIC CHILDREN" above) | 8bpp BG | inside the 4 title backgrounds, LZ77 blocks `0x30E21C`, `0x36A414`, `0x3725F4`, `0x378E30` (38464 B each, one per title variant) | verified (sweep sheet, gba8) | **Done** (English logo in all 4, in-game shots; §Title backgrounds) |
+| G2 | Title | Copyright "© なかむらたかし／日本アニメーション・FC製作委員会 2004 / © BANDAI 2005" | 8bpp BG | same 4 blocks, bottom rows | verified (sweep sheet) | **Done**: "©T.NAKAMURA/NIPPON ANIMATION / FC PRODUCTION COMMITTEE 2004 / © BANDAI 2005" in the G6 font, all 4 |
 | G3 | Boot | Developer logo インディ・クリエイツ | 4bpp tiles, raw | `~0x30CC00-0x30D000`, next to the BANDAI logo tiles (`0x30C800-0x30E200`); stride not pinned yet | guess (sweep sheet, stride off) | Romanized name (check the company's own: "Inti Creates"; the credits already say "INTI ALL STAFF") |
 | G5 | Staff roll | Credits pages: roles and names in kana/kanji (プロデューサー, サウンド, 日本アニメーション...) mixed with "INTI ALL STAFF" | 4bpp tiles, 8×16 glyphs as tile pairs | 8 LZ77 blocks `0x709094`, `0x70A4D4`, `0x70AF18`, `0x70C5B0`, `0x70D32C`, `0x70E2EC`, `0x70EC24`, `0x70F174` (end at `0x70F96C`) | verified (sweep sheet) | English credits (D3): redraw, or replace with font-drawn text if the credits engine allows; reach via debug tool |
 | G6 | Debug only? | 8×8 font: ASCII + half-width katakana (JIS X 0201 order) | 4bpp tiles, raw | `0x40000-0x40C00` | verified (sweep sheet) | Probably the debug/test menu print font; translate only if a player-visible screen uses it |
@@ -45,7 +45,17 @@ and indexes every skipped region). Sheets in `work/sweep/` (regenerate; gitignor
 
 ## Title backgrounds (G1/G2) — verified 2026-11-15
 - Each of the 4 variants is one LZ77 block of 601 8bpp tiles: tile 0 blank, tiles 1-600 = the 30x20 screen in
-  reading order (no map edits needed); 256-colour palette in the 512 B before the block.
+  reading order (no map edits needed); 256-colour palette in the next archive record (512 B just after the block;
+  matches palette RAM at the title, `work/qa/p8/title_ppu`. The earlier "512 B before" guess was wrong).
+- Which variant shows: `0x080316D0` counts the endings seen (bits 0-2 of `0x0202DC56`, from the save) and loads
+  archive record `0x0830D000 + 20 * table[0x08219C1C + count]` (42, 2, 40, 41): none -> variant 3 (dark, the
+  normal title), one -> 0, two -> 1, three -> 2. Warp scenes `title`, `title_1`..`title_3` (`clears=N`).
+- **Done 2026-11-15:** `tools/title_logo.py FONT` writes `gfx/title_<n>.png`: the old logo and copyright are the
+  pixels whose colour agrees across all 4 variants (the backgrounds differ), inpainted per variant; the new logo is
+  "FANTASTIC CHILDREN" in Bebas Neue (OFL, `docs/fonts.md`), cap 22 px, 3 px tracking, the original's blue-to-cyan
+  fill, silver outline, navy extrusion; copyright in the game's own G6 8×8 font (R redrawn, © hand-drawn):
+  "©T.NAKAMURA/NIPPON ANIMATION", "FC PRODUCTION COMMITTEE 2004", "© BANDAI 2005". All 4 pack smaller than their
+  slots (in place). `insert.build_rom` applies every `gfx/title_<n>.png`. Shots: `work/qa/p8/title_en*`.
 - Archive records (12 B: u32 offset relative to the record, u32 packed size rounded up to 4, u32 flags `0x00420100`)
   at `0x30D028`, `0x30D320`, `0x30D334`, `0x30D348`. Found by `tools/lua/lzcaller.lua` (BIOS copy of the palette at
   f284, caller `0x08002F41`) and a self-relative offset scan. `tools/gbacomp.py compress` re-packs all 4 unedited

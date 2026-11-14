@@ -12,6 +12,7 @@
 --
 -- Scene list lines: `name  key=value ...` (# comments). Keys:
 --   boot=title|filesel  stop at the title menu / file select (input only, nothing poked)
+--   clears=N    boot=title: endings-seen bits (CLEARS) poked during the intro: 1, 3, 7 give title variants 0, 1, 2
 --   stg=HH      stage byte (world | area << 4, hex) loaded with game mode 1 once the new-game prologue starts
 --   ev=N        event script start record (decimal) run on arrival: in place of the area's entry event when the
 --               area has one (so picture-book areas run it full-screen), else as a stage event (mode 2 sub 4)
@@ -32,6 +33,8 @@ local FLAGP = 0x0202C9E4       -- pointer to the story-flag bit array (flag n: b
 local PLAYING = 0x00020102     -- mode 2 sub 1 state 2: stage loaded, no event running
 local PLAYTIME = GS + 0x13C4   -- u32 frame counter; the ending is B (fast clear) while it is <= 0x6977F (2 h)
 local ITEM_FLAGS, ITEM_FLAGS_N = 0x08219E6C, 75   -- u16 flag ids the ending checks: all set -> ending C
+local CLEARS = 0x0202DC56      -- endings seen (bits 0-2, from the save); the title picks its background by the count
+                               -- (0x080316D0: table 0x08219C1C -> archive record 0x0830D000 + 20 * k)
 
 local function rd32(a) return emu.read32(a, M, false) end
 local function wr32(a, v) emu.write32(a, v, M) end
@@ -121,6 +124,7 @@ L.on_frame(function(n)
     -- intro (~1500 frames) -> title (START) -> file select (A on NEW GAME) -> prologue event (word 0x01000000)
     -- START skips the intro to PUSH START BUTTON, START again opens the title menu, A on START GAME -> file select
     if sc.boot == "title" then
+      if sc.clears and n < 1500 then emu.write(CLEARS, tonumber(sc.clears), M) end
       if n == 1500 or n == 1900 then L.press("start", 6) end
       if n == 2200 then arrive("title") end
       return
