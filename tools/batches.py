@@ -107,9 +107,16 @@ def problems(r, en, terms, en_tbl):
     jp = r["jp"]
     b = lint.budget(r)
     choice = r["id"][0] == "p" and b and b[2].startswith("choice")
+    short = choice or lint.is_area_name(r)
     for jps, ens, avoid in terms:
-        if choice:   # 72 px destination answers: "Natsuna" for Natsuna Island (decisions.md D8)
+        if short:   # 72 px answers / 120 px area names: "Natsuna" for Natsuna Island (decisions.md D8, D9)
             ens = ens + [e[:-len(" Island")] for e in ens if e.endswith(" Island")]
+            ens = ens + [e[len("Children's "):] for e in ens if e.startswith("Children's ")]
+            # area names (D9) may drop the island when they name a site on it: "Academy Hall 1", "Gedling Room"
+            if lint.is_area_name(r) and (jps[0] == "チカオ" or ens[0].endswith(" Island")) and any(
+                    has_term(jp, j) for js, es, _ in terms if js[0] != "チカオ" and not es[0].endswith(" Island")
+                    for j in js):
+                continue
         if any(has_term(jp, j) for j in jps) and not any(e.lower() in en.lower() for e in ens):
             out.append(f"glossary: {jps[0]} -> {ens[0]}")
         out += [f"glossary Avoid: {a}" for a in avoid if re.search(rf"\b{re.escape(a)}\b", en)]

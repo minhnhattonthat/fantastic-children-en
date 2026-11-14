@@ -33,6 +33,12 @@ NAME_PX = 64
 NUM_PX = 24         # a number argument (damage, hits, times, HP, round): up to 3 game digits, 8 px each
 NUM_ARG = re.compile(r"\{arg(\d)\}(?=ダメージ|ヒット|回|かいふく)|(?<=ラウンド)\{arg(\d)\}")
 INFO_CELLS = 28
+AREA_CELLS = 15     # area names (sys_menu s09C81E-s09CD48) share the file slot's area field (s09CD5A: 15 cells)
+AREA_IDS = ("s09C81E", "s09CD48")
+
+
+def is_area_name(r):
+    return r["id"][0] == "s" and AREA_IDS[0] <= r["id"] <= AREA_IDS[1]
 BLANKS = " 　"
 
 
@@ -63,6 +69,8 @@ def budget(r):
     if r["id"] in REGIONS:
         cells = int(REGIONS[r["id"]][0])
         return cells * 8, cells, f"region {cells} cells ({REGIONS[r['id']][3]})"
+    if is_area_name(r):
+        return AREA_CELLS * 8, AREA_CELLS, f"area name, file slot {AREA_CELLS} cells"
     if r["file"] == "sys_battle.tsv":
         return vwf.BOTTOM_PX, PAGE_CODES, "battle line, bottom box"
     if r["file"] == "sys_items.tsv":

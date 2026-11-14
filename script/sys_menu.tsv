@@ -1,104 +1,104 @@
 id	ref	jp	en	notes
-s09C610	219C20	ＲＥＣＯＲＤ1		
-s09C620	219C24	ＲＥＣＯＲＤ2		
-s09C630	219C28	ＲＥＣＯＲＤ3		
-s09C640	219C30	ＴＨＩＳ ＤＡＴＡ ＩＳ ＢＲＯＫＥＮ・・・		
-s09C66E	219C38	ＮＥＷ ＧＡＭＥ		
-s09C680	219C40	▶		
-s09C684	219C48	：		
-s09C688	219C50	ゲームを 最初からはじめます。		
-s09C6A8	219C54	Ａ：決定 Ｂ：もどる		
-s09C6BE	219C5C	ゲームを 続きからはじめます。		
-s09C6DE	219C60	Ａ：決定 Ｂ：もどる		
-s09C6F4	219C68	削除するデータを 選択して下さい。		
-s09C718	219C70	このデータを 消去しますか？		
-s09C736	219C74	▶はい   いいえ		
-s09C74A	219C7C	このデータを 消去しますか？		
-s09C768	219C80	 はい  ▶いいえ		
-s09C77C	219C88	本当に 消去しますか？		
-s09C794	219C8C	▶はい   いいえ		
-s09C7A8	219C94	本当に 消去しますか？		
-s09C7C0	219C98	 はい  ▶いいえ		
-s09C7D4	219CA0	データを 消去しています。		
-s09C7F0	219CA4	電源を 切らないで下さい。		
-s09C80C	219CAC	ゲームクリア		
-s09C81A	219CB4	＄		
-s09C81E	219CBC	パパン寺院 ほんでん		
-s09C834	219CC0	パパン寺院 階段		
-s09C846	219CC4	パパン島 森		
-s09C854	219CC8	パパン島 石柱		
-s09C864	219CCC	パパン島 石柱上		
-s09C876	219CD0	パパン島 入り江		
-s09C888	219CD4	ナツナ島		
-s09C892	219CD8	パパン寺院 2階		
-s09C8A4	219CDC	パパン寺院 裏庭		
-s09C8B6	219CE4	チカオ島 砂浜		
-s09C8C6	219CE8	チカオ島 だんがい		
-s09C8DA	219CEC	チカオ島 どうくつ		
-s09C8EE	219CF0	チカオ島 森		
-s09C8FC	219CF4	チカオ島 すいろ		
-s09C90E	219CF8	チカオ児童学園 裏庭		
-s09C924	219CFC	チカオ児童学園 子供部屋		
-s09C93E	219D00	チカオ児童学園 しょうめん		
-s09C95A	219D04	チカオ児童学園 わたりろうか		
-s09C978	219D08	チカオ児童学園 倉庫		
-s09C98E	219D0C	チカオ児童学園 ろうか1		
-s09C9A8	219D10	チカオ児童学園 ろうか2		
-s09C9C2	219D14	チカオ児童学園 かくし部屋		
-s09C9DE	219D18	チカオ児童学園 反省室		
-s09C9F6	219D20	クレルモン 施設 入口		
-s09CA0E	219D24	クレルモン 施設 ホール		
-s09CA28	219D28	クレルモン 施設 ないぶ		
-s09CA42	219D2C	クレルモン 施設 やね裏		
-s09CA5C	219D30	クレルモン 施設 地下室		
-s09CA76	219D34	クレルモン 施設 裏庭		
-s09CA8E	219D38	セラフィーヌの生家		
-s09CAA2	219D3C	セラフィーヌの記憶		
-s09CAB6	219D40	クリスティーナの記憶		
-s09CACC	219D44	ティナの記憶		
-s09CADA	219D4C	宇宙船ヴェガ 動カブロック		
-s09CAF6	219D50	宇宙船ヴェガ きょじゅうブロック1		
-s09CB1A	219D54	宇宙船ヴェガ ツウロ1		
-s09CB32	219D58	宇宙船ヴェガ ほかんブロック1		
-s09CB52	219D5C	宇宙船ヴェガ きょじゅうブロック2		
-s09CB76	219D60	宇宙船ヴェガ きょじゅうブロック3		
-s09CB9A	219D64	宇宙船ヴェガ ツウロ2		
-s09CBB2	219D68	宇宙船ヴェガ シャフト1		
-s09CBCC	219D6C	宇宙船ヴェガ シャフト2		
-s09CBE6	219D70	宇宙船ヴェガ ほかんブロック2		
-s09CC06	219D74	宇宙船ヴェガ 格納庫		
-s09CC1C	219D78	宇宙船ヴェガ 倉庫1		
-s09CC32	219D7C	宇宙船ヴェガ 倉庫2		
-s09CC48	219D84	クリル島ゲドリング 施設1		
-s09CC64	219D88	クリル島ゲドリング 施設2		
-s09CC80	219D8C	クリル島ゲドリング 連結1		
-s09CC9C	219D90	クリル島ゲドリング コントロールセンター		
-s09CCC6	219D94	クリル島ゲドリング 部屋		
-s09CCE0	219D98	クリル島ゲドリング 連結2		
-s09CCFC	219D9C	クリル島ゲドリング メインシャフト		
-s09CD20	219DA0	クリル島ゲドリング カプセルへのつうろ		
-s09CD48	219DA8	ゾーンへのハザマ		
-s09CD5A	219DAC	   ・・・ここは どこだろうか・・・		
-s09CD82	219DB0	   ・・・ここは どこだろうか・・・		
-s09CDAA	219DB4	   ・・・ここは どこだろうか・・・		
-s09CDD2	219DB8	   ・・・ここは どこだろうか・・・		
-s09CDFA	219DBC	   ・・・ここは どこだろうか・・・		
-s09CE22	219DC0	   ・・・ここは どこだろうか・・・		
-s09CE4A	219DC4	   ・・・ここは どこだろうか・・・		
-s09CE72	219DC8	   ・・・ここは どこだろうか・・・		
-s09CE9A	219DCC	   ・・・ここは どこだろうか・・・		
-s09CEC2	219DD0	   ・・・ここは どこだろうか・・・		
-s09CEEA	219DD4	   ・・・ここは どこだろうか・・・		
-s09CF12	219DD8	   ・・・ここは どこだろうか・・・		
-s09CF3A	219DDC	   ・・・ここは どこだろうか・・・		
-s09CF62	219DE0	   ・・・ここは どこだろうか・・・		
-s09CF8A	219DE4	   ・・・ここは どこだろうか・・・		
-s09CFB4	219F70	データセーブ中です。		
-s09CFCA	219F74	電源を 切らないで下さい。		
-s09CFE6	219F7C	セーブに しっぱいしました。もういちど リトライしますか？		
-s09D022	219F84	はい		
-s09D028	219F88	いいえ		
-s0669F4	2E6EC	▼		
+s09C610	219C20	ＲＥＣＯＲＤ1	RECORD1	
+s09C620	219C24	ＲＥＣＯＲＤ2	RECORD2	
+s09C630	219C28	ＲＥＣＯＲＤ3	RECORD3	
+s09C640	219C30	ＴＨＩＳ ＤＡＴＡ ＩＳ ＢＲＯＫＥＮ・・・	THIS DATA IS BROKEN...	
+s09C66E	219C38	ＮＥＷ ＧＡＭＥ	NEW GAME	
+s09C680	219C40	▶	▶	
+s09C684	219C48	：	:	
+s09C688	219C50	ゲームを 最初からはじめます。	Start a new game.	
+s09C6A8	219C54	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09C6BE	219C5C	ゲームを 続きからはじめます。	Continue your game.	
+s09C6DE	219C60	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09C6F4	219C68	削除するデータを 選択して下さい。	Choose data to delete.	
+s09C718	219C70	このデータを 消去しますか？	Delete this data?	
+s09C736	219C74	▶はい   いいえ	▶Yes   No	
+s09C74A	219C7C	このデータを 消去しますか？	Delete this data?	
+s09C768	219C80	 はい  ▶いいえ	 Yes  ▶No	
+s09C77C	219C88	本当に 消去しますか？	Really delete it?	
+s09C794	219C8C	▶はい   いいえ	▶Yes   No	
+s09C7A8	219C94	本当に 消去しますか？	Really delete it?	
+s09C7C0	219C98	 はい  ▶いいえ	 Yes  ▶No	
+s09C7D4	219CA0	データを 消去しています。	Deleting data.	
+s09C7F0	219CA4	電源を 切らないで下さい。	Don't turn off the power.	
+s09C80C	219CAC	ゲームクリア	Game Clear	
+s09C81A	219CB4	＄	$	
+s09C81E	219CBC	パパン寺院 ほんでん	Papin Temple Hall	
+s09C834	219CC0	パパン寺院 階段	Temple Stairs	
+s09C846	219CC4	パパン島 森	Papin Forest	
+s09C854	219CC8	パパン島 石柱	Papin Pillars	
+s09C864	219CCC	パパン島 石柱上	Papin Pillar Top	
+s09C876	219CD0	パパン島 入り江	Papin Cove	
+s09C888	219CD4	ナツナ島	Natsuna Island	
+s09C892	219CD8	パパン寺院 2階	Papin Temple 2F	
+s09C8A4	219CDC	パパン寺院 裏庭	Papin Temple Yard	
+s09C8B6	219CE4	チカオ島 砂浜	Chikao Beach	
+s09C8C6	219CE8	チカオ島 だんがい	Chikao Cliff	
+s09C8DA	219CEC	チカオ島 どうくつ	Chikao Cave	
+s09C8EE	219CF0	チカオ島 森	Chikao Forest	
+s09C8FC	219CF4	チカオ島 すいろ	Chikao Canal	
+s09C90E	219CF8	チカオ児童学園 裏庭	Academy Backyard	
+s09C924	219CFC	チカオ児童学園 子供部屋	Academy Dorm	
+s09C93E	219D00	チカオ児童学園 しょうめん	Academy Front	
+s09C95A	219D04	チカオ児童学園 わたりろうか	Academy Walk	
+s09C978	219D08	チカオ児童学園 倉庫	Academy Storage	
+s09C98E	219D0C	チカオ児童学園 ろうか1	Academy Hall 1	
+s09C9A8	219D10	チカオ児童学園 ろうか2	Academy Hall 2	
+s09C9C2	219D14	チカオ児童学園 かくし部屋	Academy Hideout	
+s09C9DE	219D18	チカオ児童学園 反省室	Academy Lockup	
+s09C9F6	219D20	クレルモン 施設 入口	Clermont Entrance	
+s09CA0E	219D24	クレルモン 施設 ホール	Clermont Hall	
+s09CA28	219D28	クレルモン 施設 ないぶ	Clermont Interior	
+s09CA42	219D2C	クレルモン 施設 やね裏	Clermont Attic	
+s09CA5C	219D30	クレルモン 施設 地下室	Clermont Cellar	
+s09CA76	219D34	クレルモン 施設 裏庭	Clermont Yard	
+s09CA8E	219D38	セラフィーヌの生家	Seraphine's Home	
+s09CAA2	219D3C	セラフィーヌの記憶	Seraphine's Past	
+s09CAB6	219D40	クリスティーナの記憶	Christina's Past	
+s09CACC	219D44	ティナの記憶	Tina's Past	
+s09CADA	219D4C	宇宙船ヴェガ 動カブロック	Vega Power Block	
+s09CAF6	219D50	宇宙船ヴェガ きょじゅうブロック1	Vega Quarters 1	
+s09CB1A	219D54	宇宙船ヴェガ ツウロ1	Vega Passage 1	
+s09CB32	219D58	宇宙船ヴェガ ほかんブロック1	Vega Storage 1	
+s09CB52	219D5C	宇宙船ヴェガ きょじゅうブロック2	Vega Quarters 2	
+s09CB76	219D60	宇宙船ヴェガ きょじゅうブロック3	Vega Quarters 3	
+s09CB9A	219D64	宇宙船ヴェガ ツウロ2	Vega Passage 2	
+s09CBB2	219D68	宇宙船ヴェガ シャフト1	Vega Shaft 1	
+s09CBCC	219D6C	宇宙船ヴェガ シャフト2	Vega Shaft 2	
+s09CBE6	219D70	宇宙船ヴェガ ほかんブロック2	Vega Storage 2	
+s09CC06	219D74	宇宙船ヴェガ 格納庫	Vega Hangar	
+s09CC1C	219D78	宇宙船ヴェガ 倉庫1	Vega Storeroom 1	
+s09CC32	219D7C	宇宙船ヴェガ 倉庫2	Vega Storeroom 2	
+s09CC48	219D84	クリル島ゲドリング 施設1	Gedling Facility 1	
+s09CC64	219D88	クリル島ゲドリング 施設2	Gedling Facility 2	
+s09CC80	219D8C	クリル島ゲドリング 連結1	Gedling Link 1	
+s09CC9C	219D90	クリル島ゲドリング コントロールセンター	Gedling Control	
+s09CCC6	219D94	クリル島ゲドリング 部屋	Gedling Room	
+s09CCE0	219D98	クリル島ゲドリング 連結2	Gedling Link 2	
+s09CCFC	219D9C	クリル島ゲドリング メインシャフト	Gedling Shaft	
+s09CD20	219DA0	クリル島ゲドリング カプセルへのつうろ	Gedling Capsules	
+s09CD48	219DA8	ゾーンへのハザマ	Hazama to Zone	
+s09CD5A	219DAC	   ・・・ここは どこだろうか・・・	   ...Where is this...	
+s09CD82	219DB0	   ・・・ここは どこだろうか・・・	   ...Where is this...	
+s09CDAA	219DB4	   ・・・ここは どこだろうか・・・	   ...Where is this...	
+s09CDD2	219DB8	   ・・・ここは どこだろうか・・・	   ...Where is this...	
+s09CDFA	219DBC	   ・・・ここは どこだろうか・・・	   ...Where is this...	
+s09CE22	219DC0	   ・・・ここは どこだろうか・・・	   ...Where is this...	
+s09CE4A	219DC4	   ・・・ここは どこだろうか・・・	   ...Where is this...	
+s09CE72	219DC8	   ・・・ここは どこだろうか・・・	   ...Where is this...	
+s09CE9A	219DCC	   ・・・ここは どこだろうか・・・	   ...Where is this...	
+s09CEC2	219DD0	   ・・・ここは どこだろうか・・・	   ...Where is this...	
+s09CEEA	219DD4	   ・・・ここは どこだろうか・・・	   ...Where is this...	
+s09CF12	219DD8	   ・・・ここは どこだろうか・・・	   ...Where is this...	
+s09CF3A	219DDC	   ・・・ここは どこだろうか・・・	   ...Where is this...	
+s09CF62	219DE0	   ・・・ここは どこだろうか・・・	   ...Where is this...	
+s09CF8A	219DE4	   ・・・ここは どこだろうか・・・	   ...Where is this...	
+s09CFB4	219F70	データセーブ中です。	Saving data.	
+s09CFCA	219F74	電源を 切らないで下さい。	Don't turn off the power.	
+s09CFE6	219F7C	セーブに しっぱいしました。もういちど リトライしますか？	Saving failed. Try again?	
+s09D022	219F84	はい	Yes	
+s09D028	219F88	いいえ	No	
+s0669F4	2E6EC	▼	▼	
 s0669F8	2E6E8	 		
-s0669FC	2E768	▶		
+s0669FC	2E768	▶	▶	
 s066A00	2E764	 		
