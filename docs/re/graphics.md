@@ -43,6 +43,15 @@ and indexes every skipped region). Sheets in `work/sweep/` (regenerate; gitignor
 | `0x6F0000-0x70F96C` | credits LZ blocks (G5) and small data | sweep |
 | `0x70F96C-0x800000` | 0xFF fill, free (text.md) | skipped: fill |
 
+## Title backgrounds (G1/G2) — verified 2026-11-15
+- Each of the 4 variants is one LZ77 block of 601 8bpp tiles: tile 0 blank, tiles 1-600 = the 30x20 screen in
+  reading order (no map edits needed); 256-colour palette in the 512 B before the block.
+- Archive records (12 B: u32 offset relative to the record, u32 packed size rounded up to 4, u32 flags `0x00420100`)
+  at `0x30D028`, `0x30D320`, `0x30D334`, `0x30D348`. Found by `tools/lua/lzcaller.lua` (BIOS copy of the palette at
+  f284, caller `0x08002F41`) and a self-relative offset scan. `tools/gbacomp.py compress` re-packs all 4 unedited
+  blocks to exactly the record sizes; bigger art is moved (`tools/title_gfx.py apply(alloc=...)`, test in
+  `tests/test_title_gfx.py`).
+
 ## Still to survey
 - Sprites (`0x560000-0x6F0000`) are only proven text-free where a stride read cleanly. Cover them by VRAM/OAM capture
   on every screen the Phase 2 debug tool reaches (pause/menu/status, talk battle, stage title cards, boss banners,
