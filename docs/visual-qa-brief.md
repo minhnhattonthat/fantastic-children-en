@@ -39,6 +39,12 @@ Standing non-bugs, `ok` (the controller adds the game's own below):
   original's own English graphics.
 - `debug_viewer` and test events (ev_0017, ev_0031 スイッチイベント8 ...) are leftover debug scripts: judge only text.
 - Dialogue font: one proportional English font (Lato), names in a blue/coloured label over the top box are the game's.
+- Forced scenes (text coverage, `tools/debug/force.gba.txt`): `force_NN` replays one test event in a plain room
+  and swaps in message after message, so the lines follow no story order and all show in the same box, with the
+  room shown between messages. `forceput_NN` draws system strings (file menu, area names, item/card descriptions,
+  battle lines) three at a time in the pause screen's info rows, out of their own screen: judge the text itself
+  (Japanese, garbage, glyphs, clipping at the right edge, names). In those rows an argument code ({arg0}: a name or
+  number the battle code fills in) is not filled in and may show as one odd glyph or a gap: not an issue.
 
 ## Verdicts
 Write your verdict file once you have read every sheet, one line per id in the chunk:

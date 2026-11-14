@@ -56,6 +56,10 @@ def run(rom, out, name, kv, states, resume=False):
     shutil.copy(rom, own)
     wait = int(kv.get("wait", "360"))
     frames = 2600 + wait + 600  # a cap: warp.lua stops the run after its shot
+    if "force" in kv:   # force=a,b,..: one event run per message (warp.lua stops when the list is used up)
+        frames += 600 * len(kv["force"].split(","))
+    if "forceput" in kv:   # forceput=: 3 strings per cursor move, a move every 40 frames
+        frames += 20 * len(kv["forceput"].split(","))
     try:
         return check(d, name, kv, subprocess.run(
             emu_cmd(own, d, name, kv, frames, out, states), capture_output=True, text=True))
@@ -66,12 +70,13 @@ def run(rom, out, name, kv, states, resume=False):
 def emu_cmd(rom, d, name, kv, frames, out, states):
     cmd = [sys.executable, "-X", "utf8", str(Path(SCRIPTS) / "emu.py"), str(rom), "--out", str(d),
            "--script", str(ROOT / "tools" / "debug" / "warp.lua"), "--var", f"SCENE='{name}'", "--var", "STOP_AFTER_SHOT=1",
-           "--frames", str(frames), "--timeout", "240"]
+           "--frames", str(frames), "--timeout", str(240 + frames // 40),
+           "--var", f"SCENES=[[{SCENES.as_posix()}]]"]
     # own blank EEPROM per run: without --sav every Mesen shares tools/mesen/Saves/, and a scene that saves
     # (save_prompt + mash) turns NEW GAME into a loaded game for the runs after it
     blank = out / "_blank.sav"
     cmd += ["--sav", str(blank)]
-    if "keys" not in kv and "boot" not in kv:
+    if "keys" not in kv and "boot" not in kv and "forceput" not in kv:
         cmd += ["--mash", "40"]
     if states:
         st = (ROOT / "work" / "states" / f"{name}.mss").as_posix()
@@ -117,6 +122,7 @@ def check(d, name, kv, p):
 
 
 def main():
+    global PAGES, COVER, SCENES
     ap = argparse.ArgumentParser()
     ap.add_argument("--rom", type=Path, default=ROM)
     ap.add_argument("--only")
@@ -128,8 +134,10 @@ def main():
     ap.add_argument("--check-only", action="store_true", help="grade existing OUT dirs, run nothing")
     ap.add_argument("--pages", type=int, default=0, help="N more shots per scene, before each mash press (QA sheets)")
     ap.add_argument("--cover", type=Path, help="build/strings.tsv: log text reads for textcover.py")
+    ap.add_argument("--scenes", type=Path, default=SCENES,
+                    help="scene list (default tools/debug/scenes.gba.txt; tools/debug/force.gba.txt = forced messages)")
     a = ap.parse_args()
-    global PAGES, COVER
+    SCENES = a.scenes.resolve()
     PAGES = a.pages
     COVER = cover_ranges(a.cover) if a.cover else ""
     scenes = [(n, kv) for n, kv in load_scenes() if not a.only or re.search(a.only, n)]

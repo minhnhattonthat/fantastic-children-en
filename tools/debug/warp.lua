@@ -77,11 +77,45 @@ if sc.msg then
   for i in tostring(sc.msg):gmatch("%d+") do want[tonumber(i)] = true end
 end
 local gotMsg = want == nil
+-- force=a,b,c (with ev= on a one-message stage event): each message fetch after arrival takes the next id of the
+-- list in place of the record's own, and the event is restarted whenever it ends, until the list is used up
+-- (text coverage for messages no scene's flow reaches within its pages: tools/debug/force_scenes.py)
+local forceQ, forceI, forceEnd = nil, 1, nil
+if sc.force then
+  forceQ = {}
+  for i in tostring(sc.force):gmatch("%d+") do forceQ[#forceQ + 1] = tonumber(i) end
+end
 L.on_exec(0x08031020, 0x08031020, function()
-  local id = emu.getState()["cpu.r0"] & 0xFFFF
+  local st = emu.getState()
+  local id = st["cpu.r0"] & 0xFFFF
+  if forceQ and phase ~= "boot" and phase ~= "load" and forceI <= #forceQ then
+    local new = forceQ[forceI]; forceI = forceI + 1
+    st["cpu.r0"] = (st["cpu.r0"] & ~0xFFFF) | new
+    emu.setState(st)
+    log(string.format("FORCE %d -> %d", id, new)); id = new
+  end
   log(string.format("MSG %d", id))
   if want and want[id] and phase ~= "boot" and not gotMsg then gotMsg = L.frame end
 end)
+
+-- forceput=ADDR,..: (pause scene, no mash) the pause info rows (text_put from 0x080375A7, rows y 14/16/18, 28
+-- cells: where item descriptions show) draw the listed strings (bus addresses, hex) in turn instead of their own;
+-- the cursor moves down/up every 40 frames to redraw them. For system strings no scene reads (text coverage).
+local putQ, putI, putDone = nil, 1, nil
+if sc.forceput then
+  putQ = {}
+  for a in tostring(sc.forceput):gmatch("%x+") do putQ[#putQ + 1] = tonumber(a, 16) end
+  L.on_exec(0x0802E79C, 0x0802E79C, function()
+    if phase ~= "done" or putI > #putQ then return end
+    local st = emu.getState()
+    if st["cpu.r14"] ~= 0x080375A7 or st["cpu.r0"] == 0 then return end
+    local a = putQ[putI]; putI = putI + 1
+    log(string.format("FORCEPUT %08X -> %08X y=%d", st["cpu.r0"], a, st["cpu.r2"] & 0xFFFF))
+    st["cpu.r0"] = a
+    emu.setState(st)
+    if putI > #putQ then putDone = L.frame end
+  end)
+end
 
 local function set_flags()
   local base = rd32(FLAGP)
@@ -194,11 +228,29 @@ L.on_frame(function(n)
   -- (the frame just before each mash press; emu.py --mash N presses when n % N < 6. A press on a page still typing
   -- completes it, the next one turns the page, so every page is shot complete at least once; tools/qa_sheets.py
   -- drops the partly typed shots. Typing a 2-line page takes longer than 90 frames, so a slower mash doesn't help.)
-  local every = PAGE_EVERY or MASH or 40
+  local every = PAGE_EVERY or ((MASH and MASH > 0) and MASH) or 40  -- no-mash scenes (title, staff) set MASH=0
   if phase == "done" and PAGES and shotAt and n > shotAt + 3 and n % every == every - 3 then
     pagesShot = (pagesShot or 0) + 1
-    L.shot(string.format("page_%02d.png", pagesShot)); log(string.format("shot page_%02d.png", pagesShot))
-    if pagesShot >= PAGES and STOP_AFTER_SHOT then L.finish(0) end
+    local f = string.format((forceQ or putQ) and "page_%03d.png" or "page_%02d.png", pagesShot)
+    L.shot(f); log("shot " .. f)
+    if pagesShot >= PAGES and STOP_AFTER_SHOT and not (forceQ or putQ) then L.finish(0) end
+  end
+  if putQ and phase == "done" then
+    if putDone and n >= putDone + 60 then log("forceput list done"); L.finish(0) end
+    if n % 40 == 0 and putI <= #putQ then L.press((n // 40) % 2 == 0 and "down" or "up", 4) end
+  end
+  -- force=: restart the event 20 frames after it ends while ids are left; stop 60 frames after the last one ends
+  if forceQ and (phase == "arrived" or phase == "done") then
+    if w == PLAYING then
+      forceEnd = forceEnd or n
+      if forceI <= #forceQ and n >= forceEnd + 20 then
+        wr16(EV_H, ev); wr32(GS, 0x0402); log("restart event " .. ev); forceEnd = nil
+      elseif forceI > #forceQ and phase == "done" and n >= forceEnd + 60 then
+        log("force list done"); L.finish(0)
+      end
+    else
+      forceEnd = nil
+    end
   end
 end)
 

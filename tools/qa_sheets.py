@@ -1,6 +1,6 @@
 """qa_sheets.py: visual-QA contact sheets from a warp tour (tools/debug/warp_all.py --pages N).
 
-    python -X utf8 tools/qa_sheets.py OUT [--per 20] [--changed 0.01]
+    python -X utf8 tools/qa_sheets.py OUT [OUT2 ..] [--qa DIR] [--per 20] [--changed 0.01]
 
 Per scene (report.tsv order): warp.png then page_NN.png, keeping only frames that differ from the last kept one by
 more than --changed (the mash pages through the text; a still area shows once), and dropping a frame whose box text
@@ -34,34 +34,47 @@ def partial_of(a, b):
     rows = [y for y in range(h) if sum(_dark(ra[y][x * pa:x * pa + 3]) for x in range(w)) > w * 0.6]
     if not rows:
         return False
-    added = 0
+    added = gone = 0
     for y in rows:
         for x in range(w):
             pxa, pxb = ra[y][x * pa:x * pa + 3], rb[y][x * pb:x * pb + 3]
             if pxa != pxb:
-                if not _dark(pxa):
-                    return False   # ink gone or changed: a new page, not more of the same one
-                added += 1
-    return added > 0
+                if _dark(pxa):
+                    added += 1
+                else:
+                    gone += 1   # ink gone or changed: a new page, unless it is only the typing cursor (a few px)
+    return added > 0 and gone <= GONE_MAX and added > 4 * gone
+
+
+GONE_MAX = 24   # the typing cursor glyph left at the end of a partly typed line
 
 
 def frames(d, changed):
+    """Partly typed pages go first, against the raw next frame: a dedup first would drop the complete page when it
+    adds only a few glyphs to the partial (under --changed) and keep the partial."""
     paths = [d / "warp.png"] + sorted(d.glob("page_*.png"))
-    imgs = [img for _, img in sheet.select([p for p in paths if p.exists()], changed)]
-    return [a for a, b in zip(imgs, imgs[1:] + [None]) if b is None or not partial_of(a, b)]
+    imgs = [sheet.read_png(p) for p in paths if p.exists()]
+    imgs = [a for a, b in zip(imgs, imgs[1:] + [None]) if b is None or not partial_of(a, b)]
+    kept = []
+    for img in imgs:
+        if not kept or sheet.diff(kept[-1], img) > changed:
+            kept.append(img)
+    return kept
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("out", type=Path)
+    ap.add_argument("out", type=Path, nargs="+", help="warp_all.py run dirs (scenes in each one's report.tsv order)")
+    ap.add_argument("--qa", type=Path, help="sheet dir (default OUT/qa of the first run dir)")
     ap.add_argument("--per", type=int, default=20)
     ap.add_argument("--changed", type=float, default=0.01)
     a = ap.parse_args()
-    qa = a.out / "qa"
-    qa.mkdir(exist_ok=True)
+    qa = a.qa or a.out[0] / "qa"
+    qa.mkdir(parents=True, exist_ok=True)
     for old in qa.glob("sheet_*.png"):
         old.unlink()
-    scenes = [ln.split("\t")[0] for ln in (a.out / "report.tsv").read_text(encoding="utf-8").splitlines()[1:] if ln]
+    scenes = [o / ln.split("\t")[0] for o in a.out
+              for ln in (o / "report.tsv").read_text(encoding="utf-8").splitlines()[1:] if ln]
     index, page, names, n = [], [], [], 1
 
     def flush():
@@ -72,8 +85,9 @@ def main():
             index.extend(f"{name}\t{s}\t{k}" for s, k in names)
             page, names, n = [], [], n + 1
 
-    for s in scenes:
-        imgs = frames(a.out / s, a.changed)
+    for sd in scenes:
+        s = sd.name
+        imgs = frames(sd, a.changed)
         if not imgs:
             continue
         if page and len(page) + len(imgs) > a.per:
