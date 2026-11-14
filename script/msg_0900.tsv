@@ -1,167 +1,167 @@
 id	ref	jp	en	notes
-p0914A0	m900.0	おまえが 入れる 場所じゃないッ！		
-p0914C4	m900.1	とっとと 出て行けっ！！		
-p0914DE	m901.0	さっきから なにをやっているッ！！ 		
-p091504	m902.0	いいかげんに しないかッ！ このッ！！ 		
-p09152E	m903.0	なんで子供が こんなところにいるんだッ！ 		
-p09155A	m904.0	動くなッ！ 手を前に出せッ！！		
-p09157A	m904.1	あたまに手をまわして ゆかにふせろッ！！		
-p0915A4	m905.0	トーマは スイッチを入れた。		
-p0915C2	m905.1	パネルの 反転ランプが 光った。		
-p0915E4	m906.0	トーマは スイッチを入れた。		
-p091602	m906.1	パネルの 反転ランプが 光った。		
-p091624	m907.0	トーマは スイッチを入れた。		
-p091642	m907.1	パネルの 反転ランプが 光った。		
-p091664	m908.0	トーマは スイッチを入れた。		
-p091682	m908.1	パネルの 反転ランプが 光った。		
-p0916A4	m909.0	・・・ブゥウン！！		
-p0916B8	m910.0	・・・ブゥウン！！		
-p0916CC	m911.0	・・・ブゥウン！！		
-p0916E0	m912.0	・・・ブゥウン！！		
-p0916F4	m913.0	ヘルガッ！		
-p091700	m913.1	ヘルガ・・・ 死んじゃったのッ！？		
-p091724	m914.0	ヘルガッ！ ヘルガ・・・		
+p0914A0	m900.0	おまえが 入れる 場所じゃないッ！	You can't come in here!	
+p0914C4	m900.1	とっとと 出て行けっ！！	Get out of here, now!!	
+p0914DE	m901.0	さっきから なにをやっているッ！！ 	What've you been doing?! 	
+p091504	m902.0	いいかげんに しないかッ！ このッ！！ 	That's enough! You brat!! 	
+p09152E	m903.0	なんで子供が こんなところにいるんだッ！ 	Why is a kid in here?! 	
+p09155A	m904.0	動くなッ！ 手を前に出せッ！！	Freeze! Hands out front!!	
+p09157A	m904.1	あたまに手をまわして ゆかにふせろッ！！	Hands on your head, / down on the floor!!	
+p0915A4	m905.0	トーマは スイッチを入れた。	Tohma flipped the switch.	
+p0915C2	m905.1	パネルの 反転ランプが 光った。	The reversal lamp on the / panel lit up.	
+p0915E4	m906.0	トーマは スイッチを入れた。	Tohma flipped the switch.	
+p091602	m906.1	パネルの 反転ランプが 光った。	The reversal lamp on the / panel lit up.	
+p091624	m907.0	トーマは スイッチを入れた。	Tohma flipped the switch.	
+p091642	m907.1	パネルの 反転ランプが 光った。	The reversal lamp on the / panel lit up.	
+p091664	m908.0	トーマは スイッチを入れた。	Tohma flipped the switch.	
+p091682	m908.1	パネルの 反転ランプが 光った。	The reversal lamp on the / panel lit up.	
+p0916A4	m909.0	・・・ブゥウン！！	...Vwoom!!	
+p0916B8	m910.0	・・・ブゥウン！！	...Vwoom!!	
+p0916CC	m911.0	・・・ブゥウン！！	...Vwoom!!	
+p0916E0	m912.0	・・・ブゥウン！！	...Vwoom!!	
+p0916F4	m913.0	ヘルガッ！	Helga!	
+p091700	m913.1	ヘルガ・・・ 死んじゃったのッ！？	Is Helga... dead?!	
+p091724	m914.0	ヘルガッ！ ヘルガ・・・	Helga! Helga...	
 p09173E	m914.1			
-p091740	m914.2	トーマ・・・ この つうろのさきに		
-p091764	m914.3	ヘルガのいる カプセルが あるんだ		
-p091788	m914.4	おねがい・・・ ヘルガを たすけて・・・		
-p0917B2	m915.0	ヘルガーーーッ！		
-p0917C4	m916.0	デュマが 装置を とめたのッ！		
-p0917E4	m917.0	デュマッ！ ヘルガは ハッキリいったわッ！		
-p091810	m917.1	ヘルガは ヘルガの 人生を 生きるってッ！		
-p09183C	m917.2	そのいしを だれもおかすことはできないッ！		
-p091868	m917.3	たとえ ・・・弟であってもッ！		
-p091888	m918.0	・・・ヘルガの人生が なくなってしまうッ！		
-p0918B4	m918.1	ヘルガが 死んでしまうッ！		
-p0918D0	m918.2	おねがい デュマッ！		
-p0918E6	m918.3	ヘルガを たすけて・・・		
-p091900	m918.4	ヘルガを 殺さないで・・・ デュマッ！		
-p091928	m919.0	ああ・・・		
-p091934	m920.0	光が・・・		
-p091940	m921.0	・・・ゾーンが 閉じた・・・		
-p09195E	m922.0	くそっ！ ホウデンが やまないッ！		
-p091982	m923.0	ゾーンが・・・ ヘルガの魂が・・・		
-p0919A6	m924.0	・・・ティナ様が・・・		
-p0919BE	m924.1	ティナ様が ふっかつしてしまう・・・		
-p0919E4	m925.0	ヘルガーーーッ！		
-p0919F6	m926.0	・・・ブゥウン！！		
-p091A0A	m927.0	ヘルガの ねむるカプセルへと 続くつうろは		
-p091A36	m927.1	オエセルの青いプラズマがふりそそいでいた。		
-p091A62	m927.2	オエセルの ホウデンは より はげしく		
-p091A8A	m927.3	トーマの 行く手を はばむ。		
-p091AA8	m927.4	はげしくなる オエセルは ゾーンが 開き		
-p091AD2	m927.5	ヘルガの魂の転生が 近いことを いみした。		
-p091AFE	m928.0	トーマ「うッ・・・！ 近づけないッ！！		
-p091B26	m929.0	チット「トーマ！		
-p091B38	m930.0	プラズマが 強く ほそく はしった。		
-p091B5E	m931.0	・・・・・・・・・		
+p091740	m914.2	トーマ・・・ この つうろのさきに	Tohma... past this passage	
+p091764	m914.3	ヘルガのいる カプセルが あるんだ	is the capsule with Helga.	
+p091788	m914.4	おねがい・・・ ヘルガを たすけて・・・	Please... save Helga...	
+p0917B2	m915.0	ヘルガーーーッ！	Helgaaaaa!	
+p0917C4	m916.0	デュマが 装置を とめたのッ！	Dumas halted the device!	
+p0917E4	m917.0	デュマッ！ ヘルガは ハッキリいったわッ！	Dumas! Helga was clear!	
+p091810	m917.1	ヘルガは ヘルガの 人生を 生きるってッ！	She'll live her own / life as Helga!	
+p09183C	m917.2	そのいしを だれもおかすことはできないッ！	No one may violate / that will!	
+p091868	m917.3	たとえ ・・・弟であってもッ！	Not even... her brother!	
+p091888	m918.0	・・・ヘルガの人生が なくなってしまうッ！	...Helga's life will be lost!	
+p0918B4	m918.1	ヘルガが 死んでしまうッ！	Helga will die!	
+p0918D0	m918.2	おねがい デュマッ！	Please, Dumas!	
+p0918E6	m918.3	ヘルガを たすけて・・・	Save Helga...	
+p091900	m918.4	ヘルガを 殺さないで・・・ デュマッ！	Don't kill Helga... Dumas!	
+p091928	m919.0	ああ・・・	Ah...	
+p091934	m920.0	光が・・・	The light...	
+p091940	m921.0	・・・ゾーンが 閉じた・・・	...The Zone has closed...	
+p09195E	m922.0	くそっ！ ホウデンが やまないッ！	Damn! It won't stop arcing!	
+p091982	m923.0	ゾーンが・・・ ヘルガの魂が・・・	The Zone... Helga's soul...	
+p0919A6	m924.0	・・・ティナ様が・・・	...Tina-sama...	
+p0919BE	m924.1	ティナ様が ふっかつしてしまう・・・	Tina-sama will revive...	
+p0919E4	m925.0	ヘルガーーーッ！	Helgaaaaa!	
+p0919F6	m926.0	・・・ブゥウン！！	...Vwoom!!	
+p091A0A	m927.0	ヘルガの ねむるカプセルへと 続くつうろは	The passage to the pod / where Helga slept	
+p091A36	m927.1	オエセルの青いプラズマがふりそそいでいた。	was showered in the / blue plasma of Orsel.	
+p091A62	m927.2	オエセルの ホウデンは より はげしく	The Orsel discharge grew	
+p091A8A	m927.3	トーマの 行く手を はばむ。	fiercer, blocking Tohma.	
+p091AA8	m927.4	はげしくなる オエセルは ゾーンが 開き	The raging Orsel meant / the Zone was opening,	
+p091AD2	m927.5	ヘルガの魂の転生が 近いことを いみした。	and Helga's soul would / soon be reborn.	
+p091AFE	m928.0	トーマ「うッ・・・！ 近づけないッ！！	Tohma: Ugh! I can't get in!	
+p091B26	m929.0	チット「トーマ！	Chitto: Tohma!	
+p091B38	m930.0	プラズマが 強く ほそく はしった。	Plasma lashed out, fierce.	
+p091B5E	m931.0	・・・・・・・・・	.........	
 p091B72	m931.1			
-p091B74	m931.2	トーマは チットを かばうように		
-p091B96	m931.3	つうろへ ふせている・・・		
-p091BB2	m932.0	トーマ「・・・・・・！		
-p091BCA	m933.0	チット「ワンダーッ！？		
-p091BE2	m934.0	トーマたちを かばい プラズマを うけた		
-p091C0C	m934.1	ワンダーが カなく こたえた。		
-p091C2C	m935.0	プラズマが ひらめく。		
-p091C44	m936.0	ワンダーの つばさのような 手が		
-p091C66	m936.1	トーマたちを つつむように かばう。		
-p091C8C	m937.0	タルラント「ワンダー・・・ お前・・・		
-p091CB4	m938.0	トーマ「ワンダー・・・		
-p091CCC	m939.0	はしる プラズマの奥に ヘルガが 見えた。		
+p091B74	m931.2	トーマは チットを かばうように	Tohma lay over Chitto,	
+p091B96	m931.3	つうろへ ふせている・・・	flat on the passage floor...	
+p091BB2	m932.0	トーマ「・・・・・・！	Tohma: ......!	
+p091BCA	m933.0	チット「ワンダーッ！？	Chitto: Wanda?!	
+p091BE2	m934.0	トーマたちを かばい プラズマを うけた	Taking the plasma to / shield Tohma's group,	
+p091C0C	m934.1	ワンダーが カなく こたえた。	Wanda answered, / his voice weak.	
+p091C2C	m935.0	プラズマが ひらめく。	Plasma flashed.	
+p091C44	m936.0	ワンダーの つばさのような 手が	Wanda's wing-like hands	
+p091C66	m936.1	トーマたちを つつむように かばう。	shielded Tohma's group.	
+p091C8C	m937.0	タルラント「ワンダー・・・ お前・・・	Tarlant: Wanda... you...	
+p091CB4	m938.0	トーマ「ワンダー・・・	Tohma: Wanda...	
+p091CCC	m939.0	はしる プラズマの奥に ヘルガが 見えた。	Past the plasma: Helga.	
 p091CF8	m939.1			
-p091CFA	m939.2	カプセルの中に よこたわる		
-p091D16	m939.3	ヘルガの 髪は しずかに ゆれていた。		
-p091D3E	m940.0	トーマ「行くぞ チットッ！		
-p091D5A	m941.0	チット「うんッ！		
-p091D6C	m942.0	トーマ「はしれッ！！		
-p091D82	m943.0	         「わッ！」		
+p091CFA	m939.2	カプセルの中に よこたわる	Lying in the capsule,	
+p091D16	m939.3	ヘルガの 髪は しずかに ゆれていた。	Helga's hair stirred.	
+p091D3E	m940.0	トーマ「行くぞ チットッ！	Tohma: Let's go, Chitto!	
+p091D5A	m941.0	チット「うんッ！	Chitto: Right!	
+p091D6C	m942.0	トーマ「はしれッ！！	Tohma: Run!!	
+p091D82	m943.0	         「わッ！」	 "Whoa!"	
 p091DA0	m943.1			
-p091DA2	m943.2	       「チットッ！！」		
-p091DC2	m944.0	つまづいた チットに プラズマが のびる。		
-p091DEE	m945.0	ワンダーは さいごのカを ふりしぼり		
-p091E14	m945.1	自分の体ごと チットに おおいかぶさった。		
-p091E40	m946.0	チット「ああッ！ ワンダァーーー・・・		
-p091E68	m947.0	ワンダーは ひしゃげた体と あたまで		
-p091E8E	m947.1	小さな へんじをかえすと・・・		
-p091EAE	m948.0	   そのまま くずれるように たおれた。		
+p091DA2	m943.2	       「チットッ！！」	 "Chitto!!"	
+p091DC2	m944.0	つまづいた チットに プラズマが のびる。	Plasma lunged at Chitto.	
+p091DEE	m945.0	ワンダーは さいごのカを ふりしぼり	Wanda, at his very last,	
+p091E14	m945.1	自分の体ごと チットに おおいかぶさった。	threw himself on Chitto.	
+p091E40	m946.0	チット「ああッ！ ワンダァーーー・・・	Chitto: Ah! Wandaaaa...	
+p091E68	m947.0	ワンダーは ひしゃげた体と あたまで	Wanda, crushed and bent,	
+p091E8E	m947.1	小さな へんじをかえすと・・・	gave a small reply...	
+p091EAE	m948.0	   そのまま くずれるように たおれた。	 then crumpled and fell.	
 p091EDA	m948.1			
-p091EDC	m948.2	     「ワンダァーーーッ！！！」		
+p091EDC	m948.2	     「ワンダァーーーッ！！！」	 "Wandaaaaa!!!"	
 p091F02	m948.3			
-p091F04	m949.0	チットは ワンダーの体に しがみつき		
-p091F2A	m949.1	なき声で ワンダーを よび続けた。		
-p091F4E	m950.0	タルラント「・・・ワンダー・・・		
-p091F70	m951.0	・・・ブゥウン！！		
-p091F84	m952.0	ロボット兵が トーマを はじき飛ばした。		
-p091FAE	m953.0	・・・ブゥウン！！		
-p091FC2	m954.0	・・・青い光は 消えていた。		
-p091FE0	m955.0	アギ「ああ・・・		
-p091FF2	m956.0	ハスモダイ「光が・・・		
-p09200A	m957.0	タルラント「・・・ゾーンが 閉じた・・・		
-p092034	m958.0	デュマが ゲドリングを ていし させた。		
+p091F04	m949.0	チットは ワンダーの体に しがみつき	Clinging to Wanda, Chitto	
+p091F2A	m949.1	なき声で ワンダーを よび続けた。	crying Wanda's name.	
+p091F4E	m950.0	タルラント「・・・ワンダー・・・	Tarlant: ...Wanda...	
+p091F70	m951.0	・・・ブゥウン！！	...Vwoom!!	
+p091F84	m952.0	ロボット兵が トーマを はじき飛ばした。	A robot soldier knocked / Tohma flying.	
+p091FAE	m953.0	・・・ブゥウン！！	...Vwoom!!	
+p091FC2	m954.0	・・・青い光は 消えていた。	...The blue light was gone.	
+p091FE0	m955.0	アギ「ああ・・・	Agi: Ah...	
+p091FF2	m956.0	ハスモダイ「光が・・・	Hasmodai: The light...	
+p09200A	m957.0	タルラント「・・・ゾーンが 閉じた・・・	Tarlant: Zone closed...	
+p092034	m958.0	デュマが ゲドリングを ていし させた。	Dumas halted Gedling.	
 p09205E	m958.1			
-p092060	m958.2	デュマが ヘルガを すくったのだ。		
-p092084	m959.0	デュマ「・・・ ヘルガ・・・		
-p0920A2	m960.0	トーマ「お前ッ！！		
-p0920B6	m961.0	ソレト「まってッ！		
-p0920CA	m961.1	 デュマが 装置を とめたのッ！		
-p0920EC	m962.0	デュマ「姉さんッ！		
-p092100	m962.1	 ・・・ど どうすれば たすかるッ！？		
-p092128	m963.0	アギ「まだ ゾーンへは 入っていないッ！		
-p092152	m963.1	 ハザマだッ・・・		
-p092166	m963.2	   ヘルガは 「ハザマ」にいるッ！		
-p09218C	m964.0	ハスモダイ「この ブッシツせかいと		
-p0921B0	m964.1	 ゾーンとの 間にある ジゲンだッ！		
-p0921D6	m965.0	トーマ「アギッ！ オレが 行くッ！		
-p0921FA	m965.1	デュマ「ボクの姉さんだッ！ ボクが行くッ！		
-p092226	m966.0	トーマ「お前になんか たすけ出せないッ！		
+p092060	m958.2	デュマが ヘルガを すくったのだ。	Dumas had saved Helga.	
+p092084	m959.0	デュマ「・・・ ヘルガ・・・	Dumas: ... Helga...	
+p0920A2	m960.0	トーマ「お前ッ！！	Tohma: You!!	
+p0920B6	m961.0	ソレト「まってッ！	Soreto: Wait!	
+p0920CA	m961.1	 デュマが 装置を とめたのッ！	 Dumas halted the device!	
+p0920EC	m962.0	デュマ「姉さんッ！	Dumas: Sister!	
+p092100	m962.1	 ・・・ど どうすれば たすかるッ！？	 H-How can she be saved?!	
+p092128	m963.0	アギ「まだ ゾーンへは 入っていないッ！	Agi: Not in the Zone yet!	
+p092152	m963.1	 ハザマだッ・・・	 It's the Hazama...	
+p092166	m963.2	   ヘルガは 「ハザマ」にいるッ！	 Helga is in the "Hazama"!	
+p09218C	m964.0	ハスモダイ「この ブッシツせかいと	Hasmodai: It's a dimension / that lies between	
+p0921B0	m964.1	 ゾーンとの 間にある ジゲンだッ！	 the material world / and the Zone!	
+p0921D6	m965.0	トーマ「アギッ！ オレが 行くッ！	Tohma: Agi! I'll go!	
+p0921FA	m965.1	デュマ「ボクの姉さんだッ！ ボクが行くッ！	Dumas: My sister! I'll go!	
+p092226	m966.0	トーマ「お前になんか たすけ出せないッ！	Tohma: As if you could!	
 p092250	m966.1			
-p092252	m966.2	デュマ「ぜったいに たすけ出すッ！		
-p092276	m966.3	 死なせは しないッ・・・		
-p092292	m967.0	トーマ「お前になんか たすけ出せないッ！		
+p092252	m966.2	デュマ「ぜったいに たすけ出すッ！	Dumas: I will save her!	
+p092276	m966.3	 死なせは しないッ・・・	 I won't let her die...	
+p092292	m967.0	トーマ「お前になんか たすけ出せないッ！	Tohma: As if you could!	
 p0922BC	m967.1			
-p0922BE	m967.2	デュマ「ぜったいに たすけ出すッ！		
-p0922E2	m967.3	 死なせは しないッ・・・		
-p0922FE	m968.0	カプセルの中で トーマは アギのことばを		
-p092328	m968.1	思い出していた。		
-p09233A	m969.0	      「いいか トーマ・・・		
+p0922BE	m967.2	デュマ「ぜったいに たすけ出すッ！	Dumas: I will save her!	
+p0922E2	m967.3	 死なせは しないッ・・・	 I won't let her die...	
+p0922FE	m968.0	カプセルの中で トーマは アギのことばを	Tohma recalled what Agi	
+p092328	m968.1	思い出していた。	had said, in the capsule.	
+p09233A	m969.0	      「いいか トーマ・・・	 "Listen, Tohma...	
 p09235E	m969.1			
-p092360	m969.2	    転生装置で ハザマに おくる！		
-p092388	m969.3	  ぜったいに ゾーンへは 近づくなッ！		
-p0923B2	m969.4	   ゾーンへ 入ってしまったら・・・		
-p0923DA	m969.5	  再び ここへ 戻ることは 出来ない！		
-p092404	m969.6	      ここへ 戻るには		
-p092422	m969.7	生きるという イシキを 強く もつんだッ！		
-p09244E	m969.8	      生を 強く ねんじろ！		
-p092472	m969.9	  そうすれば かならず 帰って来れるッ！		
-p09249E	m969.10	  ・・・ わかったな トーマッ！ ・・・		
-p0924CA	m970.0	ゲドリングは 再び かいてんを はじめる。		
+p092360	m969.2	    転生装置で ハザマに おくる！	 The device will send / you to the Hazama!	
+p092388	m969.3	  ぜったいに ゾーンへは 近づくなッ！	 Never go near the Zone!	
+p0923B2	m969.4	   ゾーンへ 入ってしまったら・・・	 If you enter the Zone...	
+p0923DA	m969.5	  再び ここへ 戻ることは 出来ない！	 you can never return!	
+p092404	m969.6	      ここへ 戻るには	 To come back here,	
+p092422	m969.7	生きるという イシキを 強く もつんだッ！	hold on tight to / your will to live!	
+p09244E	m969.8	      生を 強く ねんじろ！	 Wish hard for life!	
+p092472	m969.9	  そうすれば かならず 帰って来れるッ！	 Then you'll surely return!	
+p09249E	m969.10	  ・・・ わかったな トーマッ！ ・・・	 ...Understand, Tohma?! ...	
+p0924CA	m970.0	ゲドリングは 再び かいてんを はじめる。	Gedling spun up again.	
 p0924F6	m970.1			
-p0924F8	m970.2	     ・・・トーマの イシキは		
-p09251C	m970.3	      青い光に つつまれた・・・。		
-p092546	m971.0	・・・ブゥウン！！		
-p09255A	m972.0	ロボット兵が トーマを はじき飛ばした。		
-p092584	m973.0	ブッシツせかいと 死のせかい ゾーンを		
-p0925AC	m973.1	つなぐジゲン「ハザマ」。		
-p0925C6	m973.2	あんうんが 低く たれこむ 暗い空。		
-p0925EC	m973.3	死んだように しずかな くろい海。		
-p092610	m973.4	くろいトリが スッと飛び・・・ 消えた。		
-p09263A	m974.0	きがつくと トーマは 色のない 砂浜で		
-p092662	m974.1	ひとり ねむっていた。		
-p09267A	m975.0	トーマ「・・・・・・		
+p0924F8	m970.2	     ・・・トーマの イシキは	 ...Tohma's mind	
+p09251C	m970.3	      青い光に つつまれた・・・。	 faded into blue light...	
+p092546	m971.0	・・・ブゥウン！！	...Vwoom!!	
+p09255A	m972.0	ロボット兵が トーマを はじき飛ばした。	A robot soldier knocked / Tohma flying.	
+p092584	m973.0	ブッシツせかいと 死のせかい ゾーンを	Between the material / world and the Zone, land	
+p0925AC	m973.1	つなぐジゲン「ハザマ」。	of the dead: the "Hazama."	
+p0925C6	m973.2	あんうんが 低く たれこむ 暗い空。	A dark sky of low clouds.	
+p0925EC	m973.3	死んだように しずかな くろい海。	A black sea, still as death.	
+p092610	m973.4	くろいトリが スッと飛び・・・ 消えた。	A black bird darted past... / and vanished.	
+p09263A	m974.0	きがつくと トーマは 色のない 砂浜で	When he came to, Tohma was	
+p092662	m974.1	ひとり ねむっていた。	alone on a colorless beach.	
+p09267A	m975.0	トーマ「・・・・・・	Tohma: ......	
 p092690	m975.1			
-p092692	m975.2	ここが・・・ ハザマ・・・		
-p0926AE	m976.0	砂浜に ヘルガは よこたわっていた。		
+p092692	m975.2	ここが・・・ ハザマ・・・	Is this... the Hazama...	
+p0926AE	m976.0	砂浜に ヘルガは よこたわっていた。	Helga lay on the beach.	
 p0926D4	m976.1			
-p0926D6	m976.2	髪が しずかに ゆれていた。		
+p0926D6	m976.2	髪が しずかに ゆれていた。	Her hair swayed gently.	
 p0926F4	m976.3			
-p0926F6	m976.4	・・・トーマは ヘルガを ゆり動かした。		
-p092720	m977.0	トーマ「ヘルガッ・・・！		
+p0926F6	m976.4	・・・トーマは ヘルガを ゆり動かした。	...Tohma shook Helga.	
+p092720	m977.0	トーマ「ヘルガッ・・・！	Tohma: Helga...!	
 p09273A	m977.1			
-p09273C	m977.2	ヘルガ！ ヘルガ！ 目を さますんだッ！！		
-p092768	m978.0	ヘルガ「・・・・・・		
+p09273C	m977.2	ヘルガ！ ヘルガ！ 目を さますんだッ！！	Helga! Helga! Wake up!!	
+p092768	m978.0	ヘルガ「・・・・・・	Helga: ......	
 p09277E	m978.1			
-p092780	m978.2	・・・トーマ・・・		
-p092794	m979.0	ヘルガは トーマに 笑顔を見せた。		
+p092780	m978.2	・・・トーマ・・・	...Tohma...	
+p092794	m979.0	ヘルガは トーマに 笑顔を見せた。	Helga smiled at Tohma.	
 p0927B8	m980.0	トーマ「・・・よかった・・・		
 p0927D6	m980.1			
 p0927D8	m980.2	・・・・・・ う・・・		
