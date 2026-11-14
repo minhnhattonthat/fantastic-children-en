@@ -9,8 +9,8 @@ The game types a line with `type_line(obj r0, src r1, x r2, y r3, [sp] count, [s
 8x16 cell per code (tilemap cell x+j -> tiles h-1-2n / h-2n), glyphs uploaded later by 0x0802F108. Each frame it
 re-types the revealed part of each line (count = codes revealed), then blank-fills the rest of the row (src = 0,
 x = start + count). The hook:
-  - src != 0: draws the codes at their own widths straight into the cells (cell a = tiles t0-2a / t0-2a+1,
-    t0 = h-1-2n), maps max(cells, codes) tilemap cells (past the ink: blank tile 0x201, as the game does for spaces),
+  - src != 0: draws the codes at their own widths into a RAM scratch, then copies the cells to VRAM (cell a = tiles
+    t0-2a / t0-2a+1, t0 = h-1-2n; see SCRATCH), maps max(cells, codes) tilemap cells (past the ink: blank tile 0x201, as the game does for spaces),
     adds the cells to n, and records (y, x, x + mapped) for the row in the first 16 bytes of the obj's old glyph
     buffer [obj+4] (4 bytes per y & 3);
   - src == 0 (blank fill): starts the fill after the recorded cells of that row, so it can't wipe them;
@@ -47,6 +47,12 @@ UPLOAD_EXIT = 0x0802F1B4
 UPLOAD_SKIP_ORIG = "0025"            # the original's halfword at UPLOAD_SKIP (movs r5, #0), asserted before patching
 FONT0_BASE, FONT0_PTRS = 0x0517EC, 0x210A98
 PAIR = 0x4000
+# Draw scratch (bug B1): the hook clears and draws a line's cells here, then copies them to VRAM in one pass, so the
+# visible tiles go straight from the old to the new pixels (drawing in VRAM showed half-drawn lines whenever the
+# redraw ran while the screen scanned the box). Cell a at top - 64a, like the VRAM cells. 0x0203C300-0x0203FFFF is
+# never written after boot (tools/lua/ramfree.lua, 9 scenes) and no code literal points past 0x0203C2E0.
+# 32 cells (the asm's 32 / 29 constants); glyphs starting past cell 29 are not drawn (off screen anyway).
+SCRATCH, SCRATCH_CELLS = 0x0203F000, 32
 
 # frame: [0] cells C, [4] codes k, [8] i, [12] obj, [16] src, [20] cols left, [24] tmp, [28] raw x, [32] raw y,
 # [36] region (count when the string ended early, as the game blank-fills up to count; else k)
@@ -196,7 +202,11 @@ p1fin:
     lsrs r4, r4, #3
     str r4, [sp]
     str r5, [sp, #4]
-    mov r1, r11
+    cmp r4, #32
+    ble c32
+    movs r4, #32
+c32:
+    ldr r1, lit_scr
     movs r2, #0
     ldr r3, lit_map
     adds r3, #0xff
@@ -266,6 +276,29 @@ chrpair:
     bl put
     b chr
 chrend:
+    ldr r2, [sp]
+    cmp r2, #32
+    ble cp0
+    movs r2, #32
+cp0:
+    ldr r4, lit_scr
+    mov r5, r11
+cp1:
+    cmp r2, #0
+    ble cpend
+    ldmia r4!, {r0, r1, r3, r6}
+    stmia r5!, {r0, r1, r3, r6}
+    ldmia r4!, {r0, r1, r3, r6}
+    stmia r5!, {r0, r1, r3, r6}
+    ldmia r4!, {r0, r1, r3, r6}
+    stmia r5!, {r0, r1, r3, r6}
+    ldmia r4!, {r0, r1, r3, r6}
+    stmia r5!, {r0, r1, r3, r6}
+    subs r4, #128
+    subs r5, #128
+    subs r2, #1
+    b cp1
+cpend:
     ldr r0, [sp]
     ldr r1, [sp, #36]
     cmp r1, r0
@@ -374,8 +407,10 @@ put:
     adds r3, r6, r3
     mov r9, r3
     lsrs r1, r6, #3
+    cmp r1, #29
+    bgt putskip
     lsls r1, r1, #6
-    mov r3, r11
+    ldr r3, lit_scr
     subs r1, r3, r1
     movs r2, #7
     ands r2, r6
@@ -408,6 +443,7 @@ row:
     adds r0, #8
     subs r4, #1
     bne row
+putskip:
     bx lr
 
 .align 2
@@ -419,6 +455,7 @@ lit_pw:     .word {pw}
 lit_pg:     .word {pg}
 lit_blank:  .word 0x201
 lit_ones:   .word 0x11111111
+lit_scr:    .word {scr_top}
 """
 
 
@@ -432,6 +469,7 @@ def hook_code():
     src = ASM
     for k, v in (("widths", WIDTHS_AT), ("glyphs", GLYPHS_AT), ("pw", PW_AT), ("pg", PG_AT)):
         src = src.replace("{" + k + "}", hex(BUS + v))
+    src = src.replace("{scr_top}", hex(SCRATCH + (SCRATCH_CELLS - 1) * 64))
     return _asm(src, BUS + VWF_BASE)
 
 

@@ -118,6 +118,13 @@ Dump: `rom.sha1` (8 MiB, header `FANTCHILDREN` / `BFCJ`, EEPROM_V124 save). Offs
   records (y, x, end) for the row at `[obj+4] + 4*(y&3)`; the blank fill that follows starts after the recorded
   end. Bottom-box rows (y 15/17, region ending at col 24) are widened to col 27: **24 cells**. The upload routine
   now only sets its flag (`0x0802F12A: b 0x0802F1B4`). Cells = (advance + 6) / 8 (the last pixel is the gap).
+- The hook clears and draws into a RAM scratch (`0x0203F000`, 32 cells x 64 B) and then copies the cells to VRAM,
+  so a re-typed line never shows a cleared or half-drawn state (bug B1: drawing straight into VRAM tore lines whenever
+  the per-frame re-type ran while the screen scanned the box). Free RAM: nothing writes `0x0203C300-0x0203FFFF`
+  after boot in 9 scenes (`tools/lua/ramfree.lua`) and no code literal points past `0x0203C2E0`. The text task's
+  stack is small and low (sp `0x030029C4` at `type_line`, `tools/lua/spprobe.lua`; boot sp_usr `0x03007DA0`), so no
+  stack buffers in the hook. Tests: `tests/test_vwf_emu.py` (Unicorn); in-game: `tools/flicker.py` on a
+  `--shot-every 2` run.
 - **Pair codes**: `0x4000 | i1 << 7 | i2`, two characters by index into the English glyph set (index 0 = none;
   indices with `(i & 0x1C) == 4` unused, so no code has bits 9-11 = 001, the copy's argument test). A 22-code line
   holds 44 characters. Every English string (pages and system strings) is pair-encoded; game codes still work
