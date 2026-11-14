@@ -4,7 +4,8 @@
     rom = build_rom(orig, mode="en")       # rows with `en` get it, the rest keep the Japanese
     rom = build_rom(orig, mode="marker")   # every row gets `[id] marker text` (Phase 5 marker build)
 
-Pages (dialogue) are pair-encoded (vwf.encode_pairs: two characters per code, at most PAGE_CODES codes, the page
+A page's English may hold LINE_SEP (" / "): each part becomes its own page, the extras following it in every page
+list (msgs.Script.repack). Pages (dialogue) are pair-encoded (vwf.encode_pairs: two characters per code, at most PAGE_CODES codes, the page
 copy's limit) and, with the page lists, relocated to TEXT_BASE. System strings with English are pair-encoded too
 (sys_bytes), written after the pages, and every holder in their `ref` is repointed.
 The VWF hook and its tables go to vwf.VWF_BASE.
@@ -23,6 +24,7 @@ TEXT_BASE = 0x730000          # after vwf.VWF_END (0x724800); free to 0x7FFFFF, 
 PAGE_CODES = 21               # the page copy keeps 22 codes per line (0x0802FBCE), the box shows at most 21 (0x0802F78C)
 MARKER_PX = vwf.TOP_PX        # marker pages fit both boxes; build.py --marker-px 192 stresses the bottom box
 UI_ONLY = set("▼▶：＄ 　")    # strings made only of these (cursors, separators, blanks, empty) are UI, not text
+LINE_SEP = " / "              # in a page's English: start an extra page (line) right after it, in every list
 
 
 def is_text(jp):
@@ -94,7 +96,8 @@ def build_rom(d, mode="en", marker_px=MARKER_PX, qa=None):
     for off in s.pages:
         t = en.get(f"p{off:06X}")
         if t:
-            s.pages[off] = page_bytes(t)
+            parts = t.split(LINE_SEP)
+            s.pages[off] = page_bytes(t) if len(parts) == 1 else [page_bytes(p) for p in parts]
     out = bytearray(s.repack(bytes(out), base=TEXT_BASE))
     o = (s.end + 3) & ~3
     rows = [r for r in rom_rows(d) if r.id[0] == "s" and en.get(r.id)]

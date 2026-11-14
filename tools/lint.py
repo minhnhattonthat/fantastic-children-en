@@ -12,6 +12,7 @@ Budgets (ink width, vwf.ink_width, and pair codes, vwf.encode_pairs):
   - other system string: the cell region its caller gives it (docs/re/sys_regions.tsv: cells x 8 px, codes <= cells);
     item/card descriptions (sys_items.tsv) not measured yet take the 28-cell info box; anything else unmeasured
     is a warning.
+A dialogue page (not a choice answer) may hold " / ": each part is one more line, measured on its own.
 Also: every character encodable, the same {argN} tokens as the Japanese, {endflag} kept, leading/trailing blanks
 kept.
 """
@@ -26,6 +27,8 @@ from script_tsv import ENDFLAG, load  # noqa: E402
 from tbl import Table  # noqa: E402
 
 PAGE_CODES = 21
+LINE_SEP = " / "    # = insert.LINE_SEP: a dialogue page's English may run onto extra lines (extra pages)
+MAX_EXTRA = 2       # extra lines per page; more means the English is padded, not translated
 NAME_PX = 64
 INFO_CELLS = 28
 BLANKS = " 　"
@@ -86,22 +89,62 @@ def lint_row(r, en_tbl):
         errs.append("leading/trailing blank differs from the Japanese")
     if errs:
         return errs, warns
-    px, codes = _measure(en)
     b = budget(r)
-    if b is None:
-        warns.append(f"no measured budget yet ({px} px, {codes} codes)")
-    else:
-        if px > b[0]:
-            errs.append(f"{px} px > {b[0]} ({b[2]})")
-        if codes > b[1]:
-            errs.append(f"{codes} codes > {b[1]} ({b[2]})")
+    lines = en.split(LINE_SEP)
+    if len(lines) > 1:
+        if r["id"][0] != "p" or (b and b[2].startswith("choice")):
+            return [f"{LINE_SEP!r} (extra line) only in dialogue pages"], warns
+        if len(lines) > MAX_EXTRA + 1:
+            errs.append(f"{len(lines) - 1} extra lines > {MAX_EXTRA}")
+        if any(not ln.strip() for ln in lines):
+            errs.append("empty line")
+    for ln in lines:
+        px, codes = _measure(ln)
+        if b is None:
+            warns.append(f"no measured budget yet ({px} px, {codes} codes)")
+        else:
+            if px > b[0]:
+                errs.append(f"{px} px > {b[0]} ({b[2]}): {ln!r}")
+            if codes > b[1]:
+                errs.append(f"{codes} codes > {b[1]} ({b[2]}): {ln!r}")
     return errs, warns
+
+
+def box_groups(all_rows):
+    """Errors for box groups whose line-count parity changed. The box holds 2 lines; the Japanese pads a group of
+    odd length with a blank page so the next group (a new speaker) opens a fresh box. Extra lines (" / ") in a group
+    that a blank page follows must add up to an even number. -> [(first page id of the group, message, message)]."""
+    msgs = {}
+    for r in all_rows:
+        if r["id"][0] != "p":
+            continue
+        for ref in r["ref"].split(","):
+            m, n = ref[1:].split(".")
+            msgs.setdefault(int(m), []).append((int(n), r))
+    out = []
+    for m, pages in sorted(msgs.items()):
+        pages.sort(key=lambda p: p[0])
+        extra, first = 0, None
+        for _, r in pages:
+            if not r["jp"].strip(BLANKS):
+                if first is not None and extra % 2:
+                    out.append((first["id"], f"m{m}", f"box group adds {extra} lines (odd) before a blank page: "
+                                "add or remove one ' / ' so the next speaker starts a fresh box"))
+                extra, first = 0, None
+                continue
+            first = first or r
+            extra += r["en"].count(LINE_SEP)
+    return out
 
 
 def main():
     en_tbl = Table.load(ROOT / "tbl" / "en.tbl")
-    rows = [r for r in load().values() if r["en"]]
+    allrows = list(load().values())
+    rows = [r for r in allrows if r["en"]]
     nerr = nwarn = 0
+    for rid, m, e in box_groups(allrows):
+        print(f"ERROR {rid} ({m}): {e}")
+        nerr += 1
     for r in rows:
         errs, warns = lint_row(r, en_tbl)
         for e in errs:
