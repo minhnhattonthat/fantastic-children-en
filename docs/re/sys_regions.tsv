@@ -11,6 +11,13 @@ s09C688	26	4	16	filesel
 s09C6A8	26	4	18	filesel
 s09C6BE	26	4	16	area_01
 s09C6DE	26	4	18	area_01
+s09C6F4	26	4	16	del
+s09C718	26	4	16	del
+s09C736	26	4	18	del
+s09C77C	26	4	16	del
+s09C794	26	4	18	del
+s09C7D4	26	4	16	del
+s09C7F0	26	4	18	del
 s09CD5A	15	17	5	area_01
 s09D510	28	2	14	area_01
 s09D542	28	2	16	area_01
@@ -21,3 +28,17 @@ s09D64E	28	2	18	pause
 s09D698	28	2	14	pause
 s09D69A	28	2	16	pause
 s09D6CC	28	2	18	pause
+s09C620	15	3	8	code: RECORD table 0x219C20 by slot, text_put at 0x0803268A n=15
+s09C630	15	3	11	code: RECORD table 0x219C20 by slot, text_put at 0x0803268A n=15
+s09C640	30	3	5	code: text_put at 0x0803262C n=30
+s09C74A	26	4	16	code: delete-flow text_put 0x08032818 n=26 (table 0x219E00)
+s09C768	26	4	18	code: delete-flow text_put 0x08032818 n=26 (table 0x219E00)
+s09C7A8	26	4	16	code: delete-flow text_put 0x08032818 n=26 (table 0x219E00)
+s09C7C0	26	4	18	code: delete-flow text_put 0x08032818 n=26 (table 0x219E00)
+s09C80C	13	17	5	code: drawn by the area-name call 0x0803274A n=15, 13 cells on screen
+s09C81A	1	2	5	code: text_put at 0x08032764 n=1
+s09CFB4	21	-	-	inferred: save-error dialog struct 0x219F44, no text_put caller found; top-box budget
+s09CFCA	21	-	-	inferred: save-error dialog struct 0x219F44, no text_put caller found; top-box budget
+s09CFE6	21	-	-	inferred: save-error dialog struct 0x219F44, no text_put caller found; top-box budget
+s09D022	9	-	-	inferred: save-error dialog answer; choice-cell budget
+s09D028	9	-	-	inferred: save-error dialog answer; choice-cell budget

@@ -30,11 +30,13 @@ PAGE_CODES = 21
 LINE_SEP = " / "    # = insert.LINE_SEP: a dialogue page's English may run onto extra lines (extra pages)
 MAX_EXTRA = 2       # extra lines per page; more means the English is padded, not translated
 NAME_PX = 64
+BATTLE_NAMES = ("s09F8FE", "s09F9DA")   # sys_battle name table (トーマ..闘魔): what {argN} names are filled from
 NUM_PX = 24         # a number argument (damage, hits, times, HP, round): up to 3 game digits, 8 px each
 NUM_ARG = re.compile(r"\{arg(\d)\}(?=ダメージ|ヒット|回|かいふく)|(?<=ラウンド)\{arg(\d)\}")
 INFO_CELLS = 28
-AREA_CELLS = 15     # area names (sys_menu s09C81E-s09CD48) share the file slot's area field (s09CD5A: 15 cells)
-AREA_IDS = ("s09C81E", "s09CD48")
+AREA_CELLS = 15     # area names (sys_menu s09C81E-s09CF8A, one table) share the file slot's area field (s09CD5A: 15 cells)
+AREA_VISIBLE = 13   # ...at x=17, so only cols 17-29 are on screen: the original clips "ここは どこだ|ろうか" (Phase 7 shot)
+AREA_IDS = ("s09C81E", "s09CF8A")
 
 
 def is_area_name(r):
@@ -66,12 +68,14 @@ def budget(r):
             return CHOICE_CELLS * 8, CHOICE_CELLS, f"choice answer, {CHOICE_CELLS} cells"
         boxes = {BOXES.get(m, ["top"])[0] for m in msgs}
         return (vwf.BOTTOM_PX if boxes == {"bottom"} else vwf.TOP_PX), PAGE_CODES, "box " + "/".join(sorted(boxes))
+    if is_area_name(r):
+        return AREA_VISIBLE * 8, AREA_CELLS, f"area name, file slot {AREA_VISIBLE} visible cells"
     if r["id"] in REGIONS:
         cells = int(REGIONS[r["id"]][0])
         return cells * 8, cells, f"region {cells} cells ({REGIONS[r['id']][3]})"
-    if is_area_name(r):
-        return AREA_CELLS * 8, AREA_CELLS, f"area name, file slot {AREA_CELLS} cells"
     if r["file"] == "sys_battle.tsv":
+        if BATTLE_NAMES[0] <= r["id"] <= BATTLE_NAMES[1]:
+            return NAME_PX, PAGE_CODES, "battle name: {argN} filler, counted as NAME_PX in battle lines"
         return vwf.BOTTOM_PX, PAGE_CODES, "battle line, bottom box"
     if r["file"] == "sys_items.tsv":
         return INFO_CELLS * 8, INFO_CELLS, "info box (group default)"

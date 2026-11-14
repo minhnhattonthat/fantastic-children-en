@@ -24,13 +24,13 @@ s09F90E	21B56C	チット	Chitto
 s09F916	21B570	アギ	Agi	
 s09F91C	21B574	ソレト	Soreto	
 s09F924	21B578	ヒースマ	Hesma	
-s09F92E	21B57C	タルラント	Tarlant,	
+s09F92E	21B57C	タルラント	Tarlant	
 s09F93A	21B580	ハスモダイ	Hasmodai	
 s09F946	21B584	ワンダー	Wanda	
 s09F950	21B588	とうちゃん	Dad	
 s09F95C	21B58C	かあちゃん	Mom	
 s09F968	21B590	かあちゃん	Mom	
-s09F974	21B594	カカシ	Scarecrow	
+s09F974	21B594	カカシ	Strawman	
 s09F97C	21B598	ティナ	Tina	
 s09F984	21B59C	ソラン	Soran	
 s09F98C	21B5A0	セス	Seth	
@@ -40,8 +40,8 @@ s09F9A2	21B5AC	職員	Staff
 s09F9A8	21B5B0	職員	Staff	
 s09F9AE	21B5B4	職員	Staff	
 s09F9B4	21B5B8	院長	Director	
-s09F9BA	21B5BC	ゲド機関兵	GED Soldier	
-s09F9C6	21B5C0	ロボット兵	Robot Soldier	
+s09F9BA	21B5BC	ゲド機関兵	GED Goon	
+s09F9C6	21B5C0	ロボット兵	Robot	
 s09F9D2	21B5C4	デュマ	Dumas	
 s09F9DA	21B5C8	闘魔	Touma	
 s09F9E0	21B5D0	トーマの前に {arg0}がたちふさがった！	{arg0} blocks Tohma!	

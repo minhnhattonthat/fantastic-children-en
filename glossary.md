@@ -86,7 +86,9 @@ controller edits this file. `tools/batches.py check` enforces the EN column for 
 | オエセル | Orsel | | life force | Oesel |
 | アウトゾーン | Autozone | | machine that returns souls from the Zone | Out Zone |
 | ゾーン | Zone | | land of the dead | |
-| ゲド機関 | the GED / GED Soldier | | ゲド alone -> GED; ゲド機関兵 (battle name, 8-cell field) -> GED Soldier | Ged Engine |
+| ゲド機関 | the GED / GED Soldier / GED Goon | | ゲド alone -> GED; ゲド機関兵 in dialogue -> GED Soldier; as a battle name ({argN} filler, 64 px) -> GED Goon | Ged Engine |
+| ロボット兵 | Robot Soldier / Robot | | battle name ({argN} filler, 64 px) -> Robot | |
+| カカシ | Scarecrow / Strawman | | battle name ({argN} filler, 64 px) -> Strawman | |
 | 記憶のレコード | Memory Record | | | |
 | レコードのカケラ | Record Shard | | plural "Record Shards"; "10 Record Shards" | Record Fragment |
 | カケラ | shard | | when it means a Record Shard | |
