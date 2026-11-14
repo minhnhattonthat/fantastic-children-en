@@ -12,4 +12,7 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 | File | Covers | State |
 |---|---|---|
-| <text.md> | <encoding, control codes, pointer tables> | <verified / partly guessed> |
+| `text.md` | 16-bit encoding, font charset order, page-end/length code, message table 0x212B6C, page lists, font draw path, free space | verified (kanji cells unread, a few symbols guessed) |
+| `graphics.md` | tile-drawn Japanese: title logo, copyright, developer logo; static sweep pending | partial |
+
+Prior work: no earlier fan translation of this game was found (web search, 2026-11-14).
