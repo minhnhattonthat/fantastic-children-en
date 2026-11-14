@@ -15,6 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
+import devlogo_gfx  # noqa: E402
 import msgs  # noqa: E402
 import title_gfx  # noqa: E402
 import vwf  # noqa: E402
@@ -33,6 +34,8 @@ def ranges():
     for n, (b, rec) in enumerate(zip(title_gfx.BLOCKS, title_gfx.RECORDS)):
         out.append((b, b + title_gfx.slot(rom, n) - 1, f"title bg {n} (G1/G2), rewritten in place"))
         out.append((rec, rec + 7, f"title bg {n} record (offset, size) if the block moves"))
+    out.append((devlogo_gfx.tile_off(devlogo_gfx.FIRST), devlogo_gfx.tile_off(devlogo_gfx.LAST) + 31,
+                "boot developer logo tiles (G3)"))
     for r in load().values():
         if r["id"][0] == "s":
             for h in r["ref"].split(","):
