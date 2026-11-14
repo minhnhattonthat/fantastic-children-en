@@ -38,9 +38,9 @@ p08B4F6	m612.0	へ ヘルガ・・・ 髪の色が・・・	H-Helga... your hair
 p08B518	m612.1	目も・・・ 目も 青くなってる・・・！	your eyes... your eyes / have turned blue...!	
 p08B540	m613.0	・・・ジムが くれたハンカチ・・・	...The handkerchief Jim / gave me...	
 p08B564	m614.0	アギが わたしてくれって・・・	Agi said to give it to / you...	
-p08B584	m615.0	・・・それは セラフィーヌの	...Before Seraphine	
-p08B5A2	m615.1	ひとつ前の 前世を生きた	came another past life:	
-p08B5BC	m615.2	クリスティーナという 女性が	a woman named Christina.	
+p08B584	m615.0	・・・それは セラフィーヌの	...Before Seraphine,	
+p08B5A2	m615.1	ひとつ前の 前世を生きた	your previous past life	
+p08B5BC	m615.2	クリスティーナという 女性が	was a woman, Christina.	
 p08B5DA	m615.3	そめ上げた ものなんだ・・・	She dyed this...	
 p08B5F8	m616.0	ゆっくり 顔を上げると 森のほうを ジッと	Slowly she looked up and / stared at the forest...	
 p08B624	m616.1	見つめ・・・ ヘルガは つぶやいた。	and Helga murmured.	
@@ -84,7 +84,7 @@ p08BAF8	m623.3	ハンカチをもつ おいた女性に 出会う。	held by an 
 p08BB20	m623.4	それは スペイン オーラント島にすんでいた	It came from a teacher on / Orant Island, Spain,	
 p08BB4C	m623.5	教師が 教え子たちに あげたものだった。	who gave them to her / pupils.	
 p08BB76	m623.6	ハンカチを ゆずりうけた 帰りの旅で	Given the handkerchief, / on the way home	
-p08BB9C	m623.7	ジムは ソウナンし かえらぬ人となった。	Jim was shipwrecked and / never returned.	
+p08BB9C	m623.7	ジムは ソウナンし かえらぬ人となった。	Jim met disaster at sea / and never returned.	
 p08BBC6	m623.8	あらしに まきこまれ 飛ばされたハンカチを	Caught in a storm, the / handkerchief blew away,	
 p08BBF2	m623.9	おって 海に飛びこむジム。	and Jim dove into the sea / after it.	
 p08BC0E	m623.10	    「これを セラフィーヌにッ！	    "Give this to Seraphine!	
@@ -237,12 +237,12 @@ p08CD42	m662.3	カンショウする 転生装置を つかい・・・	world of
 p08CD6C	m662.4	ティナの魂を 人エ人体へと 転生させた。	to move Tina's soul into / the artificial body.	
 p08CD96	m663.0	・・・めざめた ティナじしんさえ	...Even Tina, on waking,	
 p08CDB8	m663.1	きづかないほどの 人エ人体・・・。	could not tell it was an / artificial body...	
-p08CDDC	m663.2	だが 王タイタスは 再び ティナが	But King Titas made sure / that if Tina ever again	
+p08CDDC	m663.2	だが 王タイタスは 再び ティナが	But King Titas had a cruel / device built: if Tina ever	
 p08CE00	m663.3	ふかいかなしみや くるしみを いだいた時	felt deep grief or pain,	
 p08CE2A	m663.4	その感情を引きがねに 死のせかいゾーンで	her feelings would tap / the Zone, world of death,	
-p08CE54	m663.5	ハッケンされた「オエセル」を りようした	the "Orsel" found there,	
-p08CE7E	m663.6	強大な破壊兵器としてキドウする ざんこくな	to awaken her as a mighty / weapon of destruction:	
-p08CEAA	m663.7	しくみを 造らせた。	a cruel mechanism.	
+p08CE54	m663.5	ハッケンされた「オエセル」を りようした	and the "Orsel" in it	
+p08CE7E	m663.6	強大な破壊兵器としてキドウする ざんこくな	to activate her as a / mighty weapon of ruin.	
+p08CEAA	m663.7	しくみを 造らせた。	That was his design.	
 p08CEC0	m664.0	   「それは ギリシアの王であるワシの	 "As the King of Greecia,	
 p08CEEA	m664.1	   いかりとして 大地へ ふりそそがせる	 my wrath shall rain down / upon the land...	
 p08CF16	m665.0	   ゾーンで見つけた 強大なカは・・・	 The great power found in / the Zone...	
@@ -272,7 +272,7 @@ p08D29C	m670.3	       ・・・見ろ・・・」	 ...Look..."
 p08D2BE	m671.0	ティナのまわりに きみょうな青い光が	A strange blue light / gathered around Tina,	
 p08D2E4	m671.1	あつまり ゆっくりと うき上がりはじめた。	and she slowly rose / into the air.	
 p08D310	m671.2	ティナのいしきが うしなわれ 強大な	Tina lost consciousness,	
-p08D336	m671.3	人体兵器として きどうしたのだ・・・！！	and awoke as a mighty / human weapon...!!	
+p08D336	m671.3	人体兵器として きどうしたのだ・・・！！	and was activated as a / mighty human weapon...!!	
 p08D360	m672.0	    巨大な光と はげしいシンドウが	 A huge light and violent	
 p08D388	m672.1	     ギリシアの大地を ゆらした。	 tremors shook the land / of Greecia.	
 p08D3B0	m672.2	ティナの体から セン光が ひらめき	A flash burst from / Tina's body,	
@@ -312,8 +312,8 @@ p08D7F4	m682.0	ティナは 自らの こういに おののき	Tina, horrified 
 p08D81A	m682.1	自分を破壊するよう こんがんした。	begged to be destroyed.	
 p08D83E	m683.0	ティナ「ソラン・・・ 私は・・・	Tina: Soran... I...	
 p08D860	m683.1	 私は・・・ もう 人間じゃない・・・	 I'm not human anymore...	
-p08D888	m684.0	ソラン「わかった わかったよ ティナ・・・	Soran: I know, Tina...	
-p08D8B4	m684.1	 もうなにも いわなくていい・・・	 Don't say any more...	
+p08D888	m684.0	ソラン「わかった わかったよ ティナ・・・	Soran: I understand... / I understand, Tina...	
+p08D8B4	m684.1	 もうなにも いわなくていい・・・	 You needn't say / anything more...	
 p08D8D8	m684.2	カガクシャが したことなら	If the scientists did this,	
 p08D8F4	m684.3	かれらの所へ 行こう・・・	we'll go to them...	
 p08D910	m684.4	だいじょうぶだ オレが いるじゃないか	It's okay. I'm right here.	
@@ -341,10 +341,10 @@ p08DB96	m692.1	 もとに・・・ もとに戻せないっ・・・！」	 back
 p08DBC2	m692.2	7人のカガクシャたちは 暗いおももちで	The 7 scientists hung / their heads	
 p08DBEA	m692.3	うなだれ つぶやいた。	and muttered darkly.	
 p08DC02	m693.0	ソラン「お前たちが カガクシャとして壊すか	Soran: Either you destroy / her as scientists,	
-p08DC2E	m693.1	 ・・・オレが 人間として殺すか・・・	 ...or I kill her / as a man...	
+p08DC2E	m693.1	 ・・・オレが 人間として殺すか・・・	 ...or I kill her / as a human being...	
 p08DC56	m693.2	・・・そういうことなんだな・・・	...That's how it is...	
-p08DC78	m694.0	ベッドの上で目覚めたティナは ソランの手に	Waking in bed, Tina took / the gun in Soran's hand	
-p08DCA4	m694.1	にぎられたジュウを 自分のムネに あてた。	and pressed it / to her chest.	
+p08DC78	m694.0	ベッドの上で目覚めたティナは ソランの手に	Waking in bed, Tina / pressed the gun Soran	
+p08DCA4	m694.1	にぎられたジュウを 自分のムネに あてた。	was holding against / her own chest.	
 p08DCD0	m695.0	ソラン「・・・ティナ・・・ クッ！！	Soran: ...Tina... Ngh!!	
 p08DCF6	m695.1			
 p08DCF8	m695.2	オレにはムリだ！ ティナ・・・	I can't! Tina...	

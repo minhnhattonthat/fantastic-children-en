@@ -2,7 +2,7 @@ id	ref	jp	en	notes
 p08275E	m200.0	病室にいた おじさん・・・	The man in the hospital / room...	
 p08277A	m200.1	画商だったのね・・・	was an art dealer...	
 p082790	m201.0	もう1ど クレルモンへ行って さがそう	Let's go to Clermont once / more and search.	
-p0827B8	m202.0	5さいのとき あつまってから	Since we gathered at 5,	
+p0827B8	m202.0	5さいのとき あつまってから	Since we met at age 5,	
 p0827D6	m202.1	もう10回いじょうも 行ってるよ	we've gone over 10 times.	
 p0827F8	m203.0	きをつけないと あいつがいる・・・	We have to be careful. / He's out there...	
 p08281C	m203.1	見ただろ デュマのすがた	You saw him: Dumas.	
@@ -24,8 +24,8 @@ p0829C6	m207.7
 p0829C8	m207.8	トーマ・・・	Tohma...	
 p0829D6	m208.0	キミが 思っているのとおなじように	Just like she is to you,	
 p0829FA	m208.1	ボクらにとっても ヘルガは大切な人なんだ	Helga is precious to us / too.	
-p082A24	m208.2	・・・いまを生きようとする ヘルガを思う	...Your strength, caring / for Helga	
-p082A4E	m208.3	キミのカが きっと ひつようになる・・・	as she lives for today, / will be needed...	
+p082A24	m208.2	・・・いまを生きようとする ヘルガを思う	...Helga is trying to / live in the present.	
+p082A4E	m208.3	キミのカが きっと ひつようになる・・・	You care for her. We'll / need your strength...	
 p082A78	m208.4	いっしょに ヘルガを たすけ出そう	Let's rescue Helga / together.	
 p082A9C	m209.0	サポートフレンド 「アギ」	The Support Friend "Agi"	
 p082AB8	m209.1	が なかまになった！	joined you!	
@@ -55,8 +55,8 @@ p082D5C	m213.7
 p082D5E	m213.8	トーマ・・・	Tohma...	
 p082D6C	m214.0	キミが 思っているのとおなじように	Just like she is to you,	
 p082D90	m214.1	ボクらにとっても ヘルガは大切な人なんだ	Helga is precious to us / too.	
-p082DBA	m214.2	・・・いまを生きようとする ヘルガを思う	...Your strength, caring / for Helga	
-p082DE4	m214.3	キミのカが きっと ひつようになる・・・	as she lives for today, / will be needed...	
+p082DBA	m214.2	・・・いまを生きようとする ヘルガを思う	...Helga is trying to / live in the present.	
+p082DE4	m214.3	キミのカが きっと ひつようになる・・・	You care for her. We'll / need your strength...	
 p082E0E	m214.4	いっしょに ヘルガを たすけ出そう	Let's rescue Helga / together.	
 p082E32	m215.0	サポートフレンド 「アギ」	The Support Friend "Agi"	
 p082E4E	m215.1	が なかまになった！	joined you!	
@@ -75,9 +75,9 @@ p082F96	m217.7	かくされた場所を つきとめなければ・・・！	we 
 p082FC2	m218.0	アギのまつ ろじ裏に ざっとうをかき分けて	Through the crowd, to the / alley where Agi waited,	
 p082FEE	m218.1	ソレトたちが あらわれた。	Soreto and the others / appeared.	
 p08300A	m219.0	ソレト「・・・アギ！	Soreto: ...Agi!	
-p083020	m219.1	 ハスモダイが アカバ海の島にある	 Hasmodai found, on an / Akaba Sea island,	
-p083044	m219.2	地下どうくつに デュマのヒコウテイの	in a cave, signs of / Dumas's flying boat!!	
-p08306A	m219.3	コンセキを 見つけたわ！！	Finally, a lead!!	
+p083020	m219.1	 ハスモダイが アカバ海の島にある	 Hasmodai searched an / Akaba Sea island's	
+p083044	m219.2	地下どうくつに デュマのヒコウテイの	underground caves, and / Dumas's flying boat	
+p08306A	m219.3	コンセキを 見つけたわ！！	had left traces there!!	
 p083086	m220.0	ハスモダイ「アギ こっちだッ！ いそげッ！	Hasmodai: Agi, this way! / Hurry!	
 p0830B2	m221.0	アギ「トーマ！	Agi: Tohma!	
 p0830C2	m222.0	宇宙船ヴェガ	Vega	
@@ -124,8 +124,8 @@ p0834F8	m232.4	なかまは すべてのバトルアイテムに 強いが	Frien
 p083524	m232.5	記憶のレコードを ショウヒする。	but use Memory Records.	
 p083546	m233.0	スタートボタンを押せば アクションバーに	Press Start, and on the / Action Bars	
 p083570	m233.1	セットしてある「バトルアイテム」がわかるよ	you can see the set / "Battle Items."	
-p08359C	m233.2	「バトルエディット」では	In "Battle Edit" you set	
-p0835B6	m233.3	5本のアクションバーへのセット そして	the 5 Action Bars, and	
+p08359C	m233.2	「バトルエディット」では	"Battle Edit" puts items	
+p0835B6	m233.3	5本のアクションバーへのセット そして	on the 5 Action Bars, and	
 p0835DE	m233.4	「サポートエディット」では ＬＲボタンで	in "Support Edit" you set / the friends	
 p083608	m233.5	よび出せる なかまのセットが出来るよ	you call with the L and R / Buttons.	
 p08362E	m233.6	お前なら きっとやれるよ がんばりな！	You can do it. Go get / 'em!	
@@ -216,7 +216,7 @@ p083DC2	m263.2	クレルモン	Clermont
 p083DCE	m263.3	宇宙船ヴェガ	Vega	
 p083DDC	m264.0	「チカオ児童学園」がある 「チカオ島」には	On "Chikao Island," home / of the Chikao / Children's Academy,	
 p083E08	m264.1	巨大な船が ていはくしていた。	a giant ship lay at / anchor.	
-p083E28	m264.2	船から飛び立った ヘリのサーチライトが	From the ship, a / helicopter's searchlight	
+p083E28	m264.2	船から飛び立った ヘリのサーチライトが	A helicopter took off / from the ship; its light	
 p083E50	m264.3	森の中を ながれるように てらし	swept over the forest,	
 p083E72	m264.4	島中をブソウした兵隊が 取りかこんでいた。	and armed soldiers / surrounded the island.	
 p083E9E	m265.0	トーマ「チカオって いつも こんななのか？	Tohma: Is Chikao always / like this?	
@@ -302,9 +302,9 @@ p084810	m287.5	ギリシアの宇宙船に つれさられたはず・・・	ont
 p08483C	m288.0	暗い緑が ざわめくと 上空から	The dark green stirred,	
 p08485C	m288.1	アギたちが フォグボートで あらわれた。	and Agi and the others / came down in a Fog Boat.	
 p084886	m289.0	アギ「・・・ソレト！	Agi: ...Soreto!	
-p08489C	m289.1	 ハスモダイが アカバ海の島にある	 Hasmodai found, on an / Akaba Sea island,	
-p0848C0	m289.2	地下どうくつに デュマのヒコウテイの	in a cave, signs of / Dumas's flying boat!!	
-p0848E6	m289.3	コンセキを 見つけたぞ	He found them!	
+p08489C	m289.1	 ハスモダイが アカバ海の島にある	 Hasmodai searched an / Akaba Sea island's	
+p0848C0	m289.2	地下どうくつに デュマのヒコウテイの	underground caves, and / Dumas's flying boat	
+p0848E6	m289.3	コンセキを 見つけたぞ	had left traces there!	
 p0848FE	m290.0	ハスモダイ「ソレト こっちだ いそげッ！	Hasmodai: Soreto, this / way, hurry!	
 p084928	m291.0	ソレト「トーマ・・・！	Soreto: Tohma...!	
 p084940	m292.0	宇宙船ヴェガ	Vega	

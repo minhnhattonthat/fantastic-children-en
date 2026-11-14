@@ -169,7 +169,7 @@ controller edits this file. `tools/batches.py check` enforces the EN column for 
 | さびたカギ | Rusty Key | | | |
 | 正拳 | Straight Punch / Flurry | | 正拳連打 Flurry; 奥義パパン拳 Papin Fist | |
 | 手刀 | Knife Hand / Combo / hand chop | | 手刀連撃 Combo; 奥義パパン掌 Papin Palm; in dialogue "hand chop" | |
-| 確り | Front Kick / Spin Kick | | kanji table reads 蹴 as 確 here; 回し確り Spin Kick; 奥義パパン脚 Papin Leg | |
+| 蹴り | Front Kick / Spin Kick | | 回し蹴り Spin Kick; 奥義パパン脚 Papin Leg (cell 1A2 was misread as 確 until Phase 7) | |
 | ターンストップ | Turn Stop | | ＳＰかいふく SP Heal | |
 | ショウヒレコード | Record | | support card cost: "Uses N Records" | |
 | 闘魔 | Touma | | Tohma's dark battle form (pun on his name) | |

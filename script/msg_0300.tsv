@@ -87,8 +87,8 @@ p08537E	m331.0	おい！ ここから出るなという めいれいだ！	Hey! 
 p0853AA	m332.0	くそぉ！ そこを動くんじゃね～ぞォ！	Damn it! Don't you move!	
 p0853D0	m333.0	なんだッ！ お前 なにしに来た！！	What?! What are you here / for?!	
 p0853F4	m334.0	おとなしく 反省室に入っていろッ！	Get in the punishment / room and stay put!	
-p085418	m335.0	まったく！ 施設から出るなとは	Honestly! Running off,	
-p085438	m335.1	どういうつもりだ！	what were you thinking?!	
+p085418	m335.0	まったく！ 施設から出るなとは	Honestly! "Stay in"?!	
+p085438	m335.1	どういうつもりだ！	What's that about?!	
 p08544C	m335.2	・・・！	...!	
 p085456	m335.3			
 p085458	m335.4	また お前か・・・	You again...	
@@ -177,7 +177,7 @@ p085E26	m364.2	100年いじょうも コックリ島の ふかい	for over 100 y
 p085E50	m364.3	森の中に セキゾウとして かくされていた。	hidden as a statue deep / in the forest.	
 p085E7C	m364.4	かれらが 探し続けていた 女性・・・	The woman they had kept / searching for...	
 p085EA2	m364.5			
-p085EA4	m364.6	ヘルガの あしどりを つかんだことで	Picking up Helga's trail,	
+p085EA4	m364.6	ヘルガの あしどりを つかんだことで	With Helga's trail found,	
 p085ECA	m364.7	その ねむりから 目覚めたのだ。	it woke from its sleep.	
 p085EEC	m365.0	かれらは ヘルガの描く・・・	They knew the place / Helga drew...	
 p085F0A	m365.1	あの ふうけい画の 場所を しっていた。	the place in that / landscape.	
@@ -252,8 +252,8 @@ p08686E	m381.4	もう少し はやく 見つけ出すことが出来れば	If on
 p08689A	m381.5	キミを・・・	you...	
 p0868A8	m382.0	少年「キミを くるしめずにすんだのに・・・	Boy: You needn't have / suffered / so much...	
 p0868D4	m382.1			
-p0868D6	m382.2	ボクらと ちがい キミは しぜん転生を	Unlike us, you were	
-p0868FE	m382.3	くりかえし ギリシアの記憶は なくしている	reborn naturally and lost / your Greecia memories.	
+p0868D6	m382.2	ボクらと ちがい キミは しぜん転生を	Unlike us, you've been	
+p0868FE	m382.3	くりかえし ギリシアの記憶は なくしている	reborn again and again, / losing your Greecia past.	
 p08692A	m382.4	でも かくじつに キミの中に・・・	But inside you, for sure...	
 p08694E	m382.5	ティナの魂が あるんだ	is Tina's soul.	
 p086966	m382.6	・・・それに その ふうけい画は・・・	...And that landscape / picture...	
