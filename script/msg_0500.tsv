@@ -1,7 +1,7 @@
 id	ref	jp	en	notes
 p0890DE	m500.0	ボクらが「記憶のレコード」を かくすために	To hide the / "Memory Records,"	
 p08910A	m500.1	クリスタルで ふういんしていた場所も	we sealed places with / crystals.	
-p089130	m500.2	これで カイジョ出来る	Now you can open them.	
+p089130	m500.2	これで カイジョ出来る	Now you can unseal them.	
 p089148	m500.3			
 p08914A	m500.4	ギリシアの宇宙船が	We must find where the / Greecian	
 p08915E	m500.5	かくされた場所を つきとめないと・・・！	spaceship is hidden...!	
@@ -32,11 +32,11 @@ p0893E0	m510.8	トーマ・・・	Tohma...
 p0893EE	m510.9	いっしょに・・・ ヘルガを たすけよう！	Together... let's save / Helga!	
 p089418	m511.0	「デコードクリスタルＹ」を 手に入れた！	Got "Decode Crystal Y"!	
 p089442	m511.1			
-p089444	m511.2	大きなイエロークリスタルを	Unseals big yellow	
-p089460	m511.3	カイジョ出来る。	crystals.	
+p089444	m511.2	大きなイエロークリスタルを	Large Yellow Crystals can	
+p089460	m511.3	カイジョ出来る。	now be unsealed.	
 p089472	m512.0	ボクらが「記憶のレコード」を かくすために	To hide the / "Memory Records,"	
 p08949E	m512.1	クリスタルで ふういんしていた場所も	we sealed places with / crystals.	
-p0894C4	m512.2	これで カイジョ出来る	Now you can open them.	
+p0894C4	m512.2	これで カイジョ出来る	Now you can unseal them.	
 p0894DC	m512.3			
 p0894DE	m512.4	ギリシアの宇宙船が	We must find where the / Greecian	
 p0894F2	m512.5	かくされた場所を つきとめないと・・・！	spaceship is hidden...!	
@@ -222,7 +222,7 @@ p08AA16	m582.1	 ・・・2人とも・・・	 ...Both of them...
 p08AA2E	m583.0	・・・自分のために 愛する人たちが	...The people she loved	
 p08AA52	m583.1	なくなっていく・・・。	kept dying because of / her...	
 p08AA6A	m583.2	それは ソランへの たち切れぬ 思いが	Her unbroken love for / Soran	
-p08AA92	m583.3	ティナの魂をもって生まれるものに あたえた	bound each of Tina's / rebirths in karma,	
+p08AA92	m583.3	ティナの魂をもって生まれるものに あたえた	bound all born with Tina's / soul in karma's chain,	
 p08AABE	m583.4	ゴウの れんさが おこした ひげきだった。	and this was the tragedy.	
 p08AAEA	m584.0	空を見上げ ほおをぬらす ヘルガに	To Helga, looking up at / the sky with wet cheeks,	
 p08AB0E	m584.1	チットは よごれたハンカチを さし出した。	Chitto held out a dirty / handkerchief.	

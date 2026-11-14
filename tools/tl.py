@@ -5,6 +5,8 @@
     python -X utf8 tools/tl.py fill bNNN      merges work/tl/bNNN.out.tsv and the hand-written bNNN.part.tsv,
                                              bNNN.part2.tsv... (partial; later files win), fills the repeated rows,
                                              writes bNNN.out.tsv in input order, runs tools/batches.py check bNNN
+    python -X utf8 tools/tl.py fix rNN       fixes to translated rows: from work/tl/rNN.out.tsv (id<TAB>EN) writes
+                                             the rNN.tsv batch rows, runs the check; then `batches.py merge rNN --overwrite`
 
 flags: # = dlg+break (a blank line follows), W = 192 px bottom box (else 168 px top box), c = choice (72 px), s = sys.
 """
@@ -98,6 +100,26 @@ def fill(b):
     return r.returncode or bool(missing)
 
 
+def fix(b):
+    """rNN.out.tsv (id<TAB>EN, hand-written fixes of translated rows) -> rNN.tsv batch rows, then batches.py check."""
+    sys.path.insert(0, str(ROOT / "tools"))
+    import batches
+    ids = [ln.split("\t", 1)[0] for ln in (TL / f"{b}.out.tsv").read_text(encoding="utf-8").splitlines() if "\t" in ln]
+    allr = batches.ordered()
+    pos = {r["id"]: k for k, r in enumerate(allr)}
+    out = []
+    for i in ids:
+        k = pos[i]
+        r = allr[k]
+        nxt = allr[k + 1] if k + 1 < len(allr) and allr[k + 1]["file"] == r["file"] else None
+        out.append("\t".join([i, r["ref"], batches.form_of(r, nxt), batches.limit_label(r), r["jp"]]) + "\n")
+    (TL / f"{b}.tsv").write_text("".join(out), encoding="utf-8", newline="\n")
+    r = subprocess.run([sys.executable, "-X", "utf8", str(ROOT / "tools" / "batches.py"), "check", b],
+                       capture_output=True, text=True, encoding="utf-8")
+    print((r.stdout + r.stderr).strip())
+    return r.returncode
+
+
 if __name__ == "__main__":
     cmd, b = sys.argv[1], sys.argv[2]
-    sys.exit(show(b) if cmd == "show" else fill(b))
+    sys.exit({"show": show, "fill": fill, "fix": fix}[cmd](b))

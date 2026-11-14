@@ -127,13 +127,13 @@ s09E36E	21A338	Ａ：決定 Ｂ：もどる	A: OK   B: Back
 s09E384	21A340	神技書「ガード」 神技パパンの精え5	Divine Scroll "Guard" Papin Way 5	
 s09E3AA	21A344	ダメージを少なくする。ＳＰに強い。	Reduces damage. Beats SP.	
 s09E3CE	21A348	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
-s09E3E4	21A350	ＳＰ「占い道具」 かあちゃんの占いは当たるらしい	SP "Fortune Kit" Mom's, said to hit	
+s09E3E4	21A350	ＳＰ「占い道具」 かあちゃんの占いは当たるらしい	SP "Fortune Kit" Mom foresees all!	
 s09E416	21A354	おたがいのアクションバーを もとに戻す。	Resets both sides' Action Bars.	
 s09E440	21A358	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
 s09E456	21A360	ＳＰ「ブッ殺しバチのシガイ」 じいちゃんのかたき	SP "Dead Killer Bee" Grandpa's foe	
 s09E488	21A364	相手の入れかえを 1回とめる。	Stops the foe's switching once.	
 s09E4A8	21A368	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
-s09E4BE	21A370	ＳＰ「ヘビのヌケガラ」 本物をチットに見せたい	SP "Snakeskin" Real one for Chitto!	
+s09E4BE	21A370	ＳＰ「ヘビのヌケガラ」 本物をチットに見せたい	SP "Snakeskin" Live one for Chitto!	
 s09E4EE	21A374	体カを 10かいふくする。	Restores 10 HP.	
 s09E50A	21A378	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
 s09E520	21A380	ＳＰ「アメデオ」 1年かかってやっとなついてくれた	SP "Amedeo" Tamed after a year	
@@ -243,16 +243,16 @@ s09F2A6	21A5A4	前世のかなしい記憶が よみがえる。	Sad past-life m
 s09F2CA	21A5A8	このレコードは キーとしてもつかえるようだ。	This Record works as a key, too.	
 s09F2F8	21A5B0	「デコードクリスタルＲ」	"Decode Crystal R"	
 s09F312	21A5B4	アギがくれた レッドクリスタル。	A Red Crystal from Agi.	
-s09F334	21A5B8	大きなレッドクリスタルを カイジョ出来る。	Unlocks the big Red Crystal.	
+s09F334	21A5B8	大きなレッドクリスタルを カイジョ出来る。	Unseals big Red Crystals.	
 s09F360	21A5C0	「デコードクリスタルＧ」	"Decode Crystal G"	
 s09F37A	21A5C4	タルラントがくれた グリーンクリスタル。	A Green Crystal from Tarlant.	
-s09F3A4	21A5C8	大きなグリーンクリスタルを カイジョ出来る。	Unlocks the big Green Crystal.	
+s09F3A4	21A5C8	大きなグリーンクリスタルを カイジョ出来る。	Unseals big Green Crystals.	
 s09F3D2	21A5D0	「デコードクリスタルＢ」	"Decode Crystal B"	
 s09F3EC	21A5D4	ソレトがくれた ブルークリスタル。	A Blue Crystal from Soreto.	
-s09F410	21A5D8	大きなブルークリスタルを カイジョ出来る。	Unlocks the big Blue Crystal.	
+s09F410	21A5D8	大きなブルークリスタルを カイジョ出来る。	Unseals big Blue Crystals.	
 s09F43C	21A5E0	「デコードクリスタルＹ」	"Decode Crystal Y"	
 s09F456	21A5E4	ハスモダイがくれた イエロークリスタル。	A Yellow Crystal from Hasmodai.	
-s09F480	21A5E8	大きなイエロークリスタルを カイジョ出来る。	Unlocks the big Yellow Crystal.	
+s09F480	21A5E8	大きなイエロークリスタルを カイジョ出来る。	Unseals big Yellow Crystals.	
 s09F4AE	21A5F0	「パスカード1」	"Pass Card 1"	
 s09F4C0	21A5F4	ゲドリング セキュリティカードＬＢ。	Gedling Security Card LB.	
 s09F4E6	21A5F8	兵隊がもっていた シャッターを開くためのカード。	Soldier's card that opens shutters.	

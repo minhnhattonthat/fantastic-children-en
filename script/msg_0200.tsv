@@ -32,11 +32,11 @@ p082AB8	m209.1	が なかまになった！	joined you!
 p082ACE	m209.2	すべての相手に 30ダメージあたえる。	Deals 30 damage to all / foes.	
 p082AF6	m210.0	「デコードクリスタルＲ」を 手に入れた！	Got "Decode Crystal R"!	
 p082B20	m210.1			
-p082B22	m210.2	大きなレッドクリスタルを	You can unseal large red	
-p082B3C	m210.3	カイジョ出来る。	crystals.	
+p082B22	m210.2	大きなレッドクリスタルを	Large Red Crystals can	
+p082B3C	m210.3	カイジョ出来る。	now be unsealed.	
 p082B4E	m211.0	ボクらが「記憶のレコード」を かくすために	To hide the / "Memory Records,"	
 p082B7A	m211.1	クリスタルで ふういんしていた場所も	we sealed places with / crystals.	
-p082BA0	m211.2	これで カイジョ出来る	Now you can open them.	
+p082BA0	m211.2	これで カイジョ出来る	Now you can unseal them.	
 p082BB8	m211.3			
 p082BBA	m211.4	いっこくも はやく デュマの・・・	Hurry... Dumas's...	
 p082BDE	m211.5			
@@ -63,10 +63,10 @@ p082E4E	m215.1	が なかまになった！	joined you!
 p082E64	m215.2	すべての相手に 30ダメージあたえる。	Deals 30 damage to all / foes.	
 p082E8C	m216.0	「デコードクリスタルＲ」を 手に入れた！	Got "Decode Crystal R"!	
 p082EB6	m216.1			
-p082EB8	m216.2	大きなレッドクリスタルを カイジョ出来る。	You can unseal large red / crystals.	
+p082EB8	m216.2	大きなレッドクリスタルを カイジョ出来る。	Large Red Crystals can / now be unsealed.	
 p082EE4	m217.0	ボクらが「記憶のレコード」を かくすために	To hide the / "Memory Records,"	
 p082F10	m217.1	クリスタルで ふういんしていた場所も	we sealed places with / crystals.	
-p082F36	m217.2	これで カイジョ出来る	Now you can open them.	
+p082F36	m217.2	これで カイジョ出来る	Now you can unseal them.	
 p082F4E	m217.3			
 p082F50	m217.4	いっこくも はやく デュマの・・・	Quickly, Dumas's...	
 p082F74	m217.5			
@@ -264,11 +264,11 @@ p0843BA	m279.1	が なかまになった！	joined you!
 p0843D0	m279.2	トーマの体カを 20かいふくさせる。	Restores 20 HP to Tohma.	
 p0843F6	m280.0	「デコードクリスタルＢ」を 手に入れた！	Got "Decode Crystal B"!	
 p084420	m280.1			
-p084422	m280.2	大きなブルークリスタルを	You can unseal large blue	
-p08443C	m280.3	カイジョ出来る。	crystals.	
+p084422	m280.2	大きなブルークリスタルを	Large Blue Crystals can	
+p08443C	m280.3	カイジョ出来る。	now be unsealed.	
 p08444E	m281.0	私たちが「記憶のレコード」を かくすために	To hide the / "Memory Records,"	
 p08447A	m281.1	クリスタルで ふういんしていた場所も	we sealed places with / crystals.	
-p0844A0	m281.2	これで カイジョ出来るわ	Now you can open them.	
+p0844A0	m281.2	これで カイジョ出来るわ	Now you can unseal them.	
 p0844BA	m281.3			
 p0844BC	m281.4	ヘルガは きっとデュマの・・・	Helga must have been / taken by Dumas...	
 p0844DC	m281.5	ギリシアの宇宙船に つれさられたはず・・・	onto the Greecian / spaceship...	
@@ -291,11 +291,11 @@ p0846EE	m285.1	が なかまになった！	joined you!
 p084704	m285.2	トーマの体カを 20かいふくさせる。	Restores 20 HP to Tohma.	
 p08472A	m286.0	「デコードクリスタルＢ」を 手に入れた！	Got "Decode Crystal B"!	
 p084754	m286.1			
-p084756	m286.2	大きなブルークリスタルを	You can unseal large blue	
-p084770	m286.3	カイジョ出来る。	crystals.	
+p084756	m286.2	大きなブルークリスタルを	Large Blue Crystals can	
+p084770	m286.3	カイジョ出来る。	now be unsealed.	
 p084782	m287.0	私たちが「記憶のレコード」を かくすために	To hide the / "Memory Records,"	
 p0847AE	m287.1	クリスタルで ふういんしていた場所も	we sealed places with / crystals.	
-p0847D4	m287.2	これで カイジョ出来るわ	Now you can open them.	
+p0847D4	m287.2	これで カイジョ出来るわ	Now you can unseal them.	
 p0847EE	m287.3			
 p0847F0	m287.4	ヘルガは きっとデュマの・・・	Helga must have been / taken by Dumas...	
 p084810	m287.5	ギリシアの宇宙船に つれさられたはず・・・	onto the Greecian / spaceship...	

@@ -23,7 +23,7 @@ controller edits this file. `tools/batches.py check` enforces the EN column for 
   - Tohma (オレ, ～ぜ, ～だぜ, ～じゃねぇか): brash, cocky 11-year-old island boy; contractions, "gonna", "ain't" sparingly,
     exclamations. Kind under the bluster.
   - Helga (わたし, short sentences): quiet, guarded, few words; no slang. Warms up slowly.
-  - Chitto (ボク, ～です/～だよ): gentle, earnest, polite small boy; slightly formal ("Um, Tohma... I think...").
+  - Chitto (ボク, ～です/～だよ): prickly with strangers (calls Tohma "airhead", "Are you stupid?!"), soft and polite with Helga (docs/style-reference.md).
   - Children of Befort (Soran, Agi, Soreto, Hesma, Hasmodai, Tarlant, Mel): calm, adult, solemn; no slang.
   - Dumas: cold, grand, menacing.  Tohma's Dad (Papin Kenpo master): loud, gruff, joking. Mom: warm, scolding.
 
@@ -117,6 +117,13 @@ controller edits this file. `tools/batches.py check` enforces the EN column for 
 | 伝書 | Scroll | | Battle Item tiers: 伝書 Scroll, 神技書 Divine Scroll, 秘伝書 Secret Scroll | |
 | 神技書 | Divine Scroll | | | |
 | 秘伝書 | Secret Scroll | | | |
+| 転生装置 | reincarnation device | | 72 px choice answer "Device" (D8: a choice may use the form's last word) | rebirth device |
+| 前世 | past life / past-life / past lives | | 前世の記憶 -> past-life memories | |
+| 魂 | soul | | | |
+| カイジョ | unseal | | レッドクリスタルをカイジョ -> unseal the Red Crystal | |
+| コノエ | Royal Guard / guard | | コノエ兵 -> Royal Guard; "guard" when it is the role | |
+| 霊道 | Spirit Road | | | |
+| レッドクリスタル | Red Crystal | | | |
 
 ## More names and places (from batches b001-b012)
 | JP | EN | max | notes | Avoid |
