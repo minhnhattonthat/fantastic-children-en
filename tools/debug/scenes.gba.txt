@@ -168,7 +168,7 @@ ev_0001      stg=62 ev=1 msg=1,2,3
 ev_0005      stg=62 ev=5 msg=4,5,6
 ev_0008      stg=62 ev=8 msg=7,8,9,10
 ev_0014      stg=62 ev=14 msg=11,12
-ev_0017      stg=62 ev=17 msg=13
+ev_0017      stg=62 ev=17 msg=13 blank=1      # test event セーブきどうイベント: black screen; message 13 is its debug label, never drawn
 ev_0018      stg=62 ev=18 msg=14,15
 ev_0021      stg=62 ev=21 msg=16
 ev_0022      stg=62 ev=22 msg=17
@@ -178,7 +178,7 @@ ev_0031      stg=62 ev=31 msg=24,25,26
 ev_0035      stg=62 ev=35 msg=27,28,29,30
 ev_0043      stg=62 ev=43 msg=31
 ev_0082      stg=62 ev=82 msg=32,33,34,35,36,37,38,39,40,41,54,55,43,44,45,46,47,48,49,50,51,52,53,42 flags=-12A
-ev_0082b      stg=62 ev=82 msg=56,57,58,59,60,61 flags=12A
+ev_0082b      stg=62 ev=82 msg=56,57,58,59,60,61 flags=12A,12D
 ev_0086      stg=62 ev=86 msg=56,57,58,59,60,61
 ev_0096      stg=62 ev=96 msg=97,98,99,102,103,100,101,90,91,92,95,96,93,94,80,81,82,85,89,76,77,78,79,83,84,86,87,88,62,63,64,69,70,75,71,72,73,74,66,67,68,65,104 flags=112
 ev_0106      stg=62 ev=106 msg=65,75,76,77,78,79
@@ -327,7 +327,7 @@ ev_1038      stg=62 ev=1038 msg=519,520,518
 ev_1041      stg=62 ev=1041 msg=521
 ev_1043      stg=62 ev=1043 msg=522
 ev_1045      stg=62 ev=1045 msg=523 flags=-154
-ev_1045b      stg=62 ev=1045 msg=524,525 flags=154
+ev_1045b      stg=62 ev=1045 msg=524,525 flags=154,150
 ev_1047      stg=62 ev=1047 msg=524,525
 ev_1050      stg=62 ev=1050 msg=526,527 flags=CF
 ev_1050b      stg=62 ev=1050 msg=528 flags=-CF
@@ -337,7 +337,7 @@ ev_1056      stg=62 ev=1056 msg=529,530
 ev_1059      stg=62 ev=1059 msg=531 flags=-CF
 ev_1059b      stg=62 ev=1059 msg=532,533,534,535,536 flags=CF
 ev_1060      stg=62 ev=1060 msg=532 flags=-14C
-ev_1060b      stg=62 ev=1060 msg=533,534,535,536 flags=14C
+ev_1060b      stg=62 ev=1060 msg=533,534,535,536 flags=14C,150
 ev_1062      stg=62 ev=1062 msg=533 flags=C0
 ev_1062b      stg=62 ev=1062 msg=534,535,536 flags=-C0
 ev_1063      stg=62 ev=1063 msg=534,535,536

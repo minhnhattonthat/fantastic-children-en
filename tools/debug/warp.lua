@@ -165,14 +165,17 @@ L.on_frame(function(n)
     return
   end
   if phase == "play" and n == t0 + 5 then
-    if ev then wr16(EV_H, ev); wr32(GS, 0x0402); arrive("stage event " .. ev)
+    -- flags again: loading the stage resets some (0x82/0x83 were lost between the first poke and the event)
+    if ev then set_flags(); wr16(EV_H, ev); wr32(GS, 0x0402); arrive("stage event " .. ev)
     elseif sub then wr32(GS, 2 | (sub << 8)); arrive("sub " .. sub)
     else arrive(string.format("stage %02X", stg)) end
     return
   end
   -- the shot: from arrival + wait, the first frame that is not one flat colour (fades) and, for a scene with
   -- msg=N, 60 frames after the game fetched message N (text on screen); at most 600 frames later
-  if phase == "arrived" and n >= arrivedAt + hold and n % 10 == 0 then
+  -- (a msg= scene shoots at fetch + 60 even inside the hold: with the mash, the box is gone by arrival + hold)
+  local early = want and type(gotMsg) == "number" and n >= gotMsg + 60
+  if phase == "arrived" and (n >= arrivedAt + hold or early) and n % 10 == 0 then
     local textUp = gotMsg == true or (gotMsg and n >= gotMsg + 60)
     if (textUp and not flat()) or n >= arrivedAt + hold + 600 then
       L.shot("warp.png"); log("shot warp.png"); phase = "done"

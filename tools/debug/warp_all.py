@@ -85,7 +85,7 @@ def check(d, name, kv, p):
     shot = d / "warp.png"
     if not shot.exists():
         return name, "FAIL", "no shot"
-    if sheet.is_blank(sheet.read_png(shot)):
+    if kv.get("blank") != "1" and sheet.is_blank(sheet.read_png(shot)):  # blank=1: black by design
         return name, "FAIL", "blank shot"
     if "msg" in kv:
         t = int(m.group(1))

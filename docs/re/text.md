@@ -33,6 +33,14 @@ Dump: `rom.sha1` (8 MiB, header `FANTCHILDREN` / `BFCJ`, EEPROM_V124 save). Offs
 - Messages 0-26 include debug/test event names (ヌルイベント, イベントテスト0, カイワテスト0, バトルカイシ,
   トークバトルテスト...): leftover debug event hooks worth following for the Phase 2 warp tool.
 
+## Unpack / repack — verified (Phase 3, `tests/test_build.py`)
+- `tools/msgs.py` `Script.unpack` reads table -> page-list area (5661 words, every non-zero word a page pointer) ->
+  4133 pages; `repack` writes them back in place (identity: `build.py --identity` prints `identical`) or, with
+  `base=`, writes pages + the whole page-list area to free space and repoints the 1528 table entries.
+- Relocation is safe for text: a 2-aligned scan of the ROM finds no u32 pointing at a page outside the list area
+  (26 matches, all inside packed graphics/PCM, none 4-aligned in code) and only 2 matches for a list address outside
+  the table (`0xF71C4`, `0x394330`: both inside sample data). Longest page: 22 glyphs (176 px at the fixed 8 px pitch).
+
 ## Font — verified (draw path)
 - Glyph upload at `0x0802F172-0x0802F1B2`: font `f` (0/1) has glyph base `*(0x082122D4 + 4f)` = `0x080517EC` and a
   per-code pointer table `*(0x082122DC + 4f)` (`0x08210A98` font 0, `0x08211298` font 1). For a code:

@@ -19,6 +19,8 @@ from events import areas, cond, flow_msgs, records, scripts  # noqa: E402
 
 OUT = ROOT / "tools" / "debug" / "scenes.gba.txt"
 HAND_EVENTS = (43, 1986, 2311)  # records the HAND scenes run: prologue, endings, debug viewer
+# scenes whose screen stays black by design: warp_all checks the message fetch, not the shot
+BLANK_OK = {17: "test event セーブきどうイベント: black screen; message 13 is its debug label, never drawn"}
 EVENT_AREA = "62"  # indoor area with a plain backdrop; area 16's BG layer garbles the battle screen
 
 HAND = """\
@@ -54,11 +56,42 @@ def entry(recs, s, own):
     take = not set(fall) & set(own) and (bool(set(taken) & set(own)) or not fall)
 
     def flags(t):  # taken: the jump's condition must hold (f0 > 0: flag set); falling through: it must not
-        return f" flags={'' if (f0 > 0) == t else '-'}{abs(f0):X}"
+        start = c[1] if t else next_rec(recs, s)
+        fs = [flag(f0, t)] + (chain(recs, start) if start is not None else [])
+        return " flags=" + ",".join(fs)
     first, other = (taken, fall) if take else (fall, taken)
     out = [(first, flags(take))]
     if set(other) - set(first):
         out.append((other, flags(not take)))
+    return out
+
+
+def flag(f0, taken):
+    return f"{'' if (f0 > 0) == taken else '-'}{abs(f0):X}"
+
+
+def next_rec(recs, i):
+    nxt = recs[i][16]
+    return None if nxt == 0xFFFE else i + 1 if nxt == 0xFFFF else nxt
+
+
+def chain(recs, i, limit=64):
+    """Flags for later conditions on a branch where only one way shows any text (the other ends the script
+    silently): without them the scene can run to its end showing nothing (ev_0082b: 0x12A, then 0x12D)."""
+    out, seen = [], set()
+    while i is not None and i < len(recs) and i not in seen and len(seen) < limit:
+        seen.add(i)
+        r, c = recs[i], cond(recs[i])
+        if r[6] != 0xFFFF or r[7] != 0xFFFF:
+            return out  # this record shows text itself: the scene has its message
+        if c and 1 <= abs(c[0]) <= 0x165:
+            taken, fall = flow_msgs(recs, i, True), flow_msgs(recs, i, False)
+            if bool(taken) == bool(fall):
+                return out
+            out.append(flag(c[0], bool(taken)))
+            i = c[1] if taken else next_rec(recs, i)
+            continue
+        i = next_rec(recs, i)
     return out
 
 
@@ -88,7 +121,8 @@ def main():
                 seen_battle.update(new)
                 lines.append(f"battle_{new[0]:02d}    stg={stg} ev={s}{msg}      # battles {','.join(map(str, bats))}")
             else:
-                evlines.append(f"ev_{s:04d}{'b' if k else ''}      stg={stg} ev={s}{msg}")
+                note = f" blank=1      # {BLANK_OK[s]}" if s in BLANK_OK else ""
+                evlines.append(f"ev_{s:04d}{'b' if k else ''}      stg={stg} ev={s}{msg}{note}")
     OUT.write_text("\n".join(lines + evlines) + "\n", encoding="utf-8", newline="\n")
     print(f"{OUT}: {len(lines) + len(evlines)} lines, {len(seen_battle)} battle ids")
     shown = {r[6] for r in recs[37:] if r[6] != 0xFFFF}  # +0xC messages outside the 0-36 test events

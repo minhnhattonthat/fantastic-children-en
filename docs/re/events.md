@@ -53,7 +53,11 @@ Static script ranges (split at 0xFFFE) are not what runs: conditions, `next` jum
 them (record 82's text 54/55 is reached from record 80; 1678 falls to 1679 while flag 0x88 is clear).
 `events.flow(recs, start, first)` walks the real flow, both ways at each condition (`first` forces the start
 record's); `gen_scenes.py` uses it for each scene's `msg=` list and adds `flags=` so a conditional first record
-takes the branch with the script's own text (a `b` scene takes the other branch when it has text too). Every
+takes the branch with the script's own text (a `b` scene takes the other branch when it has text too); later
+conditions where one way ends the script silently get their flag too (`chain()`: ev_0082b needs 0x12A then 0x12D).
+`+0x1C`/`+0x1E` look like flags the record sets when it runs (s16, < 0 clears: record 84 sets 0x12A that record 82
+tests; 1862/1863 toggle 0x82/0x83) — **guess**, from the data only. The warp pokes `flags=` again just before the
+stage event starts: flags set before the stage load did not hold for 0x82/0x83. Every
 +0x0C message of records 37+ lies on some scene's flow (`tests/test_events.py`).
 
 Talk battles are started by short scripts ("見つけたぞ！" + battle id) attached to stage NPCs. The battle screen's
