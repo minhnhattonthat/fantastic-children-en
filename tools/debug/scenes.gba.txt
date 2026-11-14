@@ -174,7 +174,7 @@ ev_0021      stg=62 ev=21 msg=16
 ev_0022      stg=62 ev=22 msg=17
 ev_0023      stg=62 ev=23 msg=18,19
 ev_0027      stg=62 ev=27 msg=20,21,22,23 flags=-12C
-ev_0031      stg=62 ev=31 msg=24,25,26
+ev_0031      stg=62 ev=31 msg=24,25,26 textwait=180      # test event スイッチイベント8: still fading in at fetch + 60
 ev_0035      stg=62 ev=35 msg=27,28,29,30
 ev_0043      stg=62 ev=43 msg=31
 ev_0082      stg=62 ev=82 msg=32,33,34,35,36,37,38,39,40,41,54,55,43,44,45,46,47,48,49,50,51,52,53,42 flags=-12A

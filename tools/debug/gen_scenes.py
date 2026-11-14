@@ -21,6 +21,8 @@ OUT = ROOT / "tools" / "debug" / "scenes.gba.txt"
 HAND_EVENTS = (43, 1986, 2311)  # records the HAND scenes run: prologue, endings, debug viewer
 # scenes whose screen stays black by design: warp_all checks the message fetch, not the shot
 BLANK_OK = {17: "test event セーブきどうイベント: black screen; message 13 is its debug label, never drawn"}
+# scripts whose text fades in slowly: frames from the message fetch to the shot (warp.lua textwait=)
+TEXTWAIT = {31: (180, "test event スイッチイベント8: still fading in at fetch + 60")}
 EVENT_AREA = "62"  # indoor area with a plain backdrop; area 16's BG layer garbles the battle screen
 
 HAND = """\
@@ -122,6 +124,8 @@ def main():
                 lines.append(f"battle_{new[0]:02d}    stg={stg} ev={s}{msg}      # battles {','.join(map(str, bats))}")
             else:
                 note = f" blank=1      # {BLANK_OK[s]}" if s in BLANK_OK else ""
+                if s in TEXTWAIT:
+                    note = f" textwait={TEXTWAIT[s][0]}      # {TEXTWAIT[s][1]}"
                 evlines.append(f"ev_{s:04d}{'b' if k else ''}      stg={stg} ev={s}{msg}{note}")
     OUT.write_text("\n".join(lines + evlines) + "\n", encoding="utf-8", newline="\n")
     print(f"{OUT}: {len(lines) + len(evlines)} lines, {len(seen_battle)} battle ids")
