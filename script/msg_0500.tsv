@@ -3,14 +3,14 @@ p0890DE	m500.0	ボクらが「記憶のレコード」を かくすために	To 
 p08910A	m500.1	クリスタルで ふういんしていた場所も	we sealed places with / crystals.	
 p089130	m500.2	これで カイジョ出来る	Now you can open them.	
 p089148	m500.3			
-p08914A	m500.4	ギリシアの宇宙船が	the Greecian spaceship	
-p08915E	m500.5	かくされた場所を つきとめないと・・・！	and find where it's / hidden...!	
+p08914A	m500.4	ギリシアの宇宙船が	We must find where the / Greecian	
+p08915E	m500.5	かくされた場所を つきとめないと・・・！	spaceship is hidden...!	
 p089188	m501.0	上空から タルラントが ワンダーで	Tarlant came down on / Wanda	
 p0891AC	m501.1	あらわれた。	from above.	
 p0891BA	m502.0	タルラント「ハスモダイ・・・！	Tarlant: Hasmodai...!	
 p0891DA	m502.1	 アカバ海の島にある	 On an Akaba Sea island,	
 p0891F0	m502.2	地下どうくつに デュマのヒコウテイの	in a cave, signs of / Dumas's flying boat!!	
-p089216	m502.3	コンセキを 見つけたぞ	He found them!	
+p089216	m502.3	コンセキを 見つけたぞ	We found them!	
 p08922E	m503.0	こっちだッ！ いそげッ！	This way! Hurry!	
 p089248	m504.0	ハスモダイ「トーマ・・・！	Hasmodai: Tohma...!	
 p089264	m505.0	宇宙船ヴェガ	Vega	
@@ -38,14 +38,14 @@ p089472	m512.0	ボクらが「記憶のレコード」を かくすために	To 
 p08949E	m512.1	クリスタルで ふういんしていた場所も	we sealed places with / crystals.	
 p0894C4	m512.2	これで カイジョ出来る	Now you can open them.	
 p0894DC	m512.3			
-p0894DE	m512.4	ギリシアの宇宙船が	the Greecian spaceship	
-p0894F2	m512.5	かくされた場所を つきとめないと・・・！	and find where it's / hidden...!	
+p0894DE	m512.4	ギリシアの宇宙船が	We must find where the / Greecian	
+p0894F2	m512.5	かくされた場所を つきとめないと・・・！	spaceship is hidden...!	
 p08951C	m513.0	上空から タルラントが ワンダーで	Tarlant came down on / Wanda	
 p089540	m513.1	あらわれた。	from above.	
 p08954E	m514.0	タルラント「ハスモダイ・・・！	Tarlant: Hasmodai...!	
 p08956E	m514.1	 アカバ海の島にある	 On an Akaba Sea island,	
 p089584	m514.2	地下どうくつに デュマのヒコウテイの	in a cave, signs of / Dumas's flying boat!!	
-p0895AA	m514.3	コンセキを 見つけたぞ	He found them!	
+p0895AA	m514.3	コンセキを 見つけたぞ	We found them!	
 p0895C2	m515.0	こっちだッ！ いそげッ！	This way! Hurry!	
 p0895DC	m516.0	ハスモダイ「トーマ・・・！	Hasmodai: Tohma...!	
 p0895F8	m517.0	宇宙船ヴェガ	Vega	
@@ -64,7 +64,7 @@ p089748	m522.3	まっすぐな 道・・・	a straight road...
 p08975E	m522.4	その よこに・・・	and beside it...	
 p089772	m523.0	ムリだよッ！ こんなことしたって・・・	It's no use! Doing this...	
 p08979A	m523.1	ヘルガが くるしむだけだよッ！	will only hurt Helga!	
-p0897BA	m524.0	ボクは ヘルガと いっしょに いたい・・・	I'll stay with Helga...	
+p0897BA	m524.0	ボクは ヘルガと いっしょに いたい・・・	I want to be with Helga...	
 p0897E6	m524.1			
 p0897E8	m524.2	まもるんだ・・・！	I'll protect her...!	
 p0897FC	m525.0	デュマ・・・ ティナの弟・・・	Dumas... Tina's brother...	
@@ -78,7 +78,7 @@ p0898CE	m528.0	そう・・・	I see...
 p0898DA	m528.1			
 p0898DC	m528.2	そっちには セラフィーヌの	Over there is Seraphine's	
 p0898F8	m528.3	生まれた家が あるのよ	birthplace.	
-p089910	m529.0	ボクは ヘルガと いっしょに いたい・・・	I'll stay with Helga...	
+p089910	m529.0	ボクは ヘルガと いっしょに いたい・・・	I want to be with Helga...	
 p08993C	m529.1			
 p08993E	m529.2	まもるんだ・・・！	I'll protect her...!	
 p089952	m530.0	デュマ・・・ ティナの弟・・・	Dumas... Tina's brother...	
@@ -140,8 +140,8 @@ p08A00C	m559.0	アカバ海の かいていふかく・・・	Deep in the Akaba 
 p08A02E	m559.1			
 p08A030	m559.2	その巨大なモノは 260年いじょうも前から	that giant thing had sat	
 p08A05C	m559.3	そこに あった。	for over 260 years.	
-p08A06E	m559.4	王タイタスとのあらそいでギリシアをおわれた	Driven from Greecia after / fighting King Titas,	
-p08A09A	m559.5	ゲオルカの船 「宇宙船ヴェガ」。	Georca's ship: "the / spaceship Vega."	
+p08A06E	m559.4	王タイタスとのあらそいでギリシアをおわれた	Driven from Greecia after / his fight with King Titas,	
+p08A09A	m559.5	ゲオルカの船 「宇宙船ヴェガ」。	Georca came in his ship, / "the spaceship Vega."	
 p08A0BC	m559.6	ティナを兵器として ふっかつさせ	To revive Tina as a / weapon	
 p08A0DE	m559.7	ふくしゅうを はたすため・・・	and take his revenge...	
 p08A0FE	m559.8	ゲオルカは ワームこうろを かいはつし	Georca developed a / wormhole route	
@@ -205,7 +205,7 @@ p08A82A	m574.0	ロボット兵が トーマを はじき飛ばした。	A robot 
 p08A854	m575.0	・・・ブゥウン！！	...Vwoom!!	
 p08A868	m576.0	・・・ブゥウン！！	...Vwoom!!	
 p08A87C	m577.0	そこに立つ ヘルガの瞳は 青く・・・	Helga stood there, her / eyes blue...	
-p08A8A2	m577.1	白い髪を していた。	and their hair was white.	
+p08A8A2	m577.1	白い髪を していた。	and her hair was white.	
 p08A8B8	m577.2	ヘルガは いままでの どこか ふあんげな	Helga, unlike her uneasy / self until now,	
 p08A8E2	m577.3	様子とは ことなり りんとした強さと	showed a dignified / strength	
 p08A908	m577.4	やさしさを 感じさせた。	and a gentleness.	

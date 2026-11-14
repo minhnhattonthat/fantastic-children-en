@@ -4,7 +4,7 @@ p08277A	m200.1	画商だったのね・・・	was an art dealer...
 p082790	m201.0	もう1ど クレルモンへ行って さがそう	Let's go to Clermont once / more and search.	
 p0827B8	m202.0	5さいのとき あつまってから	Since we gathered at 5,	
 p0827D6	m202.1	もう10回いじょうも 行ってるよ	we've gone over 10 times.	
-p0827F8	m203.0	きをつけないと あいつがいる・・・	Careful, or he'll be / there...	
+p0827F8	m203.0	きをつけないと あいつがいる・・・	We have to be careful. / He's out there...	
 p08281C	m203.1	見ただろ デュマのすがた	You saw him: Dumas.	
 p082836	m204.0	ボクらは にげてばかりいられない	We can't keep running / forever.	
 p082858	m204.1	あの時 あいつも 絵を見た・・・	He saw the painting too, / back then...	
@@ -38,10 +38,10 @@ p082B4E	m211.0	ボクらが「記憶のレコード」を かくすために	To 
 p082B7A	m211.1	クリスタルで ふういんしていた場所も	we sealed places with / crystals.	
 p082BA0	m211.2	これで カイジョ出来る	Now you can open them.	
 p082BB8	m211.3			
-p082BBA	m211.4	いっこくも はやく デュマの・・・	Quickly, Dumas's...	
+p082BBA	m211.4	いっこくも はやく デュマの・・・	We must find Dumas's...	
 p082BDE	m211.5			
-p082BE0	m211.6	おそらくは ギリシアの宇宙船が	probably the Greecian / spaceship...	
-p082C00	m211.7	かくされた場所を つきとめなければ・・・！	we must find where it's / hidden...!	
+p082BE0	m211.6	おそらくは ギリシアの宇宙船が	most likely where the / Greecian spaceship...	
+p082C00	m211.7	かくされた場所を つきとめなければ・・・！	is hidden, as soon as / we can...!	
 p082C2C	m212.0	ボクらのなかまも 宇宙船を 探している	Our friends are searching / for the ship too.	
 p082C54	m212.1	きょうりょくして 探し出そう・・・！	Let's work together to / find it...!	
 p082C7A	m213.0	アギ「！ デュマが こんなにはやく・・・	Agi: ! Dumas, so soon...	
@@ -157,11 +157,11 @@ p08390E	m241.1	 ヘヘ・・・ よろしくな トーマ！	 Heh... Thanks, Toh
 p083932	m242.0	サポートフレンド 「チット」	The Support Friend / "Chitto"	
 p083950	m242.1	が なかまになった！	joined you!	
 p083966	m242.2	相手のアクションバーを シャッフルする。	Shuffles the foe's / Action Bars.	
-p083990	m242.3	とくていの相手に 5ダメージあたえる。	Deals 5 damage to 1 foe.	
+p083990	m242.3	とくていの相手に 5ダメージあたえる。	Hits certain foes for 5.	
 p0839B8	m243.0	サポートフレンド 「チット」	The Support Friend / "Chitto"	
 p0839D6	m243.1	が なかまになった！	joined you!	
 p0839EC	m243.2	相手のアクションバーを シャッフルする。	Shuffles the foe's / Action Bars.	
-p083A16	m243.3	とくていの相手に 5ダメージあたえる。	Deals 5 damage to 1 foe.	
+p083A16	m243.3	とくていの相手に 5ダメージあたえる。	Hits certain foes for 5.	
 p083A3E	m243.4	なかまは すべてのバトルアイテムに 強いが	Friends beat every / Battle Item,	
 p083A6A	m243.5	記憶のレコードを ショウヒする。	but use Memory Records.	
 p083A8C	m243.6	スタートボタンを押せば アクションバーに	Press Start, and on the / Action Bars	
@@ -223,10 +223,10 @@ p083E9E	m265.0	トーマ「チカオって いつも こんななのか？	Tohma
 p083ECA	m266.0	チット「こんなの はじめてだよ・・・	Chitto: This is a first...	
 p083EF0	m266.1			
 p083EF2	m266.2	トーマ「・・・だっそうはん さがしてるって	Tohma: ...Didn't Dad / say	
-p083F1E	m266.3	 とうちゃん いってたよな・・・	 they were hunting an / escaped convict...	
+p083F1E	m266.3	 とうちゃん いってたよな・・・	 they were hunting an / escapee...	
 p083F40	m266.4	・・・ちょうど いいぜ！	...That's perfect!	
 p083F5A	m266.5			
-p083F5C	m266.6	だっそうはんっていうのは にげてるヤツだろ	An escaped convict's / someone running away.	
+p083F5C	m266.6	だっそうはんっていうのは にげてるヤツだろ	An escapee's someone / who's running away.	
 p083F88	m266.7	閉じこめられているヤツには かんけいない！	Nothing to do with / someone locked up!	
 p083FB4	m266.8	チット「！ なるほど・・・	Chitto: ! I get it...	
 p083FD0	m266.9	 かしこいじゃん トーマ！	 Smart, Tohma!	
@@ -238,7 +238,7 @@ p08404C	m268.3	 場所があるんだ さきに行くからついてきて	 is a
 p084078	m269.0	ほかに ぬけ道がないか このアタリを	I'll look around here	
 p08409E	m269.1	探してみるよ・・・	for another way in...	
 p0840B2	m270.0	あのサーチライト・・・	That searchlight...	
-p0840CA	m270.1	きっと だっそうはんを 探してるんだ	They must be looking for / the convict.	
+p0840CA	m270.1	きっと だっそうはんを 探してるんだ	They must be looking for / the escapee.	
 p0840F0	m270.2	動いてるサーチライトに 見つかると	If a moving searchlight	
 p084114	m270.3	兵隊とのバトルになる みたいだよ・・・	spots you, you'll fight / the soldiers...	
 p08413C	m271.0	いたぞッ！！ おとなしくしろッ！！ 	There he is!! Don't move!! 	

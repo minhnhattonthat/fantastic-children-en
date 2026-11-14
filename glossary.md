@@ -95,7 +95,7 @@ controller edits this file. `tools/batches.py check` enforces the EN column for 
 | パンチ | Punch | | | |
 | キック | Kick | | | |
 | チョップ | Chop | | | |
-| ガード | Guard | | | |
+| ガード | Guard / blocked | | battle log 〜の攻撃をガード -> "{arg0} blocked {arg1}!" ("guarded X" reads as protecting X) | |
 | アクションバー | Action Bar | | | |
 | サポートフレンド | Support Friend | | | |
 | サポートエディット | Support Edit | | | |

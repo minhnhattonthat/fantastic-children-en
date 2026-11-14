@@ -127,35 +127,35 @@ s09E36E	21A338	Ａ：決定 Ｂ：もどる	A: OK   B: Back
 s09E384	21A340	神技書「ガード」 神技パパンの精え5	Divine Scroll "Guard" Papin Way 5	
 s09E3AA	21A344	ダメージを少なくする。ＳＰに強い。	Reduces damage. Beats SP.	
 s09E3CE	21A348	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
-s09E3E4	21A350	ＳＰ「占い道具」 かあちゃんの占いは当たるらしい	SP "Fortune Kit" Mom's are spot-on	
+s09E3E4	21A350	ＳＰ「占い道具」 かあちゃんの占いは当たるらしい	SP "Fortune Kit" Said to come true	
 s09E416	21A354	おたがいのアクションバーを もとに戻す。	Resets both sides' Action Bars.	
 s09E440	21A358	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
 s09E456	21A360	ＳＰ「ブッ殺しバチのシガイ」 じいちゃんのかたき	SP "Dead Killer Bee" Grandpa's foe	
 s09E488	21A364	相手の入れかえを 1回とめる。	Stops the foe's switching once.	
 s09E4A8	21A368	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
-s09E4BE	21A370	ＳＰ「ヘビのヌケガラ」 本物をチットに見せたい	SP "Shed Snakeskin" For Chitto	
+s09E4BE	21A370	ＳＰ「ヘビのヌケガラ」 本物をチットに見せたい	SP "Snakeskin" Chitto must see it	
 s09E4EE	21A374	体カを 10かいふくする。	Restores 10 HP.	
 s09E50A	21A378	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
 s09E520	21A380	ＳＰ「アメデオ」 1年かかってやっとなついてくれた	SP "Amedeo" Tamed after a year	
-s09E554	21A384	相手を シャッフル。とくていの相手に 20ダメージ。	Shuffles foe. 20 damage to 1 foe.	
+s09E554	21A384	相手を シャッフル。とくていの相手に 20ダメージ。	Shuffle; hits certain foes for 20.	
 s09E58A	21A388	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
 s09E5A0	21A390	ＳＰ「コショウ」 はなの奥にムズムズシゲキ	SP "Pepper" Tickles your nose	
 s09E5CC	21A394	おたがいのアクションバーを シャッフル。	Shuffles both sides' Action Bars.	
 s09E5F6	21A398	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
 s09E60C	21A3A0	ＳＰ「さびたクギ」 ヘルガの部屋のカベに刺さってた	SP "Rusty Nail" From Helga's wall	
-s09E640	21A3A4	とくていの相手に 20ダメージ。	20 damage to one foe.	
+s09E640	21A3A4	とくていの相手に 20ダメージ。	Hits certain foes for 20.	
 s09E662	21A3A8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
 s09E678	21A3B0	ＳＰ「コケむした花壇」 セラフィーヌがつかっていた	SP "Mossy Flowerbed" Seraphine's	
-s09E6AC	21A3B4	とくていの相手に 20ダメージ。	20 damage to one foe.	
+s09E6AC	21A3B4	とくていの相手に 20ダメージ。	Hits certain foes for 20.	
 s09E6CE	21A3B8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
 s09E6E4	21A3C0	ＳＰ「くちた画材」 絵の具がかたまって カチカチ	SP "Old Paints" Dried rock-hard	
 s09E716	21A3C4	相手の入れかえを 2回とめる。	Stops the foe's switching twice.	
 s09E736	21A3C8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
 s09E74C	21A3D0	ＳＰ「せいぎょカイロ」 ピカピカ光って目がいたい	SP "Control Chip" So bright it hurts	
-s09E77E	21A3D4	相手を シャッフル。とくていの相手に30ダメージ。	Shuffles foe. 30 damage to 1 foe.	
+s09E77E	21A3D4	相手を シャッフル。とくていの相手に30ダメージ。	Shuffle; hits certain foes for 30.	
 s09E7B2	21A3D8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
 s09E7C8	21A3E0	ＳＰ「デュマの涙」 かなしみは はてしなくふかい	SP "Dumas's Tear" Endless sorrow	
-s09E7FA	21A3E4	とくていの相手に 30ダメージ。	30 damage to one foe.	
+s09E7FA	21A3E4	とくていの相手に 30ダメージ。	Hits certain foes for 30.	
 s09E81C	21A3E8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
 s09E832	21A3F0	ＳＰ「フラグメント」 フクザツなキゴウを秘めている	SP "Fragment" Strange symbols	
 s09E866	21A3F4	相手の入れかえを 3回とめる。	Stops the foe's switching 3 times.	
@@ -194,13 +194,13 @@ s09EC62	21A4A0	「古い地図3」	"Old Map 3"
 s09EC72	21A4A4	クレルモンの地図。	A map of Clermont.	
 s09EC86	21A4A8	リョウヨウ施設の 説明などが書いてある。	Notes on the sanatorium and more.	
 s09ECB0	21A4B0	「銀色の球体」	"Silver Sphere"	
-s09ECC0	21A4B4	巨大な宇宙船ヴェガの ナビゲーションマップ。	Nav map of the spaceship Vega.	
+s09ECC0	21A4B4	巨大な宇宙船ヴェガの ナビゲーションマップ。	Navigation map: spaceship Vega.	
 s09ECEE	21A4B8	球体に自分のいる場所が ヒョウジされている。	The sphere shows where you are.	
 s09ED1C	21A4C0	「データディスク」	"Data Disc"	
 s09ED30	21A4C4	クリル島 ゲドリングのデータマップ。	Data map: Gedling, Kuril Island.	
 s09ED56	21A4C8	ゲルタはかせが書いた せっけい図をヒョウジする。	Shows plans drawn by Dr. Gherta.	
 s09ED88	21A4D0	「宝物庫のカギ」	"Treasury Key"	
-s09ED9A	21A4D4	寺院2階 宝物庫のカギ。	Key to the temple's 2F treasury.	
+s09ED9A	21A4D4	寺院2階 宝物庫のカギ。	Temple treasury key, 2nd floor.	
 s09EDB4	21A4D8	とうちゃんにウデ前を みとめてもらったショウコ。	Proof Dad approved your skills.	
 s09EDE6	21A4E0	「裏口のカギ」	"Back Door Key"	
 s09EDF6	21A4E4	チットがくすねていた 児童学園のカギ。	Chitto's Children's Academy key.	

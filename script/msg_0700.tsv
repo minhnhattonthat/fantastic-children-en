@@ -46,8 +46,8 @@ p08E4A0	m720.1
 p08E4A2	m721.0	ゲドリング	Gedling	
 p08E4AE	m722.0	アカバ海の ある島から むすうのトリが	Countless birds took off / from an island in the / Akaba Sea,	
 p08E4D6	m722.1	飛び立ち ごうおんが とどろいていた。	and a great roar / rang out.	
-p08E4FE	m722.2	トーマたちは 地下どうくつの奥から	Deep in the cave, Tohma	
-p08E522	m722.3	かいていの ふかさまで もぐりこむ。	and the others dove / to the depths of the sea.	
+p08E4FE	m722.2	トーマたちは 地下どうくつの奥から	From deep in the cave, / Tohma and the others	
+p08E522	m722.3	かいていの ふかさまで もぐりこむ。	descended to the depth / of the seabed.	
 p08E548	m722.4	    巨大なカベが 立ちふさがった。	 A giant wall / blocked the way.	
 p08E570	m723.0	トーマ「・・・行きどまりだッ！	Tohma: ...A dead end!	
 p08E590	m723.1	チット「これじゃ さきに すすめないよッ！	Chitto: We can't get through!	
@@ -88,7 +88,7 @@ p08E9D8	m733.5	まってから アクションを 選ぶんだ！	then pick your
 p08E9FE	m733.6	ボラボラ様を つかえば 相手のアクションを	With Borabora-sama, you / can see the foe's Action	
 p08EA2A	m733.7	見てから ちょうせんすることも 出来るよね	before you take it on!	
 p08EA56	m734.0	宇宙船が 動き出したッ・・・！	The spaceship's moving...!	
-p08EA76	m735.0	海の上に 出るのかッ！？	Is it heading out to sea?!	
+p08EA76	m735.0	海の上に 出るのかッ！？	Is it coming up / above the sea?!	
 p08EA90	m736.0	トーマッ！ この中は 大きすぎて	Tohma! It's so big in here,	
 p08EAB2	m736.1	あしもとが 見えない場所が たくさんある	there are lots of places / where you can't see / the floor.	
 p08EADC	m736.2	ジャンプしたり 高い所から 下りる時は	When you jump or drop / from high places,	
@@ -151,8 +151,8 @@ p08F160	m758.0	ヒースマ「お前たちを さそい出し・・・	Hesma: I 
 p08F188	m758.1			
 p08F18A	m758.2	転生装置の 初動ウンドウ かんりょうまで	to hold you here until the / reincarnation device's	
 p08F1B4	m758.3	ここで あしどめして いたのさ！	first run was complete!	
-p08F1D6	m758.4	ボクは いままで いちどたりとも	Never once, until now,	
-p08F1F8	m758.5	地球人に 心をゆるしたことはない！	have I trusted an / Earthling!	
+p08F1D6	m758.4	ボクは いままで いちどたりとも	Not once have I ever	
+p08F1F8	m758.5	地球人に 心をゆるしたことはない！	trusted an Earthling / with my heart!	
 p08F21C	m758.6	それがボクの ほこりだッ！	That is my pride!	
 p08F238	m758.7			
 p08F23A	m758.8	ボクは ギリシア人だッ！	I am a Greecian!	

@@ -9,7 +9,7 @@ s09F78E	21B514	 心を ゆるしたことはない！！	 trusted an Earthling!!
 s09F7AE	21B51C	ハスモダイ「ボクは・・・	Hasmodai: Am I...	
 s09F7C8	21B520	 ここにいては いけないだろうか・・・	 not meant to be here...?	
 s09F7F0	21B528	タルラント「行くぞ！	Tarlant: Here we go!	
-s09F806	21B530	チット「モオッ！ じゃまだよ！	Chitto: Mooo! Move it!	
+s09F806	21B530	チット「モオッ！ じゃまだよ！	Chitto: Ugh! You're in my way!	
 s09F826	21B534	 ノーてんき バカッ！ 	 You airhead dummy! 	
 s09F840	21B53C	ワンダァーーーッ！！{endflag}	Wandaaaa!!{endflag}	
 s09F856	21B540	ワンダー「ウオォォォーーーンッ！！	Wanda: Awooooooo!!	
@@ -56,10 +56,10 @@ s09FAB4	21B604	相打ち！{endflag}	A trade of blows!{endflag}
 s09FABE	21B608	{arg0}は {arg1}に{arg2}ダメージあたえた！	{arg0} hit {arg1}: {arg2}!	
 s09FADE	21B60C	しかし {arg1}から{arg3}ダメージうけた！	But took {arg3} from {arg1}!	
 s09FB00	21B614	{arg0}は {arg1}をつかった！	{arg0} used {arg1}!	
-s09FB16	21B61C	{arg0}は {arg1}の攻撃をガード！	{arg0} guarded {arg1}!	
-s09FB30	21B624	{arg0}は {arg1}の攻撃をガード！	{arg0} guarded {arg1}!	
+s09FB16	21B61C	{arg0}は {arg1}の攻撃をガード！	{arg0} blocked {arg1}!	
+s09FB30	21B624	{arg0}は {arg1}の攻撃をガード！	{arg0} blocked {arg1}!	
 s09FB4A	21B628	{arg2}ダメージうけた！	Took {arg2} damage!	
-s09FB5E	21B630	{arg0}は {arg1}の攻撃をガード！{endflag}	{arg0} guarded {arg1}!{endflag}	
+s09FB5E	21B630	{arg0}は {arg1}の攻撃をガード！{endflag}	{arg0} blocked {arg1}!{endflag}	
 s09FB78	21B634	ガードカウンター！	Guard Counter!	
 s09FB8C	21B638	{arg1}に {arg2}ダメージ！	{arg2} damage to {arg1}!	
 s09FBA0	21B640	{arg0}は 占い道具を ふりまわした！	{arg0} waved Fortune Kit!	
@@ -134,7 +134,7 @@ s0A0346	21B800	・・・なんだァ こいつッ！	...What the heck is this?!
 s0A0362	21B808	トーマ「きょうのトコロは	Tohma: Guess I can let	
 s0A037C	21B80C	 ゆるしてやっても いいんだぜ！	 you off for today!	
 s0A039E	21B814	トーマ「ヘヘヘ・・・	Tohma: Heh heh heh...	
-s0A03B4	21B818	 イキが 上がってるぜ！	 I'm all fired up!	
+s0A03B4	21B818	 イキが 上がってるぜ！	 You're out of breath!	
 s0A03CE	21B820	トーマ「・・・ハァ ハァ ハァ	Tohma: ...Huff, huff, huff...	
 s0A03EE	21B824	 くそぉぉ・・・	 Dang it...	
 s0A0400	21B82C	トーマ「イテテテ・・・	Tohma: Ow ow ow...	

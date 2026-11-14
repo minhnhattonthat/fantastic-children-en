@@ -1,6 +1,7 @@
 """Pairs files for the reviewer pass: every translated row as `>> id | ref | JP` / `EN`, with +-2 context rows.
 
-    python -X utf8 tools/pairs.py OUTDIR [--chunks N]     writes OUTDIR/pairs_NN.txt, split on message boundaries
+    python -X utf8 tools/pairs.py OUTDIR [--chunks N] [--ids FILE]   writes OUTDIR/pairs_NN.txt, split on messages
+    (--ids: only the rows listed in FILE, e.g. a re-review of fixed rows)
 
 Rows are in script order (script/*.tsv by file name); blank Japanese rows are context only.
 """
@@ -21,11 +22,11 @@ def msg(r):
     return (r["file"], r["ref"].split(",")[0].split(".")[0])
 
 
-def blocks(rs, ctx=2):
-    """One text block per translated row: context rows (indented) around the `>>` row."""
+def blocks(rs, ctx=2, only=None):
+    """One text block per translated row (or per row in `only`): context rows (indented) around the `>>` row."""
     out = []
     for i, r in enumerate(rs):
-        if not r["jp"].strip():
+        if not r["jp"].strip() or (only is not None and r["id"] not in only):
             continue
         lines = []
         for j in range(max(0, i - ctx), min(len(rs), i + ctx + 1)):
@@ -42,8 +43,12 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("outdir")
     ap.add_argument("--chunks", type=int, default=8)
+    ap.add_argument("--ids", help="file whose lines start with the row ids to include (e.g. a fixes .out.tsv)")
     a = ap.parse_args()
-    bl = blocks(rows())
+    only = None
+    if a.ids:
+        only = {ln.split("\t")[0].strip() for ln in Path(a.ids).read_text(encoding="utf-8").splitlines() if ln.strip()}
+    bl = blocks(rows(), only=only)
     size = -(-len(bl) // a.chunks)
     chunks, cur = [], []
     for k, (m, text) in enumerate(bl):

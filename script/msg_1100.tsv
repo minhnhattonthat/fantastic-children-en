@@ -6,7 +6,7 @@ p09522A	m1102.1
 p09522C	m1102.2	タルラント「ヒースマ・・・	Tarlant: Hesma...	
 p095248	m1102.3			
 p09524A	m1102.4	いちばん 帰りたがって いたのに・・・	She most wanted home...	
-p095272	m1102.5	ここの いぞくに 引き取られるんだな・・・	Taken in by family here...	
+p095272	m1102.5	ここの いぞくに 引き取られるんだな・・・	His family here will / claim his remains...	
 p09529E	m1103.0	ソレト「ヘルガと トーマの	Soreto: Helga and Tohma's	
 p0952BA	m1103.1	 前世の記憶は どうなるの？	 past memories... then?	
 p0952D8	m1104.0	アギ「ボクたちと おなじように12さいに	Agi: Like ours, at 12	
@@ -23,15 +23,15 @@ p09541E	m1108.2	         ふるさとへ	 Home,
 p09543C	m1108.3	     名もしれぬ 遠い かなたへ	 to a far, nameless land.	
 p095462	m1108.4	         ふるさとよ	 O homeland,	
 p095480	m1108.5	   お前の 青い うつくしい きしを	 your fair blue shores	
-p0954A8	m1108.6	        私は ついに	 shall I never,	
-p0954C6	m1108.7	     見ることは ないだろうか	 never see them at last?	
+p0954A8	m1108.6	        私は ついに	 shall I never	
+p0954C6	m1108.7	     見ることは ないだろうか	 see them after all?	
 p0954EA	m1108.8	      でも やはり 私には	 And yet I feel	
 p09550C	m1108.9			
 p09550E	m1108.10	      この なんごくの 近く	 near this southern land,	
 p095532	m1108.11	       あしが とどく所に	 within reach of my feet,	
 p095554	m1108.12	       お前の きしべが	 your shore	
 p095574	m1108.13	    あるにちがいないと 思われる。』	 must surely lie.'	
-p09559E	m1109.0	宇宙船ヴェガが 動き出した。	The Vega began to move.	
+p09559E	m1109.0	宇宙船ヴェガが 動き出した。	The spaceship / Vega began / to move.	
 p0955BC	m1109.1			
 p0955BE	m1109.2	母であるレダの かたきをうち ゲオルカへの	He had avenged his / mother Reda on Georca:	
 p0955EA	m1109.3	ふくしゅうをはたした デュマが いた。	Dumas, his revenge / complete.	
@@ -52,7 +52,7 @@ p095768	m1112.1	 アギたちが どこにも いないよッ！	 Agi's group is
 p09578E	m1113.0	トーマ「アギたちがッ？	Tohma: Agi and them?	
 p0957A6	m1114.0	ヘルガ「・・・ アギ・・・	Helga: ... Agi...	
 p0957C2	m1114.1			
-p0957C4	m1114.2	チット・・・ 私たちも 施設に戻りましょう	Chitto, back to the home.	
+p0957C4	m1114.2	チット・・・ 私たちも 施設に戻りましょう	Chitto... let's go back / to the home, too.	
 p0957F0	m1115.0	チット「えッ！ 施設へッ！？	Chitto: Huh?! Back there?!	
 p09580E	m1115.1	 また いじめられるよ！ ヘルガァ！！	 They'll bully us! Helga!!	
 p095836	m1116.0	ヘルガ「・・・もう だいじょうぶ・・・	Helga: ...It's all right now...	
@@ -199,7 +199,7 @@ p096788	m1162.0	ティナ「セス・・・ おさないころから・・・	Ti
 p0967B4	m1162.1	 いつも 私を まもってくれた・・・	 small, you guarded me...	
 p0967DA	m1162.2	やさしい セス・・・	Gentle Seth...	
 p0967F0	m1162.3			
-p0967F2	m1162.4	近すぎて・・・ 大きすぎて	Too close... too big...	
+p0967F2	m1162.4	近すぎて・・・ 大きすぎて	So close... so dear...	
 p09680E	m1162.5	私は きづかなかった・・・	I never noticed...	
 p09682A	m1162.6	あなたの ほんとうの きもち・・・	how you truly felt...	
 p09684E	m1162.7			
@@ -307,11 +307,11 @@ p09739C	m1190.0	 『・・・ぎんの いずみが よるの・・・	 '...Silv
 p0973C6	m1190.1	  ぎんの いずみが よるの くさむらに	 in the night grass, silver	
 p0973F0	m1190.2	   はるか遠い ふかみから わき上がる。	 springs well from afar.	
 p09741C	m1190.3			
-p09741E	m1190.4	     せん年を生きた ヘビの涙は	 The serpent's tears,	
-p097444	m1190.5	      うつくしい カゲロウを	 a thousand years old,	
-p097468	m1190.6	    せんども よみがえらせようと	 to revive the mayfly	
-p09748E	m1190.7	       愛の涙を ながす。	 anew, flow out of love.	
-p0974B0	m1190.8	  せんの いずみは ぎんに かがやく。』	 The springs gleam silver.'	
+p09741E	m1190.4	     せん年を生きた ヘビの涙は	 The thousand-year / serpent	
+p097444	m1190.5	      うつくしい カゲロウを	 longs for the fair mayfly,	
+p097468	m1190.6	    せんども よみがえらせようと	 to bring it back a / thousand times,	
+p09748E	m1190.7	       愛の涙を ながす。	 and sheds / tears of love.	
+p0974B0	m1190.8	  せんの いずみは ぎんに かがやく。』	 A thousand springs / gleam silver.'	
 p0974DC	m1191.0	ＮＯ ＳＥＴ	NO SET	
 p0974EA	m1192.0	こ・・・ ここは・・・？	Wh... where am I...?	
 p097504	m1192.1			
@@ -342,8 +342,8 @@ p09777A	m1195.1	な なんだ あれッ・・・	Wh-what's that...
 p097794	m1195.2	・・・うわぁーーーッ！！・・・	...Waaaaah!!...	
 p0977B4	m1196.0	・・・いまのは コックリ島のセキゾウ？	...A Kokkuri Island statue?	
 p0977DC	m1196.1			
-p0977DE	m1196.2	クリスタルを あつめておけば いつか	If I collect crystals,	
-p097804	m1196.3	なかまになった時に たすけてくれるのかな	maybe it'll join and help.	
+p0977DE	m1196.2	クリスタルを あつめておけば いつか	If I gather the crystals / now,	
+p097804	m1196.3	なかまになった時に たすけてくれるのかな	will it help me once / it's on my side?	
 p09782E	m1196.4	テキがいて むずかしい場所も セキゾウが	Tough spots with foes...	
 p097858	m1196.5	なかまになれば 行けるようになる・・・！	I can reach with a statue!	
 p097882	m1196.6	    ・・・おぼえて おこう・・・	 ...Better remember that...	
@@ -364,8 +364,8 @@ p097986	m1197.8	砂浜の 近くにある 児童施設に 大きな	A young man 
 p0979AE	m1197.9	リュックを せおった 青年が おとずれた。	came to the seaside home.	
 p0979DA	m1197.10	青年「お水を いっぱい いただけませんか？	Young Man: Water, please?	
 p097A06	m1198.0	教室に あんないされた 青年は カベに	Shown to a classroom, he	
-p097A2E	m1198.1	かけられた ふうけい画に 目がとまった。	saw a painting on the wall.	
-p097A58	m1198.2	青年「この絵は あなたが 描いたんですね	Young Man: Yours, right?	
+p097A2E	m1198.1	かけられた ふうけい画に 目がとまった。	saw a landscape painting / on the wall.	
+p097A58	m1198.2	青年「この絵は あなたが 描いたんですね	Young Man: You painted / this, didn't you?	
 p097A82	m1198.3			
 p097A84	m1198.4	ヘルガ「ええ 私が 11さいの時に	Helga: Yes, I painted it	
 p097AA8	m1198.5	 描いた 絵なんです	 when I was 11.	
@@ -373,8 +373,8 @@ p097ABE	m1198.6	？ ・・・どうして 私が 描いた 絵だと？	? ...How
 p097AEA	m1198.7			
 p097AEC	m1198.8	青年「あ・・・？ うん・・・	Young Man: Huh...? Well...	
 p097B0A	m1198.9	 なんとなく そんなきが したんです	 I just had a feeling.	
-p097B30	m1199.0	青年が 出された水を 手にしようとした時	As he took the water,	
-p097B5A	m1199.1	左手にある アザが 目に入った。	a mark on his left hand.	
+p097B30	m1199.0	青年が 出された水を 手にしようとした時	As he reached for the / water, Helga saw	
+p097B5A	m1199.1	左手にある アザが 目に入った。	a mark on his / left hand.	
 p097B7C	m1199.2	青年「あ・・・ これですね	Young Man: Oh... this?	
 p097B98	m1199.3	 生まれた時からあった アザなんです	 I've had it since birth.	
 p097BBE	m1199.4	ヘルガは スッと むいしきに 青年のアザを	Without thinking, Helga	

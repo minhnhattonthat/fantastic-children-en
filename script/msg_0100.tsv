@@ -31,8 +31,8 @@ p080FA8	m113.0	！ ・・・トーマ お前 その髪・・・	! ...Tohma, your
 p080FCE	m113.1	いろいろ あったようだね・・・	Looks like a lot has / happened...	
 p080FEE	m114.0	なにがおきても くじけちゃダメだよ・・・	Whatever happens, don't / you give up...	
 p081018	m114.1	トーマ きをつけるんだよ・・・！	Tohma, be careful...!	
-p08103A	m115.0	ハイッ！ お前のミライには	Hai! In your future	
-p081056	m115.1	大きな青い空が 見えるぞよ～！	I see a big blue sky~!	
+p08103A	m115.0	ハイッ！ お前のミライには	Aha! In your future	
+p081056	m115.1	大きな青い空が 見えるぞよ～！	a vast blue sky reveals / itself to me~!	
 p081076	m115.2	・・・さいきんは レイディオの	...Lately the radio	
 p081096	m115.3	占いコーナーも いそがしくてねェ・・・	fortune corner's kept me / busy too...	
 p0810BE	m116.0	・・・ガチャ ガチャ・・・	...Rattle, rattle...	
@@ -162,7 +162,7 @@ p081D20	m162.3	占いのみせがあった。	a fortune-telling shop.
 p081D36	m162.4	トーマは かよいなれた道を とおりぬけ	Tohma went down the / familiar road	
 p081D5E	m162.5	占いのみせを取りかこむ 見物人の間から	and through the crowd / around the shop	
 p081D86	m162.6	ヒョッコリと 顔を のぞかせた。	popped his head in.	
-p081DA8	m163.0	かあちゃん「はいっ！ 見えたッ！！	Mom: Hai! I see it!!	
+p081DA8	m163.0	かあちゃん「はいっ！ 見えたッ！！	Mom: Aha! I see it!!	
 p081DCC	m163.1	 わかい2人に 花が見えたよ・・・	 Flowers for the young / couple...	
 p081DF0	m163.2	しあわせになれるよ！	You'll be happy!	
 p081E06	m163.3	島に来たら またよっとくれ・・・	Come again when you're / on the island...	
@@ -233,7 +233,7 @@ p082484	m195.3	 「レコードのカケラ」は 30コあつめると	 "Record 
 p0824B0	m195.4	なかまをよびだせる青いクリスタル・・・	and they become a blue / crystal that calls friends:	
 p0824D8	m195.5	「記憶のレコード」になる	a "Memory Record."	
 p0824F2	m195.6	記憶のレコードは 5コまでストック出来るが	You can stock up to 5 / Memory Records,	
-p08251E	m195.7	なかまをよぶと ショウヒされてしまう・・・	but calling a friend uses / one up...	
+p08251E	m195.7	なかまをよぶと ショウヒされてしまう・・・	but calling friends uses / them up...	
 p08254A	m195.8	スタートボタンで メニューを開いて	Open the menu with Start	
 p08256E	m195.9	サポートエディットを 選べば	and choose Support Edit	
 p08258C	m195.10	なかまになった サポートフレンドの	to see each / Support Friend's	

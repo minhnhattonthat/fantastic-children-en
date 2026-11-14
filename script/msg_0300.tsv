@@ -6,14 +6,14 @@ p084A6E	m301.0	・・・キキッ♪	...Kee kee♪
 p084A7E	m301.1	アメデオが ピョンと かたまで登って来た！	Amedeo hopped up onto / Tohma's shoulder!	
 p084AAA	m302.0	バトルアイテムＳＰ 「アメデオ」	Battle Item SP "Amedeo"	
 p084ACC	m302.1	を 手に入れた！	obtained!	
-p084ADE	m302.2	相手を シャッフル。	Shuffles the foe.	
-p084AF4	m302.3	とくていの相手に20ダメージ。	20 damage to one foe.	
+p084ADE	m302.2	相手を シャッフル。	Shuffles the foe's bars.	
+p084AF4	m302.3	とくていの相手に20ダメージ。	Hits certain foes for 20.	
 p084B14	m303.0	・・・キキッ♪	...Kee kee♪	
 p084B24	m303.1	アメデオが ピョンと かたまで登って来た！	Amedeo hopped up onto / Tohma's shoulder!	
 p084B50	m304.0	バトルアイテムＳＰ 「アメデオ」	Battle Item SP "Amedeo"	
 p084B72	m304.1	を 手に入れた！	obtained!	
-p084B84	m304.2	相手を シャッフル。	Shuffles the foe.	
-p084B9A	m304.3	とくていの相手に20ダメージ。	20 damage to one foe.	
+p084B84	m304.2	相手を シャッフル。	Shuffles the foe's bars.	
+p084B9A	m304.3	とくていの相手に20ダメージ。	Hits certain foes for 20.	
 p084BBA	m304.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
 p084BE4	m304.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
 p084C10	m305.0	・・・キキッ	...Kee kee	
@@ -42,14 +42,14 @@ p084E34	m315.0	・・・キキッ♪	...Kee kee♪
 p084E44	m315.1	アメデオが ピョンと かたまで登って来た！	Amedeo hopped up onto / Tohma's shoulder!	
 p084E70	m316.0	バトルアイテムＳＰ 「アメデオ」	Battle Item SP "Amedeo"	
 p084E92	m316.1	を 手に入れた！	obtained!	
-p084EA4	m316.2	相手を シャッフル。	Shuffles the foe.	
-p084EBA	m316.3	とくていの相手に20ダメージ。	20 damage to one foe.	
+p084EA4	m316.2	相手を シャッフル。	Shuffles the foe's bars.	
+p084EBA	m316.3	とくていの相手に20ダメージ。	Hits certain foes for 20.	
 p084EDA	m317.0	・・・キキッ♪	...Kee kee♪	
 p084EEA	m317.1	アメデオが ピョンと かたまで登って来た！	Amedeo hopped up onto / Tohma's shoulder!	
 p084F16	m318.0	バトルアイテムＳＰ 「アメデオ」	Battle Item SP "Amedeo"	
 p084F38	m318.1	を 手に入れた！	obtained!	
-p084F4A	m318.2	相手を シャッフル。	Shuffles the foe.	
-p084F60	m318.3	とくていの相手に20ダメージ。	20 damage to one foe.	
+p084F4A	m318.2	相手を シャッフル。	Shuffles the foe's bars.	
+p084F60	m318.3	とくていの相手に20ダメージ。	Hits certain foes for 20.	
 p084F80	m318.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
 p084FAA	m318.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
 p084FD6	m319.0	チット！ ヘルガの部屋は？	Chitto! Where's Helga's / room?	
@@ -101,8 +101,8 @@ p085526	m338.3	院長のシゴトだからな・・・！！	of the Director...!
 p085546	m339.0	こんど にがしてみろ！	Let one escape again, and	
 p08555E	m339.1	フクシキョクに いいわけ出来ねーだろ！！	we've got no excuse for / the Welfare Office!!	
 p085588	m340.0	ヘルガッ！	Helga!	
-p085594	m341.0	暗い反省室で ヘルガはつくえにふせて	In the dark punishment / room, Helga lay on a desk,	
-p0855BA	m341.1	ふるえていた・・・	trembling...	
+p085594	m341.0	暗い反省室で ヘルガはつくえにふせて	In the dark punishment / room, Helga slumped over	
+p0855BA	m341.1	ふるえていた・・・	a desk, trembling...	
 p0855CE	m342.0	チット「ヘルガッ！	Chitto: Helga!	
 p0855E2	m343.0	ヘルガ「チット？ チットッ！！	Helga: Chitto? Chitto!!	
 p085602	m343.1	 ブジだったのね・・・ よかった・・・	 You're safe... Thank / goodness...	
@@ -130,7 +130,7 @@ p085844	m352.0	     「・・・たすけて・・・」	     "...Help me..."
 p085868	m352.1			
 p08586A	m352.2	そうどうに まぎれ ボートに戻る とちゅう	Slipping back to the boat / in the chaos,	
 p085896	m352.3	トーマたちは だっそうはん・・・	Tohma and the others met	
-p0858B8	m352.4	しげみの奥でおびえる おいた女性に出会う。	the convict, an old woman / hiding in the bushes.	
+p0858B8	m352.4	しげみの奥でおびえる おいた女性に出会う。	an old woman on the run, / cowering in the bushes.	
 p0858E4	m352.5			
 p0858E6	m352.6	    「かあさん・・・ もういちど	    "Mother... once more,	
 p08590C	m352.7	  もういちど・・・ 会いたかった・・・」	  just once more... I / wanted to see you..."	
@@ -145,8 +145,8 @@ p0859FC	m352.15
 p0859FE	m352.16	   「あわれに思うなら このことは	   "If you pity her, then	
 p085A24	m352.17	  だれにも しゃべるな・・・ いいな」	  tell no one of this... / Understood?"	
 p085A4E	m353.0	トーマ「なんだァ・・・ あのオバさん・・・	Tohma: What the...? Who / was that lady...	
-p085A7A	m354.0	年おいた だっそうはんの死と	An old convict's death	
-p085A98	m354.1	ブソウそしきの あんやく・・・	and an armed group at / work...	
+p085A7A	m354.0	年おいた だっそうはんの死と	An old escapee's death	
+p085A98	m354.1	ブソウそしきの あんやく・・・	and an armed group's / secret dealings...	
 p085AB8	m354.2	トーマたちの しらない場所で	Out of Tohma and the / others' sight,	
 p085AD6	m354.3	「フラグメント」とよばれるナゾのくろい石と	a plot about black stones, / the "Fragments,"	
 p085B02	m354.4	「死のせかい」をめぐる いんぼうが	and the "world of death"	
