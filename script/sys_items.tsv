@@ -1,213 +1,213 @@
 id	ref	jp	en	notes
-s09D510	21A0A0	バトルアイテムを アクションバーにセットします。		
+s09D510	21A0A0	バトルアイテムを アクションバーにセットします。	Set Battle Items on Action Bars.	
 s09D542	21A0A4			
-s09D544	21A0A8	Ａ：決定 スタートボタンまたはＢ：もどる		
-s09D56E	21A0B0	サポートフレンドを サポートバーにセットします。		
+s09D544	21A0A8	Ａ：決定 スタートボタンまたはＢ：もどる	A: OK   Start or B: Back	
+s09D56E	21A0B0	サポートフレンドを サポートバーにセットします。	Set Support Friends on the bars.	
 s09D5A0	21A0B4			
-s09D5A2	21A0B8	Ａ：決定 スタートボタンまたはＢ：もどる		
-s09D5CC	21A0C0	手に入れたアイテムを かくにんします。		
+s09D5A2	21A0B8	Ａ：決定 スタートボタンまたはＢ：もどる	A: OK   Start or B: Back	
+s09D5CC	21A0C0	手に入れたアイテムを かくにんします。	Check the items you've found.	
 s09D5F4	21A0C4			
-s09D5F6	21A0C8	Ａ：決定 スタートボタンまたはＢ：もどる		
-s09D620	21A0D0	セットするバトルアイテムを 選んで下さい。		
+s09D5F6	21A0C8	Ａ：決定 スタートボタンまたはＢ：もどる	A: OK   Start or B: Back	
+s09D620	21A0D0	セットするバトルアイテムを 選んで下さい。	Choose a Battle Item to set.	
 s09D64C	21A0D4			
-s09D64E	21A0D8	Ａ：決定 スタートボタンまたはＢ：もどる		
+s09D64E	21A0D8	Ａ：決定 スタートボタンまたはＢ：もどる	A: OK   Start or B: Back	
 s09D678	21A0E0			
-s09D67A	21A0E4	まだ 手に入れていません。		
+s09D67A	21A0E4	まだ 手に入れていません。	You don't have it yet.	
 s09D696	21A0E8			
 s09D698	21A0F0			
-s09D69A	21A0F4	このバトルアイテムは すでにセットされています。		
+s09D69A	21A0F4	このバトルアイテムは すでにセットされています。	This Battle Item is already set.	
 s09D6CC	21A0F8			
-s09D6CE	21A100	セットするアクションバーを 選んで下さい。		
+s09D6CE	21A100	セットするアクションバーを 選んで下さい。	Choose an Action Bar to set it on.	
 s09D6FA	21A104			
-s09D6FC	21A108	Ａ：決定 Ｂ：もどる		
-s09D712	21A110	セットするサポートフレンドを 選んで下さい。		
+s09D6FC	21A108	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09D712	21A110	セットするサポートフレンドを 選んで下さい。	Choose a Support Friend to set.	
 s09D740	21A114			
-s09D742	21A118	Ａ：決定 スタートボタンまたはＢ：もどる		
-s09D76C	21A120	セットするサポートバーを 選んで下さい。		
+s09D742	21A118	Ａ：決定 スタートボタンまたはＢ：もどる	A: OK   Start or B: Back	
+s09D76C	21A120	セットするサポートバーを 選んで下さい。	Choose a Support Bar to set it on.	
 s09D796	21A124			
-s09D798	21A128	Ａ：決定 Ｂ：もどる		
+s09D798	21A128	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
 s09D7AE	21A130			
-s09D7B0	21A134	まだ ともだちがいない。		
+s09D7B0	21A134	まだ ともだちがいない。	No friends yet.	
 s09D7CA	21A138			
 s09D7CC	21A140			
-s09D7CE	21A144	ヒースマは もういない。		
+s09D7CE	21A144	ヒースマは もういない。	Hesma is gone now.	
 s09D7E8	21A148			
 s09D7EA	21A150			
-s09D7EC	21A154	このサポートフレンドは すでにセットされています。		
+s09D7EC	21A154	このサポートフレンドは すでにセットされています。	This Support Friend is already set.	
 s09D820	21A158			
-s09D822	21A160	はずしますか？ Ａ：決定 Ｂ：もどる		
-s09D848	21A168	かくにんするアイテムを 選んで下さい。		
+s09D822	21A160	はずしますか？ Ａ：決定 Ｂ：もどる	Remove it?   A: OK   B: Back	
+s09D848	21A168	かくにんするアイテムを 選んで下さい。	Choose an item to check.	
 s09D870	21A16C			
-s09D872	21A170	Ａ：決定 スタートボタンまたはＢ：もどる		
-s09D89C	21A178	？？？？？		
-s09D8A8	21A180	伝書「パンチ10」 正拳1		
-s09D8C4	21A184	パンチ（グー）は キック（チョキ）より強い。		
-s09D8F2	21A188	Ａ：決定 Ｂ：もどる		
-s09D908	21A190	伝書「パンチ10」 正拳2		
-s09D924	21A194	パンチ（グー）は キック（チョキ）より強い。		
-s09D952	21A198	Ａ：決定 Ｂ：もどる		
-s09D968	21A1A0	伝書「パンチ10」 正拳3		
-s09D984	21A1A4	パンチ（グー）は キック（チョキ）より強い。		
-s09D9B2	21A1A8	Ａ：決定 Ｂ：もどる		
-s09D9C8	21A1B0	伝書「パンチ10」 正拳4		
-s09D9E4	21A1B4	パンチ（グー）は キック（チョキ）より強い。		
-s09DA12	21A1B8	Ａ：決定 Ｂ：もどる		
-s09DA28	21A1C0	伝書「パンチ10」 正拳5		
-s09DA44	21A1C4	パンチ（グー）は キック（チョキ）より強い。		
-s09DA72	21A1C8	Ａ：決定 Ｂ：もどる		
-s09DA88	21A1D0	秘伝書「パンチ20」 正拳連打1		
-s09DAAA	21A1D4	パンチ（グー）は キック（チョキ）より強い。		
-s09DAD8	21A1D8	Ａ：決定 Ｂ：もどる		
-s09DAEE	21A1E0	秘伝書「パンチ20」 正拳連打2		
-s09DB10	21A1E4	パンチ（グー）は キック（チョキ）より強い。		
-s09DB3E	21A1E8	Ａ：決定 Ｂ：もどる		
-s09DB54	21A1F0	奥義書「パンチ30」 奥義パパン拳		
-s09DB78	21A1F4	パンチ（グー）は キック（チョキ）より強い。		
-s09DBA6	21A1F8	Ａ：決定 Ｂ：もどる		
-s09DBBC	21A200	伝書「キック10」 確り1		
-s09DBD8	21A204	キック（チョキ）は チョップ（パー）より強い。		
-s09DC08	21A208	Ａ：決定 Ｂ：もどる		
-s09DC1E	21A210	伝書「キック10」 確り2		
-s09DC3A	21A214	キック（チョキ）は チョップ（パー）より強い。		
-s09DC6A	21A218	Ａ：決定 Ｂ：もどる		
-s09DC80	21A220	伝書「キック10」 確り3		
-s09DC9C	21A224	キック（チョキ）は チョップ（パー）より強い。		
-s09DCCC	21A228	Ａ：決定 Ｂ：もどる		
-s09DCE2	21A230	伝書「キック10」 確り4		
-s09DCFE	21A234	キック（チョキ）は チョップ（パー）より強い。		
-s09DD2E	21A238	Ａ：決定 Ｂ：もどる		
-s09DD44	21A240	伝書「キック10」 確り5		
-s09DD60	21A244	キック（チョキ）は チョップ（パー）より強い。		
-s09DD90	21A248	Ａ：決定 Ｂ：もどる		
-s09DDA6	21A250	秘伝書「キック20」 回し確り1		
-s09DDC8	21A254	キック（チョキ）は チョップ（パー）より強い。		
-s09DDF8	21A258	Ａ：決定 Ｂ：もどる		
-s09DE0E	21A260	秘伝書「キック20」 回し確り2		
-s09DE30	21A264	キック（チョキ）は チョップ（パー）より強い。		
-s09DE60	21A268	Ａ：決定 Ｂ：もどる		
-s09DE76	21A270	奥義書「キック30」 奥義パパン脚		
-s09DE9A	21A274	キック（チョキ）は チョップ（パー）より強い。		
-s09DECA	21A278	Ａ：決定 Ｂ：もどる		
-s09DEE0	21A280	伝書「チョップ10」 手刀1		
-s09DEFE	21A284	チョップ（パー）は パンチ（グー）より強い。		
-s09DF2C	21A288	Ａ：決定 Ｂ：もどる		
-s09DF42	21A290	伝書「チョップ10」 手刀2		
-s09DF60	21A294	チョップ（パー）は パンチ（グー）より強い。		
-s09DF8E	21A298	Ａ：決定 Ｂ：もどる		
-s09DFA4	21A2A0	伝書「チョップ10」 手刀3		
-s09DFC2	21A2A4	チョップ（パー）は パンチ（グー）より強い。		
-s09DFF0	21A2A8	Ａ：決定 Ｂ：もどる		
-s09E006	21A2B0	伝書「チョップ10」 手刀4		
-s09E024	21A2B4	チョップ（パー）は パンチ（グー）より強い。		
-s09E052	21A2B8	Ａ：決定 Ｂ：もどる		
-s09E068	21A2C0	伝書「チョップ10」 手刀5		
-s09E086	21A2C4	チョップ（パー）は パンチ（グー）より強い。		
-s09E0B4	21A2C8	Ａ：決定 Ｂ：もどる		
-s09E0CA	21A2D0	秘伝書「チョップ20」 手刀連撃1		
-s09E0EE	21A2D4	チョップ（パー）は パンチ（グー）より強い。		
-s09E11C	21A2D8	Ａ：決定 Ｂ：もどる		
-s09E132	21A2E0	秘伝書「チョップ20」 手刀連撃2		
-s09E156	21A2E4	チョップ（パー）は パンチ（グー）より強い。		
-s09E184	21A2E8	Ａ：決定 Ｂ：もどる		
-s09E19A	21A2F0	奥義書「チョップ30」 奥義パパン掌		
-s09E1C0	21A2F4	チョップ（パー）は パンチ（グー）より強い。		
-s09E1EE	21A2F8	Ａ：決定 Ｂ：もどる		
-s09E204	21A300	神技書「ガード」 神技パパンの精え1		
-s09E22A	21A304	ダメージを少なくする。ＳＰに強い。		
-s09E24E	21A308	Ａ：決定 Ｂ：もどる		
-s09E264	21A310	神技書「ガード」 神技パパンの精え2		
-s09E28A	21A314	ダメージを少なくする。ＳＰに強い。		
-s09E2AE	21A318	Ａ：決定 Ｂ：もどる		
-s09E2C4	21A320	神技書「ガード」 神技パパンの精え3		
-s09E2EA	21A324	ダメージを少なくする。ＳＰに強い。		
-s09E30E	21A328	Ａ：決定 Ｂ：もどる		
-s09E324	21A330	神技書「ガード」 神技パパンの精え4		
-s09E34A	21A334	ダメージを少なくする。ＳＰに強い。		
-s09E36E	21A338	Ａ：決定 Ｂ：もどる		
-s09E384	21A340	神技書「ガード」 神技パパンの精え5		
-s09E3AA	21A344	ダメージを少なくする。ＳＰに強い。		
-s09E3CE	21A348	Ａ：決定 Ｂ：もどる		
-s09E3E4	21A350	ＳＰ「占い道具」 かあちゃんの占いは当たるらしい		
-s09E416	21A354	おたがいのアクションバーを もとに戻す。		
-s09E440	21A358	Ａ：決定 Ｂ：もどる		
-s09E456	21A360	ＳＰ「ブッ殺しバチのシガイ」 じいちゃんのかたき		
-s09E488	21A364	相手の入れかえを 1回とめる。		
-s09E4A8	21A368	Ａ：決定 Ｂ：もどる		
-s09E4BE	21A370	ＳＰ「ヘビのヌケガラ」 本物をチットに見せたい		
-s09E4EE	21A374	体カを 10かいふくする。		
-s09E50A	21A378	Ａ：決定 Ｂ：もどる		
-s09E520	21A380	ＳＰ「アメデオ」 1年かかってやっとなついてくれた		
-s09E554	21A384	相手を シャッフル。とくていの相手に 20ダメージ。		
-s09E58A	21A388	Ａ：決定 Ｂ：もどる		
-s09E5A0	21A390	ＳＰ「コショウ」 はなの奥にムズムズシゲキ		
-s09E5CC	21A394	おたがいのアクションバーを シャッフル。		
-s09E5F6	21A398	Ａ：決定 Ｂ：もどる		
-s09E60C	21A3A0	ＳＰ「さびたクギ」 ヘルガの部屋のカベに刺さってた		
-s09E640	21A3A4	とくていの相手に 20ダメージ。		
-s09E662	21A3A8	Ａ：決定 Ｂ：もどる		
-s09E678	21A3B0	ＳＰ「コケむした花壇」 セラフィーヌがつかっていた		
-s09E6AC	21A3B4	とくていの相手に 20ダメージ。		
-s09E6CE	21A3B8	Ａ：決定 Ｂ：もどる		
-s09E6E4	21A3C0	ＳＰ「くちた画材」 絵の具がかたまって カチカチ		
-s09E716	21A3C4	相手の入れかえを 2回とめる。		
-s09E736	21A3C8	Ａ：決定 Ｂ：もどる		
-s09E74C	21A3D0	ＳＰ「せいぎょカイロ」 ピカピカ光って目がいたい		
-s09E77E	21A3D4	相手を シャッフル。とくていの相手に30ダメージ。		
-s09E7B2	21A3D8	Ａ：決定 Ｂ：もどる		
-s09E7C8	21A3E0	ＳＰ「デュマの涙」 かなしみは はてしなくふかい		
-s09E7FA	21A3E4	とくていの相手に 30ダメージ。		
-s09E81C	21A3E8	Ａ：決定 Ｂ：もどる		
-s09E832	21A3F0	ＳＰ「フラグメント」 フクザツなキゴウを秘めている		
-s09E866	21A3F4	相手の入れかえを 3回とめる。		
-s09E886	21A3F8	Ａ：決定 Ｂ：もどる		
-s09E89C	21A400	「アギ」 あまり あわてることもなく れいせい		
-s09E8CC	21A404	攻撃カ30 ショウヒレコード3		
-s09E8EC	21A408	Ａ：決定 Ｂ：もどる		
-s09E902	21A410	「ソレト」 とても あたまが 切れる		
-s09E928	21A414	体カ＋20 ショウヒレコード1		
-s09E948	21A418	Ａ：決定 Ｂ：もどる		
-s09E95E	21A420	「ヒースマ」 かなりの 自シン家		
-s09E980	21A424	攻撃カ60 ショウヒレコード1		
-s09E9A0	21A428	Ａ：決定 Ｂ：もどる		
-s09E9B6	21A430	「ハスモダイ」 ベフォールの子供の ひとり		
-s09E9E2	21A434	攻撃カ10 ショウヒレコード1		
-s09EA02	21A438	Ａ：決定 Ｂ：もどる		
-s09EA18	21A440	「タルラント」 ワンダーを つくった		
-s09EA3E	21A444	ワンダーアタック60 ショウヒレコード5		
-s09EA68	21A448	Ａ：決定 Ｂ：もどる		
-s09EA7E	21A450	「タルラント」 ワンダーが したっていた		
-s09EAA8	21A454	攻撃カ20 ショウヒレコード2		
-s09EAC8	21A458	Ａ：決定 Ｂ：もどる		
-s09EADE	21A460	「チット」 ヘルガと おなじ施設にいた少年		
-s09EB0A	21A464	相手を シャッフル。 ショウヒレコード0		
-s09EB34	21A468	Ａ：決定 Ｂ：もどる		
-s09EB4A	21A470	「ボラボラ様」 フシギな ニンギョウ		
-s09EB70	21A474	かならず にげることが出来る。 ショウヒレコード0		
-s09EBA4	21A478	Ａ：決定 Ｂ：もどる		
-s09EBBA	21A480	「古い地図1」		
-s09EBCA	21A484	パパン島と ナツナ島の地図。		
-s09EBE8	21A488	ユウメイなカンコウメイショが 書いてある。		
-s09EC14	21A490	「古い地図2」		
-s09EC24	21A494	チカオ島の地図。		
-s09EC36	21A498	児童学園の見取り図と 道のりが書いてある。		
-s09EC62	21A4A0	「古い地図3」		
-s09EC72	21A4A4	クレルモンの地図。		
-s09EC86	21A4A8	リョウヨウ施設の 説明などが書いてある。		
-s09ECB0	21A4B0	「銀色の球体」		
-s09ECC0	21A4B4	巨大な宇宙船ヴェガの ナビゲーションマップ。		
-s09ECEE	21A4B8	球体に自分のいる場所が ヒョウジされている。		
-s09ED1C	21A4C0	「データディスク」		
-s09ED30	21A4C4	クリル島 ゲドリングのデータマップ。		
-s09ED56	21A4C8	ゲルタはかせが書いた せっけい図をヒョウジする。		
-s09ED88	21A4D0	「宝物庫のカギ」		
-s09ED9A	21A4D4	寺院2階 宝物庫のカギ。		
-s09EDB4	21A4D8	とうちゃんにウデ前を みとめてもらったショウコ。		
-s09EDE6	21A4E0	「裏口のカギ」		
-s09EDF6	21A4E4	チットがくすねていた 児童学園のカギ。		
-s09EE1E	21A4E8	もっとゲン宿な所に かくしておけばいいのに・・・。		
-s09EE52	21A4F0	「破られたヘルガの絵」		
-s09EE6A	21A4F4	院長によって 破られたヘルガのパステル画。		
-s09EE96	21A4F8	ヘルガは この絵に描かれた場所を探している。		
+s09D872	21A170	Ａ：決定 スタートボタンまたはＢ：もどる	A: OK   Start or B: Back	
+s09D89C	21A178	？？？？？	?????	
+s09D8A8	21A180	伝書「パンチ10」 正拳1	Scroll "Punch 10" Straight Punch 1	
+s09D8C4	21A184	パンチ（グー）は キック（チョキ）より強い。	Punch (rock) beats Kick (scissors).	
+s09D8F2	21A188	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09D908	21A190	伝書「パンチ10」 正拳2	Scroll "Punch 10" Straight Punch 2	
+s09D924	21A194	パンチ（グー）は キック（チョキ）より強い。	Punch (rock) beats Kick (scissors).	
+s09D952	21A198	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09D968	21A1A0	伝書「パンチ10」 正拳3	Scroll "Punch 10" Straight Punch 3	
+s09D984	21A1A4	パンチ（グー）は キック（チョキ）より強い。	Punch (rock) beats Kick (scissors).	
+s09D9B2	21A1A8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09D9C8	21A1B0	伝書「パンチ10」 正拳4	Scroll "Punch 10" Straight Punch 4	
+s09D9E4	21A1B4	パンチ（グー）は キック（チョキ）より強い。	Punch (rock) beats Kick (scissors).	
+s09DA12	21A1B8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09DA28	21A1C0	伝書「パンチ10」 正拳5	Scroll "Punch 10" Straight Punch 5	
+s09DA44	21A1C4	パンチ（グー）は キック（チョキ）より強い。	Punch (rock) beats Kick (scissors).	
+s09DA72	21A1C8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09DA88	21A1D0	秘伝書「パンチ20」 正拳連打1	Secret Scroll "Punch 20" Flurry 1	
+s09DAAA	21A1D4	パンチ（グー）は キック（チョキ）より強い。	Punch (rock) beats Kick (scissors).	
+s09DAD8	21A1D8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09DAEE	21A1E0	秘伝書「パンチ20」 正拳連打2	Secret Scroll "Punch 20" Flurry 2	
+s09DB10	21A1E4	パンチ（グー）は キック（チョキ）より強い。	Punch (rock) beats Kick (scissors).	
+s09DB3E	21A1E8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09DB54	21A1F0	奥義書「パンチ30」 奥義パパン拳	Master Scroll "Punch 30" Papin Fist	
+s09DB78	21A1F4	パンチ（グー）は キック（チョキ）より強い。	Punch (rock) beats Kick (scissors).	
+s09DBA6	21A1F8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09DBBC	21A200	伝書「キック10」 確り1	Scroll "Kick 10" Front Kick 1	
+s09DBD8	21A204	キック（チョキ）は チョップ（パー）より強い。	Kick (scissors) beats Chop (paper).	
+s09DC08	21A208	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09DC1E	21A210	伝書「キック10」 確り2	Scroll "Kick 10" Front Kick 2	
+s09DC3A	21A214	キック（チョキ）は チョップ（パー）より強い。	Kick (scissors) beats Chop (paper).	
+s09DC6A	21A218	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09DC80	21A220	伝書「キック10」 確り3	Scroll "Kick 10" Front Kick 3	
+s09DC9C	21A224	キック（チョキ）は チョップ（パー）より強い。	Kick (scissors) beats Chop (paper).	
+s09DCCC	21A228	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09DCE2	21A230	伝書「キック10」 確り4	Scroll "Kick 10" Front Kick 4	
+s09DCFE	21A234	キック（チョキ）は チョップ（パー）より強い。	Kick (scissors) beats Chop (paper).	
+s09DD2E	21A238	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09DD44	21A240	伝書「キック10」 確り5	Scroll "Kick 10" Front Kick 5	
+s09DD60	21A244	キック（チョキ）は チョップ（パー）より強い。	Kick (scissors) beats Chop (paper).	
+s09DD90	21A248	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09DDA6	21A250	秘伝書「キック20」 回し確り1	Secret Scroll "Kick 20" Spin Kick 1	
+s09DDC8	21A254	キック（チョキ）は チョップ（パー）より強い。	Kick (scissors) beats Chop (paper).	
+s09DDF8	21A258	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09DE0E	21A260	秘伝書「キック20」 回し確り2	Secret Scroll "Kick 20" Spin Kick 2	
+s09DE30	21A264	キック（チョキ）は チョップ（パー）より強い。	Kick (scissors) beats Chop (paper).	
+s09DE60	21A268	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09DE76	21A270	奥義書「キック30」 奥義パパン脚	Master Scroll "Kick 30" Papin Leg	
+s09DE9A	21A274	キック（チョキ）は チョップ（パー）より強い。	Kick (scissors) beats Chop (paper).	
+s09DECA	21A278	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09DEE0	21A280	伝書「チョップ10」 手刀1	Scroll "Chop 10" Knife Hand 1	
+s09DEFE	21A284	チョップ（パー）は パンチ（グー）より強い。	Chop (paper) beats Punch (rock).	
+s09DF2C	21A288	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09DF42	21A290	伝書「チョップ10」 手刀2	Scroll "Chop 10" Knife Hand 2	
+s09DF60	21A294	チョップ（パー）は パンチ（グー）より強い。	Chop (paper) beats Punch (rock).	
+s09DF8E	21A298	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09DFA4	21A2A0	伝書「チョップ10」 手刀3	Scroll "Chop 10" Knife Hand 3	
+s09DFC2	21A2A4	チョップ（パー）は パンチ（グー）より強い。	Chop (paper) beats Punch (rock).	
+s09DFF0	21A2A8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E006	21A2B0	伝書「チョップ10」 手刀4	Scroll "Chop 10" Knife Hand 4	
+s09E024	21A2B4	チョップ（パー）は パンチ（グー）より強い。	Chop (paper) beats Punch (rock).	
+s09E052	21A2B8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E068	21A2C0	伝書「チョップ10」 手刀5	Scroll "Chop 10" Knife Hand 5	
+s09E086	21A2C4	チョップ（パー）は パンチ（グー）より強い。	Chop (paper) beats Punch (rock).	
+s09E0B4	21A2C8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E0CA	21A2D0	秘伝書「チョップ20」 手刀連撃1	Secret Scroll "Chop 20" Combo 1	
+s09E0EE	21A2D4	チョップ（パー）は パンチ（グー）より強い。	Chop (paper) beats Punch (rock).	
+s09E11C	21A2D8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E132	21A2E0	秘伝書「チョップ20」 手刀連撃2	Secret Scroll "Chop 20" Combo 2	
+s09E156	21A2E4	チョップ（パー）は パンチ（グー）より強い。	Chop (paper) beats Punch (rock).	
+s09E184	21A2E8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E19A	21A2F0	奥義書「チョップ30」 奥義パパン掌	Master Scroll "Chop 30" Papin Palm	
+s09E1C0	21A2F4	チョップ（パー）は パンチ（グー）より強い。	Chop (paper) beats Punch (rock).	
+s09E1EE	21A2F8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E204	21A300	神技書「ガード」 神技パパンの精え1	Divine Scroll "Guard" Papin Way 1	
+s09E22A	21A304	ダメージを少なくする。ＳＰに強い。	Reduces damage. Beats SP.	
+s09E24E	21A308	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E264	21A310	神技書「ガード」 神技パパンの精え2	Divine Scroll "Guard" Papin Way 2	
+s09E28A	21A314	ダメージを少なくする。ＳＰに強い。	Reduces damage. Beats SP.	
+s09E2AE	21A318	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E2C4	21A320	神技書「ガード」 神技パパンの精え3	Divine Scroll "Guard" Papin Way 3	
+s09E2EA	21A324	ダメージを少なくする。ＳＰに強い。	Reduces damage. Beats SP.	
+s09E30E	21A328	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E324	21A330	神技書「ガード」 神技パパンの精え4	Divine Scroll "Guard" Papin Way 4	
+s09E34A	21A334	ダメージを少なくする。ＳＰに強い。	Reduces damage. Beats SP.	
+s09E36E	21A338	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E384	21A340	神技書「ガード」 神技パパンの精え5	Divine Scroll "Guard" Papin Way 5	
+s09E3AA	21A344	ダメージを少なくする。ＳＰに強い。	Reduces damage. Beats SP.	
+s09E3CE	21A348	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E3E4	21A350	ＳＰ「占い道具」 かあちゃんの占いは当たるらしい	SP "Fortune Kit" Mom's are spot-on	
+s09E416	21A354	おたがいのアクションバーを もとに戻す。	Resets both sides' Action Bars.	
+s09E440	21A358	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E456	21A360	ＳＰ「ブッ殺しバチのシガイ」 じいちゃんのかたき	SP "Dead Killer Bee" Grandpa's foe	
+s09E488	21A364	相手の入れかえを 1回とめる。	Stops the foe's switching once.	
+s09E4A8	21A368	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E4BE	21A370	ＳＰ「ヘビのヌケガラ」 本物をチットに見せたい	SP "Shed Snakeskin" For Chitto	
+s09E4EE	21A374	体カを 10かいふくする。	Restores 10 HP.	
+s09E50A	21A378	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E520	21A380	ＳＰ「アメデオ」 1年かかってやっとなついてくれた	SP "Amedeo" Tamed after a year	
+s09E554	21A384	相手を シャッフル。とくていの相手に 20ダメージ。	Shuffles foe. 20 damage to 1 foe.	
+s09E58A	21A388	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E5A0	21A390	ＳＰ「コショウ」 はなの奥にムズムズシゲキ	SP "Pepper" Tickles your nose	
+s09E5CC	21A394	おたがいのアクションバーを シャッフル。	Shuffles both sides' Action Bars.	
+s09E5F6	21A398	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E60C	21A3A0	ＳＰ「さびたクギ」 ヘルガの部屋のカベに刺さってた	SP "Rusty Nail" From Helga's wall	
+s09E640	21A3A4	とくていの相手に 20ダメージ。	20 damage to one foe.	
+s09E662	21A3A8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E678	21A3B0	ＳＰ「コケむした花壇」 セラフィーヌがつかっていた	SP "Mossy Flowerbed" Seraphine's	
+s09E6AC	21A3B4	とくていの相手に 20ダメージ。	20 damage to one foe.	
+s09E6CE	21A3B8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E6E4	21A3C0	ＳＰ「くちた画材」 絵の具がかたまって カチカチ	SP "Old Paints" Dried rock-hard	
+s09E716	21A3C4	相手の入れかえを 2回とめる。	Stops the foe's switching twice.	
+s09E736	21A3C8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E74C	21A3D0	ＳＰ「せいぎょカイロ」 ピカピカ光って目がいたい	SP "Control Chip" So bright it hurts	
+s09E77E	21A3D4	相手を シャッフル。とくていの相手に30ダメージ。	Shuffles foe. 30 damage to 1 foe.	
+s09E7B2	21A3D8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E7C8	21A3E0	ＳＰ「デュマの涙」 かなしみは はてしなくふかい	SP "Dumas's Tear" Endless sorrow	
+s09E7FA	21A3E4	とくていの相手に 30ダメージ。	30 damage to one foe.	
+s09E81C	21A3E8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E832	21A3F0	ＳＰ「フラグメント」 フクザツなキゴウを秘めている	SP "Fragment" Strange symbols	
+s09E866	21A3F4	相手の入れかえを 3回とめる。	Stops the foe's switching 3 times.	
+s09E886	21A3F8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E89C	21A400	「アギ」 あまり あわてることもなく れいせい	"Agi" Calm; rarely flustered	
+s09E8CC	21A404	攻撃カ30 ショウヒレコード3	Attack 30   Uses 3 Records	
+s09E8EC	21A408	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E902	21A410	「ソレト」 とても あたまが 切れる	"Soreto" Very sharp	
+s09E928	21A414	体カ＋20 ショウヒレコード1	HP +20   Uses 1 Record	
+s09E948	21A418	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E95E	21A420	「ヒースマ」 かなりの 自シン家	"Hesma" Very self-assured	
+s09E980	21A424	攻撃カ60 ショウヒレコード1	Attack 60   Uses 1 Record	
+s09E9A0	21A428	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09E9B6	21A430	「ハスモダイ」 ベフォールの子供の ひとり	"Hasmodai" A Child of Befort	
+s09E9E2	21A434	攻撃カ10 ショウヒレコード1	Attack 10   Uses 1 Record	
+s09EA02	21A438	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09EA18	21A440	「タルラント」 ワンダーを つくった	"Tarlant" Built Wanda	
+s09EA3E	21A444	ワンダーアタック60 ショウヒレコード5	Wonder Attack 60   Uses 5 Records	
+s09EA68	21A448	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09EA7E	21A450	「タルラント」 ワンダーが したっていた	"Tarlant" Wanda adored him	
+s09EAA8	21A454	攻撃カ20 ショウヒレコード2	Attack 20   Uses 2 Records	
+s09EAC8	21A458	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09EADE	21A460	「チット」 ヘルガと おなじ施設にいた少年	"Chitto" A boy from Helga's home	
+s09EB0A	21A464	相手を シャッフル。 ショウヒレコード0	Shuffles the foe.   Uses 0 Records	
+s09EB34	21A468	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09EB4A	21A470	「ボラボラ様」 フシギな ニンギョウ	"Borabora-sama" A mysterious doll	
+s09EB70	21A474	かならず にげることが出来る。 ショウヒレコード0	Always escape.   Uses 0 Records	
+s09EBA4	21A478	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
+s09EBBA	21A480	「古い地図1」	"Old Map 1"	
+s09EBCA	21A484	パパン島と ナツナ島の地図。	Map: Papin Island, Natsuna Island.	
+s09EBE8	21A488	ユウメイなカンコウメイショが 書いてある。	Famous sights are marked on it.	
+s09EC14	21A490	「古い地図2」	"Old Map 2"	
+s09EC24	21A494	チカオ島の地図。	A map of Chikao Island.	
+s09EC36	21A498	児童学園の見取り図と 道のりが書いてある。	Children's Academy plan, route.	
+s09EC62	21A4A0	「古い地図3」	"Old Map 3"	
+s09EC72	21A4A4	クレルモンの地図。	A map of Clermont.	
+s09EC86	21A4A8	リョウヨウ施設の 説明などが書いてある。	Notes on the sanatorium and more.	
+s09ECB0	21A4B0	「銀色の球体」	"Silver Sphere"	
+s09ECC0	21A4B4	巨大な宇宙船ヴェガの ナビゲーションマップ。	Nav map of the spaceship Vega.	
+s09ECEE	21A4B8	球体に自分のいる場所が ヒョウジされている。	The sphere shows where you are.	
+s09ED1C	21A4C0	「データディスク」	"Data Disc"	
+s09ED30	21A4C4	クリル島 ゲドリングのデータマップ。	Data map: Gedling, Kuril Island.	
+s09ED56	21A4C8	ゲルタはかせが書いた せっけい図をヒョウジする。	Shows plans drawn by Dr. Gherta.	
+s09ED88	21A4D0	「宝物庫のカギ」	"Treasury Key"	
+s09ED9A	21A4D4	寺院2階 宝物庫のカギ。	Key to the temple's 2F treasury.	
+s09EDB4	21A4D8	とうちゃんにウデ前を みとめてもらったショウコ。	Proof Dad approved your skills.	
+s09EDE6	21A4E0	「裏口のカギ」	"Back Door Key"	
+s09EDF6	21A4E4	チットがくすねていた 児童学園のカギ。	Chitto's Children's Academy key.	
+s09EE1E	21A4E8	もっとゲン宿な所に かくしておけばいいのに・・・。	Should've hidden it better...	
+s09EE52	21A4F0	「破られたヘルガの絵」	"Helga's Torn Picture"	
+s09EE6A	21A4F4	院長によって 破られたヘルガのパステル画。	Helga's pastel the Director tore.	
+s09EE96	21A4F8	ヘルガは この絵に描かれた場所を探している。	Helga seeks the place it shows.	
 s09EEC4	21A500	「さびたカギ1」		
 s09EED6	21A504	リョウヨウ施設 ホールへのカギ。		
 s09EEF8	21A508	ホールには 大きな絵がかけられている。		

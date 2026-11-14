@@ -8,7 +8,7 @@ Budgets (ink width, vwf.ink_width, and pair codes, vwf.encode_pairs):
   - dialogue page: 21 codes; 192 px when every message showing it opens the bottom box, else 168 px (top box with
     portrait; also the default for messages docs/re/msg_boxes.tsv hasn't seen yet);
   - battle line (sys_battle.tsv): shown through the page copy in the bottom box: 21 codes, 192 px, with every
-    {argN} counted as NAME_PX (an 8-cell name field);
+    {argN} counted as NAME_PX (an 8-cell name field), or NUM_PX where the Japanese uses it as a number;
   - other system string: the cell region its caller gives it (docs/re/sys_regions.tsv: cells x 8 px, codes <= cells);
     item/card descriptions (sys_items.tsv) not measured yet take the 28-cell info box; anything else unmeasured
     is a warning.
@@ -30,6 +30,8 @@ PAGE_CODES = 21
 LINE_SEP = " / "    # = insert.LINE_SEP: a dialogue page's English may run onto extra lines (extra pages)
 MAX_EXTRA = 2       # extra lines per page; more means the English is padded, not translated
 NAME_PX = 64
+NUM_PX = 24         # a number argument (damage, hits, times, HP, round): up to 3 game digits, 8 px each
+NUM_ARG = re.compile(r"\{arg(\d)\}(?=ダメージ|ヒット|回|かいふく)|(?<=ラウンド)\{arg(\d)\}")
 INFO_CELLS = 28
 BLANKS = " 　"
 
@@ -68,9 +70,12 @@ def budget(r):
     return None
 
 
-def _measure(en):
+def _measure(en, jp=""):
+    """Ink px and codes of one line; {argN} = NAME_PX, or NUM_PX where the Japanese uses it as a number."""
     text = en[:-len(ENDFLAG)] if en.endswith(ENDFLAG) else en
-    px = vwf.ink_width(re.sub(r"\{arg\d\}", "", text)) + NAME_PX * len(re.findall(r"\{arg\d\}", text))
+    nums = {a or b for a, b in NUM_ARG.findall(jp)}
+    args = re.findall(r"\{arg(\d)\}", text)
+    px = vwf.ink_width(re.sub(r"\{arg\d\}", "", text)) + sum(NUM_PX if a in nums else NAME_PX for a in args)
     return px, len(vwf.encode_pairs(text))
 
 
@@ -99,7 +104,7 @@ def lint_row(r, en_tbl):
         if any(not ln.strip() for ln in lines):
             errs.append("empty line")
     for ln in lines:
-        px, codes = _measure(ln)
+        px, codes = _measure(ln, jp)
         if b is None:
             warns.append(f"no measured budget yet ({px} px, {codes} codes)")
         else:

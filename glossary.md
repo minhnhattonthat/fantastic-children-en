@@ -86,7 +86,7 @@ controller edits this file. `tools/batches.py check` enforces the EN column for 
 | オエセル | Orsel | | life force | Oesel |
 | アウトゾーン | Autozone | | machine that returns souls from the Zone | Out Zone |
 | ゾーン | Zone | | land of the dead | |
-| ゲド機関 | the GED | | ゲド alone -> GED | Ged Engine |
+| ゲド機関 | the GED / GED Soldier | | ゲド alone -> GED; ゲド機関兵 (battle name, 8-cell field) -> GED Soldier | Ged Engine |
 | 記憶のレコード | Memory Record | | | |
 | レコードのカケラ | Record Shard | | plural "Record Shards"; "10 Record Shards" | Record Fragment |
 | カケラ | shard | | when it means a Record Shard | |
@@ -137,3 +137,30 @@ controller edits this file. `tools/batches.py check` enforces the EN column for 
 - Speaker labels: とうちゃん "Dad", かあちゃん "Mom", 少年/少女 "Boy"/"Girl" until the game names them.
 - ～様 after a name -> "-sama" (Tina-sama, Seth-sama, Titas-sama, Reda-sama); ～せんせい -> "-sensei".
 - Tutorial tips: "+Control Pad", "A Button"/"A"; Support Friend gains read "The Support Friend "X"" / "joined you!".
+- Battle lines (sys_battle): one line each, no " / "; a two-row line keeps the verb in the shared row ("and used it!",
+  "and threw it!"). Battle-log style may drop "the" before an item. Name/number args: `tools/lint.py` NUM_PX.
+- Item/card descriptions (sys_items): title row `Scroll "Punch 10" Straight Punch 1` (no colon), `SP "Pepper" ...`.
+
+## Battle items and moves (from batches b024-b029)
+| JP | EN | max | notes | Avoid |
+|---|---|---|---|---|
+| 奥義書 | Master Scroll | | 4th Battle Item tier | |
+| 占い道具 | Fortune Kit | | SP item | Fortune Tools |
+| ブッ殺しバチのシガイ | Dead Killer Bee / dead bee | | SP item; battle line "the dead bee" | |
+| ヘビのヌケガラ | Shed Snakeskin / Snakeskin | | SP item; battle line "Snakeskin" | |
+| コショウ | Pepper | | | |
+| さびたクギ | Rusty Nail | | | |
+| コケむした花壇 | Mossy Flowerbed / Flowerbed | | battle line "Flowerbed" | |
+| くちた画材 | Old Paints | | | Rotted Art Supplies |
+| せいぎょカイロ | Control Chip | | | Control Circuit |
+| デュマの涙 | Dumas's Tear | | | |
+| 銀色の球体 | Silver Sphere | | | |
+| 古い地図 | Old Map | | | |
+| 裏口のカギ | Back Door Key | | | |
+| さびたカギ | Rusty Key | | | |
+| 正拳 | Straight Punch / Flurry | | 正拳連打 Flurry; 奥義パパン拳 Papin Fist | |
+| 手刀 | Knife Hand / Combo / hand chop | | 手刀連撃 Combo; 奥義パパン掌 Papin Palm; in dialogue "hand chop" | |
+| 確り | Front Kick / Spin Kick | | kanji table reads 蹴 as 確 here; 回し確り Spin Kick; 奥義パパン脚 Papin Leg | |
+| ターンストップ | Turn Stop | | ＳＰかいふく SP Heal | |
+| ショウヒレコード | Record | | support card cost: "Uses N Records" | |
+| 闘魔 | Touma | | Tohma's dark battle form (pun on his name) | |

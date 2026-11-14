@@ -130,6 +130,15 @@ class Lint(unittest.TestCase):
         errs, _ = self.lint.lint_row(dict(r, en="Battle controls"), self.tbl)
         self.assertTrue(any("px" in e for e in errs))
 
+    def test_number_args(self):
+        # a {argN} the Japanese uses as a count (before ダメージ/ヒット/回/かいふく, after ラウンド) is a short number
+        en = "{arg0} hit {arg1} ×{arg2}!"
+        name, _ = self.lint._measure(en, "{arg0}の攻撃が {arg1}に{arg2}ヒット！")
+        plain, _ = self.lint._measure(en)
+        self.assertEqual(plain - name, self.lint.NAME_PX - self.lint.NUM_PX)
+        self.assertEqual(self.lint._measure("Round {arg0}", "ラウンド{arg0}が")[0],
+                         self.lint._measure("Round ")[0] + self.lint.NUM_PX)
+
     def test_format_checks(self):
         errs, _ = self.lint.lint_row(self.row("Hi {arg0}", jp="テスト"), self.tbl)
         self.assertIn("argument tokens differ from the Japanese", errs)

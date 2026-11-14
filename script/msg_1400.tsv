@@ -1,346 +1,346 @@
 id	ref	jp	en	notes
-p099340	m1400.0	バトルアイテム 伝書「パンチ10」		
-p099364	m1400.1	を 手に入れた！		
-p099376	m1401.0	バトルアイテム 伝書「パンチ10」		
-p09939A	m1401.1	を 手に入れた！		
-p0993AC	m1401.2	『パンチ（グー）は		
-p0993C0	m1401.3	 キック（チョキ）より強い。		
-p0993DE	m1401.4	相手のアクションバーには かてる色がわかる		
-p09940A	m1401.5	ガイドラインが 入っている。		
-p099428	m1401.6	相手のアクションバーの ガイドラインが		
-p099450	m1401.7	「赤」なら「赤」のアクションバーを選べ。』		
-p09947C	m1402.0	バトルアイテム 伝書「パンチ10」		
-p0994A0	m1402.1	を 手に入れた！		
-p0994B2	m1403.0	バトルアイテム 伝書「パンチ10」		
-p0994D6	m1403.1	を 手に入れた！		
-p0994E8	m1403.2	『パンチ（グー）は		
-p0994FC	m1403.3	 キック（チョキ）より強い。		
-p09951A	m1403.4	相手のアクションバーには かてる色がわかる		
-p099546	m1403.5	ガイドラインが 入っている。		
-p099564	m1403.6	相手のアクションバーの ガイドラインが		
-p09958C	m1403.7	「赤」なら「赤」のアクションバーを選べ。』		
-p0995B8	m1404.0	バトルアイテム 秘伝書「パンチ20」		
-p0995DE	m1404.1	を 手に入れた！		
-p0995F0	m1405.0	バトルアイテム 秘伝書「パンチ20」		
-p099616	m1405.1	を 手に入れた！		
-p099628	m1405.2	『パンチ（グー）は		
-p09963C	m1405.3	 キック（チョキ）より強い。		
-p09965A	m1405.4	相手のアクションバーには かてる色がわかる		
-p099686	m1405.5	ガイドラインが 入っている。		
-p0996A4	m1405.6	相手のアクションバーの ガイドラインが		
-p0996CC	m1405.7	「赤」なら「赤」のアクションバーを選べ。』		
-p0996F8	m1406.0	バトルアイテム 秘伝書「パンチ20」		
-p09971E	m1406.1	を 手に入れた！		
-p099730	m1407.0	バトルアイテム 秘伝書「パンチ20」		
-p099756	m1407.1	を 手に入れた！		
-p099768	m1407.2	『パンチ（グー）は		
-p09977C	m1407.3	 キック（チョキ）より強い。		
-p09979A	m1407.4	相手のアクションバーには かてる色がわかる		
-p0997C6	m1407.5	ガイドラインが 入っている。		
-p0997E4	m1407.6	相手のアクションバーの ガイドラインが		
-p09980C	m1407.7	「赤」なら「赤」のアクションバーを選べ。』		
-p099838	m1408.0	バトルアイテム 奥義書「パンチ30」		
-p09985E	m1408.1	を 手に入れた！！		
-p099872	m1409.0	バトルアイテム 奥義書「パンチ30」		
-p099898	m1409.1	を 手に入れた！！		
-p0998AC	m1409.2	『パンチ（グー）は		
-p0998C0	m1409.3	 キック（チョキ）より強い。		
-p0998DE	m1409.4	相手のアクションバーには かてる色がわかる		
-p09990A	m1409.5	ガイドラインが 入っている。		
-p099928	m1409.6	相手のアクションバーの ガイドラインが		
-p099950	m1409.7	「赤」なら「赤」のアクションバーを選べ。』		
-p09997C	m1410.0	バトルアイテム 伝書「キック10」		
-p0999A0	m1410.1	を 手に入れた！		
-p0999B2	m1411.0	バトルアイテム 伝書「キック10」		
-p0999D6	m1411.1	を 手に入れた！		
-p0999E8	m1411.2	『キック（チョキ）は		
-p0999FE	m1411.3	 チョップ（パー）より強い。		
-p099A1C	m1411.4	アクションバーには 攻撃カが		
-p099A3A	m1411.5	ストライプで 入っている。		
-p099A56	m1411.6	1本は10 2本で20 3本なら30だ。』		
-p099A82	m1412.0	バトルアイテム 伝書「キック10」		
-p099AA6	m1412.1	を 手に入れた！		
-p099AB8	m1413.0	バトルアイテム 伝書「キック10」		
-p099ADC	m1413.1	を 手に入れた！		
-p099AEE	m1413.2	『キック（チョキ）は		
-p099B04	m1413.3	 チョップ（パー）より強い。		
-p099B22	m1413.4	アクションバーには 攻撃カが		
-p099B40	m1413.5	ストライプで 入っている。		
-p099B5C	m1413.6	1本は10 2本で20 3本なら30だ。』		
-p099B88	m1414.0	バトルアイテム 伝書「キック10」		
-p099BAC	m1414.1	を 手に入れた！		
-p099BBE	m1415.0	バトルアイテム 伝書「キック10」		
-p099BE2	m1415.1	を 手に入れた！		
-p099BF4	m1415.2	『キック（チョキ）は		
-p099C0A	m1415.3	 チョップ（パー）より強い。		
-p099C28	m1415.4	アクションバーには 攻撃カが		
-p099C46	m1415.5	ストライプで 入っている。		
-p099C62	m1415.6	1本は10 2本で20 3本なら30だ。』		
-p099C8E	m1416.0	バトルアイテム 秘伝書「キック20」		
-p099CB4	m1416.1	を 手に入れた！		
-p099CC6	m1417.0	バトルアイテム 秘伝書「キック20」		
-p099CEC	m1417.1	を 手に入れた！		
-p099CFE	m1417.2	『キック（チョキ）は		
-p099D14	m1417.3	 チョップ（パー）より強い。		
-p099D32	m1417.4	アクションバーには 攻撃カが		
-p099D50	m1417.5	ストライプで 入っている。		
-p099D6C	m1417.6	1本は10 2本で20 3本なら30だ。』		
-p099D98	m1418.0	バトルアイテム 秘伝書「キック20」		
-p099DBE	m1418.1	を 手に入れた！		
-p099DD0	m1419.0	バトルアイテム 秘伝書「キック20」		
-p099DF6	m1419.1	を 手に入れた！		
-p099E08	m1419.2	『キック（チョキ）は		
-p099E1E	m1419.3	 チョップ（パー）より強い。		
-p099E3C	m1419.4	アクションバーには 攻撃カが		
-p099E5A	m1419.5	ストライプで 入っている。		
-p099E76	m1419.6	1本は10 2本で20 3本なら30だ。』		
-p099EA2	m1420.0	バトルアイテム 奥義書「キック30」		
-p099EC8	m1420.1	を 手に入れた！！		
-p099EDC	m1421.0	バトルアイテム 奥義書「キック30」		
-p099F02	m1421.1	を 手に入れた！！		
-p099F16	m1421.2	『キック（チョキ）は		
-p099F2C	m1421.3	 チョップ（パー）より強い。		
-p099F4A	m1421.4	アクションバーには 攻撃カが		
-p099F68	m1421.5	ストライプで 入っている。		
-p099F84	m1421.6	1本は10 2本で20 3本なら30だ。』		
-p099FB0	m1422.0	バトルアイテム 伝書「チョップ10」		
-p099FD6	m1422.1	を 手に入れた！		
-p099FE8	m1423.0	バトルアイテム 伝書「チョップ10」		
-p09A00E	m1423.1	を 手に入れた！		
-p09A020	m1423.2	『チョップ（パー）は		
-p09A036	m1423.3	 パンチ（グー）より強い。		
-p09A052	m1423.4	おなじアクションどうしだと 相打ちになり		
-p09A07C	m1423.5	おたがいに 少しダメージが 入ってしまう。		
-p09A0A8	m1423.6	攻撃カの高いアクションは かくじつに		
-p09A0CE	m1423.7	かてるタイミングで つかえ。』		
-p09A0EE	m1424.0	バトルアイテム 伝書「チョップ10」		
-p09A114	m1424.1	を 手に入れた！		
-p09A126	m1425.0	バトルアイテム 伝書「チョップ10」		
-p09A14C	m1425.1	を 手に入れた！		
-p09A15E	m1425.2	『チョップ（パー）は		
-p09A174	m1425.3	 パンチ（グー）より強い。		
-p09A190	m1425.4	おなじアクションどうしだと 相打ちになり		
-p09A1BA	m1425.5	おたがいに 少しダメージが 入ってしまう。		
-p09A1E6	m1425.6	攻撃カの高いアクションは かくじつに		
-p09A20C	m1425.7	かてるタイミングで つかえ。』		
-p09A22C	m1426.0	バトルアイテム 伝書「チョップ10」		
-p09A252	m1426.1	を 手に入れた！		
-p09A264	m1427.0	バトルアイテム 伝書「チョップ10」		
-p09A28A	m1427.1	を 手に入れた！		
-p09A29C	m1427.2	『チョップ（パー）は		
-p09A2B2	m1427.3	 パンチ（グー）より強い。		
-p09A2CE	m1427.4	おなじアクションどうしだと 相打ちになり		
-p09A2F8	m1427.5	おたがいに 少しダメージが 入ってしまう。		
-p09A324	m1427.6	攻撃カの高いアクションは かくじつに		
-p09A34A	m1427.7	かてるタイミングで つかえ。』		
-p09A36A	m1428.0	バトルアイテム 伝書「チョップ10」		
-p09A390	m1428.1	を 手に入れた！		
-p09A3A2	m1429.0	バトルアイテム 伝書「チョップ10」		
-p09A3C8	m1429.1	を 手に入れた！		
-p09A3DA	m1429.2	『チョップ（パー）は		
-p09A3F0	m1429.3	 パンチ（グー）より強い。		
-p09A40C	m1429.4	おなじアクションどうしだと 相打ちになり		
-p09A436	m1429.5	おたがいに 少しダメージが 入ってしまう。		
-p09A462	m1429.6	攻撃カの高いアクションは かくじつに		
-p09A488	m1429.7	かてるタイミングで つかえ。』		
-p09A4A8	m1430.0	バトルアイテム 秘伝書「チョップ20」		
-p09A4D0	m1430.1	を 手に入れた！		
-p09A4E2	m1431.0	バトルアイテム 秘伝書「チョップ20」		
-p09A50A	m1431.1	を 手に入れた！		
-p09A51C	m1431.2	『チョップ（パー）は		
-p09A532	m1431.3	 パンチ（グー）より強い。		
-p09A54E	m1431.4	おなじアクションどうしだと 相打ちになり		
-p09A578	m1431.5	おたがいに 少しダメージが 入ってしまう。		
-p09A5A4	m1431.6	攻撃カの高いアクションは かくじつに		
-p09A5CA	m1431.7	かてるタイミングで つかえ。』		
-p09A5EA	m1432.0	バトルアイテム 秘伝書「チョップ20」		
-p09A612	m1432.1	を 手に入れた！		
-p09A624	m1433.0	バトルアイテム 秘伝書「チョップ20」		
-p09A64C	m1433.1	を 手に入れた！		
-p09A65E	m1433.2	『チョップ（パー）は		
-p09A674	m1433.3	 パンチ（グー）より強い。		
-p09A690	m1433.4	おなじアクションどうしだと 相打ちになり		
-p09A6BA	m1433.5	おたがいに 少しダメージが 入ってしまう。		
-p09A6E6	m1433.6	攻撃カの高いアクションは かくじつに		
-p09A70C	m1433.7	かてるタイミングで つかえ。』		
-p09A72C	m1434.0	バトルアイテム 神技書「ガード」		
-p09A74E	m1434.1	を 手に入れた！！		
-p09A762	m1435.0	バトルアイテム 神技書「ガード」		
-p09A784	m1435.1	を 手に入れた！！		
-p09A798	m1435.2	『ガードは バトルアイテムＳＰに強い。		
+p099340	m1400.0	バトルアイテム 伝書「パンチ10」	Battle Item: Scroll / "Punch 10"	
+p099364	m1400.1	を 手に入れた！	obtained!	
+p099376	m1401.0	バトルアイテム 伝書「パンチ10」	Battle Item: Scroll / "Punch 10"	
+p09939A	m1401.1	を 手に入れた！	obtained!	
+p0993AC	m1401.2	『パンチ（グー）は	'Punch (rock)	
+p0993C0	m1401.3	 キック（チョキ）より強い。	 beats Kick (scissors).	
+p0993DE	m1401.4	相手のアクションバーには かてる色がわかる	The foe's Action Bar has a / guideline showing the	
+p09940A	m1401.5	ガイドラインが 入っている。	color that will win.	
+p099428	m1401.6	相手のアクションバーの ガイドラインが	If the guideline on the / foe's Action Bar is	
+p099450	m1401.7	「赤」なら「赤」のアクションバーを選べ。』	"red," pick a "red" / Action Bar.'	
+p09947C	m1402.0	バトルアイテム 伝書「パンチ10」	Battle Item: Scroll / "Punch 10"	
+p0994A0	m1402.1	を 手に入れた！	obtained!	
+p0994B2	m1403.0	バトルアイテム 伝書「パンチ10」	Battle Item: Scroll / "Punch 10"	
+p0994D6	m1403.1	を 手に入れた！	obtained!	
+p0994E8	m1403.2	『パンチ（グー）は	'Punch (rock)	
+p0994FC	m1403.3	 キック（チョキ）より強い。	 beats Kick (scissors).	
+p09951A	m1403.4	相手のアクションバーには かてる色がわかる	The foe's Action Bar has a / guideline showing the	
+p099546	m1403.5	ガイドラインが 入っている。	color that will win.	
+p099564	m1403.6	相手のアクションバーの ガイドラインが	If the guideline on the / foe's Action Bar is	
+p09958C	m1403.7	「赤」なら「赤」のアクションバーを選べ。』	"red," pick a "red" / Action Bar.'	
+p0995B8	m1404.0	バトルアイテム 秘伝書「パンチ20」	Battle Item: / Secret Scroll "Punch 20"	
+p0995DE	m1404.1	を 手に入れた！	obtained!	
+p0995F0	m1405.0	バトルアイテム 秘伝書「パンチ20」	Battle Item: / Secret Scroll "Punch 20"	
+p099616	m1405.1	を 手に入れた！	obtained!	
+p099628	m1405.2	『パンチ（グー）は	'Punch (rock)	
+p09963C	m1405.3	 キック（チョキ）より強い。	 beats Kick (scissors).	
+p09965A	m1405.4	相手のアクションバーには かてる色がわかる	The foe's Action Bar has a / guideline showing the	
+p099686	m1405.5	ガイドラインが 入っている。	color that will win.	
+p0996A4	m1405.6	相手のアクションバーの ガイドラインが	If the guideline on the / foe's Action Bar is	
+p0996CC	m1405.7	「赤」なら「赤」のアクションバーを選べ。』	"red," pick a "red" / Action Bar.'	
+p0996F8	m1406.0	バトルアイテム 秘伝書「パンチ20」	Battle Item: / Secret Scroll "Punch 20"	
+p09971E	m1406.1	を 手に入れた！	obtained!	
+p099730	m1407.0	バトルアイテム 秘伝書「パンチ20」	Battle Item: / Secret Scroll "Punch 20"	
+p099756	m1407.1	を 手に入れた！	obtained!	
+p099768	m1407.2	『パンチ（グー）は	'Punch (rock)	
+p09977C	m1407.3	 キック（チョキ）より強い。	 beats Kick (scissors).	
+p09979A	m1407.4	相手のアクションバーには かてる色がわかる	The foe's Action Bar has a / guideline showing the	
+p0997C6	m1407.5	ガイドラインが 入っている。	color that will win.	
+p0997E4	m1407.6	相手のアクションバーの ガイドラインが	If the guideline on the / foe's Action Bar is	
+p09980C	m1407.7	「赤」なら「赤」のアクションバーを選べ。』	"red," pick a "red" / Action Bar.'	
+p099838	m1408.0	バトルアイテム 奥義書「パンチ30」	Battle Item: / Master Scroll "Punch 30"	
+p09985E	m1408.1	を 手に入れた！！	obtained!!	
+p099872	m1409.0	バトルアイテム 奥義書「パンチ30」	Battle Item: / Master Scroll "Punch 30"	
+p099898	m1409.1	を 手に入れた！！	obtained!!	
+p0998AC	m1409.2	『パンチ（グー）は	'Punch (rock)	
+p0998C0	m1409.3	 キック（チョキ）より強い。	 beats Kick (scissors).	
+p0998DE	m1409.4	相手のアクションバーには かてる色がわかる	The foe's Action Bar has a / guideline showing the	
+p09990A	m1409.5	ガイドラインが 入っている。	color that will win.	
+p099928	m1409.6	相手のアクションバーの ガイドラインが	If the guideline on the / foe's Action Bar is	
+p099950	m1409.7	「赤」なら「赤」のアクションバーを選べ。』	"red," pick a "red" / Action Bar.'	
+p09997C	m1410.0	バトルアイテム 伝書「キック10」	Battle Item: Scroll / "Kick 10"	
+p0999A0	m1410.1	を 手に入れた！	obtained!	
+p0999B2	m1411.0	バトルアイテム 伝書「キック10」	Battle Item: Scroll / "Kick 10"	
+p0999D6	m1411.1	を 手に入れた！	obtained!	
+p0999E8	m1411.2	『キック（チョキ）は	'Kick (scissors)	
+p0999FE	m1411.3	 チョップ（パー）より強い。	 beats Chop (paper).	
+p099A1C	m1411.4	アクションバーには 攻撃カが	Action Bars show their / attack power	
+p099A3A	m1411.5	ストライプで 入っている。	as stripes.	
+p099A56	m1411.6	1本は10 2本で20 3本なら30だ。』	1 stripe is 10, 2 is 20, / and 3 is 30.'	
+p099A82	m1412.0	バトルアイテム 伝書「キック10」	Battle Item: Scroll / "Kick 10"	
+p099AA6	m1412.1	を 手に入れた！	obtained!	
+p099AB8	m1413.0	バトルアイテム 伝書「キック10」	Battle Item: Scroll / "Kick 10"	
+p099ADC	m1413.1	を 手に入れた！	obtained!	
+p099AEE	m1413.2	『キック（チョキ）は	'Kick (scissors)	
+p099B04	m1413.3	 チョップ（パー）より強い。	 beats Chop (paper).	
+p099B22	m1413.4	アクションバーには 攻撃カが	Action Bars show their / attack power	
+p099B40	m1413.5	ストライプで 入っている。	as stripes.	
+p099B5C	m1413.6	1本は10 2本で20 3本なら30だ。』	1 stripe is 10, 2 is 20, / and 3 is 30.'	
+p099B88	m1414.0	バトルアイテム 伝書「キック10」	Battle Item: Scroll / "Kick 10"	
+p099BAC	m1414.1	を 手に入れた！	obtained!	
+p099BBE	m1415.0	バトルアイテム 伝書「キック10」	Battle Item: Scroll / "Kick 10"	
+p099BE2	m1415.1	を 手に入れた！	obtained!	
+p099BF4	m1415.2	『キック（チョキ）は	'Kick (scissors)	
+p099C0A	m1415.3	 チョップ（パー）より強い。	 beats Chop (paper).	
+p099C28	m1415.4	アクションバーには 攻撃カが	Action Bars show their / attack power	
+p099C46	m1415.5	ストライプで 入っている。	as stripes.	
+p099C62	m1415.6	1本は10 2本で20 3本なら30だ。』	1 stripe is 10, 2 is 20, / and 3 is 30.'	
+p099C8E	m1416.0	バトルアイテム 秘伝書「キック20」	Battle Item: / Secret Scroll "Kick 20"	
+p099CB4	m1416.1	を 手に入れた！	obtained!	
+p099CC6	m1417.0	バトルアイテム 秘伝書「キック20」	Battle Item: / Secret Scroll "Kick 20"	
+p099CEC	m1417.1	を 手に入れた！	obtained!	
+p099CFE	m1417.2	『キック（チョキ）は	'Kick (scissors)	
+p099D14	m1417.3	 チョップ（パー）より強い。	 beats Chop (paper).	
+p099D32	m1417.4	アクションバーには 攻撃カが	Action Bars show their / attack power	
+p099D50	m1417.5	ストライプで 入っている。	as stripes.	
+p099D6C	m1417.6	1本は10 2本で20 3本なら30だ。』	1 stripe is 10, 2 is 20, / and 3 is 30.'	
+p099D98	m1418.0	バトルアイテム 秘伝書「キック20」	Battle Item: / Secret Scroll "Kick 20"	
+p099DBE	m1418.1	を 手に入れた！	obtained!	
+p099DD0	m1419.0	バトルアイテム 秘伝書「キック20」	Battle Item: / Secret Scroll "Kick 20"	
+p099DF6	m1419.1	を 手に入れた！	obtained!	
+p099E08	m1419.2	『キック（チョキ）は	'Kick (scissors)	
+p099E1E	m1419.3	 チョップ（パー）より強い。	 beats Chop (paper).	
+p099E3C	m1419.4	アクションバーには 攻撃カが	Action Bars show their / attack power	
+p099E5A	m1419.5	ストライプで 入っている。	as stripes.	
+p099E76	m1419.6	1本は10 2本で20 3本なら30だ。』	1 stripe is 10, 2 is 20, / and 3 is 30.'	
+p099EA2	m1420.0	バトルアイテム 奥義書「キック30」	Battle Item: / Master Scroll "Kick 30"	
+p099EC8	m1420.1	を 手に入れた！！	obtained!!	
+p099EDC	m1421.0	バトルアイテム 奥義書「キック30」	Battle Item: / Master Scroll "Kick 30"	
+p099F02	m1421.1	を 手に入れた！！	obtained!!	
+p099F16	m1421.2	『キック（チョキ）は	'Kick (scissors)	
+p099F2C	m1421.3	 チョップ（パー）より強い。	 beats Chop (paper).	
+p099F4A	m1421.4	アクションバーには 攻撃カが	Action Bars show their / attack power	
+p099F68	m1421.5	ストライプで 入っている。	as stripes.	
+p099F84	m1421.6	1本は10 2本で20 3本なら30だ。』	1 stripe is 10, 2 is 20, / and 3 is 30.'	
+p099FB0	m1422.0	バトルアイテム 伝書「チョップ10」	Battle Item: Scroll / "Chop 10"	
+p099FD6	m1422.1	を 手に入れた！	obtained!	
+p099FE8	m1423.0	バトルアイテム 伝書「チョップ10」	Battle Item: Scroll / "Chop 10"	
+p09A00E	m1423.1	を 手に入れた！	obtained!	
+p09A020	m1423.2	『チョップ（パー）は	'Chop (paper)	
+p09A036	m1423.3	 パンチ（グー）より強い。	 beats Punch (rock).	
+p09A052	m1423.4	おなじアクションどうしだと 相打ちになり	The same actions trade / hits,	
+p09A07C	m1423.5	おたがいに 少しダメージが 入ってしまう。	and both take a little / damage.	
+p09A0A8	m1423.6	攻撃カの高いアクションは かくじつに	Use high-power actions	
+p09A0CE	m1423.7	かてるタイミングで つかえ。』	when you're sure to win.'	
+p09A0EE	m1424.0	バトルアイテム 伝書「チョップ10」	Battle Item: Scroll / "Chop 10"	
+p09A114	m1424.1	を 手に入れた！	obtained!	
+p09A126	m1425.0	バトルアイテム 伝書「チョップ10」	Battle Item: Scroll / "Chop 10"	
+p09A14C	m1425.1	を 手に入れた！	obtained!	
+p09A15E	m1425.2	『チョップ（パー）は	'Chop (paper)	
+p09A174	m1425.3	 パンチ（グー）より強い。	 beats Punch (rock).	
+p09A190	m1425.4	おなじアクションどうしだと 相打ちになり	The same actions trade / hits,	
+p09A1BA	m1425.5	おたがいに 少しダメージが 入ってしまう。	and both take a little / damage.	
+p09A1E6	m1425.6	攻撃カの高いアクションは かくじつに	Use high-power actions	
+p09A20C	m1425.7	かてるタイミングで つかえ。』	when you're sure to win.'	
+p09A22C	m1426.0	バトルアイテム 伝書「チョップ10」	Battle Item: Scroll / "Chop 10"	
+p09A252	m1426.1	を 手に入れた！	obtained!	
+p09A264	m1427.0	バトルアイテム 伝書「チョップ10」	Battle Item: Scroll / "Chop 10"	
+p09A28A	m1427.1	を 手に入れた！	obtained!	
+p09A29C	m1427.2	『チョップ（パー）は	'Chop (paper)	
+p09A2B2	m1427.3	 パンチ（グー）より強い。	 beats Punch (rock).	
+p09A2CE	m1427.4	おなじアクションどうしだと 相打ちになり	The same actions trade / hits,	
+p09A2F8	m1427.5	おたがいに 少しダメージが 入ってしまう。	and both take a little / damage.	
+p09A324	m1427.6	攻撃カの高いアクションは かくじつに	Use high-power actions	
+p09A34A	m1427.7	かてるタイミングで つかえ。』	when you're sure to win.'	
+p09A36A	m1428.0	バトルアイテム 伝書「チョップ10」	Battle Item: Scroll / "Chop 10"	
+p09A390	m1428.1	を 手に入れた！	obtained!	
+p09A3A2	m1429.0	バトルアイテム 伝書「チョップ10」	Battle Item: Scroll / "Chop 10"	
+p09A3C8	m1429.1	を 手に入れた！	obtained!	
+p09A3DA	m1429.2	『チョップ（パー）は	'Chop (paper)	
+p09A3F0	m1429.3	 パンチ（グー）より強い。	 beats Punch (rock).	
+p09A40C	m1429.4	おなじアクションどうしだと 相打ちになり	The same actions trade / hits,	
+p09A436	m1429.5	おたがいに 少しダメージが 入ってしまう。	and both take a little / damage.	
+p09A462	m1429.6	攻撃カの高いアクションは かくじつに	Use high-power actions	
+p09A488	m1429.7	かてるタイミングで つかえ。』	when you're sure to win.'	
+p09A4A8	m1430.0	バトルアイテム 秘伝書「チョップ20」	Battle Item: / Secret Scroll "Chop 20"	
+p09A4D0	m1430.1	を 手に入れた！	obtained!	
+p09A4E2	m1431.0	バトルアイテム 秘伝書「チョップ20」	Battle Item: / Secret Scroll "Chop 20"	
+p09A50A	m1431.1	を 手に入れた！	obtained!	
+p09A51C	m1431.2	『チョップ（パー）は	'Chop (paper)	
+p09A532	m1431.3	 パンチ（グー）より強い。	 beats Punch (rock).	
+p09A54E	m1431.4	おなじアクションどうしだと 相打ちになり	The same actions trade / hits,	
+p09A578	m1431.5	おたがいに 少しダメージが 入ってしまう。	and both take a little / damage.	
+p09A5A4	m1431.6	攻撃カの高いアクションは かくじつに	Use high-power actions	
+p09A5CA	m1431.7	かてるタイミングで つかえ。』	when you're sure to win.'	
+p09A5EA	m1432.0	バトルアイテム 秘伝書「チョップ20」	Battle Item: / Secret Scroll "Chop 20"	
+p09A612	m1432.1	を 手に入れた！	obtained!	
+p09A624	m1433.0	バトルアイテム 秘伝書「チョップ20」	Battle Item: / Secret Scroll "Chop 20"	
+p09A64C	m1433.1	を 手に入れた！	obtained!	
+p09A65E	m1433.2	『チョップ（パー）は	'Chop (paper)	
+p09A674	m1433.3	 パンチ（グー）より強い。	 beats Punch (rock).	
+p09A690	m1433.4	おなじアクションどうしだと 相打ちになり	The same actions trade / hits,	
+p09A6BA	m1433.5	おたがいに 少しダメージが 入ってしまう。	and both take a little / damage.	
+p09A6E6	m1433.6	攻撃カの高いアクションは かくじつに	Use high-power actions	
+p09A70C	m1433.7	かてるタイミングで つかえ。』	when you're sure to win.'	
+p09A72C	m1434.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
+p09A74E	m1434.1	を 手に入れた！！	obtained!!	
+p09A762	m1435.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
+p09A784	m1435.1	を 手に入れた！！	obtained!!	
+p09A798	m1435.2	『ガードは バトルアイテムＳＰに強い。	'Guard beats / Battle Item SP.	
 p09A7C0	m1435.3			
-p09A7C2	m1435.4	パンチ チョップ キックのダメージ		
-p09A7E6	m1435.5	を 少なくする。』		
-p09A7FA	m1436.0	バトルアイテム 神技書「ガード」		
-p09A81C	m1436.1	を 手に入れた！！		
-p09A830	m1437.0	バトルアイテム 神技書「ガード」		
-p09A852	m1437.1	を 手に入れた！！		
-p09A866	m1437.2	『ガードは バトルアイテムＳＰに強い。		
+p09A7C2	m1435.4	パンチ チョップ キックのダメージ	Lowers Punch, Chop and / Kick damage	
+p09A7E6	m1435.5	を 少なくする。』	taken.'	
+p09A7FA	m1436.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
+p09A81C	m1436.1	を 手に入れた！！	obtained!!	
+p09A830	m1437.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
+p09A852	m1437.1	を 手に入れた！！	obtained!!	
+p09A866	m1437.2	『ガードは バトルアイテムＳＰに強い。	'Guard beats / Battle Item SP.	
 p09A88E	m1437.3			
-p09A890	m1437.4	パンチ チョップ キックのダメージ		
-p09A8B4	m1437.5	を 少なくする。』		
-p09A8C8	m1438.0	バトルアイテム 神技書「ガード」		
-p09A8EA	m1438.1	を 手に入れた！！		
-p09A8FE	m1439.0	バトルアイテム 神技書「ガード」		
-p09A920	m1439.1	を 手に入れた！！		
-p09A934	m1439.2	『ガードは バトルアイテムＳＰに強い。		
+p09A890	m1437.4	パンチ チョップ キックのダメージ	Lowers Punch, Chop and / Kick damage	
+p09A8B4	m1437.5	を 少なくする。』	taken.'	
+p09A8C8	m1438.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
+p09A8EA	m1438.1	を 手に入れた！！	obtained!!	
+p09A8FE	m1439.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
+p09A920	m1439.1	を 手に入れた！！	obtained!!	
+p09A934	m1439.2	『ガードは バトルアイテムＳＰに強い。	'Guard beats / Battle Item SP.	
 p09A95C	m1439.3			
-p09A95E	m1439.4	パンチ チョップ キックのダメージ		
-p09A982	m1439.5	を 少なくする。』		
-p09A996	m1440.0	バトルアイテム 神技書「ガード」		
-p09A9B8	m1440.1	を 手に入れた！！		
-p09A9CC	m1441.0	バトルアイテム 神技書「ガード」		
-p09A9EE	m1441.1	を 手に入れた！！		
-p09AA02	m1441.2	『ガードは バトルアイテムＳＰに強い。		
+p09A95E	m1439.4	パンチ チョップ キックのダメージ	Lowers Punch, Chop and / Kick damage	
+p09A982	m1439.5	を 少なくする。』	taken.'	
+p09A996	m1440.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
+p09A9B8	m1440.1	を 手に入れた！！	obtained!!	
+p09A9CC	m1441.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
+p09A9EE	m1441.1	を 手に入れた！！	obtained!!	
+p09AA02	m1441.2	『ガードは バトルアイテムＳＰに強い。	'Guard beats / Battle Item SP.	
 p09AA2A	m1441.3			
-p09AA2C	m1441.4	パンチ チョップ キックのダメージ		
-p09AA50	m1441.5	を 少なくする。』		
-p09AA64	m1442.0	バトルアイテムＳＰ「占い道具」		
-p09AA84	m1442.1	を 手に入れた！		
-p09AA96	m1442.2	おたがいのアクションバーを もとに戻す。		
-p09AAC0	m1443.0	バトルアイテムＳＰ「占い道具」		
-p09AAE0	m1443.1	を 手に入れた！		
-p09AAF2	m1443.2	おたがいのアクションバーを もとに戻す。		
+p09AA2C	m1441.4	パンチ チョップ キックのダメージ	Lowers Punch, Chop and / Kick damage	
+p09AA50	m1441.5	を 少なくする。』	taken.'	
+p09AA64	m1442.0	バトルアイテムＳＰ「占い道具」	Battle Item SP / "Fortune Kit"	
+p09AA84	m1442.1	を 手に入れた！	obtained!	
+p09AA96	m1442.2	おたがいのアクションバーを もとに戻す。	Resets both sides' / Action Bars.	
+p09AAC0	m1443.0	バトルアイテムＳＰ「占い道具」	Battle Item SP / "Fortune Kit"	
+p09AAE0	m1443.1	を 手に入れた！	obtained!	
+p09AAF2	m1443.2	おたがいのアクションバーを もとに戻す。	Resets both sides' / Action Bars.	
 p09AB1C	m1443.3			
-p09AB1E	m1443.4	『バトルアイテムＳＰは パンチ チョップ		
-p09AB48	m1443.5	キックすべてに強い。 ガードだけに弱い。』		
-p09AB74	m1444.0	バトルアイテムＳＰ「ブッ殺しバチのシガイ」		
-p09ABA0	m1444.1	を 手に入れた！		
-p09ABB2	m1444.2	相手の入れかえを 1回とめる。		
-p09ABD2	m1445.0	バトルアイテムＳＰ「ブッ殺しバチのシガイ」		
-p09ABFE	m1445.1	を 手に入れた！		
-p09AC10	m1445.2	相手の入れかえを 1回とめる。		
+p09AB1E	m1443.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
+p09AB48	m1443.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p09AB74	m1444.0	バトルアイテムＳＰ「ブッ殺しバチのシガイ」	Battle Item SP / "Dead Killer Bee"	
+p09ABA0	m1444.1	を 手に入れた！	obtained!	
+p09ABB2	m1444.2	相手の入れかえを 1回とめる。	Stops the foe's / switching once.	
+p09ABD2	m1445.0	バトルアイテムＳＰ「ブッ殺しバチのシガイ」	Battle Item SP / "Dead Killer Bee"	
+p09ABFE	m1445.1	を 手に入れた！	obtained!	
+p09AC10	m1445.2	相手の入れかえを 1回とめる。	Stops the foe's / switching once.	
 p09AC30	m1445.3			
-p09AC32	m1445.4	『バトルアイテムＳＰは パンチ チョップ		
-p09AC5C	m1445.5	キックすべてに強い。 ガードだけに弱い。』		
-p09AC88	m1446.0	バトルアイテムＳＰ「ヘビのヌケガラ」		
-p09ACAE	m1446.1	を 手に入れた！		
-p09ACC0	m1446.2	体カを 10かいふくする。		
-p09ACDC	m1447.0	バトルアイテムＳＰ「ヘビのヌケガラ」		
-p09AD02	m1447.1	を 手に入れた！		
-p09AD14	m1447.2	体カを 10かいふくする。		
+p09AC32	m1445.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
+p09AC5C	m1445.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p09AC88	m1446.0	バトルアイテムＳＰ「ヘビのヌケガラ」	Battle Item SP / "Shed Snakeskin"	
+p09ACAE	m1446.1	を 手に入れた！	obtained!	
+p09ACC0	m1446.2	体カを 10かいふくする。	Restores 10 points / of HP.	
+p09ACDC	m1447.0	バトルアイテムＳＰ「ヘビのヌケガラ」	Battle Item SP / "Shed Snakeskin"	
+p09AD02	m1447.1	を 手に入れた！	obtained!	
+p09AD14	m1447.2	体カを 10かいふくする。	Restores 10 points / of HP.	
 p09AD30	m1447.3			
-p09AD32	m1447.4	『バトルアイテムＳＰは パンチ チョップ		
-p09AD5C	m1447.5	キックすべてに強い。 ガードだけに弱い。』		
-p09AD88	m1448.0	バトルアイテムＳＰ「コショウ」		
-p09ADA8	m1448.1	を 手に入れた！		
-p09ADBA	m1448.2	おたがいのアクションバーを シャッフル。		
-p09ADE4	m1449.0	バトルアイテムＳＰ「コショウ」		
-p09AE04	m1449.1	を 手に入れた！		
-p09AE16	m1449.2	おたがいのアクションバーを シャッフル。		
+p09AD32	m1447.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
+p09AD5C	m1447.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p09AD88	m1448.0	バトルアイテムＳＰ「コショウ」	Battle Item SP / "Pepper"	
+p09ADA8	m1448.1	を 手に入れた！	obtained!	
+p09ADBA	m1448.2	おたがいのアクションバーを シャッフル。	Shuffles both sides' / Action Bars.	
+p09ADE4	m1449.0	バトルアイテムＳＰ「コショウ」	Battle Item SP / "Pepper"	
+p09AE04	m1449.1	を 手に入れた！	obtained!	
+p09AE16	m1449.2	おたがいのアクションバーを シャッフル。	Shuffles both sides' / Action Bars.	
 p09AE40	m1449.3			
-p09AE42	m1449.4	『バトルアイテムＳＰは パンチ チョップ		
-p09AE6C	m1449.5	キックすべてに強い。 ガードだけに弱い。』		
-p09AE98	m1450.0	バトルアイテムＳＰ「さびたクギ」		
-p09AEBA	m1450.1	を 手に入れた！		
-p09AECC	m1450.2	とくていの相手に 20ダメージ。		
-p09AEEE	m1451.0	バトルアイテムＳＰ「さびたクギ」		
-p09AF10	m1451.1	を 手に入れた！		
-p09AF22	m1451.2	とくていの相手に 20ダメージ。		
+p09AE42	m1449.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
+p09AE6C	m1449.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p09AE98	m1450.0	バトルアイテムＳＰ「さびたクギ」	Battle Item SP / "Rusty Nail"	
+p09AEBA	m1450.1	を 手に入れた！	obtained!	
+p09AECC	m1450.2	とくていの相手に 20ダメージ。	20 damage to one foe.	
+p09AEEE	m1451.0	バトルアイテムＳＰ「さびたクギ」	Battle Item SP / "Rusty Nail"	
+p09AF10	m1451.1	を 手に入れた！	obtained!	
+p09AF22	m1451.2	とくていの相手に 20ダメージ。	Deals 20 damage / to one foe.	
 p09AF44	m1451.3			
-p09AF46	m1451.4	『バトルアイテムＳＰは パンチ チョップ		
-p09AF70	m1451.5	キックすべてに強い。 ガードだけに弱い。』		
-p09AF9C	m1452.0	バトルアイテムＳＰ「コケむした花壇」		
-p09AFC2	m1452.1	を 手に入れた！		
-p09AFD4	m1452.2	とくていの相手に 20ダメージ。		
-p09AFF6	m1453.0	バトルアイテムＳＰ「コケむした花壇」		
-p09B01C	m1453.1	を 手に入れた！		
-p09B02E	m1453.2	とくていの相手に 20ダメージ。		
+p09AF46	m1451.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
+p09AF70	m1451.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p09AF9C	m1452.0	バトルアイテムＳＰ「コケむした花壇」	Battle Item SP / "Mossy Flowerbed"	
+p09AFC2	m1452.1	を 手に入れた！	obtained!	
+p09AFD4	m1452.2	とくていの相手に 20ダメージ。	Deals 20 damage / to one foe.	
+p09AFF6	m1453.0	バトルアイテムＳＰ「コケむした花壇」	Battle Item SP / "Mossy Flowerbed"	
+p09B01C	m1453.1	を 手に入れた！	obtained!	
+p09B02E	m1453.2	とくていの相手に 20ダメージ。	Deals 20 damage / to one foe.	
 p09B050	m1453.3			
-p09B052	m1453.4	『バトルアイテムＳＰは パンチ チョップ		
-p09B07C	m1453.5	キックすべてに強い。 ガードだけに弱い。』		
-p09B0A8	m1454.0	バトルアイテムＳＰ「くちた画材」		
-p09B0CA	m1454.1	を 手に入れた！		
-p09B0DC	m1454.2	相手の入れかえを 2回とめる。		
-p09B0FC	m1455.0	バトルアイテムＳＰ「くちた画材」		
-p09B11E	m1455.1	を 手に入れた！		
-p09B130	m1455.2	相手の入れかえを 2回とめる。		
+p09B052	m1453.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
+p09B07C	m1453.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p09B0A8	m1454.0	バトルアイテムＳＰ「くちた画材」	Battle Item SP / "Old Paints"	
+p09B0CA	m1454.1	を 手に入れた！	obtained!	
+p09B0DC	m1454.2	相手の入れかえを 2回とめる。	Stops the foe's / switching twice.	
+p09B0FC	m1455.0	バトルアイテムＳＰ「くちた画材」	Battle Item SP / "Old Paints"	
+p09B11E	m1455.1	を 手に入れた！	obtained!	
+p09B130	m1455.2	相手の入れかえを 2回とめる。	Stops the foe's / switching twice.	
 p09B150	m1455.3			
-p09B152	m1455.4	『バトルアイテムＳＰは パンチ チョップ		
-p09B17C	m1455.5	キックすべてに強い。 ガードだけに弱い。』		
-p09B1A8	m1456.0	バトルアイテムＳＰ「せいぎょカイロ」		
-p09B1CE	m1456.1	を 手に入れた！		
-p09B1E0	m1456.2	相手を シャッフル。		
-p09B1F6	m1456.3	とくていの相手に30ダメージ。		
-p09B216	m1457.0	バトルアイテムＳＰ「せいぎょカイロ」		
-p09B23C	m1457.1	を 手に入れた！		
-p09B24E	m1457.2	相手を シャッフル。		
-p09B264	m1457.3	とくていの相手に30ダメージ。		
-p09B284	m1457.4	『バトルアイテムＳＰは パンチ チョップ		
-p09B2AE	m1457.5	キックすべてに強い。 ガードだけに弱い。』		
-p09B2DA	m1458.0	バトルアイテムＳＰ「デュマの涙」		
-p09B2FC	m1458.1	を 手に入れた！		
-p09B30E	m1458.2	とくていの相手に 30ダメージ。		
-p09B330	m1459.0	バトルアイテムＳＰ「デュマの涙」		
-p09B352	m1459.1	を 手に入れた！		
-p09B364	m1459.2	とくていの相手に 30ダメージ。		
+p09B152	m1455.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
+p09B17C	m1455.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p09B1A8	m1456.0	バトルアイテムＳＰ「せいぎょカイロ」	Battle Item SP / "Control Chip"	
+p09B1CE	m1456.1	を 手に入れた！	obtained!	
+p09B1E0	m1456.2	相手を シャッフル。	Shuffles the foe.	
+p09B1F6	m1456.3	とくていの相手に30ダメージ。	30 damage to one foe.	
+p09B216	m1457.0	バトルアイテムＳＰ「せいぎょカイロ」	Battle Item SP / "Control Chip"	
+p09B23C	m1457.1	を 手に入れた！	obtained!	
+p09B24E	m1457.2	相手を シャッフル。	Shuffles the foe.	
+p09B264	m1457.3	とくていの相手に30ダメージ。	30 damage to one foe.	
+p09B284	m1457.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
+p09B2AE	m1457.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p09B2DA	m1458.0	バトルアイテムＳＰ「デュマの涙」	Battle Item SP / "Dumas's Tear"	
+p09B2FC	m1458.1	を 手に入れた！	obtained!	
+p09B30E	m1458.2	とくていの相手に 30ダメージ。	Deals 30 damage / to one foe.	
+p09B330	m1459.0	バトルアイテムＳＰ「デュマの涙」	Battle Item SP / "Dumas's Tear"	
+p09B352	m1459.1	を 手に入れた！	obtained!	
+p09B364	m1459.2	とくていの相手に 30ダメージ。	Deals 30 damage / to one foe.	
 p09B386	m1459.3			
-p09B388	m1459.4	『バトルアイテムＳＰは パンチ チョップ		
-p09B3B2	m1459.5	キックすべてに強い。 ガードだけに弱い。』		
-p09B3DE	m1460.0	バトルアイテムＳＰ「フラグメント」		
-p09B402	m1460.1	を 手に入れた！		
-p09B414	m1460.2	相手の入れかえを 3回とめる。		
-p09B434	m1461.0	バトルアイテムＳＰ「フラグメント」		
-p09B458	m1461.1	を 手に入れた！		
-p09B46A	m1461.2	相手の入れかえを 3回とめる。		
+p09B388	m1459.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
+p09B3B2	m1459.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p09B3DE	m1460.0	バトルアイテムＳＰ「フラグメント」	Battle Item SP / "Fragment"	
+p09B402	m1460.1	を 手に入れた！	obtained!	
+p09B414	m1460.2	相手の入れかえを 3回とめる。	Stops the foe's / switching 3 times.	
+p09B434	m1461.0	バトルアイテムＳＰ「フラグメント」	Battle Item SP / "Fragment"	
+p09B458	m1461.1	を 手に入れた！	obtained!	
+p09B46A	m1461.2	相手の入れかえを 3回とめる。	Stops the foe's / switching 3 times.	
 p09B48A	m1461.3			
-p09B48C	m1461.4	『バトルアイテムＳＰは パンチ チョップ		
-p09B4B6	m1461.5	キックすべてに強い。 ガードだけに弱い。』		
-p09B4E2	m1462.0	エリアマップ「古い地図1」		
-p09B4FE	m1462.1	を 手に入れた！		
-p09B510	m1463.0	エリアマップ「古い地図1」		
-p09B52C	m1463.1	を 手に入れた！		
-p09B53E	m1463.2	セレクトボタンで げんざいちを		
-p09B55E	m1463.3	かくにん出来る。		
-p09B570	m1464.0	エリアマップ「古い地図2」		
-p09B58C	m1464.1	を 手に入れた！		
-p09B59E	m1465.0	エリアマップ「古い地図2」		
-p09B5BA	m1465.1	を 手に入れた！		
-p09B5CC	m1465.2	セレクトボタンで げんざいちを		
-p09B5EC	m1465.3	かくにん出来る。		
-p09B5FE	m1466.0	エリアマップ「古い地図3」		
-p09B61A	m1466.1	を 手に入れた！		
-p09B62C	m1467.0	エリアマップ「古い地図3」		
-p09B648	m1467.1	を 手に入れた！		
-p09B65A	m1467.2	セレクトボタンで げんざいちを		
-p09B67A	m1467.3	かくにん出来る。		
-p09B68C	m1468.0	エリアマップ「銀色の球体」		
-p09B6A8	m1468.1	を 手に入れた！		
-p09B6BA	m1469.0	エリアマップ「銀色の球体」		
-p09B6D6	m1469.1	を 手に入れた！		
-p09B6E8	m1469.2	セレクトボタンで げんざいちを		
-p09B708	m1469.3	かくにん出来る。		
-p09B71A	m1470.0	エリアマップ「データディスク」		
-p09B73A	m1470.1	を 手に入れた！		
-p09B74C	m1471.0	エリアマップ「データディスク」		
-p09B76C	m1471.1	を 手に入れた！		
-p09B77E	m1471.2	セレクトボタンで げんざいちを		
-p09B79E	m1471.3	かくにん出来る。		
-p09B7B0	m1472.0	「裏口のカギ」を 手に入れた！		
-p09B7D0	m1473.0	「破られたヘルガの絵」を 手に入れた！		
-p09B7F8	m1474.0	「さびたカギ1」を 手に入れた！		
-p09B81A	m1475.0	「さびたカギ3」を 手に入れた！		
-p09B83C	m1476.0	「さびたカギ2」を 手に入れた！		
-p09B85E	m1477.0	「さびたカギ4」を 手に入れた！		
-p09B880	m1478.0	「セラフィーヌの絵」を 手に入れた！		
-p09B8A6	m1479.0	「さびたカギ5」を 手に入れた！		
-p09B8C8	m1480.0	「クリスタルキー1」を 手に入れた！		
-p09B8EE	m1481.0	「クリスタルキー2」を 手に入れた！		
-p09B914	m1482.0	「レコードのカケラ 10コ」を 手に入れた！		
-p09B942	m1483.0	「レコードのカケラ 10コ」を 手に入れた！		
-p09B970	m1484.0	「レコードのカケラ 10コ」を 手に入れた！		
-p09B99E	m1485.0	「レコードのカケラ 10コ」を 手に入れた！		
-p09B9CC	m1486.0	「レコードのカケラ 10コ」を 手に入れた！		
-p09B9FA	m1487.0	「レコードのカケラ 10コ」を 手に入れた！		
-p09BA28	m1488.0	「レコードのカケラ 10コ」を 手に入れた！		
-p09BA56	m1489.0	「レコードのカケラ 10コ」を 手に入れた！		
-p09BA84	m1490.0	「レコードのカケラ 10コ」を 手に入れた！		
-p09BAB2	m1491.0	「レコードのカケラ 10コ」を 手に入れた！		
-p09BAE0	m1492.0	「レコードのカケラ 10コ」を 手に入れた！		
-p09BB0E	m1493.0	「レコードのカケラ 10コ」を 手に入れた！		
-p09BB3C	m1494.0	「レコードのカケラ 10コ」を 手に入れた！		
-p09BB6A	m1495.0	「レコードのカケラ 10コ」を 手に入れた！		
-p09BB98	m1496.0	「レコードのカケラ 10コ」を 手に入れた！		
-p09BBC6	m1497.0	「レコードのカケラ 10コ」を 手に入れた！		
-p09BBF4	m1498.0	「レコードのカケラ 10コ」を 手に入れた！		
-p09BC22	m1499.0	「レコードのカケラ 10コ」を 手に入れた！		
+p09B48C	m1461.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
+p09B4B6	m1461.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p09B4E2	m1462.0	エリアマップ「古い地図1」	Area Map / "Old Map 1"	
+p09B4FE	m1462.1	を 手に入れた！	obtained!	
+p09B510	m1463.0	エリアマップ「古い地図1」	Area Map / "Old Map 1"	
+p09B52C	m1463.1	を 手に入れた！	obtained!	
+p09B53E	m1463.2	セレクトボタンで げんざいちを	Press Select to check	
+p09B55E	m1463.3	かくにん出来る。	where you are.	
+p09B570	m1464.0	エリアマップ「古い地図2」	Area Map / "Old Map 2"	
+p09B58C	m1464.1	を 手に入れた！	obtained!	
+p09B59E	m1465.0	エリアマップ「古い地図2」	Area Map / "Old Map 2"	
+p09B5BA	m1465.1	を 手に入れた！	obtained!	
+p09B5CC	m1465.2	セレクトボタンで げんざいちを	Press Select to check	
+p09B5EC	m1465.3	かくにん出来る。	where you are.	
+p09B5FE	m1466.0	エリアマップ「古い地図3」	Area Map / "Old Map 3"	
+p09B61A	m1466.1	を 手に入れた！	obtained!	
+p09B62C	m1467.0	エリアマップ「古い地図3」	Area Map / "Old Map 3"	
+p09B648	m1467.1	を 手に入れた！	obtained!	
+p09B65A	m1467.2	セレクトボタンで げんざいちを	Press Select to check	
+p09B67A	m1467.3	かくにん出来る。	where you are.	
+p09B68C	m1468.0	エリアマップ「銀色の球体」	Area Map / "Silver Sphere"	
+p09B6A8	m1468.1	を 手に入れた！	obtained!	
+p09B6BA	m1469.0	エリアマップ「銀色の球体」	Area Map / "Silver Sphere"	
+p09B6D6	m1469.1	を 手に入れた！	obtained!	
+p09B6E8	m1469.2	セレクトボタンで げんざいちを	Press Select to check	
+p09B708	m1469.3	かくにん出来る。	where you are.	
+p09B71A	m1470.0	エリアマップ「データディスク」	Area Map / "Data Disc"	
+p09B73A	m1470.1	を 手に入れた！	obtained!	
+p09B74C	m1471.0	エリアマップ「データディスク」	Area Map / "Data Disc"	
+p09B76C	m1471.1	を 手に入れた！	obtained!	
+p09B77E	m1471.2	セレクトボタンで げんざいちを	Press Select to check	
+p09B79E	m1471.3	かくにん出来る。	where you are.	
+p09B7B0	m1472.0	「裏口のカギ」を 手に入れた！	Got the "Back Door Key"!	
+p09B7D0	m1473.0	「破られたヘルガの絵」を 手に入れた！	Got "Helga's Torn / Picture"!	
+p09B7F8	m1474.0	「さびたカギ1」を 手に入れた！	Got "Rusty Key 1"!	
+p09B81A	m1475.0	「さびたカギ3」を 手に入れた！	Got "Rusty Key 3"!	
+p09B83C	m1476.0	「さびたカギ2」を 手に入れた！	Got "Rusty Key 2"!	
+p09B85E	m1477.0	「さびたカギ4」を 手に入れた！	Got "Rusty Key 4"!	
+p09B880	m1478.0	「セラフィーヌの絵」を 手に入れた！	Got "Seraphine's / Painting"!	
+p09B8A6	m1479.0	「さびたカギ5」を 手に入れた！	Got "Rusty Key 5"!	
+p09B8C8	m1480.0	「クリスタルキー1」を 手に入れた！	Got "Crystal Key 1"!	
+p09B8EE	m1481.0	「クリスタルキー2」を 手に入れた！	Got "Crystal Key 2"!	
+p09B914	m1482.0	「レコードのカケラ 10コ」を 手に入れた！	Got "10 Record Shards"!	
+p09B942	m1483.0	「レコードのカケラ 10コ」を 手に入れた！	Got "10 Record Shards"!	
+p09B970	m1484.0	「レコードのカケラ 10コ」を 手に入れた！	Got "10 Record Shards"!	
+p09B99E	m1485.0	「レコードのカケラ 10コ」を 手に入れた！	Got "10 Record Shards"!	
+p09B9CC	m1486.0	「レコードのカケラ 10コ」を 手に入れた！	Got "10 Record Shards"!	
+p09B9FA	m1487.0	「レコードのカケラ 10コ」を 手に入れた！	Got "10 Record Shards"!	
+p09BA28	m1488.0	「レコードのカケラ 10コ」を 手に入れた！	Got "10 Record Shards"!	
+p09BA56	m1489.0	「レコードのカケラ 10コ」を 手に入れた！	Got "10 Record Shards"!	
+p09BA84	m1490.0	「レコードのカケラ 10コ」を 手に入れた！	Got "10 Record Shards"!	
+p09BAB2	m1491.0	「レコードのカケラ 10コ」を 手に入れた！	Got "10 Record Shards"!	
+p09BAE0	m1492.0	「レコードのカケラ 10コ」を 手に入れた！	Got "10 Record Shards"!	
+p09BB0E	m1493.0	「レコードのカケラ 10コ」を 手に入れた！	Got "10 Record Shards"!	
+p09BB3C	m1494.0	「レコードのカケラ 10コ」を 手に入れた！	Got "10 Record Shards"!	
+p09BB6A	m1495.0	「レコードのカケラ 10コ」を 手に入れた！	Got "10 Record Shards"!	
+p09BB98	m1496.0	「レコードのカケラ 10コ」を 手に入れた！	Got "10 Record Shards"!	
+p09BBC6	m1497.0	「レコードのカケラ 10コ」を 手に入れた！	Got "10 Record Shards"!	
+p09BBF4	m1498.0	「レコードのカケラ 10コ」を 手に入れた！	Got "10 Record Shards"!	
+p09BC22	m1499.0	「レコードのカケラ 10コ」を 手に入れた！	Got "10 Record Shards"!	
