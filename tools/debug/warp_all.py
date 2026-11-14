@@ -2,6 +2,8 @@
 
     python -X utf8 tools/debug/warp_all.py [--rom build/x.gba] [--only REGEX] [--jobs 3] [--out work/qa/warps]
                                            [--states]   # also save work/states/<scene>.mss on arrival
+                                           [--resume]   # skip scenes already ok in OUT (resume a killed run)
+                                           [--check-only]  # grade OUT as it stands, run nothing
 
 A scene passes when its log has `WARP <scene>`, its shot warp.png is not one flat colour, and, for event scenes
 with `msg=N`, the game fetched message N after arrival. Writes OUT/report.tsv and OUT/sheet*.png (all shots,
@@ -36,8 +38,12 @@ def load_scenes():
     return out
 
 
-def run(rom, out, name, kv, states):
+def run(rom, out, name, kv, states, resume=False):
     d = out / name
+    if resume and (d / "log.txt").exists():
+        prev = check(d, name, kv, subprocess.CompletedProcess([], -1))
+        if prev[1] == "ok" and (not states or (ROOT / "work" / "states" / f"{name}.mss").exists()):
+            return prev
     if d.exists():
         shutil.rmtree(d)
     d.mkdir(parents=True)
@@ -84,9 +90,9 @@ def check(d, name, kv, p):
     if "msg" in kv:
         t = int(m.group(1))
         ids = [int(i) for f, i in re.findall(r"^f(\d+) MSG (\d+)", log, re.M) if int(f) >= t - 30]
-        want = int(kv["msg"])
-        if want not in ids:
-            return name, "FAIL", f"msg {want} not fetched (got {ids[:8]})"
+        want = {int(i) for i in kv["msg"].split(",")}
+        if not want & set(ids):
+            return name, "FAIL", f"msg {kv['msg'][:40]} not fetched (got {ids[:8]})"
     return name, "ok", m.group(0).strip()
 
 
@@ -97,12 +103,19 @@ def main():
     ap.add_argument("--jobs", type=int, default=3)  # each Mesen holds ~590 MB; 8 ran the machine out of memory
     ap.add_argument("--out", type=Path, default=ROOT / "work" / "qa" / "warps")
     ap.add_argument("--states", action="store_true")
+    # keep scenes whose earlier run in OUT already passes (a killed run resumes where it stopped)
+    ap.add_argument("--resume", action="store_true")
+    ap.add_argument("--check-only", action="store_true", help="grade existing OUT dirs, run nothing")
     a = ap.parse_args()
     scenes = [(n, kv) for n, kv in load_scenes() if not a.only or re.search(a.only, n)]
     a.out.mkdir(parents=True, exist_ok=True)
     (a.out / "_blank.sav").write_bytes(b"\xff" * 8192)
-    with ThreadPoolExecutor(a.jobs) as ex:
-        res = list(ex.map(lambda s: run(a.rom, a.out, s[0], s[1], a.states), scenes))
+    if a.check_only:
+        res = [check(a.out / n, n, kv, subprocess.CompletedProcess([], -1)) if (a.out / n / "log.txt").exists()
+               else (n, "FAIL", "not run") for n, kv in scenes]
+    else:
+        with ThreadPoolExecutor(a.jobs) as ex:
+            res = list(ex.map(lambda s: run(a.rom, a.out, s[0], s[1], a.states, a.resume), scenes))
     rows = ["scene\tresult\tdetail"] + [f"{n}\t{r}\t{d}" for n, r, d in res]
     (a.out / "report.tsv").write_text("\n".join(rows) + "\n", encoding="utf-8")
     shots = [a.out / n / "warp.png" for n, r, _ in res if (a.out / n / "warp.png").exists()]

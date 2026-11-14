@@ -20,7 +20,7 @@
 --   sub=N       once the stage is playing, switch mode 2 to sub-state N (3 game over, 5 pause, 11 save prompt)
 --   mode=N      once the prologue starts, set game mode N directly (8 staff roll)
 --   keys=a,b    buttons pressed after arrival (6 frames each, 50 apart, from arrival + 60)
---   msg=N       first message id of the event (checked by warp_all.py, not used here)
+--   msg=N[,M..] message ids the script can show; the shot waits for the first one fetched (warp_all.py checks it)
 --   wait=N      frames from arrival to the shot (default 360)
 local M = emu.memType.gbaMemory
 local GS = 0x0202CC40          -- game struct: word 0 = mode | sub << 8 | state << 16 | state2 << 24
@@ -63,12 +63,17 @@ local entryHooked = false
 local function log(s) L.log(string.format("f%d %s", L.frame, s)) end
 
 -- every message lookup (get_msg at 0x08031020, id in r0): proof of which text the scene reached
-local want = sc.msg and tonumber(sc.msg)
+-- msg=a,b,c: any of the script's messages (flag-conditional branches pick which one shows first)
+local want = nil
+if sc.msg then
+  want = {}
+  for i in tostring(sc.msg):gmatch("%d+") do want[tonumber(i)] = true end
+end
 local gotMsg = want == nil
 L.on_exec(0x08031020, 0x08031020, function()
   local id = emu.getState()["cpu.r0"] & 0xFFFF
   log(string.format("MSG %d", id))
-  if id == want and phase ~= "boot" and not gotMsg then gotMsg = L.frame end
+  if want and want[id] and phase ~= "boot" and not gotMsg then gotMsg = L.frame end
 end)
 
 local function set_flags()

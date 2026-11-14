@@ -48,6 +48,45 @@ def scripts(recs):
     return out
 
 
+def cond(rec):
+    """(flag, jump target) of a record's condition, flag signed (> 0: jump if set, < 0: jump if clear), or None."""
+    f0 = rec[0] - 0x10000 if rec[0] & 0x8000 else rec[0]
+    return None if f0 == 0x7FFF else (f0, rec[1])
+
+
+def flow(recs, start, first=None):
+    """Records reachable from `start` the way the runner walks them: a condition may jump (both ways followed),
+    `next` 0xFFFF steps on, 0xFFFE ends, else jumps. `first`: True/False forces the start record's condition
+    taken/not taken. Returns the records in visiting order (first-seen, depth first along the fall-through)."""
+    seen, order, todo = set(), [], [(start, first)]
+    while todo:
+        i, force = todo.pop()
+        while 0 <= i < len(recs) and i not in seen:
+            seen.add(i)
+            order.append(i)
+            r, c = recs[i], cond(recs[i])
+            if c and force is not False:
+                if force is True:  # resolve() jumps before the record runs: it shows nothing
+                    order.pop()
+                    seen.discard(i)
+                    i, force = c[1], None
+                    continue
+                todo.append((c[1], None))
+            force = None
+            if r[7] != 0xFFFF:  # choice list (+0x0E message): +0x10/+0x12/+0x14 = record per answer
+                todo.extend((t, None) for t in r[8:11] if t < len(recs))
+            nxt = r[16]
+            if nxt == 0xFFFE:
+                break
+            i = i + 1 if nxt == 0xFFFF else nxt
+    return order
+
+
+def flow_msgs(recs, start, first=None):
+    """Messages (+0x0C text, +0x0E choice list) the records reachable from `start` show."""
+    return [m for i in flow(recs, start, first) for m in recs[i][6:8] if m != 0xFFFF]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--tsv", type=Path)

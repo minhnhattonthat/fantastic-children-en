@@ -37,7 +37,8 @@ pointer). `start_event(rec, arg)` = `0x08038B74`; `resolve(rec)` = `0x08038904` 
 |---|---|
 | +0x00 s16, +0x02 u16 | condition: `f0 > 0`: jump to record `+2` if flag `f0` set; `f0 < 0`: jump if flag `-f0` clear; `0x7FFF` none |
 | +0x0C u16 | message id shown (`get_msg` `0x08031020`; 0xFFFF none) |
-| +0x0E..+0x12 | choice-list / argument message ids |
+| +0x0E u16 | choice-list message id (0xFFFF none) |
+| +0x10, +0x12, +0x14 u16 | with a choice list: the record each answer jumps to (e.g. record 66 -> 67 / 68 / 80) |
 | +0x19 u8 | talk-battle id to start after the event (0xFF none) -> `+0x1EFC`; battle table `0x0821AEE0` (90 × 16 bytes) |
 | +0x1A u8 | runner byte `+0x13` |
 | +0x20 u16 | next: 0xFFFF next record, 0xFFFE end of script, else jump to that record |
@@ -47,6 +48,13 @@ never). Records 0-36 are leftover test events (イベントテスト, カイワ�
 debug "viewer test" (character viewer, event-BG viewer). `python -X utf8 tools/events.py` lists every script
 (range, messages, battles, jumps, entry-of-area, first text). Messages reached by records: 1481 of 1528 through `+0xC`;
 the rest are the choice lists in `+0x0E..`.
+
+Static script ranges (split at 0xFFFE) are not what runs: conditions, `next` jumps and choice answers cross
+them (record 82's text 54/55 is reached from record 80; 1678 falls to 1679 while flag 0x88 is clear).
+`events.flow(recs, start, first)` walks the real flow, both ways at each condition (`first` forces the start
+record's); `gen_scenes.py` uses it for each scene's `msg=` list and adds `flags=` so a conditional first record
+takes the branch with the script's own text (a `b` scene takes the other branch when it has text too). Every
++0x0C message of records 37+ lies on some scene's flow (`tests/test_events.py`).
 
 Talk battles are started by short scripts ("見つけたぞ！" + battle id) attached to stage NPCs. The battle screen's
 backdrop is whatever the current area's BG layer holds: area `16` garbles it, `62` (indoor) is clean, so the warp
