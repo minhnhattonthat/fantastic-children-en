@@ -10,6 +10,7 @@ with `msg=N`, the game fetched message N after arrival. Writes OUT/report.tsv an
 labelled by scene in OUT/sheet_index.txt). Exit 1 if any scene failed.
 """
 import argparse
+import os
 import re
 import shutil
 import subprocess
@@ -73,6 +74,8 @@ def emu_cmd(rom, d, name, kv, frames, out, states):
     if states:
         st = (ROOT / "work" / "states" / f"{name}.mss").as_posix()
         cmd += ["--var", f"STATE_OUT=[[{st}]]"]
+    for p in filter(None, os.environ.get("WARP_PROBES", "").split(",")):   # extra Lua probes, e.g. tools/lua/boxlog.lua
+        cmd += ["--script", str(ROOT / p)]
     return cmd
 
 

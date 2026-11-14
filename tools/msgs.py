@@ -106,7 +106,8 @@ class Script:
         else:
             o = base
             for off in sorted(self.pages):
-                b = self.encode_page(self.pages[off])
+                t = self.pages[off]
+                b = t if isinstance(t, bytes) else self.encode_page(t)   # bytes = already encoded, end code included
                 where[off] = o
                 o += len(b)
                 if o > len(out):
@@ -114,6 +115,7 @@ class Script:
                 out[o - len(b):o] = b
             lists_at = (o + 3) & ~3
             need = lists_at + 4 * len(self.lists)
+            self.end = need   # first free byte after the relocated pages and lists
             if need > len(out):
                 out += b"\xFF" * (need - len(out))
         for i, w in enumerate(self.lists):
