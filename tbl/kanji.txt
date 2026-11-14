@@ -156,7 +156,7 @@
 19F=連
 1A0=打
 1A1=正  # unused
-1A2=確  # unused
+1A2=蹴  # 蹴り kick (battle item names); read as 確 until Phase 7
 1A3=脚  # unused
 1A4=刀
 1A5=掌  # unused

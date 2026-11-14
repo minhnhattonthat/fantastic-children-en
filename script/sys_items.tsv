@@ -64,25 +64,25 @@ s09DB3E	21A1E8	Ａ：決定 Ｂ：もどる	A: OK   B: Back
 s09DB54	21A1F0	奥義書「パンチ30」 奥義パパン拳	Master Scroll "Punch 30" Papin Fist	
 s09DB78	21A1F4	パンチ（グー）は キック（チョキ）より強い。	Punch (rock) beats Kick (scissors).	
 s09DBA6	21A1F8	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
-s09DBBC	21A200	伝書「キック10」 確り1	Scroll "Kick 10" Front Kick 1	
+s09DBBC	21A200	伝書「キック10」 蹴り1	Scroll "Kick 10" Front Kick 1	
 s09DBD8	21A204	キック（チョキ）は チョップ（パー）より強い。	Kick (scissors) beats Chop (paper).	
 s09DC08	21A208	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
-s09DC1E	21A210	伝書「キック10」 確り2	Scroll "Kick 10" Front Kick 2	
+s09DC1E	21A210	伝書「キック10」 蹴り2	Scroll "Kick 10" Front Kick 2	
 s09DC3A	21A214	キック（チョキ）は チョップ（パー）より強い。	Kick (scissors) beats Chop (paper).	
 s09DC6A	21A218	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
-s09DC80	21A220	伝書「キック10」 確り3	Scroll "Kick 10" Front Kick 3	
+s09DC80	21A220	伝書「キック10」 蹴り3	Scroll "Kick 10" Front Kick 3	
 s09DC9C	21A224	キック（チョキ）は チョップ（パー）より強い。	Kick (scissors) beats Chop (paper).	
 s09DCCC	21A228	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
-s09DCE2	21A230	伝書「キック10」 確り4	Scroll "Kick 10" Front Kick 4	
+s09DCE2	21A230	伝書「キック10」 蹴り4	Scroll "Kick 10" Front Kick 4	
 s09DCFE	21A234	キック（チョキ）は チョップ（パー）より強い。	Kick (scissors) beats Chop (paper).	
 s09DD2E	21A238	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
-s09DD44	21A240	伝書「キック10」 確り5	Scroll "Kick 10" Front Kick 5	
+s09DD44	21A240	伝書「キック10」 蹴り5	Scroll "Kick 10" Front Kick 5	
 s09DD60	21A244	キック（チョキ）は チョップ（パー）より強い。	Kick (scissors) beats Chop (paper).	
 s09DD90	21A248	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
-s09DDA6	21A250	秘伝書「キック20」 回し確り1	Secret Scroll "Kick 20" Spin Kick 1	
+s09DDA6	21A250	秘伝書「キック20」 回し蹴り1	Secret Scroll "Kick 20" Spin Kick 1	
 s09DDC8	21A254	キック（チョキ）は チョップ（パー）より強い。	Kick (scissors) beats Chop (paper).	
 s09DDF8	21A258	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
-s09DE0E	21A260	秘伝書「キック20」 回し確り2	Secret Scroll "Kick 20" Spin Kick 2	
+s09DE0E	21A260	秘伝書「キック20」 回し蹴り2	Secret Scroll "Kick 20" Spin Kick 2	
 s09DE30	21A264	キック（チョキ）は チョップ（パー）より強い。	Kick (scissors) beats Chop (paper).	
 s09DE60	21A268	Ａ：決定 Ｂ：もどる	A: OK   B: Back	
 s09DE76	21A270	奥義書「キック30」 奥義パパン脚	Master Scroll "Kick 30" Papin Leg	
