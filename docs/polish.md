@@ -24,3 +24,33 @@ Tick each `[x]` when fixed, or `[x] ... waived: reason`.
 - [x] p0973F0 - はるか遠い ふかみから わき上がる: " springs well from deep." is terse; "well up from distant depths" needs a line, and the poem group's line count must stay even (re-review of r15) Fixed in r34: " springs well from below." (one line, the poem group keeps its even line count)
 - [x] s09F1AC - 裏庭の扉と 本ダナのある部屋へ行ける: now "Backyard door and bookcase room." (221 px of 224); reviewers want the "you can reach" verb back, every verb form tried runs 240+ px (re-review of r19) Fixed in r22 (D11): the item's description + comment rows read "Opens Seraphine's old home, the / backyard door and bookcase room."
 - [x] s09F054 - 生前 描き続けた大きな絵: "Seraphine's lifelong big painting" is unnatural; "A large painting Seraphine kept working on in life" (full re-review 24) Fixed in r22: "Seraphine painted it all her life." (the name row above says "Seraphine's Painting")
+
+## Story pass Minors (Phase 9; reports in work/qa/story/reports_a, _b, _c and reports/)
+
+Pagination findings ("three lines exceed the two-line page", sentences running across rows) from round 1 are not
+issues: rows span boxes by design (reflow), every box was checked in the emulator in Phase 8, and the brief now says so.
+- [x] ch01 p07F1AA - "a kenpo boy" intro - waived: mirrors the JP label 拳法少年 the narrator uses; register fine in the shot
+- [x] ch02 p080F10, p0818BA-p081908, p081D36-p081D86 - staging across rows - waived: pagination/flow across boxes, reads in order in game (Phase 8 sheets ok)
+- [x] ch03 p0827D6 "10-plus times", p082F50-p082F96 dangling "Dumas's...", p083FD0 "Smart, Tohma!", p08483C "dark green stirred" - waived: taste; meaning intact, each reviewed per batch
+- [x] ch04 p0857EA "I know... this place..." - waived: 知ってる recognition is the JP's own ("この場所・・・知ってる")
+- [x] ch04 p086BD2 - fixed r34 (see p086BBA above)
+- [x] ch05 p086E4A-p086EAA Seraphine intro order, p087816 "your light" - waived: setup still lands on arrival (reviewed round 2: ok)
+- [x] ch06 p08A690 "However you refuse", p08A510 "Sister" dropped - waived: round-2 re-review found no issue there
+- [x] ch07 p08BC34 Jim's stretched cry, p08C8BE "You see...", p08C1A6 "see-through blue", p08C2B2 "little me" - waived: taste, meaning intact
+- [x] ch07 p08C226 - fixed r34: "go get it... But you did..."
+- [x] ch07 p08BD9A-p08BDBA "Helga, Seraphine's memories" read as address - fixed r35: "Helga's memories of / Seraphine... / seem to have come back..."
+- [x] ch08 p08E6E4 - fixed r34; p08F1F8 - fixed r34 "opened my heart / to an Earthling!"; p08E2AC "far planet Greecia" - waived: taste
+- [x] ch09 p091178 - fixed r34: "What're you up to?!" (and p0914DE)
+- [x] ch10 p0919BE "Tina-sama will revive..." dread of しまう - waived: "At this rate" needs a second line, odd box-group parity
+- [x] ch11 p0930BE-p0930E2 tense restart - fixed r36: "Helga: Seth... so deeply... / you've been so hurt..." (and p0964B6-p0964DA)
+- [x] ch11 p0941E2-p09420E - fixed r35: "Tina bowed her head; / Soran touched it, smiling." (one line each; the fuller forms need an odd line)
+- [x] ch11/ch13 Helga "Yeah" (p09353E p093850 p094D0C p09501C p097D62) - fixed r36: "Helga: Yes!" / "Helga: Yes..." (every Helga うん)
+- [x] ch12 p095AB6 - fixed r34 "Helga: Hee hee..."; p095A74 - fixed r35 "Chitto: Heh heh!!"; p096D80 - fixed r35 "Hasmodai: No signal!!"; p096728 - fixed r34 "Seth was passing out."
+- [x] ch12 p09563A/p097282 cloak list, p096388 "Wish hard for life", p0979DA "Water, please?" - waived: taste; width-bound one-line rows
+- [x] ch13 p097F84 "in this dear place", p0985FE "wander on" - waived: taste
+- [x] ch13 p098424 "soul quest" - waived: 魂 must stay in the row (glossary) and "search / for souls" breaks the box-group parity
+- [x] ch14 p0993DE etc. Action Bar tutorial pagination - waived: pagination (see above)
+- [x] ch11 p0930E2 "you've been so hurt" repeats "so deeply" - waived: " you've been hurt so deeply..." is 188 px of 168
+- [x] ch11 p0940FE "and I'd come to you", p0945A4-p0945C0 capsule/Seth explanation, p0947B8 "Fear not" - waived: taste; round-4 re-review ok
+- [x] ch12 p096DD0 "Wait to the last", p0979DA "Water, please?" - waived: one-line rows, the fuller forms need an odd extra line
+- [x] ch13 p098562 past lives vs. this life - fixed r37: "with those we've met / across our lives."
