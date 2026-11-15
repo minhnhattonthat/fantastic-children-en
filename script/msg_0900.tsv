@@ -1,7 +1,7 @@
 id	ref	jp	en	notes
 p0914A0	m900.0	おまえが 入れる 場所じゃないッ！	You can't come in here!	
 p0914C4	m900.1	とっとと 出て行けっ！！	Get out of here, now!!	
-p0914DE	m901.0	さっきから なにをやっているッ！！ 	What've you done?! 	
+p0914DE	m901.0	さっきから なにをやっているッ！！ 	What're you up to?! 	
 p091504	m902.0	いいかげんに しないかッ！ このッ！！ 	That's enough! You brat!! 	
 p09152E	m903.0	なんで子供が こんなところにいるんだッ！ 	Why is a kid in here?! 	
 p09155A	m904.0	動くなッ！ 手を前に出せッ！！	Freeze! / Hands out front!! / Hands on your head, down	
@@ -121,8 +121,8 @@ p092292	m967.0	トーマ「お前になんか たすけ出せないッ！	Tohma:
 p0922BC	m967.1			
 p0922BE	m967.2	デュマ「ぜったいに たすけ出すッ！	Dumas: I will save her!	
 p0922E2	m967.3	 死なせは しないッ・・・	 I won't let her die...	
-p0922FE	m968.0	カプセルの中で トーマは アギのことばを	Tohma recalled what Agi	
-p092328	m968.1	思い出していた。	had said, in the capsule.	
+p0922FE	m968.0	カプセルの中で トーマは アギのことばを	Tohma recalled Agi's	
+p092328	m968.1	思い出していた。	words, inside the capsule.	
 p09233A	m969.0	      「いいか トーマ・・・	 "Listen, Tohma...	
 p09235E	m969.1			
 p092360	m969.2	    転生装置で ハザマに おくる！	 The reincarnation device / sends you to the Hazama!	

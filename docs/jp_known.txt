@@ -1,0 +1,12 @@
+0x000E1A code bytes that read as kana through the 16-bit table; outside every text range (docs/re/text.md)
+0x01973C code literal pool, not text
+0x01A3D0 code literal pool, not text
+0x01A7C0 code literal pool, not text
+0x020190 code literal pool, not text
+0x0201F4 code literal pool, not text
+0x021E06 code literal pool, not text
+0x02CB1C code literal pool, not text
+0x02F60A code literal pool, not text
+0x2099F6 data table (pointer arrays 0x209F5C), not text
+0x20AE8C data table (pointer arrays 0x20AFB8), not text
+0x20AED4 data table (pointer arrays 0x20AFC4), not text
