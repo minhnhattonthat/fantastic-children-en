@@ -1,10 +1,13 @@
 """changed_scenes.py: scenes to re-shoot after text fixes (Phase 8 visual QA).
 
     python -X utf8 tools/changed_scenes.py REV RUN_DIR [RUN_DIR ...] [--force tools/debug/force.gba.txt]
+        [--strings STRINGS.tsv]
 
 Messages whose English differs between git revision REV and the working tree (script/*.tsv, by page id; a page
 counts for every message in its ref list). A scene shows a message when its log.txt has `MSG id` (warp.lua logs
-every get_msg) or, for forced scenes, when the id is in its `force=` list. Prints the scene names, one per line,
+every get_msg) or, for forced scenes, when the id is in its `force=` list. A message can chain into another one
+that get_msg never fetched (ev_2530 logs MSG 1424 and shows m1423's pages), so with --strings (the strings.tsv of
+the build the runs were shot on) a scene also counts when its cover log has `TEXT addr` of a changed page. Prints the scene names, one per line,
 sorted; the count goes to stderr.
 """
 import csv
@@ -21,7 +24,8 @@ def read_tsv(text):
     return {r["id"]: r for r in csv.DictReader(io.StringIO(text), delimiter="\t", quoting=csv.QUOTE_NONE)}
 
 
-def changed_messages(rev):
+def changed_messages(rev, pages=None):
+    """Message numbers with a changed page; the changed page ids go into `pages` when given."""
     out = set()
     for path in sorted((ROOT / "script").glob("*.tsv")):
         rel = path.relative_to(ROOT).as_posix()
@@ -33,6 +37,8 @@ def changed_messages(rev):
         old, new = read_tsv(old_text), read_tsv(path.read_text(encoding="utf-8"))
         for rid, r in new.items():
             if rid[0] == "p" and old.get(rid, {}).get("en") != r["en"]:
+                if pages is not None:
+                    pages.add(rid)
                 out.update(int(ref[1:].split(".")[0]) for ref in r["ref"].split(","))
     return out
 
@@ -43,9 +49,21 @@ def main(argv):
         k = argv.index("--force")
         force_file = Path(argv[k + 1])
         argv = argv[:k] + argv[k + 2:]
+    addrs = set()
+    pages = set()
+    strings_file = None
+    if "--strings" in argv:
+        k = argv.index("--strings")
+        strings_file = Path(argv[k + 1])
+        argv = argv[:k] + argv[k + 2:]
     if len(argv) < 2:
         sys.exit(__doc__)
-    msgs = changed_messages(argv[0])
+    msgs = changed_messages(argv[0], pages)
+    if strings_file:
+        for ln in strings_file.read_text(encoding="utf-8").splitlines():
+            f = ln.split("\t")
+            if len(f) >= 2 and f[0] in pages:
+                addrs.add(int(f[1], 16))
     forced = {}
     if force_file:
         for line in force_file.read_text(encoding="utf-8").splitlines():
@@ -56,8 +74,10 @@ def main(argv):
     for run in argv[1:]:
         for log in Path(run).glob("*/log.txt"):
             name = log.parent.name
-            shown = {int(x) for x in re.findall(r"\bMSG (\d+)", log.read_text(encoding="utf-8", errors="replace"))}
-            if shown & msgs or forced.get(name, set()) & msgs:
+            text = log.read_text(encoding="utf-8", errors="replace")
+            shown = {int(x) for x in re.findall(r"\bMSG (\d+)", text)}
+            read = {int(x, 16) for x in re.findall(r"^TEXT ([0-9A-Fa-f]+)", text, re.M)} if addrs else set()
+            if shown & msgs or forced.get(name, set()) & msgs or read & addrs:
                 scenes.add(name)
     print(f"{len(msgs)} changed messages, {len(scenes)} scenes", file=sys.stderr)
     print("\n".join(sorted(scenes)))
