@@ -51,8 +51,8 @@ p099928	m1409.6	相手のアクションバーの ガイドラインが	foe's Ac
 p099950	m1409.7	「赤」なら「赤」のアクションバーを選べ。』	pick a "red" Action Bar.'	
 p09997C	m1410.0	バトルアイテム 伝書「キック10」	Battle Item: Scroll / "Kick 10"	
 p0999A0	m1410.1	を 手に入れた！	obtained!	
-p0999B2	m1411.0	バトルアイテム 伝書「キック10」	Battle Item: Scroll "Kick	
-p0999D6	m1411.1	を 手に入れた！	10" obtained!	
+p0999B2	m1411.0	バトルアイテム 伝書「キック10」	Battle Item: / Scroll "Kick 10"	
+p0999D6	m1411.1	を 手に入れた！	obtained!	
 p0999E8	m1411.2	『キック（チョキ）は	'Kick (scissors)	
 p0999FE	m1411.3	 チョップ（パー）より強い。	 beats Chop (paper).	
 p099A1C	m1411.4	アクションバーには 攻撃カが	Action Bars show their / attack power as stripes.	
@@ -60,8 +60,8 @@ p099A3A	m1411.5	ストライプで 入っている。	1 stripe is 10, 2 is 20,
 p099A56	m1411.6	1本は10 2本で20 3本なら30だ。』	and 3 is 30.'	
 p099A82	m1412.0	バトルアイテム 伝書「キック10」	Battle Item: Scroll / "Kick 10"	
 p099AA6	m1412.1	を 手に入れた！	obtained!	
-p099AB8	m1413.0	バトルアイテム 伝書「キック10」	Battle Item: Scroll "Kick	
-p099ADC	m1413.1	を 手に入れた！	10" obtained!	
+p099AB8	m1413.0	バトルアイテム 伝書「キック10」	Battle Item: / Scroll "Kick 10"	
+p099ADC	m1413.1	を 手に入れた！	obtained!	
 p099AEE	m1413.2	『キック（チョキ）は	'Kick (scissors)	
 p099B04	m1413.3	 チョップ（パー）より強い。	 beats Chop (paper).	
 p099B22	m1413.4	アクションバーには 攻撃カが	Action Bars show their / attack power as stripes.	
@@ -69,8 +69,8 @@ p099B40	m1413.5	ストライプで 入っている。	1 stripe is 10, 2 is 20,
 p099B5C	m1413.6	1本は10 2本で20 3本なら30だ。』	and 3 is 30.'	
 p099B88	m1414.0	バトルアイテム 伝書「キック10」	Battle Item: Scroll / "Kick 10"	
 p099BAC	m1414.1	を 手に入れた！	obtained!	
-p099BBE	m1415.0	バトルアイテム 伝書「キック10」	Battle Item: Scroll "Kick	
-p099BE2	m1415.1	を 手に入れた！	10" obtained!	
+p099BBE	m1415.0	バトルアイテム 伝書「キック10」	Battle Item: / Scroll "Kick 10"	
+p099BE2	m1415.1	を 手に入れた！	obtained!	
 p099BF4	m1415.2	『キック（チョキ）は	'Kick (scissors)	
 p099C0A	m1415.3	 チョップ（パー）より強い。	 beats Chop (paper).	
 p099C28	m1415.4	アクションバーには 攻撃カが	Action Bars show their / attack power as stripes.	
@@ -169,32 +169,32 @@ p09A762	m1435.0	バトルアイテム 神技書「ガード」	Battle Item: / Di
 p09A784	m1435.1	を 手に入れた！！	obtained!!	
 p09A798	m1435.2	『ガードは バトルアイテムＳＰに強い。	'Guard beats / Battle Item SP.	
 p09A7C0	m1435.3			
-p09A7C2	m1435.4	パンチ チョップ キックのダメージ	Lowers Punch, Chop / and Kick damage	
-p09A7E6	m1435.5	を 少なくする。』	you take.'	
+p09A7C2	m1435.4	パンチ チョップ キックのダメージ	Punch, Chop and Kick / damage you take	
+p09A7E6	m1435.5	を 少なくする。』	is reduced.'	
 p09A7FA	m1436.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
 p09A81C	m1436.1	を 手に入れた！！	obtained!!	
 p09A830	m1437.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
 p09A852	m1437.1	を 手に入れた！！	obtained!!	
 p09A866	m1437.2	『ガードは バトルアイテムＳＰに強い。	'Guard beats / Battle Item SP.	
 p09A88E	m1437.3			
-p09A890	m1437.4	パンチ チョップ キックのダメージ	Lowers Punch, Chop / and Kick damage	
-p09A8B4	m1437.5	を 少なくする。』	you take.'	
+p09A890	m1437.4	パンチ チョップ キックのダメージ	Punch, Chop and Kick / damage you take	
+p09A8B4	m1437.5	を 少なくする。』	is reduced.'	
 p09A8C8	m1438.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
 p09A8EA	m1438.1	を 手に入れた！！	obtained!!	
 p09A8FE	m1439.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
 p09A920	m1439.1	を 手に入れた！！	obtained!!	
 p09A934	m1439.2	『ガードは バトルアイテムＳＰに強い。	'Guard beats / Battle Item SP.	
 p09A95C	m1439.3			
-p09A95E	m1439.4	パンチ チョップ キックのダメージ	Lowers Punch, Chop / and Kick damage	
-p09A982	m1439.5	を 少なくする。』	you take.'	
+p09A95E	m1439.4	パンチ チョップ キックのダメージ	Punch, Chop and Kick / damage you take	
+p09A982	m1439.5	を 少なくする。』	is reduced.'	
 p09A996	m1440.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
 p09A9B8	m1440.1	を 手に入れた！！	obtained!!	
 p09A9CC	m1441.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
 p09A9EE	m1441.1	を 手に入れた！！	obtained!!	
 p09AA02	m1441.2	『ガードは バトルアイテムＳＰに強い。	'Guard beats / Battle Item SP.	
 p09AA2A	m1441.3			
-p09AA2C	m1441.4	パンチ チョップ キックのダメージ	Lowers Punch, Chop / and Kick damage	
-p09AA50	m1441.5	を 少なくする。』	you take.'	
+p09AA2C	m1441.4	パンチ チョップ キックのダメージ	Punch, Chop and Kick / damage you take	
+p09AA50	m1441.5	を 少なくする。』	is reduced.'	
 p09AA64	m1442.0	バトルアイテムＳＰ「占い道具」	Battle Item SP / "Fortune Kit"	
 p09AA84	m1442.1	を 手に入れた！	obtained! Resets both	
 p09AA96	m1442.2	おたがいのアクションバーを もとに戻す。	sides' Action Bars.	
@@ -203,7 +203,7 @@ p09AAE0	m1443.1	を 手に入れた！	obtained!
 p09AAF2	m1443.2	おたがいのアクションバーを もとに戻す。	Resets both sides' / Action Bars.	
 p09AB1C	m1443.3			
 p09AB1E	m1443.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
-p09AB48	m1443.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p09AB48	m1443.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses / only to Guard.'	
 p09AB74	m1444.0	バトルアイテムＳＰ「ブッ殺しバチのシガイ」	Battle Item SP / "Dead Killer Bee"	
 p09ABA0	m1444.1	を 手に入れた！	obtained! Stops the foe's	
 p09ABB2	m1444.2	相手の入れかえを 1回とめる。	switching once.	
@@ -212,7 +212,7 @@ p09ABFE	m1445.1	を 手に入れた！	obtained!
 p09AC10	m1445.2	相手の入れかえを 1回とめる。	Stops the foe's / switching once.	
 p09AC30	m1445.3			
 p09AC32	m1445.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
-p09AC5C	m1445.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p09AC5C	m1445.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses / only to Guard.'	
 p09AC88	m1446.0	バトルアイテムＳＰ「ヘビのヌケガラ」	Battle Item SP / "Shed Snakeskin"	
 p09ACAE	m1446.1	を 手に入れた！	obtained!	
 p09ACC0	m1446.2	体カを 10かいふくする。	Restores 10 points of HP.	
@@ -221,7 +221,7 @@ p09AD02	m1447.1	を 手に入れた！	obtained!
 p09AD14	m1447.2	体カを 10かいふくする。	Restores 10 points / of HP.	
 p09AD30	m1447.3			
 p09AD32	m1447.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
-p09AD5C	m1447.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p09AD5C	m1447.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses / only to Guard.'	
 p09AD88	m1448.0	バトルアイテムＳＰ「コショウ」	Battle Item SP "Pepper" / obtained!	
 p09ADA8	m1448.1	を 手に入れた！	Shuffles both sides'	
 p09ADBA	m1448.2	おたがいのアクションバーを シャッフル。	Action Bars.	
@@ -230,7 +230,7 @@ p09AE04	m1449.1	を 手に入れた！	obtained! Shuffles both
 p09AE16	m1449.2	おたがいのアクションバーを シャッフル。	sides' Action Bars.	
 p09AE40	m1449.3			
 p09AE42	m1449.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
-p09AE6C	m1449.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p09AE6C	m1449.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses / only to Guard.'	
 p09AE98	m1450.0	バトルアイテムＳＰ「さびたクギ」	Battle Item SP / "Rusty Nail"	
 p09AEBA	m1450.1	を 手に入れた！	obtained!	
 p09AECC	m1450.2	とくていの相手に 20ダメージ。	Hits certain foes for 20.	
@@ -239,25 +239,25 @@ p09AF10	m1451.1	を 手に入れた！	obtained!
 p09AF22	m1451.2	とくていの相手に 20ダメージ。	Deals 20 damage / to certain foes.	
 p09AF44	m1451.3			
 p09AF46	m1451.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
-p09AF70	m1451.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
-p09AF9C	m1452.0	バトルアイテムＳＰ「コケむした花壇」	Battle Item SP "Mossy / Flowerbed" obtained!	
-p09AFC2	m1452.1	を 手に入れた！	Deals 20 damage	
-p09AFD4	m1452.2	とくていの相手に 20ダメージ。	to certain foes.	
+p09AF70	m1451.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses / only to Guard.'	
+p09AF9C	m1452.0	バトルアイテムＳＰ「コケむした花壇」	Battle Item SP / "Mossy Flowerbed"	
+p09AFC2	m1452.1	を 手に入れた！	obtained! Deals 20	
+p09AFD4	m1452.2	とくていの相手に 20ダメージ。	damage to certain foes.	
 p09AFF6	m1453.0	バトルアイテムＳＰ「コケむした花壇」	Battle Item SP / "Mossy Flowerbed"	
 p09B01C	m1453.1	を 手に入れた！	obtained!	
 p09B02E	m1453.2	とくていの相手に 20ダメージ。	Deals 20 damage / to certain foes.	
 p09B050	m1453.3			
 p09B052	m1453.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
-p09B07C	m1453.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p09B07C	m1453.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses / only to Guard.'	
 p09B0A8	m1454.0	バトルアイテムＳＰ「くちた画材」	Battle Item SP / "Old Paints" obtained!	
-p09B0CA	m1454.1	を 手に入れた！	Stops the foe's switching	
-p09B0DC	m1454.2	相手の入れかえを 2回とめる。	twice.	
+p09B0CA	m1454.1	を 手に入れた！	Stops the foe's	
+p09B0DC	m1454.2	相手の入れかえを 2回とめる。	switching twice.	
 p09B0FC	m1455.0	バトルアイテムＳＰ「くちた画材」	Battle Item SP / "Old Paints"	
 p09B11E	m1455.1	を 手に入れた！	obtained!	
 p09B130	m1455.2	相手の入れかえを 2回とめる。	Stops the foe's / switching twice.	
 p09B150	m1455.3			
 p09B152	m1455.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
-p09B17C	m1455.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p09B17C	m1455.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses / only to Guard.'	
 p09B1A8	m1456.0	バトルアイテムＳＰ「せいぎょカイロ」	Battle Item SP / "Control Chip"	
 p09B1CE	m1456.1	を 手に入れた！	obtained!	
 p09B1E0	m1456.2	相手を シャッフル。	Shuffles foe's Action Bar.	
@@ -276,16 +276,16 @@ p09B352	m1459.1	を 手に入れた！	obtained!
 p09B364	m1459.2	とくていの相手に 30ダメージ。	Deals 30 damage / to certain foes.	
 p09B386	m1459.3			
 p09B388	m1459.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
-p09B3B2	m1459.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p09B3B2	m1459.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses / only to Guard.'	
 p09B3DE	m1460.0	バトルアイテムＳＰ「フラグメント」	Battle Item SP "Fragment" / obtained!	
-p09B402	m1460.1	を 手に入れた！	Stops the foe's switching	
+p09B402	m1460.1	を 手に入れた！	Stops the foe's	
 p09B414	m1460.2	相手の入れかえを 3回とめる。	3 times.	
 p09B434	m1461.0	バトルアイテムＳＰ「フラグメント」	Battle Item SP "Fragment"	
 p09B458	m1461.1	を 手に入れた！	obtained! Stops the foe's	
 p09B46A	m1461.2	相手の入れかえを 3回とめる。	switching 3 times.	
 p09B48A	m1461.3			
 p09B48C	m1461.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
-p09B4B6	m1461.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p09B4B6	m1461.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses / only to Guard.'	
 p09B4E2	m1462.0	エリアマップ「古い地図1」	Area Map "Old Map 1"	
 p09B4FE	m1462.1	を 手に入れた！	obtained!	
 p09B510	m1463.0	エリアマップ「古い地図1」	Area Map "Old Map 1"	

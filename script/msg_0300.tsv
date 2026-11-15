@@ -15,7 +15,7 @@ p084B72	m304.1	を 手に入れた！	obtained!
 p084B84	m304.2	相手を シャッフル。	Shuffles foe's Action Bar.	
 p084B9A	m304.3	とくていの相手に20ダメージ。	Hits certain foes for 20.	
 p084BBA	m304.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
-p084BE4	m304.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p084BE4	m304.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses / only to Guard.'	
 p084C10	m305.0	・・・キキッ	...Kee kee	
 p084C1E	m305.1	アメデオが 近づいてきた・・・！	Amedeo came closer...!	
 p084C40	m305.2	サッと パンくずをとって	He snatched the crumbs	
@@ -51,7 +51,7 @@ p084F38	m318.1	を 手に入れた！	obtained!
 p084F4A	m318.2	相手を シャッフル。	Shuffles foe's Action Bar.	
 p084F60	m318.3	とくていの相手に20ダメージ。	Hits certain foes for 20.	
 p084F80	m318.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
-p084FAA	m318.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
+p084FAA	m318.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses / only to Guard.'	
 p084FD6	m319.0	チット！ ヘルガの部屋は？	Chitto! Where's / Helga's room?	
 p084FF2	m320.0	この上だよ・・・	Up here... If we could get	
 p085004	m320.1	2階のマドから 入れればなぁ・・・	in the 2nd-floor window...	
@@ -165,7 +165,7 @@ p085C8A	m360.0	トーマと ヘルガの 心のキョリも	Tohma and Helga's he
 p085CAC	m360.1	少しずつ 近づいていった・・・。	little by little...	
 p085CCE	m361.0	ある日 5人の子供たちが・・・	One day, five children...	
 p085CEE	m361.1			
-p085CF0	m361.2	ベフォールの子供たちが やって来た。	the Children of / Befort, arrived.	
+p085CF0	m361.2	ベフォールの子供たちが やって来た。	the Children of Befort / had arrived.	
 p085D16	m362.0	青い瞳と 白い髪・・・ その かれらを	Blue eyes and white hair... / As if to guard them,	
 p085D3E	m362.1	まもるように 空から ごうおんが ひびくと	a roar came from the sky,	
 p085D6A	m362.2	巨大なロボット「ワンダー」が あらわれた。	and a giant robot, / "Wanda," appeared.	
