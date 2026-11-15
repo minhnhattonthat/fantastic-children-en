@@ -245,8 +245,8 @@ p096C1C	m1170.0	アギたちは カプセルを みまもっていた。	Agi's g
 p096C46	m1170.1			
 p096C48	m1170.2	コンソールの メーターが いじょうな	The console's meters	
 p096C6E	m1170.3	じたいであることを しめした。	signaled trouble.	
-p096C8E	m1171.0	タルラント「おかしいッ トーマのシンパクが	Tarlant: Tohma's pulse / keeps weakening...	
-p096CBA	m1171.1	 どんどん 弱くなっていく・・・	 odd!	
+p096C8E	m1171.0	タルラント「おかしいッ トーマのシンパクが	Tarlant: Strange! / Tohma's pulse	
+p096CBA	m1171.1	 どんどん 弱くなっていく・・・	 keeps getting weaker...	
 p096CDC	m1171.2	オエセルが ふくれ上がっている！	The Orsel is swelling! / This device can't do	
 p096CFE	m1171.3	こんなこと この装置では ありえない・・・	that...	
 p096D2A	m1172.0	ソレト「大きすぎるッ！ ・・・このままじゃ	Soreto: Too big! Like this,	
@@ -259,7 +259,7 @@ p096DFC	m1174.2	このまま ふくらみ続けたら・・・	If it keeps swell
 p096E1E	m1174.3	ふたりとも ゾーンから 戻れないッ！！	can't leave the Zone!!	
 p096E46	m1175.0	タルラント「・・・ ダメだ・・・	Tarlant: ... It's no use...	
 p096E68	m1175.1			
-p096E6A	m1175.2	トーマと ヘルガの シンパクが・・・	Tohma and Helga's / pulse...	
+p096E6A	m1175.2	トーマと ヘルガの シンパクが・・・	Tohma and / Helga's pulse...	
 p096E90	m1175.3	かんぜんに テイシした・・・	has stopped completely...	
 p096EAE	m1176.0	チット「ヘルガは・・・	Chitto: Helga and...	
 p096EC6	m1176.1	 トーマたちは どうなるの？	 Tohma... what now?	
@@ -311,7 +311,7 @@ p09741E	m1190.4	     せん年を生きた ヘビの涙は	 The thousand-year
 p097444	m1190.5	      うつくしい カゲロウを	 serpent longs for the fair	
 p097468	m1190.6	    せんども よみがえらせようと	 mayfly, to bring it back / a thousand times,	
 p09748E	m1190.7	       愛の涙を ながす。	 and sheds tears / of love.	
-p0974B0	m1190.8	  せんの いずみは ぎんに かがやく。』	 A thousand springs gleam / silver.'	
+p0974B0	m1190.8	  せんの いずみは ぎんに かがやく。』	 A thousand springs / gleam silver.'	
 p0974DC	m1191.0	ＮＯ ＳＥＴ	NO SET	
 p0974EA	m1192.0	こ・・・ ここは・・・？	Wh... where am I...?	
 p097504	m1192.1			

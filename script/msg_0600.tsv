@@ -5,7 +5,7 @@ p08B0CE	m601.0	ヘルガ「私を・・・？	Helga: Me...?
 p08B0E4	m602.0	アギ「そうです ティナ様の弟の デュマが	Agi: Yes. Tina-sama's / brother, Dumas,	
 p08B10E	m602.1	 あなたを ねらってます	 is after you. ...The child	
 p08B128	m602.2	・・・ゲオルカと レダ様の 子供です	of Georca and Reda-sama.	
-p08B14E	m603.0	ヘルガ「デュマ？ ・・・ティナの弟・・・	Helga: Dumas? ...Tina's / brother...	
+p08B14E	m603.0	ヘルガ「デュマ？ ・・・ティナの弟・・・	Helga: Dumas? / ...Tina's brother...	
 p08B178	m604.0	アギ「ヘルガ・・・ あなたが ギリシアの	Agi: Helga... / If you won't / return to Greecia's	
 p08B1A2	m604.1	 ゾーンへ 戻らないのであれば・・・	 Zone...	
 p08B1C8	m604.2	ティナ様の ふっかつを	we must stop Tina-sama's	
@@ -17,7 +17,7 @@ p08B264	m604.7	ここの転生装置を 破壊するッ！	destroy the reincarna
 p08B284	m605.0	アギが 上空へ 手を上げると 子供たちの	Agi raised a hand to the / sky, and the children's	
 p08B2AE	m605.1	乗り物「フォグボート」が 下りて来た。	craft, the "Fog Boat," / came down.	
 p08B2D6	m606.0	ギュン ギューン・・・	Whoosh, / whoooosh...	
-p08B2EE	m606.1	アギと ソレトは ヒースマを おった。	Agi and Soreto went after / Hesma.	
+p08B2EE	m606.1	アギと ソレトは ヒースマを おった。	Agi and Soreto / went after Hesma.	
 p08B316	m607.0	ベフォールの子供たちの ひとりである	One of the Children / of Befort: Hesma...	
 p08B33C	m607.1	ヒースマ・・・	An organization,	
 p08B34C	m607.2	かれは 「ゲド機関」と よばれる そしきが	the GED, was building a	
@@ -34,10 +34,10 @@ p08B4A4	m608.0	・・・・・・	......
 p08B4B2	m609.0	白い髪が なびいている。	White hair flutters.	
 p08B4CC	m610.0	・・・ティナ様・・・	...Tina-sama...	
 p08B4E2	m611.0	・・・ヘルガ・・・	...Helga...	
-p08B4F6	m612.0	へ ヘルガ・・・ 髪の色が・・・	H-Helga... / your hair... your eyes... / your eyes have turned	
-p08B518	m612.1	目も・・・ 目も 青くなってる・・・！	blue...!	
+p08B4F6	m612.0	へ ヘルガ・・・ 髪の色が・・・	H-Helga... / your hair... your eyes... / your eyes have	
+p08B518	m612.1	目も・・・ 目も 青くなってる・・・！	turned blue...!	
 p08B540	m613.0	・・・ジムが くれたハンカチ・・・	...The handkerchief Jim / gave me...	
-p08B564	m614.0	アギが わたしてくれって・・・	Agi said to give it to / you...	
+p08B564	m614.0	アギが わたしてくれって・・・	Agi said to give / it to you...	
 p08B584	m615.0	・・・それは セラフィーヌの	...Before Seraphine,	
 p08B5A2	m615.1	ひとつ前の 前世を生きた	your previous past life	
 p08B5BC	m615.2	クリスティーナという 女性が	was a woman, Christina.	
@@ -89,8 +89,8 @@ p08BBC6	m623.8	あらしに まきこまれ 飛ばされたハンカチを	handk
 p08BBF2	m623.9	おって 海に飛びこむジム。	and Jim dove into / the sea after it.	
 p08BC0E	m623.10	    「これを セラフィーヌにッ！	 "Give this to Seraphine!	
 p08BC34	m623.11	    セラフィーヌにィィ・・・！！」	 To Seraphine...!!"	
-p08BC5C	m624.0	ヘルガは サビた門扉を みつめている。	Helga stares at / the rusty gate.	
-p08BC84	m624.1	その表情は ふあんに つつまれていた。	Her face is clouded with / unease.	
+p08BC5C	m624.0	ヘルガは サビた門扉を みつめている。	Helga stares / at the rusty gate. / Her face is clouded	
+p08BC84	m624.1	その表情は ふあんに つつまれていた。	with unease.	
 p08BCAC	m625.0	・・・ジム・・・ 私のために・・・	...Jim... for me...	
 p08BCD0	m626.0	ヘルガ・・・	Helga...	
 p08BCDE	m627.0	なにかがヘルガの中で かわりはじめていた。	Something in Helga began / to change.	
@@ -101,22 +101,22 @@ p08BD60	m629.1	暗闇に灯る 灯火のようなもの・・・	is like a light
 p08BD84	m629.2	とても 大切な・・・	something so precious...	
 p08BD9A	m630.0	ヘルガは セラフィーヌの記憶を	Helga, Seraphine's / memories...	
 p08BDBA	m630.1	思い出したようだね・・・	seem to have come back...	
-p08BDD4	m631.0	アギは ハンカチを さし出した。	Agi held out the / handkerchief.	
-p08BDF6	m632.0	「クリスティーナのハンカチ」を	"Christina's / Handkerchief"	
-p08BE16	m632.1	手に入れた！	obtained!	
-p08BE24	m633.0	ボクらが 18回目の生まれかわりをした	Right after our 18th / rebirth,	
-p08BE4C	m633.1	ちょうど19世紀の はじめに・・・	early in the 19th / century...	
+p08BDD4	m631.0	アギは ハンカチを さし出した。	Agi held out / the handkerchief.	
+p08BDF6	m632.0	「クリスティーナのハンカチ」を	"Christina's	
+p08BE16	m632.1	手に入れた！	Handkerchief" obtained!	
+p08BE24	m633.0	ボクらが 18回目の生まれかわりをした	Right after / our 18th rebirth, / early in the	
+p08BE4C	m633.1	ちょうど19世紀の はじめに・・・	19th century...	
 p08BE70	m633.2	クリスティーナの教え子が	one of Christina's pupils	
 p08BE8A	m633.3	もっていたんだ・・・	had it...	
-p08BEA0	m634.0	トーマ キミがヘルガに わたすんだ・・・	Tohma, you give it to / Helga...	
-p08BECA	m635.0	ボクらが あの リョウヨウ施設を	We visited that / sanatorium	
+p08BEA0	m634.0	トーマ キミがヘルガに わたすんだ・・・	Tohma, you give / it to Helga...	
+p08BECA	m635.0	ボクらが あの リョウヨウ施設を	We visited / that sanatorium	
 p08BEEC	m635.1	おとずれたのは いまから111年前・・・	111 years ago...	
-p08BF16	m635.2	セラフィーヌの病室には たくさんの・・・	Seraphine's sickroom held / many of...	
+p08BF16	m635.2	セラフィーヌの病室には たくさんの・・・	Seraphine's sickroom / held many of...	
 p08BF40	m635.3	あの ふうけい画が おかれていた	those landscapes.	
 p08BF62	m635.4	ヘルガの記憶をたどる 回帰の旅には	For the Journey of Return / through Helga's memories	
-p08BF86	m635.5	おそらく「セラフィーヌの絵」が ひつようだ	"Seraphine's Painting" is / probably needed.	
-p08BFB2	m635.6	いまのままでは ヘルガも くるしいままだ	As things are, Helga / will keep suffering.	
-p08BFDC	m635.7	トーマ・・・ キミも 探してくれないか	Tohma... will you search / for it too?	
+p08BF86	m635.5	おそらく「セラフィーヌの絵」が ひつようだ	"Seraphine's Painting" / is probably needed.	
+p08BFB2	m635.6	いまのままでは ヘルガも くるしいままだ	As things are, Helga will / keep suffering. Tohma...	
+p08BFDC	m635.7	トーマ・・・ キミも 探してくれないか	will you search for it too?	
 p08C004	m636.0	セラフィーヌは 自分の絵を けっして	Seraphine never sold / her paintings, but... / after she died, an art	
 p08C02A	m636.1	うろうとは しなかったが・・・	dealer apparently stored / one carefully somewhere	
 p08C04A	m636.2	なくなった後 ある画商が 施設のどこかに	in the facility. Yes...	
@@ -149,9 +149,9 @@ p08C34A	m642.1	青年と少女が 強く かたをよせあっている。	A you
 p08C376	m642.2	こいびとどうしの ようだ。	They seem to be lovers.	
 p08C392	m643.0	   ・・・ここは どこだろうか・・・	   ...Where is this...	
 p08C3BA	m643.1			
-p08C3BC	m643.2	ゆうだいで うつくしい 水と緑に	A grand, beautiful, somehow	
-p08C3DE	m643.3	かこまれた どこか なつかしいふうけい。	familiar scene of water and / green.	
-p08C408	m643.4	すいへいせんには 白いとうが見えた。	A white tower stood on the / horizon.	
+p08C3BC	m643.2	ゆうだいで うつくしい 水と緑に	A grand, beautiful, / somehow familiar scene / of water and green.	
+p08C3DE	m643.3	かこまれた どこか なつかしいふうけい。	A white tower stood	
+p08C408	m643.4	すいへいせんには 白いとうが見えた。	on the horizon.	
 p08C42E	m643.5			
 p08C430	m644.0	ソラン「ティナ・・・ オレはキミのために	Soran: Tina... I'll live my	
 p08C45A	m644.1	 ー生を 生きる	 whole life for you.	
@@ -159,13 +159,13 @@ p08C46C	m644.2	カメンのようなものを つけた青年が	The young man, 
 p08C490	m644.3	ギシュである うでにナイフで「ＴＩＮＡ」と	carved "TINA" with / a knife into	
 p08C4BC	m644.4	もじを きざみこんだ。	his artificial arm.	
 p08C4D4	m644.5			
-p08C4D6	m644.6	かたわらにいる 少女に笑みが生まれた。	The girl beside him / smiled.	
+p08C4D6	m644.6	かたわらにいる 少女に笑みが生まれた。	The girl / beside him smiled.	
 p08C4FE	m645.0	ティナ「ティ・・・ナ・・・	Tina: Ti... na...	
 p08C51A	m645.1			
-p08C51C	m646.0	2人のまわりには	Around the two of them	
-p08C52E	m646.1	あの ふうけい画のせかいが あった・・・。	was the world of that / painting...	
-p08C55A	m647.0	はるか2億光年かなた・・・	200 million light-years / away...	
-p08C576	m647.1	青くかがやく 水の惑星「ギリシア」。	the shining blue water / planet "Greecia."	
+p08C51C	m646.0	2人のまわりには	Around the two of them / was the world	
+p08C52E	m646.1	あの ふうけい画のせかいが あった・・・。	of that painting...	
+p08C55A	m647.0	はるか2億光年かなた・・・	200 million / light-years away... / the shining blue water	
+p08C576	m647.1	青くかがやく 水の惑星「ギリシア」。	planet "Greecia."	
 p08C59C	m648.0	ギリシアの王タイタスに できあいされる	Titas, King of Greecia, / doted on his only child	
 p08C5C4	m648.1	1人むすめティナと 青年兵ソランは	Tina. She and the young / soldier Soran	
 p08C5E8	m648.2	おたがいに ふかく愛しあっていた。	loved each other deeply.	
@@ -174,7 +174,7 @@ p08C60E	m649.0	セス「いいか ソラン！	Seth: Listen, Soran! ...I've
 p08C626	m649.1	 ・・・ボクはずっとティナをまもってきた	 always protected Tina.	
 p08C650	m649.2	王と 父上がきめた	Not because the King and	
 p08C664	m649.3	いいなずけだからではないッ！	my father betrothed us!	
-p08C682	m649.4	ティナを ー生まもらなくてはと	I'd protect Tina / forever... / small as I was,	
+p08C682	m649.4	ティナを ー生まもらなくてはと	I'd protect / Tina forever... / small as I was,	
 p08C6A2	m649.5	小さいながら ボクはこころにちかったんだッ！	I swore it in my heart!	
 p08C6D0	m649.6	そのティナが ボクのしんゆうの お前を	And now Tina has fallen	
 p08C6F8	m649.7	すきになった・・・	for you, my best friend...	
@@ -184,7 +184,7 @@ p08C74A	m649.10	お前が まもるんだ！	you will protect her!
 p08C760	m649.11			
 p08C762	m649.12	ソラン「セス・・・	Soran: Seth...	
 p08C776	m649.13			
-p08C778	m649.14	セス「そのかわり ティナをフコウにしたら	Seth: In exchange... / if you ever make Tina / unhappy,	
+p08C778	m649.14	セス「そのかわり ティナをフコウにしたら	Seth: In exchange... / if you ever make / Tina unhappy,	
 p08C7A2	m649.15	 ぜったいに ゆるさない！	 I'll never forgive you!	
 p08C7BE	m649.16	わかるな ソラン・・・	Understood, Soran...?	
 p08C7D6	m649.17			
@@ -258,12 +258,12 @@ p08D05A	m667.5	ゲオルカが しくんだワナだった。	set by Georca.
 p08D07C	m667.6	ゲオルカの つまとして生きていた母と出会い	Meeting her mother, now / Georca's wife,	
 p08D0A8	m667.7	ティナの感情は コントロールをなくし・・・	Tina lost all control...	
 p08D0D4	m667.8	  かなしみと にくしみに つつまれた！！	 and was engulfed by grief / and hatred!!	
-p08D100	m668.0	  「ティナはあの時 バクハツで死んだッ！	 "Tina died in that blast!	
-p08D12C	m668.1	      ここにいるティナは・・・	 The Tina here...	
-p08D152	m668.2	   カガクシャどもが 人エブッシツで	 is a doll the scientists	
-p08D17A	m668.3	   生きかえらせた ニンギョウだッ！	 revived with artificial / matter!	
-p08D1A2	m668.4	  それも 王のめいれいによって どえらい	 And on the King's orders,	
-p08D1CE	m668.5	   兵器を うめこまれたバケ物だッ！」	 a monster with a terrible / weapon built in!"	
+p08D100	m668.0	  「ティナはあの時 バクハツで死んだッ！	 "Tina died / in that blast!	
+p08D12C	m668.1	      ここにいるティナは・・・	 The Tina here... is a doll	
+p08D152	m668.2	   カガクシャどもが 人エブッシツで	 the scientists revived / with artificial matter!	
+p08D17A	m668.3	   生きかえらせた ニンギョウだッ！	 And on the King's orders,	
+p08D1A2	m668.4	  それも 王のめいれいによって どえらい	 a monster with a terrible	
+p08D1CE	m668.5	   兵器を うめこまれたバケ物だッ！」	 weapon built in!"	
 p08D1F8	m669.0	セス「キサマァッ！！ ゲオルカーッ！	Seth: Fiend!! Georcaaa!	
 p08D21E	m670.0	   「だいじな ひめを イッペイソツに	 "You coward,	
 p08D248	m670.1	     うばわれた こしぬけがッ！！	 letting a mere soldier / take your princess!!	
@@ -288,7 +288,7 @@ p08D4C2	m674.0	セスのヒコウテイは 炎につつまれた。	Seth's flyin
 p08D4E8	m675.0	ソラン「ああッ！ ・・・ティナッ！	Soran: Ahh! ...Tina!	
 p08D50C	m676.0	セス「・・・ムリだよ ソラン・・・	Seth: ...It's no / use, Soran...	
 p08D530	m676.1	 ティナはもう だれの声もわからない・・・	 Tina can't hear anyone's / voice anymore...	
-p08D55C	m676.2	もうボクたちの ティナじゃないんだ・・・！	She's not our Tina / anymore...!	
+p08D55C	m676.2	もうボクたちの ティナじゃないんだ・・・！	She's not / our Tina anymore...!	
 p08D588	m677.0	ソラン「ティナーーーッ！	Soran: Tinaaaa!	
 p08D5A2	m677.1	 どうしたんだ ティナァッ！！	 What's wrong, Tinaaa!!	
 p08D5C2	m677.2	ソランは ティナとの出会いを・・・	Soran recalled Tina...	
@@ -308,7 +308,7 @@ p08D788	m679.7
 p08D78A	m680.0	ティナ「・・・・・・ カメンの・・・	Tina: ...... The masked...	
 p08D7B0	m680.1	 ・・・おにいちゃん・・・	 ...big brother...	
 p08D7CC	m681.0	     オエセルの青い光は 消えた。	 Orsel's blue light faded.	
-p08D7F4	m682.0	ティナは 自らの こういに おののき	Tina, horrified by her own / deeds,	
+p08D7F4	m682.0	ティナは 自らの こういに おののき	Tina, horrified / by her own deeds,	
 p08D81A	m682.1	自分を破壊するよう こんがんした。	begged to be destroyed.	
 p08D83E	m683.0	ティナ「ソラン・・・ 私は・・・	Tina: Soran... I...	
 p08D860	m683.1	 私は・・・ もう 人間じゃない・・・	 I'm not human anymore...	
@@ -334,8 +334,8 @@ p08DA9C	m689.1	ボクが ずっと まもってきた・・・	I always protecte
 p08DAC0	m689.2	・・・小さいころから ずっと	...Ever since we were	
 p08DADE	m689.3	ボクが まもってきたんだ・・・！	little, I protected you...!	
 p08DB00	m690.0	     ・・・ボクの ティナ・・・	 ...My Tina...	
-p08DB26	m691.0	ゲオルカの兵が ティナを 取り戻すため	Georca's soldiers, out to / retake Tina,	
-p08DB4E	m691.1	きゅうていまで せまっていた。	were closing in on the / palace.	
+p08DB26	m691.0	ゲオルカの兵が ティナを 取り戻すため	Georca's soldiers, / out to retake Tina, / were closing	
+p08DB4E	m691.1	きゅうていまで せまっていた。	in on the palace.	
 p08DB6E	m692.0	「・・・ああ だめだ！ もうティナ様を	"...Ah, it's no good! / We can't bring Tina-sama	
 p08DB96	m692.1	 もとに・・・ もとに戻せないっ・・・！」	 back... We can't / restore her...!"	
 p08DBC2	m692.2	7人のカガクシャたちは 暗いおももちで	The 7 scientists hung / their heads	
@@ -353,7 +353,7 @@ p08DD42	m696.0	     ・・・ズズーーーン・・・	 ...RUMBLE...
 p08DD66	m696.1	ゲオルカの兵は王きゅうまで攻めこんでいた。	Georca's soldiers had / stormed the royal palace.	
 p08DD92	m697.0	カガクシャの1人が ちんもくを破った。	One scientist spoke up.	
 p08DDBA	m697.1			
-p08DDBC	m697.2	    「ひとつ ほうほうがある・・・	 "There is one / way...	
+p08DDBC	m697.2	    「ひとつ ほうほうがある・・・	 "There is / one way...	
 p08DDE4	m697.3	 ティナ様の魂を もういちど 転生させる」	 Reincarnate Tina-sama's / soul once more."	
 p08DE10	m698.0	  「もう体を造り出す 人エブッシツはない	 "There's no artificial / matter left for a body.	
 p08DE3C	m698.1	    どこへ 転生させるつもりだ！」	 Where would / she be reborn?!" / "200 million	

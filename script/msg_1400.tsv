@@ -169,32 +169,32 @@ p09A762	m1435.0	バトルアイテム 神技書「ガード」	Battle Item: / Di
 p09A784	m1435.1	を 手に入れた！！	obtained!!	
 p09A798	m1435.2	『ガードは バトルアイテムＳＰに強い。	'Guard beats / Battle Item SP.	
 p09A7C0	m1435.3			
-p09A7C2	m1435.4	パンチ チョップ キックのダメージ	Lowers Punch, Chop and / Kick damage	
-p09A7E6	m1435.5	を 少なくする。』	taken.'	
+p09A7C2	m1435.4	パンチ チョップ キックのダメージ	Lowers Punch, Chop / and Kick damage	
+p09A7E6	m1435.5	を 少なくする。』	you take.'	
 p09A7FA	m1436.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
 p09A81C	m1436.1	を 手に入れた！！	obtained!!	
 p09A830	m1437.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
 p09A852	m1437.1	を 手に入れた！！	obtained!!	
 p09A866	m1437.2	『ガードは バトルアイテムＳＰに強い。	'Guard beats / Battle Item SP.	
 p09A88E	m1437.3			
-p09A890	m1437.4	パンチ チョップ キックのダメージ	Lowers Punch, Chop and / Kick damage	
-p09A8B4	m1437.5	を 少なくする。』	taken.'	
+p09A890	m1437.4	パンチ チョップ キックのダメージ	Lowers Punch, Chop / and Kick damage	
+p09A8B4	m1437.5	を 少なくする。』	you take.'	
 p09A8C8	m1438.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
 p09A8EA	m1438.1	を 手に入れた！！	obtained!!	
 p09A8FE	m1439.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
 p09A920	m1439.1	を 手に入れた！！	obtained!!	
 p09A934	m1439.2	『ガードは バトルアイテムＳＰに強い。	'Guard beats / Battle Item SP.	
 p09A95C	m1439.3			
-p09A95E	m1439.4	パンチ チョップ キックのダメージ	Lowers Punch, Chop and / Kick damage	
-p09A982	m1439.5	を 少なくする。』	taken.'	
+p09A95E	m1439.4	パンチ チョップ キックのダメージ	Lowers Punch, Chop / and Kick damage	
+p09A982	m1439.5	を 少なくする。』	you take.'	
 p09A996	m1440.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
 p09A9B8	m1440.1	を 手に入れた！！	obtained!!	
 p09A9CC	m1441.0	バトルアイテム 神技書「ガード」	Battle Item: / Divine Scroll "Guard"	
 p09A9EE	m1441.1	を 手に入れた！！	obtained!!	
 p09AA02	m1441.2	『ガードは バトルアイテムＳＰに強い。	'Guard beats / Battle Item SP.	
 p09AA2A	m1441.3			
-p09AA2C	m1441.4	パンチ チョップ キックのダメージ	Lowers Punch, Chop and / Kick damage	
-p09AA50	m1441.5	を 少なくする。』	taken.'	
+p09AA2C	m1441.4	パンチ チョップ キックのダメージ	Lowers Punch, Chop / and Kick damage	
+p09AA50	m1441.5	を 少なくする。』	you take.'	
 p09AA64	m1442.0	バトルアイテムＳＰ「占い道具」	Battle Item SP / "Fortune Kit"	
 p09AA84	m1442.1	を 手に入れた！	obtained! Resets both	
 p09AA96	m1442.2	おたがいのアクションバーを もとに戻す。	sides' Action Bars.	
@@ -225,9 +225,9 @@ p09AD5C	m1447.5	キックすべてに強い。 ガードだけに弱い。』	an
 p09AD88	m1448.0	バトルアイテムＳＰ「コショウ」	Battle Item SP "Pepper" / obtained!	
 p09ADA8	m1448.1	を 手に入れた！	Shuffles both sides'	
 p09ADBA	m1448.2	おたがいのアクションバーを シャッフル。	Action Bars.	
-p09ADE4	m1449.0	バトルアイテムＳＰ「コショウ」	Battle Item SP / "Pepper"	
-p09AE04	m1449.1	を 手に入れた！	obtained!	
-p09AE16	m1449.2	おたがいのアクションバーを シャッフル。	Shuffles both sides' / Action Bars.	
+p09ADE4	m1449.0	バトルアイテムＳＰ「コショウ」	Battle Item SP "Pepper"	
+p09AE04	m1449.1	を 手に入れた！	obtained! Shuffles both	
+p09AE16	m1449.2	おたがいのアクションバーを シャッフル。	sides' Action Bars.	
 p09AE40	m1449.3			
 p09AE42	m1449.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
 p09AE6C	m1449.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	
@@ -280,9 +280,9 @@ p09B3B2	m1459.5	キックすべてに強い。 ガードだけに弱い。』	an
 p09B3DE	m1460.0	バトルアイテムＳＰ「フラグメント」	Battle Item SP "Fragment" / obtained!	
 p09B402	m1460.1	を 手に入れた！	Stops the foe's switching	
 p09B414	m1460.2	相手の入れかえを 3回とめる。	3 times.	
-p09B434	m1461.0	バトルアイテムＳＰ「フラグメント」	Battle Item SP / "Fragment"	
-p09B458	m1461.1	を 手に入れた！	obtained!	
-p09B46A	m1461.2	相手の入れかえを 3回とめる。	Stops the foe's / switching 3 times.	
+p09B434	m1461.0	バトルアイテムＳＰ「フラグメント」	Battle Item SP "Fragment"	
+p09B458	m1461.1	を 手に入れた！	obtained! Stops the foe's	
+p09B46A	m1461.2	相手の入れかえを 3回とめる。	switching 3 times.	
 p09B48A	m1461.3			
 p09B48C	m1461.4	『バトルアイテムＳＰは パンチ チョップ	'Battle Item SP beats / Punch, Chop	
 p09B4B6	m1461.5	キックすべてに強い。 ガードだけに弱い。』	and Kick. It loses only / to Guard.'	

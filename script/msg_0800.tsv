@@ -1,7 +1,7 @@
 id	ref	jp	en	notes
 p08FDA8	m800.0	チットは おどろきと さみしさで	Chitto was filled with	
 p08FDCA	m800.1	いっぱいに なった。	surprise and loneliness.	
-p08FDE0	m800.2	ふあんげに トーマを見ている。	He watched Tohma / anxiously.	
+p08FDE0	m800.2	ふあんげに トーマを見ている。	He watched / Tohma anxiously.	
 p08FE00	m801.0	トーマ「・・・ヘルガ・・・	Tohma: ...Helga...	
 p08FE1C	m801.1			
 p08FE1E	m801.2	トーマは ティナを見上げながら つぶやくと	Gazing up at Tina, / Tohma murmured,	
@@ -13,13 +13,13 @@ p08FE9E	m804.0	チット「・・・トーマァーッ！！	Chitto: ...Tohmaaaa
 p08FEBE	m805.0	ハスモダイ「乗れ チットッ！	Hasmodai: Get on, Chitto!	
 p08FEDC	m806.0	あぁッ！ ティナ様・・・	Ahh! Tina-sama...	
 p08FEF6	m807.0	この扉の奥に セーブクリスタルが あるわ	Past this door is a / Save Crystal.	
-p08FF20	m808.0	霊道に 引きよせられて・・・	Drawn by the Spirit / Road...	
+p08FF20	m808.0	霊道に 引きよせられて・・・	Drawn by the / Spirit Road...	
 p08FF3E	m808.1	この星に・・・ 来ていたんだ・・・	it came... to this planet...	
 p08FF62	m809.0	あッ！！ ティナ様ッ！！	Ah!! Tina-sama!!	
 p08FF7C	m810.0	あの時ッ！ ティナ様を 転生させた時・・・	Back then! When we / reincarnated Tina-sama...	
 p08FFA8	m811.0	・・・！？	...?!	
 p08FFB4	m811.1	ここに ヘルガはいないッ！？	Helga isn't here?!	
-p08FFD2	m811.2	どこかに おくられたんだッ！	She's been sent / somewhere!	
+p08FFD2	m811.2	どこかに おくられたんだッ！	She's been / sent somewhere!	
 p08FFF0	m812.0	・・・ブゥウン！！	...Vwoom!!	
 p090004	m813.0	・・・ブゥウン！！	...Vwoom!!	
 p090018	m814.0	・・・ブゥウン！！	...Vwoom!!	
@@ -32,32 +32,32 @@ p090092	m820.0	ワンダーは もう飛べない。	Wanda can't fly anymore.
 p0900AE	m820.1			
 p0900B0	m820.2	・・・だが さいごまで トーマを	...But he'll back Tohma	
 p0900D2	m820.3	サポートしてくれるはずだ。	up to the very end.	
-p0900EE	m821.0	ゲド機関によって「クリル島」に 建造された	Built by the GED on / "Kuril Island":	
-p09011A	m821.1	巨大な転生装置「ゲドリング」。	the giant reincarnation / device "Gedling."	
-p09013A	m821.2	コントロールセンターの しゅうへんは	Near the control center,	
-p090160	m821.3	ブソウした兵隊によって カンシされていた。	armed soldiers kept / watch.	
-p09018C	m821.4	   じんるいが はじめて 死のせかいに	 A device letting mankind	
-p0901B6	m821.5	     カンショウするための装置。	 first intervene in the / world of the dead.	
-p0901DC	m821.6	すでに 初動ウンドウを かんりょうした	The device had already / finished starting up,	
-p090204	m821.7	装置からは あの 青い光・・・	and from it, that blue / light...	
-p090224	m821.8	オエセルの ユラめくような ハドウが	the wavering pulse / of Orsel...	
+p0900EE	m821.0	ゲド機関によって「クリル島」に 建造された	Built by the GED / on "Kuril Island":	
+p09011A	m821.1	巨大な転生装置「ゲドリング」。	the giant reincarnation / device "Gedling." / Near the control center,	
+p09013A	m821.2	コントロールセンターの しゅうへんは	armed soldiers / kept watch.	
+p090160	m821.3	ブソウした兵隊によって カンシされていた。	A device letting	
+p09018C	m821.4	   じんるいが はじめて 死のせかいに	 mankind first intervene / in the world of the dead.	
+p0901B6	m821.5	     カンショウするための装置。	 The device had already / finished starting up, / and from it,	
+p0901DC	m821.6	すでに 初動ウンドウを かんりょうした	that blue light...	
+p090204	m821.7	装置からは あの 青い光・・・	the wavering	
+p090224	m821.8	オエセルの ユラめくような ハドウが	pulse of Orsel...	
 p09024A	m821.9	ホウシャされはじめていた。	had begun to radiate.	
-p090266	m822.0	アギ「ガイケイは 多少 ちがうが	Agi: It looks a bit / different,	
-p090288	m822.1	 ボクらの 転生装置だ・・・！	 but it's our reincarnation / device...!	
+p090266	m822.0	アギ「ガイケイは 多少 ちがうが	Agi: It looks / a bit different,	
+p090288	m822.1	 ボクらの 転生装置だ・・・！	 but it's our / reincarnation device...!	
 p0902A8	m823.0	ソレト「私たちのデータを 手に入れなきゃ	Soreto: Without our data,	
 p0902D2	m823.1	 あそこまで にてないわ・・・	 it couldn't be so alike...	
 p0902F2	m824.0	トーマ「・・・ヘルガッ！	Tohma: ...Helga!	
 p09030C	m825.0	宇宙船ヴェガから 飛び出した トーマたちは	Leaving the spaceship / Vega, Tohma's group	
 p090338	m825.1	ゲドリングへと むかった。	headed for Gedling.	
 p090354	m826.0	上空の くもの間から 巨大な宇宙船ヴェガが	From the clouds above, / the giant spaceship Vega	
-p090380	m826.1	すがたを あらわした。	appeared.	
-p090398	m826.2	むすうの ロボット兵が こうかし	Countless robot soldiers / descended	
+p090380	m826.1	すがたを あらわした。	appeared. Countless	
+p090398	m826.2	むすうの ロボット兵が こうかし	robot soldiers descended	
 p0903BA	m826.3	ゲドリングを 制圧する。	and took over Gedling.	
 p0903D4	m827.0	装置の中心で かいてんする カプセルへ続く	Into the passage to the / capsule spinning at	
 p090400	m827.1	つうろへと デュマが 下りて来た。	the core, Dumas / came down.	
 p090424	m827.2	りょうウデには きを うしなった	In his arms he held	
 p090446	m827.3	ヘルガが だかれていた。	Helga, unconscious.	
-p090460	m827.4	デュマは くるしげな 表情を うかべる。	Dumas wore a pained / expression.	
+p090460	m827.4	デュマは くるしげな 表情を うかべる。	Dumas wore a / pained expression.	
 p09048A	m828.0	デュマ「・・・この日を ずっと・・・	Dumas: ...I've dreamed	
 p0904B0	m828.1	 ユメ見て来たのに・・・	 of this day for so long...	
 p0904CA	m828.2	なぜ こんなにも くるしいんだ・・・	So why does it hurt / so much...	
@@ -72,8 +72,8 @@ p090590	m831.0	カプセルへ こうかしようとした ワンダーの	As Wa
 p0905BC	m831.1	まわりに ほそく 青い光が あつまった。	thin blue light gathered / around him.	
 p0905E6	m832.0	アギ「あぶないッ！！ トーマッ！	Agi: Look out!! Tohma!	
 p090608	m833.0	ズババ・・・ ズドーーーン！！	Zzzap... KABOOOOM!!	
-p090628	m834.0	オエセルが 青いプラズマとなって	The Orsel turned into / blue plasma	
-p09064A	m834.1	ワンダーへ チョクゲキした。	and struck Wanda / directly.	
+p090628	m834.0	オエセルが 青いプラズマとなって	The Orsel turned into / blue plasma and struck	
+p09064A	m834.1	ワンダーへ チョクゲキした。	Wanda directly.	
 p090668	m834.2	     「あッ！？ うあぁッ！！」	 "Ah?! Waaah!!"	
 p09068E	m835.0	タルラント「だいじょうぶかッ！！ トーマ！	Tarlant: Are you okay!! / Tohma!	
 p0906BA	m836.0	アギ「カプセルから ヘルガを 引き出すッ！	Agi: I'll pull Helga out / of the capsule!	
@@ -94,7 +94,7 @@ p09086E	m843.3	動くみたいだ・・・	it seems to move the / other way...
 p090882	m844.0	チットは あぶないから ここでまってろ！	Chitto, it's dangerous! / Wait here!	
 p0908AC	m845.0	ここの相手は ほら！ チカオ島で	Look! Those soldiers from / Chikao Island!	
 p0908CE	m845.1	だっそうはんを おいかけていた 兵隊だよ！	The ones chasing / the escapee!	
-p0908FA	m845.2	扉を 開くために バトルしないと いけない	Some of them you have to / battle	
+p0908FA	m845.2	扉を 開くために バトルしないと いけない	Some of them you have / to battle	
 p090926	m845.3	ヤツも いるけど・・・	to open the doors, but...	
 p09093E	m845.4	パイプに上ったりすれば バトルしないで	if you climb the pipes,	
 p090966	m845.5	すすんで行くことも 出来るはずだよ！	you should be able to go / on without battling!	
@@ -151,11 +151,11 @@ p09101C	m877.0	こいつッ！！ あのときのッ！！ 	You!! From before!!
 p09103E	m878.0	ここで なにをしているッ！ とまれッ！！	What are you doing here! / Stop!!	
 p091068	m879.0	なんで子供が こんなところにいるッ！？	Why is a kid in a place / like this?!	
 p091090	m880.0	とまりなさいッ！ とまりなさいッ！！ 	Halt! Halt!! 	
-p0910B8	m881.0	動くなッ！ 動くなよッ・・・！！	Don't move! Don't you / move...!!	
+p0910B8	m881.0	動くなッ！ 動くなよッ・・・！！	Don't move! / Don't you move...!!	
 p0910DA	m882.0	キサマッ！ どうやって入ったッ！？	You! How did you get in?!	
 p0910FE	m883.0	こいつ・・・ あのときのッ！！ 	This one... from before!! 	
 p091120	m884.0	子供が こんなところで なにをしているッ！ 	What's a kid doing here?! 	
-p09114E	m885.0	ボウズ！ ここは 立ち入りキンシだッ！！	Kid! This area's / off-limits!!	
+p09114E	m885.0	ボウズ！ ここは 立ち入りキンシだッ！！	Kid! This area's off-limits!!	
 p091178	m886.0	さっきから なにをやっているッ！！ 	What've you done?! 	
 p09119E	m887.0	子供が 来るような場所じゃないッ！	This is no place for kids!	
 p0911C2	m887.1	とっとと 出て行けっ！！	Get out of here, now!!	
@@ -177,7 +177,7 @@ p091376	m895.0	ケイジが もぐりこんだらしいぞ・・・	Looks like a
 p09139C	m895.1	どこへ行く キサマッ！！	Where do you think / you're going?!	
 p0913B6	m896.0	表で ほんきょくの 女ほうこくいんを	We caught a woman agent / from headquarters	
 p0913DC	m896.1	とらえた・・・ キサマも なかまだなッ！	out front... You're with / her, aren't you?!	
-p091406	m897.0	フラグメントが くだかれていた・・・	The Fragment's been / smashed...	
+p091406	m897.0	フラグメントが くだかれていた・・・	The Fragment's / been smashed...	
 p09142C	m897.1	お前が やったのかッ！？	Did you do this?!	
 p091446	m898.0	子供が こんなところで なにをしているッ！ 	What's a kid doing here?! 	
 p091474	m899.0	とまりなさいッ！！ とまりなさいぃッ！！ 	Stop right there!! Stop!! 	

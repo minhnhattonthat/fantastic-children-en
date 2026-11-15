@@ -1,13 +1,13 @@
 id	ref	jp	en	notes
-p08275E	m200.0	病室にいた おじさん・・・	The man in the hospital / room...	
+p08275E	m200.0	病室にいた おじさん・・・	The man in / the hospital room...	
 p08277A	m200.1	画商だったのね・・・	was an art dealer...	
 p082790	m201.0	もう1ど クレルモンへ行って さがそう	Let's go to Clermont once / more and search.	
 p0827B8	m202.0	5さいのとき あつまってから	Since we met at age 5,	
 p0827D6	m202.1	もう10回いじょうも 行ってるよ	we've gone 10-plus times.	
 p0827F8	m203.0	きをつけないと あいつがいる・・・	We have to be careful. / He's out there...	
 p08281C	m203.1	見ただろ デュマのすがた	You saw him: Dumas.	
-p082836	m204.0	ボクらは にげてばかりいられない	We can't keep running / forever.	
-p082858	m204.1	あの時 あいつも 絵を見た・・・	He saw the painting too, / back then...	
+p082836	m204.0	ボクらは にげてばかりいられない	We can't keep / running forever. / He saw the painting too,	
+p082858	m204.1	あの時 あいつも 絵を見た・・・	back then...	
 p08287A	m204.2	いそがないと・・・！	We must hurry...!	
 p082890	m204.3			
 p082892	m204.4	ボクらは・・・ マモノ・・・か・・・	Are we... monsters...?	
@@ -26,7 +26,7 @@ p0829D6	m208.0	キミが 思っているのとおなじように	Just like she i
 p0829FA	m208.1	ボクらにとっても ヘルガは大切な人なんだ	Helga is precious	
 p082A24	m208.2	・・・いまを生きようとする ヘルガを思う	to us too. ...Helga is trying / to live in the present. / You care for her. We'll	
 p082A4E	m208.3	キミのカが きっと ひつようになる・・・	need your strength...	
-p082A78	m208.4	いっしょに ヘルガを たすけ出そう	Let's rescue Helga / together.	
+p082A78	m208.4	いっしょに ヘルガを たすけ出そう	Together, let's / rescue Helga.	
 p082A9C	m209.0	サポートフレンド 「アギ」	The Support Friend "Agi"	
 p082AB8	m209.1	が なかまになった！	joined you!	
 p082ACE	m209.2	すべての相手に 30ダメージあたえる。	Deals 30 damage / to all foes.	
@@ -34,14 +34,14 @@ p082AF6	m210.0	「デコードクリスタルＲ」を 手に入れた！	Got "D
 p082B20	m210.1			
 p082B22	m210.2	大きなレッドクリスタルを	Large Red Crystals can	
 p082B3C	m210.3	カイジョ出来る。	now be unsealed.	
-p082B4E	m211.0	ボクらが「記憶のレコード」を かくすために	To hide the / "Memory Records,"	
-p082B7A	m211.1	クリスタルで ふういんしていた場所も	we sealed places with / crystals.	
+p082B4E	m211.0	ボクらが「記憶のレコード」を かくすために	To hide the / "Memory Records," / we sealed places	
+p082B7A	m211.1	クリスタルで ふういんしていた場所も	with crystals.	
 p082BA0	m211.2	これで カイジョ出来る	Now you can unseal them.	
 p082BB8	m211.3			
 p082BBA	m211.4	いっこくも はやく デュマの・・・	Hurry... Dumas's...	
 p082BDE	m211.5			
 p082BE0	m211.6	おそらくは ギリシアの宇宙船が	ship, most likely the / Greecian spaceship...	
-p082C00	m211.7	かくされた場所を つきとめなければ・・・！	we must find where it's / hidden...!	
+p082C00	m211.7	かくされた場所を つきとめなければ・・・！	we must find / where it's hidden...!	
 p082C2C	m212.0	ボクらのなかまも 宇宙船を 探している	Our friends are searching / for the ship too.	
 p082C54	m212.1	きょうりょくして 探し出そう・・・！	Let's work together to / find it...!	
 p082C7A	m213.0	アギ「！ デュマが こんなにはやく・・・	Agi: ! Dumas, so soon...	
@@ -57,23 +57,23 @@ p082D6C	m214.0	キミが 思っているのとおなじように	Just like she i
 p082D90	m214.1	ボクらにとっても ヘルガは大切な人なんだ	Helga is precious	
 p082DBA	m214.2	・・・いまを生きようとする ヘルガを思う	to us too. ...Helga is trying / to live in the present. / You care for her. We'll	
 p082DE4	m214.3	キミのカが きっと ひつようになる・・・	need your strength...	
-p082E0E	m214.4	いっしょに ヘルガを たすけ出そう	Let's rescue Helga / together.	
+p082E0E	m214.4	いっしょに ヘルガを たすけ出そう	Together, let's / rescue Helga.	
 p082E32	m215.0	サポートフレンド 「アギ」	The Support Friend "Agi"	
 p082E4E	m215.1	が なかまになった！	joined you!	
 p082E64	m215.2	すべての相手に 30ダメージあたえる。	Deals 30 damage / to all foes.	
 p082E8C	m216.0	「デコードクリスタルＲ」を 手に入れた！	Got "Decode Crystal R"!	
 p082EB6	m216.1			
 p082EB8	m216.2	大きなレッドクリスタルを カイジョ出来る。	Large Red Crystals can / now be unsealed.	
-p082EE4	m217.0	ボクらが「記憶のレコード」を かくすために	To hide the / "Memory Records,"	
-p082F10	m217.1	クリスタルで ふういんしていた場所も	we sealed places with / crystals.	
+p082EE4	m217.0	ボクらが「記憶のレコード」を かくすために	To hide the / "Memory Records," / we sealed places	
+p082F10	m217.1	クリスタルで ふういんしていた場所も	with crystals.	
 p082F36	m217.2	これで カイジョ出来る	Now you can unseal them.	
 p082F4E	m217.3			
 p082F50	m217.4	いっこくも はやく デュマの・・・	Quickly, Dumas's...	
 p082F74	m217.5			
-p082F76	m217.6	おそらくは ギリシアの宇宙船が	probably the Greecian / spaceship...	
-p082F96	m217.7	かくされた場所を つきとめなければ・・・！	we must find where it's / hidden...!	
-p082FC2	m218.0	アギのまつ ろじ裏に ざっとうをかき分けて	Through the crowd, to the / alley where Agi waited,	
-p082FEE	m218.1	ソレトたちが あらわれた。	Soreto and the others / appeared.	
+p082F76	m217.6	おそらくは ギリシアの宇宙船が	probably the / Greecian spaceship...	
+p082F96	m217.7	かくされた場所を つきとめなければ・・・！	we must find / where it's hidden...!	
+p082FC2	m218.0	アギのまつ ろじ裏に ざっとうをかき分けて	Through the crowd, / to the alley where Agi	
+p082FEE	m218.1	ソレトたちが あらわれた。	waited, Soreto / and the others appeared.	
 p08300A	m219.0	ソレト「・・・アギ！	Soreto: ...Agi!	
 p083020	m219.1	 ハスモダイが アカバ海の島にある	 Hasmodai searched an / Akaba Sea island's	
 p083044	m219.2	地下どうくつに デュマのヒコウテイの	underground caves, and / Dumas's flying boat	
@@ -94,8 +94,8 @@ p08319C	m227.3	続けとくよ	a little longer.
 p0831A8	m227.4	なにか聞きたいことは あるかい？	Anything to ask me?	
 p0831CA	m228.0	しかけヒント	Puzzle tips	
 p0831D8	m228.1	バトルヒント	Battle tips	
-p0831E6	m229.0	閉じた扉があったら スイッチを探して	If a door is closed, look / for a switch	
-p08320C	m229.1	Ｂボタンで しらべてみるんだね	and check it with the B / Button.	
+p0831E6	m229.0	閉じた扉があったら スイッチを探して	If a door is closed, look / for a switch and check	
+p08320C	m229.1	Ｂボタンで しらべてみるんだね	it with the B Button.	
 p08322C	m230.0	バトルはアクションバーを	Battles are fought by / switching Action Bars	
 p083246	m230.1	上下に入れかえる リアルタイムバトルだよ	up and down. It's a / Real-Time Battle!	
 p083270	m230.2	3しゅるいの きほんアクション	The 3 basic actions,	
@@ -109,9 +109,9 @@ p083322	m230.9	チョップ（パー）より強い・・・	beats Chop (paper).
 p083342	m230.10	チョップ（パー）は	Chop (paper)	
 p083356	m230.11	パンチ（グー）より強い・・・	beats Punch (rock)...	
 p083374	m230.12	のびるアクションバーが ぶつかる前に	Before the growing / Action Bars collide,	
-p08339A	m230.13	相手のアクションを みきわめたら・・・	read your opponent's / action...	
+p08339A	m230.13	相手のアクションを みきわめたら・・・	read your / opponent's action...	
 p0833C2	m230.14	十字ボタン上下で アクションを	use Up and Down on the / +Control Pad to pick	
-p0833E2	m230.15	選択して Ａボタンで決定だよ！！	an action, and A to / confirm!!	
+p0833E2	m230.15	選択して Ａボタンで決定だよ！！	an action, / and A to confirm!!	
 p083404	m230.16	まずは 色分けされたアクションバーを	First, watch the / color-coded Action Bars	
 p08342A	m230.17	よく見て 相性をおぼえるんだね	and learn the matchups.	
 p08344A	m231.0	トーマ・・・	Tohma... Your dad gave	
@@ -122,13 +122,13 @@ p0834BA	m232.2	「にげる」ことが 出来るようになる。	Now you can 
 p0834E0	m232.3	トーマの おまもりだ。	Tohma's lucky charm.	
 p0834F8	m232.4	なかまは すべてのバトルアイテムに 強いが	Friends beat every / Battle Item,	
 p083524	m232.5	記憶のレコードを ショウヒする。	but use Memory Records.	
-p083546	m233.0	スタートボタンを押せば アクションバーに	Press Start, and on the / Action Bars	
-p083570	m233.1	セットしてある「バトルアイテム」がわかるよ	you can see the set / "Battle Items."	
+p083546	m233.0	スタートボタンを押せば アクションバーに	Press Start, / and on the Action Bars / you can see the set	
+p083570	m233.1	セットしてある「バトルアイテム」がわかるよ	"Battle Items."	
 p08359C	m233.2	「バトルエディット」では	"Battle Edit" puts items	
-p0835B6	m233.3	5本のアクションバーへのセット そして	on the 5 Action Bars, and	
-p0835DE	m233.4	「サポートエディット」では ＬＲボタンで	in "Support Edit" you set / the friends	
-p083608	m233.5	よび出せる なかまのセットが出来るよ	you call with the L and R / Buttons.	
-p08362E	m233.6	お前なら きっとやれるよ がんばりな！	You can do it. / Go get 'em!	
+p0835B6	m233.3	5本のアクションバーへのセット そして	on the 5 Action Bars,	
+p0835DE	m233.4	「サポートエディット」では ＬＲボタンで	and in "Support Edit" / you set the friends / you call with the L	
+p083608	m233.5	よび出せる なかまのセットが出来るよ	and R Buttons.	
+p08362E	m233.6	お前なら きっとやれるよ がんばりな！	You can do it. Go get 'em!	
 p083656	m234.0	チカオの子だってね・・・	That's a Chikao kid, huh...	
 p083670	m234.1	あそこ うわさわるいから	That place is trouble.	
 p08368A	m234.2	この間だって 子供がにげ出したってさ・・・	Just the other day, / I heard, / a kid ran away...	
@@ -142,7 +142,7 @@ p083744	m237.2	チット「ヘヘ・・・ まァな	Chitto: Heh heh... Kinda.
 p083760	m238.0	ボク ヘルガが 行きたいっていう所へ	I wanna take Helga	
 p083786	m238.1	つれてってやりたいんだ	where she wants to go.	
 p08379E	m239.0	トーマ「ヘルガ？	Tohma: Helga?	
-p0837B0	m239.1	 ・・・あのコ ヘルガっていうのか	 ...That girl's named / Helga?	
+p0837B0	m239.1	 ・・・あのコ ヘルガっていうのか	 ...That girl's / named Helga?	
 p0837D4	m239.2	チット「なれなれしく ヘルガって よぶな！	Chitto: Don't call her / Helga like you know her!	
 p083800	m239.3	 ・・・えっと・・・	 ...Um...	
 p083816	m240.0	トーマ「あ オレ トーマ	Tohma: Oh, I'm Tohma.	
@@ -168,11 +168,11 @@ p083A8C	m243.6	スタートボタンを押せば アクションバーに	and on
 p083AB6	m243.7	セットしてある「バトルアイテム」がわかる。	"Battle Items."	
 p083AE2	m243.8	「サポートエディット」では ＬＲボタンで	in "Support Edit" you set / the friends you call	
 p083B0C	m243.9	よび出せる なかまのセットが出来る。	with the L and R Buttons.	
-p083B32	m244.0	トーマ「よし 行くぞ チット！	Tohma: All right, let's go, / Chitto!	
+p083B32	m244.0	トーマ「よし 行くぞ チット！	Tohma: All right, / let's go, Chitto!	
 p083B52	m244.1	チット「うん！	Chitto: Yeah!	
 p083B62	m245.0	パパン島	Papin	
 p083B6C	m245.1	チカオ島	Chikao	
-p083B76	m246.0	よし 行くぞ チット！	All right, let's go, / Chitto!	
+p083B76	m246.0	よし 行くぞ チット！	All right, let's go, Chitto!	
 p083B8E	m247.0	うん！	Yeah!	
 p083B96	m248.0	パパン島	Papin	
 p083BA0	m248.1	チカオ島	Chikao	
@@ -222,8 +222,8 @@ p083E72	m264.4	島中をブソウした兵隊が 取りかこんでいた。	sur
 p083E9E	m265.0	トーマ「チカオって いつも こんななのか？	Tohma: Is Chikao always / like this?	
 p083ECA	m266.0	チット「こんなの はじめてだよ・・・	Chitto: This is a first...	
 p083EF0	m266.1			
-p083EF2	m266.2	トーマ「・・・だっそうはん さがしてるって	Tohma: ...Didn't / Dad say	
-p083F1E	m266.3	 とうちゃん いってたよな・・・	 they were hunting an / escapee...	
+p083EF2	m266.2	トーマ「・・・だっそうはん さがしてるって	Tohma: / ...Didn't Dad	
+p083F1E	m266.3	 とうちゃん いってたよな・・・	 say they were hunting / an escapee...	
 p083F40	m266.4	・・・ちょうど いいぜ！	...That's perfect!	
 p083F5A	m266.5			
 p083F5C	m266.6	だっそうはんっていうのは にげてるヤツだろ	An escapee's someone / who's running away.	
@@ -244,9 +244,9 @@ p084114	m270.3	兵隊とのバトルになる みたいだよ・・・	spots you
 p08413C	m271.0	いたぞッ！！ おとなしくしろッ！！ 	There he is!! Don't move!! 	
 p084162	m272.0	きさまッ！ どこへ 行くつもりだッ！！	You! Where do you think / you're going?!	
 p08418A	m273.0	もう にげられないぞ！ こぞぉ！！	You can't run now, brat!!	
-p0841AE	m274.0	ていこうするな・・・ おとなしくしろッ！！	Don't resist... Stay / still!!	
+p0841AE	m274.0	ていこうするな・・・ おとなしくしろッ！！	Don't resist... Stay still!!	
 p0841DA	m275.0	子供が こんなところで なにをしているッ！	What is a kid doing in a / place like this?!	
-p084206	m276.0	きさまァ！！ ていこうするつもりか！	You brat!! You mean to / resist?!	
+p084206	m276.0	きさまァ！！ ていこうするつもりか！	You brat!! / You mean to resist?!	
 p08422C	m277.0	！！ そう・・・ デュマが・・・	!! I see... Dumas...	
 p08424E	m277.1			
 p084250	m277.2	ヒースマが むかった施設で ここの装置が	At the lab Hesma went to, / we learned the device is	
@@ -259,19 +259,19 @@ p08433C	m277.8	トーマ・・・	Tohma...
 p08434A	m278.0	これからも ヘルガのそばで	From now on, / stay by Helga	
 p084366	m278.1	まもっていてあげて・・・	and protect her...	
 p084380	m278.2	私も カになるわ・・・！！	I'll help too...!!	
-p08439C	m279.0	サポートフレンド 「ソレト」	The Support Friend / "Soreto"	
-p0843BA	m279.1	が なかまになった！	joined you!	
-p0843D0	m279.2	トーマの体カを 20かいふくさせる。	Restores 20 HP to Tohma.	
+p08439C	m279.0	サポートフレンド 「ソレト」	The Support Friend / "Soreto" joined you!	
+p0843BA	m279.1	が なかまになった！	Restores 20 HP	
+p0843D0	m279.2	トーマの体カを 20かいふくさせる。	to Tohma.	
 p0843F6	m280.0	「デコードクリスタルＢ」を 手に入れた！	Got "Decode Crystal B"!	
 p084420	m280.1			
 p084422	m280.2	大きなブルークリスタルを	Large Blue Crystals can	
 p08443C	m280.3	カイジョ出来る。	now be unsealed.	
-p08444E	m281.0	私たちが「記憶のレコード」を かくすために	To hide the / "Memory Records,"	
-p08447A	m281.1	クリスタルで ふういんしていた場所も	we sealed places with / crystals.	
+p08444E	m281.0	私たちが「記憶のレコード」を かくすために	To hide the / "Memory Records," / we sealed places	
+p08447A	m281.1	クリスタルで ふういんしていた場所も	with crystals.	
 p0844A0	m281.2	これで カイジョ出来るわ	Now you can unseal them.	
 p0844BA	m281.3			
 p0844BC	m281.4	ヘルガは きっとデュマの・・・	Helga must have been / taken by Dumas...	
-p0844DC	m281.5	ギリシアの宇宙船に つれさられたはず・・・	onto the Greecian / spaceship...	
+p0844DC	m281.5	ギリシアの宇宙船に つれさられたはず・・・	onto the / Greecian spaceship...	
 p084508	m282.0	私たちのなかまも 宇宙船を 探してるわ	Our friends are searching / for the ship too.	
 p084530	m282.1	きょうりょくして 探しましょう・・・！	Let's work together to / find it...!	
 p084558	m283.0	ソレト「！！ そう・・・ デュマが・・・	Soreto: !! I see... Dumas...	
@@ -286,19 +286,19 @@ p084670	m283.8	トーマ・・・	Tohma...
 p08467E	m284.0	これからも ヘルガのそばで	From now on, / stay by Helga	
 p08469A	m284.1	まもっていてあげて・・・	and protect her...	
 p0846B4	m284.2	私も カになるわ・・・！！	I'll help too...!!	
-p0846D0	m285.0	サポートフレンド 「ソレト」	The Support Friend / "Soreto"	
-p0846EE	m285.1	が なかまになった！	joined you!	
-p084704	m285.2	トーマの体カを 20かいふくさせる。	Restores 20 HP to Tohma.	
+p0846D0	m285.0	サポートフレンド 「ソレト」	The Support Friend / "Soreto" joined you!	
+p0846EE	m285.1	が なかまになった！	Restores 20 HP	
+p084704	m285.2	トーマの体カを 20かいふくさせる。	to Tohma.	
 p08472A	m286.0	「デコードクリスタルＢ」を 手に入れた！	Got "Decode Crystal B"!	
 p084754	m286.1			
 p084756	m286.2	大きなブルークリスタルを	Large Blue Crystals can	
 p084770	m286.3	カイジョ出来る。	now be unsealed.	
-p084782	m287.0	私たちが「記憶のレコード」を かくすために	To hide the / "Memory Records,"	
-p0847AE	m287.1	クリスタルで ふういんしていた場所も	we sealed places with / crystals.	
+p084782	m287.0	私たちが「記憶のレコード」を かくすために	To hide the / "Memory Records," / we sealed places	
+p0847AE	m287.1	クリスタルで ふういんしていた場所も	with crystals.	
 p0847D4	m287.2	これで カイジョ出来るわ	Now you can unseal them.	
 p0847EE	m287.3			
 p0847F0	m287.4	ヘルガは きっとデュマの・・・	Helga must have been / taken by Dumas...	
-p084810	m287.5	ギリシアの宇宙船に つれさられたはず・・・	onto the Greecian / spaceship...	
+p084810	m287.5	ギリシアの宇宙船に つれさられたはず・・・	onto the / Greecian spaceship...	
 p08483C	m288.0	暗い緑が ざわめくと 上空から	The dark green stirred,	
 p08485C	m288.1	アギたちが フォグボートで あらわれた。	and Agi and the others / came down in a Fog Boat.	
 p084886	m289.0	アギ「・・・ソレト！	Agi: ...Soreto!	

@@ -3,6 +3,7 @@
     python -X utf8 tools/reflow.py stats                 # mid-sentence box ends, English vs Japanese
     python -X utf8 tools/reflow.py batch rNN [--show N] [--why]   # work/tl/rNN.tsv + rNN.out.tsv for the groups it improves
     python -X utf8 tools/reflow.py batch rNN --cursor     # only groups with a page line touching the ▼ (lint.CURSOR_GAP)
+    python -X utf8 tools/reflow.py batch rNN --widows     # only groups with a one-word continuation line (widows())
 
 The dialogue box holds 2 lines and clears; a box group (pages up to a blank Japanese page) fills boxes from its
 first line. The Japanese ends most boxes on a sentence end; English with extra lines (" / ") shifts every later box
@@ -29,6 +30,7 @@ from tbl import Table  # noqa: E402
 
 BL = lint.BLANKS
 SENT_EN = re.compile(r"""[.!?…~]["')”’]*$|["”’)]$""")
+SENT_END = re.compile(r"""[.!?…~]["')”’]*$""")    # a closing quote alone doesn't end a sentence ('"Chop 10" obtained!')
 CLAUSE_EN = re.compile(r"[,;:—-]$")
 END_JP = tuple("。！？」』…・ッ）!?")
 SPEAKER = re.compile(r"^[A-Z][\w'.-]*( [A-Z][\w'.-]*)?: ")
@@ -71,6 +73,13 @@ def mid_ends(lines, jp=False):
     if jp:
         return sum(not b[-1].replace(lint.ENDFLAG, "").endswith(END_JP) for b in boxes)
     return sum(not SENT_EN.search(b[-1]) for b in boxes)
+
+
+def widows(lines):
+    """One-word lines that continue the previous line's sentence ("Hm... You've gotten / good...",
+    '"Chop 10" / obtained!'): visual QA flags them as orphans."""
+    return sum(len(ln.split()) == 1 and k and not SENT_END.search(lines[k - 1])
+               for k, ln in enumerate(lines))
 
 
 def skip_reason(g):
@@ -271,10 +280,14 @@ def main(argv):
     by_pos = {r["id"]: k for k, r in enumerate(rows)}
     out, skipped, worse, bad, shown = {}, {}, 0, 0, 0
     cursor_mode = "--cursor" in argv
+    widow_mode = "--widows" in argv
     for m, g, blank_after in gs:
         old = lines_of(g) if all(r["en"] for r in g) else None
         if cursor_mode:
             if not old or not any("▼" in e for r in g for e in lint.lint_row(r, en_tbl)[0]):
+                continue
+        elif widow_mode:
+            if not old or widows(old) == 0:
                 continue
         elif not old or mid_ends(old) == 0:
             continue
@@ -287,7 +300,11 @@ def main(argv):
             skipped["no solution"] = skipped.get("no solution", 0) + 1
             continue
         nl = [ln.strip() for pg in new for ln in pg.split(lint.LINE_SEP)]
-        if mid_ends(nl) > mid_ends(old) or (mid_ends(nl) == mid_ends(old) and not cursor_mode):
+        if widow_mode:
+            not_better = mid_ends(nl) > mid_ends(old) or widows(nl) >= widows(old)
+        else:
+            not_better = mid_ends(nl) > mid_ends(old) or (mid_ends(nl) == mid_ends(old) and not cursor_mode)
+        if not_better:
             worse += 1
             if "--why" in argv:
                 print(f"m{m} not improved: {' | '.join(nl)}")

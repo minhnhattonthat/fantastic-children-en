@@ -1,7 +1,7 @@
 id	ref	jp	en	notes
 p08DFF0	m700.0	その時 転生装置のコントロール室にまで	Just then, the / reincarnation device's	
 p08E018	m700.1	ゲオルカの兵が 押しよせて来た。	control room was stormed / by Georca's soldiers.	
-p08E03A	m701.0	転生装置のカプセルが ゆっくりと閉じる。	The reincarnation / device's capsule slowly / closed.	
+p08E03A	m701.0	転生装置のカプセルが ゆっくりと閉じる。	The reincarnation / device's capsule / slowly closed.	
 p08E064	m702.0	ティナ「ソラン！ ソラン！	Tina: Soran! Soran!	
 p08E080	m703.0	ソラン「ティナッ！ かならず行く！	Soran: Tina! / I'll come!	
 p08E0A4	m703.1	 オレは かならず お前の所に行く！	 I'll come to you, / no matter what!	
@@ -19,7 +19,7 @@ p08E1E0	m710.2	ティナの さけびが こだまする中・・・	As Tina's c
 p08E208	m710.3			
 p08E20A	m710.4	   ティナの魂は 地球へと転生した。	 Tina's soul was reborn / on Earth.	
 p08E232	m711.0	    ・・・はるかな時を こえて	 ...Across the vast / span of time,	
-p08E256	m711.1	    おもいは つながっていた・・・。	 their hearts stayed / connected...	
+p08E256	m711.1	    おもいは つながっていた・・・。	 their hearts / stayed connected...	
 p08E280	m711.2	前世の記憶を さかのぼり ヘルガは 自分が	Tracing her past life, / Helga regained	
 p08E2AC	m711.3	遠く惑星ギリシアの 王女・・・	memories of the princess / of far planet Greecia...	
 p08E2CC	m711.4	ティナであったころの記憶を 取り戻した。	of her life as Tina.	
@@ -29,8 +29,8 @@ p08E338	m713.0	チット「ヘルガ・・・ ヘルガ・・・	Chitto: Helga..
 p08E35C	m714.0	トーマ「・・・ヘルガ・・・	Tohma: ...Helga...	
 p08E378	m715.0	そのヘルガには だれも声をかけられない。	None could console Helga.	
 p08E3A2	m715.1			
-p08E3A4	m715.2	トーマは くやしそうに 顔をゆがませると	Tohma's face twisted in / frustration,	
-p08E3CE	m715.3	ゆっくりと ヘルガのそばから はなれた。	and he slowly walked / away from Helga.	
+p08E3A4	m715.2	トーマは くやしそうに 顔をゆがませると	Tohma's face twisted / in frustration, / and he slowly walked	
+p08E3CE	m715.3	ゆっくりと ヘルガのそばから はなれた。	away from Helga.	
 p08E3F8	m716.0	・・・ガンッ！ ガンッ！・・・	...Clang! Clang!...	
 p08E418	m716.1	ロックされている。	It's locked.	
 p08E42C	m717.0	・・・ガンッ！ ガンッ！・・・	...Clang! Clang!...	
@@ -93,7 +93,7 @@ p08EA90	m736.0	トーマッ！ この中は 大きすぎて	Tohma! It's so big i
 p08EAB2	m736.1	あしもとが 見えない場所が たくさんある	there are lots of places / where you can't see / the floor.	
 p08EADC	m736.2	ジャンプしたり 高い所から 下りる時は	When you jump or drop / from high places,	
 p08EB04	m736.3	よく きを つけるんだッ！	be really careful!	
-p08EB20	m737.0	どこかに ドアのロックを 開く	There must be a key / somewhere	
+p08EB20	m737.0	どこかに ドアのロックを 開く	There must be / a key somewhere	
 p08EB40	m737.1	キーが あるはずだ！	that unlocks the doors!	
 p08EB56	m737.2	あの 押し引き出来るエレベーター・・・	That elevator you can / push and pull...	
 p08EB7E	m737.3			
@@ -115,15 +115,15 @@ p08ED54	m743.1	してある・・・ バトルは ボクにまかせろ！	Leave
 p08ED80	m744.0	・・・お前ッ！ ヒースマッ！！	...You! / Hesma!! / It was you who told him	
 p08EDA0	m744.1	お前だな ヘルガのことを あいつに・・・	about Helga...	
 p08EDCA	m744.2	デュマに しゃべったのはッ！	You told Dumas, right?!	
-p08EDE8	m745.0	フッ ヘルガの選択が どうであろうと	Whatever Helga chose,	
-p08EE0E	m745.1	この・・・ ボクらの体が・・・	as long as these bodies...	
-p08EE2E	m745.2	ボクらの 本来の人生が デュマの手に	as long as our true lives / were in Dumas's hands,	
-p08EE54	m745.3	あるいじょう したがうしかなかったのさ	we had no choice but / to obey.	
-p08EE7C	m745.4	だが こうして 体を 取り戻した いま	But now that we have our / bodies back,	
-p08EEA4	m745.5	デュマに したがうつもりはない・・・	I don't intend to obey / Dumas...	
+p08EDE8	m745.0	フッ ヘルガの選択が どうであろうと	Whatever Helga chose, as / long as these bodies...	
+p08EE0E	m745.1	この・・・ ボクらの体が・・・	as long as our true lives	
+p08EE2E	m745.2	ボクらの 本来の人生が デュマの手に	were in Dumas's hands, / we had no choice / but to obey.	
+p08EE54	m745.3	あるいじょう したがうしかなかったのさ	But now that we have / our bodies back,	
+p08EE7C	m745.4	だが こうして 体を 取り戻した いま	I don't intend	
+p08EEA4	m745.5	デュマに したがうつもりはない・・・	to obey Dumas...	
 p08EECA	m745.6	・・・トーマ	...Tohma.	
 p08EED8	m745.7			
-p08EEDA	m745.8	ヘルガを ともに すくい出そう・・・！	Let's rescue Helga / together...!	
+p08EEDA	m745.8	ヘルガを ともに すくい出そう・・・！	Let's rescue / Helga together...!	
 p08EF02	m746.0	サポートフレンド 「ヒースマ」	The Support Friend / "Hesma" joined you!	
 p08EF22	m746.1	が なかまになった！	Deals 60 damage	
 p08EF38	m746.2	すべての相手に 60ダメージあたえる。	to all foes.	
@@ -141,8 +141,8 @@ p08F040	m755.0	お前ッ！！ ヘルガを かえせッ！！	You!! Give Helga 
 p08F064	m756.0	ヘルガは ボクの姉さんだよ・・・	Helga is my sister... This / is none of your business. / You saw those	
 p08F086	m756.1	お前が 口だすことではない	scientists' bodies...	
 p08F0A2	m756.2	見ただろう・・・ あの カガクシャたちの体	Of those 7,	
-p08F0CE	m756.3	すでに あの7人のうち・・・	already...	
-p08F0EC	m756.4	ふたりの きょうりょくしゃが いるんだ	two are working with me.	
+p08F0CE	m756.3	すでに あの7人のうち・・・	already two...	
+p08F0EC	m756.4	ふたりの きょうりょくしゃが いるんだ	are working with me.	
 p08F114	m756.5			
 p08F116	m756.6	・・・ヒースマ	...Hesma.	
 p08F126	m757.0	トーマ「あ！ お前ッ・・・	Tohma: Ah! You...	
@@ -158,7 +158,7 @@ p08F238	m758.7
 p08F23A	m758.8	ボクは ギリシア人だッ！	I am a Greecian!	
 p08F254	m758.9	デュマにきょうりょくして ギリシアに帰る！	I'll work with Dumas and / return to Greecia!	
 p08F280	m759.0	タルラント「きょうりょく！？	Tarlant: / Work with him?!	
-p08F29E	m759.1	 ティナの ふっかつに手をかすのか！？	 You'd help bring back / Tina?!	
+p08F29E	m759.1	 ティナの ふっかつに手をかすのか！？	 You'd help / bring back Tina?!	
 p08F2C6	m760.0	ハスモダイ「また あの あやまちを	Hasmodai: You'd repeat / that mistake	
 p08F2EA	m760.1	 くりかえすつもりか ヒースマッ！	 all over again, Hesma?!	
 p08F30E	m761.0	デュマ「・・・あやまちを くりかえす	Dumas: / ...Repeat a mistake,	
@@ -169,10 +169,10 @@ p08F388	m762.0	タルラント「ふたりと いったな？	Tarlant: You said 
 p08F3AA	m762.1	 ・・・もうひとりは だれのことだ	 ...Who's the other one?	
 p08F3CE	m763.0	デュマ「・・・メル と いったかな	Dumas: ...Mel, was it?	
 p08F3F2	m763.1	 おぼえているかな 111年前・・・	 Do you remember? / 111 years ago...	
-p08F418	m764.0	お前たちを おった クレルモンの・・・	when I chased you / to Clermont...	
-p08F440	m764.1	あのリョウヨウ施設で とらえただろう？	I caught her at that / sanatorium, didn't I?	
+p08F418	m764.0	お前たちを おった クレルモンの・・・	when I chased / you to Clermont... / I caught her at that	
+p08F440	m764.1	あのリョウヨウ施設で とらえただろう？	sanatorium, didn't I?	
 p08F468	m764.2	ボクは メルに 転生装置のシステムを	I tried to ask Mel how / the reincarnation device	
-p08F48E	m764.3	聞こうとした・・・ だが すでに・・・	worked... / But by then...	
+p08F48E	m764.3	聞こうとした・・・ だが すでに・・・	worked... But by then...	
 p08F4B6	m765.0	お前たちのように 人エ転生したものが	I didn't know that those / artificially reincarnated	
 p08F4DC	m765.1	すう年で 記憶を なくすことを	like you lose their / memories in a few years...	
 p08F4FC	m765.2	ボクは しらなかった・・・	I had no idea...	
@@ -183,13 +183,13 @@ p08F57A	m766.3	のこっているなんて・・・ ね・・・	it still linger
 p08F59E	m767.0	ハスモダイ「ゲルタはかせ？	Hasmodai: Dr. Gherta?	
 p08F5BA	m768.0	ヒースマ「ここ 地球で・・・	Hesma: Here on Earth...	
 p08F5D8	m768.1			
-p08F5DA	m768.2	転生装置を 建造したゲド機関の	the GED built the / reincarnation device,	
-p08F5FA	m768.3	女 カガクシャだ・・・	and she's one of its / scientists...	
-p08F612	m769.0	デュマ「ゲルタは メルの生まれかわり・・・	Dumas: Gherta is Mel / reborn...	
-p08F63E	m769.1	 かのじょが転生装置をかんせいさせたんだよ	 She completed the / reincarnation device.	
-p08F66A	m769.2	お前たちが クレルモンで 転生する時に	When you were reborn / in Clermont,	
-p08F692	m769.3	消えずに のこった アウトゾーンのカケラ	a shard of the Autozone / remained, unvanished...	
-p08F6BC	m769.4	フラグメントのキゴウを かいどくしてな	She decoded the symbols / on that Fragment.	
+p08F5DA	m768.2	転生装置を 建造したゲド機関の	the GED built / the reincarnation device, / and she's one	
+p08F5FA	m768.3	女 カガクシャだ・・・	of its scientists...	
+p08F612	m769.0	デュマ「ゲルタは メルの生まれかわり・・・	Dumas: Gherta / is Mel reborn...	
+p08F63E	m769.1	 かのじょが転生装置をかんせいさせたんだよ	 She completed / the reincarnation device. / When you were reborn	
+p08F66A	m769.2	お前たちが クレルモンで 転生する時に	in Clermont,	
+p08F692	m769.3	消えずに のこった アウトゾーンのカケラ	a shard of the Autozone / remained, unvanished... / She decoded the symbols	
+p08F6BC	m769.4	フラグメントのキゴウを かいどくしてな	on that Fragment.	
 p08F6E4	m770.0	トーマ「お前ッ！！	Tohma: You!!	
 p08F6F8	m771.0	デュマ「・・・すべては もうすぐ おわる	Dumas: ...It will all / be over soon.	
 p08F722	m771.1	 ・・・すべて・・・	 ...All of it...	
@@ -244,6 +244,6 @@ p08FCCC	m796.0	アギ「クッ！ シールドされているッ！	Agi: Ngh! / 
 p08FCF2	m796.1	 人エ人体を 破壊出来ない・・・！	 We can't destroy / the artificial body...!	
 p08FD16	m797.0	タルラント「くそッ！ ほぞんえきを	Tarlant: Damn! If only / we could drain	
 p08FD3A	m797.1	 ぬくことが 出来たら・・・	 the preserving fluid...	
-p08FD58	m798.0	アギ「・・・転生装置だッ！！	Agi: ...The reincarnation / device!!	
+p08FD58	m798.0	アギ「・・・転生装置だッ！！	Agi: ...The / reincarnation device!!	
 p08FD76	m799.0	チット「・・・トーマ・・・	Chitto: ...Tohma...	
 p08FD92	m799.1	トーマ「・・・・・・	Tohma: ......	

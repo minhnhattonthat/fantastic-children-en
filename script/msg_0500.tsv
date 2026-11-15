@@ -1,10 +1,10 @@
 id	ref	jp	en	notes
-p0890DE	m500.0	ボクらが「記憶のレコード」を かくすために	To hide the / "Memory Records,"	
-p08910A	m500.1	クリスタルで ふういんしていた場所も	we sealed places with / crystals.	
+p0890DE	m500.0	ボクらが「記憶のレコード」を かくすために	To hide the / "Memory Records," / we sealed places	
+p08910A	m500.1	クリスタルで ふういんしていた場所も	with crystals.	
 p089130	m500.2	これで カイジョ出来る	Now you can unseal them.	
 p089148	m500.3			
-p08914A	m500.4	ギリシアの宇宙船が	We must find where the / Greecian	
-p08915E	m500.5	かくされた場所を つきとめないと・・・！	spaceship is hidden...!	
+p08914A	m500.4	ギリシアの宇宙船が	We must find where / the Greecian spaceship	
+p08915E	m500.5	かくされた場所を つきとめないと・・・！	is hidden...!	
 p089188	m501.0	上空から タルラントが ワンダーで	Tarlant came down	
 p0891AC	m501.1	あらわれた。	on Wanda from above.	
 p0891BA	m502.0	タルラント「ハスモダイ・・・！	Tarlant: Hasmodai...!	
@@ -34,12 +34,12 @@ p089418	m511.0	「デコードクリスタルＹ」を 手に入れた！	Got "D
 p089442	m511.1			
 p089444	m511.2	大きなイエロークリスタルを	Large Yellow Crystals can	
 p089460	m511.3	カイジョ出来る。	now be unsealed.	
-p089472	m512.0	ボクらが「記憶のレコード」を かくすために	To hide the / "Memory Records,"	
-p08949E	m512.1	クリスタルで ふういんしていた場所も	we sealed places with / crystals.	
+p089472	m512.0	ボクらが「記憶のレコード」を かくすために	To hide the / "Memory Records," / we sealed places	
+p08949E	m512.1	クリスタルで ふういんしていた場所も	with crystals.	
 p0894C4	m512.2	これで カイジョ出来る	Now you can unseal them.	
 p0894DC	m512.3			
-p0894DE	m512.4	ギリシアの宇宙船が	We must find where the / Greecian	
-p0894F2	m512.5	かくされた場所を つきとめないと・・・！	spaceship is hidden...!	
+p0894DE	m512.4	ギリシアの宇宙船が	We must find where / the Greecian spaceship	
+p0894F2	m512.5	かくされた場所を つきとめないと・・・！	is hidden...!	
 p08951C	m513.0	上空から タルラントが ワンダーで	Tarlant came down	
 p089540	m513.1	あらわれた。	on Wanda from above.	
 p08954E	m514.0	タルラント「ハスモダイ・・・！	Tarlant: Hasmodai...!	
@@ -76,24 +76,24 @@ p08988E	m527.0	回帰の旅を はじめる前に セーブするのを	Before y
 p0898B8	m527.1	わすれないでね・・・	don't forget to save...	
 p0898CE	m528.0	そう・・・	I see...	
 p0898DA	m528.1			
-p0898DC	m528.2	そっちには セラフィーヌの	Over there is Seraphine's	
-p0898F8	m528.3	生まれた家が あるのよ	birthplace.	
+p0898DC	m528.2	そっちには セラフィーヌの	That's Seraphine's	
+p0898F8	m528.3	生まれた家が あるのよ	birthplace over there.	
 p089910	m529.0	ボクは ヘルガと いっしょに いたい・・・	I want to be with Helga...	
 p08993C	m529.1			
 p08993E	m529.2	まもるんだ・・・！	I'll protect her...!	
 p089952	m530.0	デュマ・・・ ティナの弟・・・	Dumas... Tina's brother...	
-p089972	m531.0	111年たってるんだ・・・ ドアのカギが	It's been 111 years... The / door key	
-p08999C	m531.1	施設の中にあるとは かぎらないな・・・	might not even be in the / facility...	
+p089972	m531.0	111年たってるんだ・・・ ドアのカギが	It's been 111 years... / The door key might not	
+p08999C	m531.1	施設の中にあるとは かぎらないな・・・	even be in the facility...	
 p0899C4	m532.0	回帰の旅には キケンも ともなうだろう	The Journey of Return / will have its dangers.	
-p0899EC	m532.1	いつでもワンダーをよべるようにしておくんだ	Always be ready to call / Wanda.	
-p089A18	m533.0	こんなロボットを なんのために！？	A robot like this, for / what?!	
+p0899EC	m532.1	いつでもワンダーをよべるようにしておくんだ	Always be ready / to call Wanda.	
+p089A18	m533.0	こんなロボットを なんのために！？	A robot like this, / for what?!	
 p089A3C	m534.0	トーマッ！ ヤツが デュマだ・・・	Tohma! That's Dumas...	
 p089A60	m534.1	ヘルガを・・・ ヘルガを まもるんだッ！	Protect Helga... / protect her!	
 p089A8A	m535.0	サポートフレンド 「タルラント」	The Support Friend / "Tarlant"	
 p089AAC	m535.1	が なかまになった！	joined you!	
 p089AC2	m535.2	ワンダーをよんで すべての相手に	Calls Wanda: 60 damage	
 p089AE4	m535.3	60ダメージあたえる。	to all foes.	
-p089AFC	m536.0	こんなロボットを なんのために！？	A robot like this, for / what?!	
+p089AFC	m536.0	こんなロボットを なんのために！？	A robot like this, / for what?!	
 p089B20	m537.0	チットは ヘルガを つれて にげろッ！	Chitto, take / Helga and run!	
 p089B48	m538.0	トーマ・・・ ヘルガを まもるため	Tohma... For Helga,	
 p089B6C	m538.1	ボクも カを かすよ！！	I'll lend a hand too!!	
@@ -118,11 +118,11 @@ p089D96	m547.2	動かなくなった あの人エ人体を	artificial body...
 p089DB6	m547.3	なき母 レダのすがたと かさねあわせ	his late mother, Reda, / and dreamed that one day	
 p089DDC	m547.4	いつかは 姉の魂が 自分のもとに	his sister's soul would	
 p089DFE	m547.5	戻って来ることを ユメ見ていた。	come back to him.	
-p089E20	m548.0	デュマ「むかえに来たんだ 姉さん・・・	Dumas: I've come for you, / Sister...	
+p089E20	m548.0	デュマ「むかえに来たんだ 姉さん・・・	Dumas: I've come / for you, Sister...	
 p089E48	m548.1	 いっしょに 帰ろう・・・	 Let's go home together...	
 p089E64	m549.0	トーマ「ふざけたこと・・・	Tohma: Quit talking...	
 p089E80	m549.1	 いうなーーーっ！！	 NONSENSE!!	
-p089E96	m550.0	デュマ「むかえに来たんだ 姉さん・・・	Dumas: I've come for you, / Sister...	
+p089E96	m550.0	デュマ「むかえに来たんだ 姉さん・・・	Dumas: I've come / for you, Sister...	
 p089EBE	m550.1	 いっしょに 帰ろう・・・	 Let's go home together...	
 p089EDA	m551.0	トーマ「ふざけたこと・・・	Tohma: Quit talking...	
 p089EF6	m551.1	 いうなーーーっ！！	 NONSENSE!!	
@@ -142,10 +142,10 @@ p08A030	m559.2	その巨大なモノは 260年いじょうも前から	that gian
 p08A05C	m559.3	そこに あった。	for over 260 years.	
 p08A06E	m559.4	王タイタスとのあらそいでギリシアをおわれた	Driven from Greecia after / his fight with King Titas,	
 p08A09A	m559.5	ゲオルカの船 「宇宙船ヴェガ」。	Georca came in his ship, / "the spaceship Vega."	
-p08A0BC	m559.6	ティナを兵器として ふっかつさせ	To revive Tina as a / weapon	
-p08A0DE	m559.7	ふくしゅうを はたすため・・・	and take his revenge...	
-p08A0FE	m559.8	ゲオルカは ワームこうろを かいはつし	Georca developed a / wormhole route	
-p08A126	m559.9	地球へと やって来ていた。	and came to Earth.	
+p08A0BC	m559.6	ティナを兵器として ふっかつさせ	To revive Tina as	
+p08A0DE	m559.7	ふくしゅうを はたすため・・・	a weapon and take	
+p08A0FE	m559.8	ゲオルカは ワームこうろを かいはつし	his revenge... Georca / developed a wormhole	
+p08A126	m559.9	地球へと やって来ていた。	route and came to Earth.	
 p08A142	m560.0	その奥には カプセルに 入れられた	Deep inside, in a capsule,	
 p08A166	m560.1	ティナの人エ人体が しずかにおかれていた。	Tina's artificial body / lay quietly. It was a good	
 p08A192	m560.2	それは 10メートルは あろうかという	10 meters in size.	
@@ -154,7 +154,7 @@ p08A1E6	m561.0	デュマ「姉さん・・・	Dumas: Sister...
 p08A1FC	m561.1	 これが 姉さんの ほんとうの すがたです。	 this is your true form.	
 p08A22A	m562.0	ヘルガは おどろくと どうじに・・・	Helga was shocked... yet	
 p08A250	m562.1			
-p08A252	m562.2	なつかしい思いと 愛しいソランへの	longing, and love for / Soran,	
+p08A252	m562.2	なつかしい思いと 愛しいソランへの	longing, / and love for Soran,	
 p08A276	m562.3	感情が わき上がった。	welled up in her.	
 p08A28E	m563.0	デュマは ヘルガの前に ひざまずくと	Dumas knelt before Helga	
 p08A2B4	m563.1	ひっしに うったえた。	and pleaded desperately.	
@@ -166,8 +166,8 @@ p08A36E	m564.4	・・・この星にいる 姉さんに	...I felt a little close
 p08A38C	m564.5	少しだけ 近づいた きがしたんです。	to you, on this planet.	
 p08A3B2	m564.6	おねがいだ 戻って下さいッ！	Please, come back!	
 p08A3D0	m564.7			
-p08A3D2	m564.8	ボクは 姉さんを 兵器になんかさせないッ！	I won't let you become / a weapon!	
-p08A3FE	m564.9	父上の手になんか ぜったい わたしません！	I'll never hand you to / Father!	
+p08A3D2	m564.8	ボクは 姉さんを 兵器になんかさせないッ！	I won't let you become / a weapon! / I'll never hand	
+p08A3FE	m564.9	父上の手になんか ぜったい わたしません！	you to Father!	
 p08A42A	m564.10	姉さんの ためにだったら	For your sake,	
 p08A444	m564.11	ボクは なんでもやるッ・・・！	I'll do anything...!	
 p08A464	m565.0	ヘルガ「・・・デュマ・・・	Helga: ...Dumas...	
@@ -216,16 +216,16 @@ p08A972	m580.0	ヘルガ「・・・ソランは どうなったの？	Helga: ..
 p08A99A	m581.0	アギ「・・・・・・	Agi: ......	
 p08A9AE	m581.1			
 p08A9B0	m581.2	ボクらが きづいた時には 2人とも・・・	By the time we noticed, / both of them...	
-p08A9DA	m581.3	セス様と ソランは殺されました・・・	Seth-sama and Soran were / killed...	
+p08A9DA	m581.3	セス様と ソランは殺されました・・・	Seth-sama and Soran / were killed...	
 p08AA00	m582.0	ヘルガ「・・・・・・	Helga: ......	
 p08AA16	m582.1	 ・・・2人とも・・・	 ...Both of them...	
-p08AA2E	m583.0	・・・自分のために 愛する人たちが	...The people she loved	
-p08AA52	m583.1	なくなっていく・・・。	kept dying because of / her...	
-p08AA6A	m583.2	それは ソランへの たち切れぬ 思いが	Her unbroken / love for Soran	
-p08AA92	m583.3	ティナの魂をもって生まれるものに あたえた	bound all born with Tina's / soul in karma's chain,	
+p08AA2E	m583.0	・・・自分のために 愛する人たちが	...The people she loved / kept dying because	
+p08AA52	m583.1	なくなっていく・・・。	of her... Her unbroken	
+p08AA6A	m583.2	それは ソランへの たち切れぬ 思いが	love for Soran bound	
+p08AA92	m583.3	ティナの魂をもって生まれるものに あたえた	all born with Tina's soul / in karma's chain,	
 p08AABE	m583.4	ゴウの れんさが おこした ひげきだった。	and this was the tragedy.	
 p08AAEA	m584.0	空を見上げ ほおをぬらす ヘルガに	To Helga, looking up at / the sky with wet cheeks,	
-p08AB0E	m584.1	チットは よごれたハンカチを さし出した。	Chitto held out a dirty / handkerchief.	
+p08AB0E	m584.1	チットは よごれたハンカチを さし出した。	Chitto held out / a dirty handkerchief.	
 p08AB3A	m585.0	チット「ヘルガ・・・	Chitto: Helga...	
 p08AB50	m586.0	ヘルガ「チット・・・	Helga: Chitto...	
 p08AB66	m586.1	 いままで ずっと私を たすけてくれたわね	 you've always helped me.	
@@ -244,21 +244,21 @@ p08ACCC	m592.2	・・・ずっと まつと・・・	...that I'd always wait...
 p08ACE8	m592.3			
 p08ACEA	m592.4	ソランは かならず 行くと いった・・・	Soran said he would / surely come...	
 p08AD14	m592.5	だから 私は この星で ソランを まちます	So I will wait for Soran / on this planet.	
-p08AD40	m593.0	・・・セラフィーヌの人生・・・	...Seraphine's life...	
-p08AD60	m593.1	・・・クリスティーナの人生・・・	...Christina's life...	
-p08AD82	m593.2	ずっと なにかを まち続け・・・	always waiting for / something...	
-p08ADA4	m593.3	なにかを 探し続けた	always searching for / something.	
+p08AD40	m593.0	・・・セラフィーヌの人生・・・	...Seraphine's life... / ...Christina's life... / always waiting	
+p08AD60	m593.1	・・・クリスティーナの人生・・・	for something...	
+p08AD82	m593.2	ずっと なにかを まち続け・・・	always searching	
+p08ADA4	m593.3	なにかを 探し続けた	for something.	
 p08ADBA	m593.4	・・・愛おしい いのち・・・	...Precious lives...	
 p08ADD8	m593.5			
-p08ADDA	m593.6	私の いま ここにある魂は もう・・・	The soul I have here, / now...	
-p08AE02	m593.7	ティナ ひとりだけの ものじゃない・・・	no longer belongs to Tina / alone...	
+p08ADDA	m593.6	私の いま ここにある魂は もう・・・	The soul I have / here, now... / no longer belongs	
+p08AE02	m593.7	ティナ ひとりだけの ものじゃない・・・	to Tina alone...	
 p08AE2C	m593.8	私は 後へは 戻らない・・・	I won't go back...	
 p08AE4A	m593.9			
 p08AE4C	m593.10	あの人たちの いのちを・・・	Those people's lives...	
 p08AE6A	m593.11	生きたあかしを なくさないためにも	so the proof they lived / is never lost,	
 p08AE8E	m593.12	・・・私は ソランをまつ・・・！	...I'll wait for Soran...!	
 p08AEB0	m594.0	アギ「それで よいのですね・・・ ティナ様	Agi: So that is your / wish... Tina-sama.	
-p08AEDC	m595.0	ヘルガ「アギ・・・ いまの私は ヘルガです	Helga: Agi... Now, I am / Helga.	
+p08AEDC	m595.0	ヘルガ「アギ・・・ いまの私は ヘルガです	Helga: Agi... / Now, I am Helga.	
 p08AF08	m596.0	アギ「わかりました ボクたちは・・・	Agi: I understand. We...	
 p08AF2E	m596.1			
 p08AF30	m596.2	その ハッキリとした ことばを	wanted to hear those	
@@ -270,6 +270,6 @@ p08AFB4	m598.2	王タイタス様が ゲオルカの部隊を	King Titas-sama dr
 p08AFD6	m598.3	かいめつまで おいこんだのです	to their destruction.	
 p08AFF6	m599.0	ソレト「でも 時おそく・・・	Soreto: But too late...	
 p08B014	m599.1			
-p08B016	m599.2	ゲオルカは ティナ様の体と	Georca took / Tina-sama's body	
-p08B032	m599.3	タナトルームから 転生データを うばい	and the rebirth data from / the Thanato Room	
-p08B05A	m599.4	・・・そして この星を しったのです	...and learned of this / planet.	
+p08B016	m599.2	ゲオルカは ティナ様の体と	Georca took Tina-sama's / body and the rebirth data	
+p08B032	m599.3	タナトルームから 転生データを うばい	from the Thanato Room / ...and learned	
+p08B05A	m599.4	・・・そして この星を しったのです	of this planet.	
