@@ -39,6 +39,12 @@ Standing non-bugs, `ok` (the controller adds the game's own below):
   needs 3+ lines, and the Japanese itself breaks ~190 boxes mid-sentence. Every message's box breaks were laid out
   by `tools/reflow.py` (sentence ends at box ends wherever the page count allows), so a box ending mid-sentence is
   `ok` unless it leaves a fragment line as above.
+- Item pickups: a long item name takes two lines ('Battle Item: Scroll / "Chop 10"', 'Battle Item SP / "Fortune
+  Kit"'), so "obtained!" opens the next box, and an SP item's one-line description can run into a third box. The
+  Japanese pages put the whole name on its own page and the name doesn't fit one 166 px line: `ok`.
+- When the original's sheet of the same scene is attached (marked ORIGINAL), anything it shows too (a garbled or
+  dithered backdrop behind the box, portraits drawn over the text, battle effects over a line) is the game or the
+  warp, not the patch: `ok`.
 - Choice answers are left-aligned after a ▶ cursor in a 2-column grid (as in the original), not centred.
 - The pause menu labels, card faces (Punch, Kick ...), GAME OVER and "SAVING... Do not turn the power OFF" are the
   original's own English graphics.

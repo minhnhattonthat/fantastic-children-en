@@ -9,6 +9,13 @@ sheet which scenes its tiles show (index.tsv). The reviewer's final message must
 `id<TAB>ok|issue<TAB>note`, one per sheet; the run's answer goes to CHUNKDIR/answer_NNN.txt and, when every id of
 the chunk has exactly one valid line, to work/qa/verdicts/chunk_NNN.tsv (qa_gate's verdict dir). --check lists
 chunks without a complete verdict file.
+
+    python -X utf8 tools/vqa.py CHUNKDIR --orig work/qa/p8/jpcmp/qa --tag jp_
+
+--orig DIR: a qa_sheets.py dir of the same scenes run on the original Japanese ROM (its index.tsv maps sheets to
+scenes); each sheet's original sheets are attached after it, so the reviewer can tell warp artifacts (the original
+shows them too) from patch bugs. --tag T names the verdict files T + chunk_NNN.tsv (a second round must not
+overwrite the first; qa_gate reads the files in name order, later lines win).
 """
 import argparse
 import re
@@ -41,11 +48,36 @@ def scenes(index):
     return out
 
 
-def prompt(chunk, root, index):
+def orig_sheets(orig):
+    """scene -> [original sheet paths] from a qa_sheets.py dir's index.tsv."""
+    out = {}
+    if orig:
+        for ln in (orig / "index.tsv").read_text(encoding="utf-8").splitlines()[1:]:
+            f = ln.split("\t")
+            if len(f) >= 2 and orig / f[0] not in out.get(f[1], []):
+                out.setdefault(f[1], []).append(orig / f[0])
+    return out
+
+
+def images(chunk, index, orig):
+    """[(path, original scene or None)] in attach order: each sheet, then its scenes' original sheets."""
+    sc, osc, out = scenes(index), orig_sheets(orig), []
+    for p in sheets(chunk):
+        out.append((p, None))
+        for n in [s.split(" (")[0] for s in sc.get(Path(p).stem, [])]:
+            out += [(q, n) for q in osc.get(n, [])]
+    return out
+
+
+def prompt(chunk, root, index, orig=None):
     sc = scenes(index)
     parts = [f"=== {d} ===\n" + (ROOT / d).read_text(encoding="utf-8") for d in DOCS]
     lines = []
-    for i, p in enumerate(sheets(chunk), 1):
+    for i, (p, o) in enumerate(images(chunk, index, orig), 1):
+        if o:
+            lines.append(f"image {i}: ORIGINAL Japanese ROM, scene {o}, same warp (reference only, no verdict): "
+                         "what it shows too (garbled backdrop, portraits over the box, battle effects) is not an issue")
+            continue
         sid = sheet_id(p, root)
         lines.append(f"image {i}: id {sid} - scenes in reading order: " + ", ".join(sc.get(Path(p).stem, ["?"])))
     parts.append(
@@ -68,19 +100,19 @@ def parse(text, ids):
     return got
 
 
-def run(d, chunk, root, index):
+def run(d, chunk, root, index, orig=None, tag=""):
     nn = chunk.stem.split("_")[1]
     ans = d / f"answer_{nn}.txt"
     cmd = ["codex", "exec", "-s", "read-only", "--skip-git-repo-check", "-o", str(ans)]
-    for p in sheets(chunk):
+    for p, _ in images(chunk, index, orig):
         cmd += ["-i", str(p)]
     with open(d / f"log_{nn}.txt", "w", encoding="utf-8") as log:
-        r = subprocess.run(cmd + ["-"], input=prompt(chunk, root, index), text=True, encoding="utf-8",
+        r = subprocess.run(cmd + ["-"], input=prompt(chunk, root, index, orig), text=True, encoding="utf-8",
                            stdout=log, stderr=subprocess.STDOUT, cwd=ROOT)
-    return nn, r.returncode, save(d, chunk, root)
+    return nn, r.returncode, save(d, chunk, root, tag)
 
 
-def save(d, chunk, root):
+def save(d, chunk, root, tag=""):
     nn = chunk.stem.split("_")[1]
     ans = d / f"answer_{nn}.txt"
     ids = [sheet_id(p, root) for p in sheets(chunk)]
@@ -89,7 +121,7 @@ def save(d, chunk, root):
     if missing:
         return f"incomplete: {len(missing)} of {len(ids)} ids without exactly one verdict"
     VERDICTS.mkdir(parents=True, exist_ok=True)
-    (VERDICTS / f"chunk_{nn}.tsv").write_text(
+    (VERDICTS / f"{tag}chunk_{nn}.tsv").write_text(
         "".join(f"{i}\t{got[i][0][0]}\t{got[i][0][1]}\n" for i in ids), encoding="utf-8", newline="\n")
     issues = sum(got[i][0][0] == "issue" for i in ids)
     return f"saved {len(ids)} verdicts, {issues} issue(s)"
@@ -103,17 +135,20 @@ def main():
     ap.add_argument("--root", default="work/qa/p8/tour/qa", help="the dir qa_gate init got (ids are relative to it)")
     ap.add_argument("--index", default="work/qa/p8/tour/qa/index.tsv")
     ap.add_argument("--check", action="store_true")
+    ap.add_argument("--orig", help="qa_sheets.py dir of the same scenes on the original ROM")
+    ap.add_argument("--tag", default="", help="verdict file name prefix")
     a = ap.parse_args()
     d, root, index = Path(a.dir), ROOT / a.root, ROOT / a.index
+    orig = ROOT / a.orig if a.orig else None
     chunks = sorted(d.glob("chunk_*.txt"))
     if a.nn:
         chunks = [c for c in chunks if c.stem in a.nn or c.stem.split("_")[1] in a.nn]
     if a.check:
-        bad = [c.stem for c in chunks if not (VERDICTS / f"{c.stem}.tsv").exists()]
+        bad = [c.stem for c in chunks if not (VERDICTS / f"{a.tag}{c.stem}.tsv").exists()]
         print(f"{len(chunks) - len(bad)}/{len(chunks)} chunks have verdicts" + (": missing " + " ".join(bad) if bad else ""))
         return 1 if bad else 0
     with ThreadPoolExecutor(a.jobs) as ex:
-        for nn, rc, msg in ex.map(lambda c: run(d, c, root, index), chunks):
+        for nn, rc, msg in ex.map(lambda c: run(d, c, root, index, orig, a.tag), chunks):
             print(f"chunk_{nn}: exit {rc}, {msg}", flush=True)
     return 0
 
