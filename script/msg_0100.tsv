@@ -58,8 +58,8 @@ p08132C	m124.0	バトルアイテム 神技書「ガード」	Battle Item: / Div
 p08134E	m124.1	を 手に入れた！！	obtained!!	
 p081362	m124.2	『ガードは バトルアイテムＳＰに強い。	'Guard beats / Battle Item SP.	
 p08138A	m124.3			
-p08138C	m124.4	パンチ チョップ キックのダメージ	Punch, Chop and Kick / damage you take	
-p0813B0	m124.5	を 少なくする。』	is reduced.'	
+p08138C	m124.4	パンチ チョップ キックのダメージ	Punch, Chop and Kick	
+p0813B0	m124.5	を 少なくする。』	do less damage.'	
 p0813C4	m125.0	（トーマ自作の とっくんようカカシＶ3だ）	(Tohma's homemade / training scarecrow V3.)	
 p0813F0	m126.0	（カカシの中から なにかおちてきた・・・）	(Something fell out / of the scarecrow...)	
 p08141C	m127.0	バトルアイテム 秘伝書「チョップ30」	Battle Item: / Secret Scroll "Chop 30"	
